@@ -1,0 +1,10 @@
+
+public
+dist
+tmp
+resources
+bin
+.hugo_build.lock
+
+.DS_Store
+dev
