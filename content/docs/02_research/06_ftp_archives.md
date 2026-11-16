@@ -29,6 +29,26 @@ These names refer to archives and distribution services, not individual modifica
 
 This distinction matters when reconstructing a project's history. Finding a file in an archive tells you where a copy was distributed. It does not necessarily identify the original developer or the first place the file was published.
 
+## **9.1 Understand Historical FTP Archives**
+
+FTP (File Transfer Protocol) was widely used to distribute files before modern web hosting and download platforms became common.
+
+Quake communities relied on a network of FTP servers and mirrors. Developers uploaded releases to project websites or community archives, and those files were often copied to several mirrors around the world. News sites and project homepages frequently linked directly to these downloads.
+
+Several important historical archives became well-known distribution locations:
+
+- **idgames2** was a major archive of files for Quake-engine games. It included Quake maps, modifications, utilities and other content.
+- **PlanetQuake** was a major Quake community website and hosting service. It hosted individual modification websites and maintained an FTP archive of their files.
+- **Telefragged** was another Quake community website and hosting service, with downloadable modifications and related material.
+- **Games Domain** was a general PC gaming website that also maintained downloadable game files.
+- **idgames** was a related archive for Doom-engine games, including Doom, Heretic and Hexen.
+
+The distinction between these archives is important. PlanetQuake and Telefragged hosted individual community projects, while idgames2 was organised primarily as a central file archive. These different arrangements are reflected in their directory structures, which can help guide your research.
+
+These names refer to archives and distribution services, not individual modifications. A modification might have been hosted on its developer's website, submitted to a central archive, and copied to several mirrors.
+
+This distinction matters when reconstructing a project's history. Finding a file in an archive tells you where a copy was distributed. It does not necessarily identify the original developer or the first place the file was published.
+
 ## **9.2 Start with Modern Mirrors of Historical Archives**
 
 A useful starting point is to look for modern mirrors of historical FTP archives. These are surviving copies of older directory trees, sometimes preserving much of the original organisation.
@@ -42,6 +62,7 @@ Gamers.org hosts mirrors of several historical gaming FTP archives. Examples inc
 - id Software FTP archive: `https://www.gamers.org/pub/mirrors/ftp.idsoftware.com/`
 - PlanetQuake FTP archive: `https://www.gamers.org/pub/mirrors/ftp.planetquake.com/`
 - Games Domain FTP archive: `https://www.gamers.org/pub/mirrors/ftp.gamesdomain.co.uk/`
+- idgames2 archive: `https://www.gamers.org/pub/idgames2/`
 
 **Dukeworld**
 
@@ -56,25 +77,19 @@ Quaddicted maintains a large collection of Quake files, including modifications,
 
 \- Files: `https://www.quaddicted.com/files/`
 
-These collections are useful because they preserve more than individual downloads. They often retain directory names, subdirectories and original filenames that help establish how files were distributed.
+### **Understand how the archives organise their files**
 
-Do not assume that every mirror is complete or that its contents are identical to the original server. Different mirrors may have been created at different times, may contain different subsets of files, or may have been updated independently.
+Different archives used different approaches to organising their contents. Understanding these arrangements makes it easier to find files and reconstruct the distribution history of a modification.
 
-When you find a promising archive, inspect its directory structure rather than searching only for the modification name.
-
-### **Understand How Different Archives Organise Their Files**
-
-Different FTP archives used different approaches to organising their contents. Understanding these arrangements makes it easier to find files and reconstruct the distribution history of a modification.
-
-**PlanetQuake and Telefragged were organised around hosted modification projects.**
+**PlanetQuake and Telefragged organised files around hosted projects.**
 
 Both services hosted individual Quake community websites on their networks. Their FTP directory structures often reflect this arrangement, with directories corresponding to particular hosted projects or websites.
 
-This means that a directory may contain more than just the downloadable release files. It might also include readmes, screenshots, website resources, patches, maps and other files associated with that project.
+A project directory may contain more than just downloadable release files. It might also include readmes, screenshots, website resources, patches, maps and other files associated with that project.
 
-For example, if you find a directory belonging to a particular modification, inspect the entire directory rather than looking only for a known release filename. It may contain additional versions or files that were never mentioned in the project's news announcements.
+When you find a directory belonging to a particular modification, inspect the entire directory rather than looking only for a known release filename. It may contain additional versions or files that were never mentioned in the project's news announcements.
 
-**The idgames2 archive used a different organisational approach.**
+**idgames2 organised files by game and content category.**
 
 Rather than organising everything around hosted project websites, idgames2 generally categorised files by content type, game or modification category. You will encounter directories for maps, QuakeC modifications, utilities and other types of content.
 
@@ -83,13 +98,24 @@ Some useful locations in the modern Gamers.org archive include:
 - Quake 1 QuakeC modifications: `https://www.gamers.org/pub/idgames2/quakec/`
 - Quake 2 files: `https://www.gamers.org/pub/idgames2/quake2/`
 
-This distinction is useful when searching. On PlanetQuake or Telefragged, look for the modification's project directory. In idgames2, look for the appropriate content category and then search within it.
+This means that searching idgames2 often requires looking in the appropriate category rather than searching for a project-specific directory.
 
-In both cases, inspect neighbouring directories and subdirectories. The archive's organisation may reveal files and releases that a filename search alone would miss.
+**Use the archive structure to guide your search.**
+
+On PlanetQuake and Telefragged, look for the modification's project directory. In idgames2, look for the relevant game and content category, then search within it.
+
+In all cases, inspect neighbouring directories and subdirectories. The archive's organisation may reveal additional releases, patches, documentation and related files that a filename search alone would miss.
+
+Do not assume that every mirror is complete or that its contents are identical to the original server. Different mirrors may have been created at different times, may contain different subsets of files, or may have been updated independently.
+
+These collections are useful because they preserve more than individual downloads. They often retain directory names, subdirectories and original filenames that help establish how files were distributed.
 
 ## **9.3 Search FTP File Indexes**
 
-Some websites index files available on public FTP servers. These search engines can be useful when you know a filename but do not know which archive or directory contains it.
+Some websites index files available on public FTP servers. These search engines are particularly useful for two purposes:
+
+1. Finding alternative locations for files you already know about.
+2. Discovering additional releases that you may not have encountered during earlier research.
 
 Two useful examples are:
 
@@ -105,13 +131,33 @@ Start with filenames discovered during earlier research. Search for:
 - Versioned filenames.
 - Patch and update filenames.
 - Filenames of distinctive files found inside recovered archives.
-- Developer names and project names.
+- Team names and project names.
 
-For example, if earlier research identified `actionq2.zip`, search for that exact filename. Then try related forms such as `actionq2`, `actionq2_1.5.zip`, or a distinctive filename found inside the archive.
+For example, if earlier research identified `actionq2.zip`, search for that exact filename. Then try related forms such as `actionq2`, `actionq2_1.5.zip`, or distinctive filenames found inside the archive.
 
-Searching for a filename can reveal copies that a project-name search would miss. A mirror might contain the original archive under its original filename without mentioning the modification anywhere else.
+Searching for known filenames can reveal copies that a project-name search would miss. A mirror might contain the original archive under its original filename without mentioning the modification anywhere else.
 
-Treat search results as leads. Follow the result to the actual directory or file where possible, and record the location rather than relying only on the search engine's result page.
+It can also reveal releases you were not previously aware of. For example, a search might find `actionq2_1.6.zip` when your research has only identified versions 1.4 and 1.5. Treat this as a lead to investigate. Check the file contents and supporting evidence before adding it to the project's release history.
+
+### Accessing FTP Servers
+
+Some FTP search engines provide links directly to the FTP server and directory containing a matching file. You may need an FTP client to browse these locations or download the files.
+
+Modern web browsers generally no longer support direct FTP access, so a dedicated FTP client is often required. One popular open-source option is **FileZilla**: `https://filezilla-project.org/`.
+
+When connecting to a public FTP server, try anonymous access. Typical connection details are:
+
+- **Host:** The FTP server hostname from the search result.
+- **Username:** `anonymous`
+- **Password:** Your email address.
+
+Some servers accept any password for anonymous access, while others may require an email address or another value. Follow any instructions provided by the server.
+
+Once connected, browse the directory structure and inspect the files. You can download individual files or directory listings for further investigation.
+
+Treat search results as leads rather than definitive evidence. Follow them to the actual directory or file where possible, inspect the contents, and record the full FTP hostname and directory path. Do not rely only on the search engine's result page, since its index may be incomplete or outdated.
+
+Add a practical search workflowExplain what to record from FTP results
 
 ## **9.4 Inspect FTP Directory Structures**
 
@@ -245,7 +291,7 @@ If you recover a compressed listing or text archive, preserve the original file 
 
 ## **9.9 Research the CD-ROM.COM FTP Archive and Its Mirrors**
 
-One particularly important historical source for Quake 1 modifications was the `cdrom.com` FTP archive.
+One particularly important historical source for Quake 1 modifications was the Walnut Creek CDROM (`cdrom.com`) FTP archive.
 
 The archive hosted a large collection of Quake-related files, commonly encountered under paths such as:
 
