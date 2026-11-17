@@ -100,9 +100,9 @@ Do not limit your search to discs that mention Quake in their titles. A general 
 
 Useful Internet Archive collections include:
 
-- [CD-ROM Software Library](https://archive.org/details/cdromsoftware?utm_source=chatgpt.com).
-- [CD-ROM Software Collection](https://archive.org/details/cd-roms?utm_source=chatgpt.com).
-- [Vintage Software Collection](https://archive.org/details/vintagesoftware?utm_source=chatgpt.com).
+- [CD-ROM Software Library](https://archive.org/details/cdromsoftware).
+- [CD-ROM Software Collection](https://archive.org/details/cd-roms).
+- [Vintage Software Collection](https://archive.org/details/vintagesoftware).
 
 The archive's search and collection structure can change over time. Search broadly and follow relevant collection links rather than assuming that one search query will find everything.
 

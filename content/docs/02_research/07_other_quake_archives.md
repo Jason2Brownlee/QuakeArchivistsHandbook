@@ -21,7 +21,7 @@ Some useful starting points include:
 
 **Quaddicted**
 
-[https://www.quaddicted.com/files/](https://www.quaddicted.com/files/?utm_source=chatgpt.com)
+* https://www.quaddicted.com/files/
 
 Quaddicted maintains a large collection of Quake 1 maps, modifications and other files. Its collection also includes mirrors of historical Quake websites and FTP archives.
 
@@ -29,7 +29,7 @@ It is particularly useful for finding maps and modifications that may no longer 
 
 **Shub-Hub**
 
-[https://shub-hub.com/files/](https://shub-hub.com/files/?utm_source=chatgpt.com)
+* https://shub-hub.com/files/
 
 Shub-Hub is a community archive containing a large collection of Quake-related files, including maps, modifications and other contributions.
 
@@ -37,7 +37,7 @@ Search for known project names and filenames, but also browse the archive's cate
 
 **Gamers.org**
 
-[https://gamers.org/](https://gamers.org/?utm_source=chatgpt.com)
+* https://gamers.org/
 
 Gamers.org maintains a collection of historical gaming FTP archives and mirrors, including several important sources for Quake files.
 
@@ -59,15 +59,33 @@ Useful places to investigate include:
 
 **Valve Archive**
 
-[https://valvearchive.com/](https://valvearchive.com/?utm_source=chatgpt.com)
+* https://valvearchive.com/
 
 Valve Archive preserves files and historical material related to Valve games and their communities. Although its primary focus is not Quake, it is an example of a community-maintained game archive worth investigating when researching related game communities and historical distribution networks.
 
 **BetaArchive**
 
-[https://www.betaarchive.com/](https://www.betaarchive.com/?utm_source=chatgpt.com)
+* https://www.betaarchive.com/
 
 BetaArchive is a community dedicated to preserving historical software and related material, including old games and development releases. Its collections and discussions can provide useful leads for broader software preservation research.
+
+**CD.textfiles.com**
+
+* https://cd.textfiles.com/
+
+CD.textfiles.com is an archive of historical CD-ROM collections, particularly shareware and shovelware discs from the 1990s. It provides catalogues of individual CDs, including directory listings and links to the files they contain. This makes it a valuable resource for discovering Quake modifications and related material distributed on compilation CDs. Its file listings can reveal releases that are difficult to find through ordinary search engines, including files that are not indexed by Google.
+
+**RetroArchive**
+
+* http://www.retroarchive.org/
+
+RetroArchive is a collection of historical software and documentation for older computer systems. Its particularly useful section is the CD-ROM and FTP Site Archive, which makes the contents of historical shareware CDs and FTP collections browseable. It includes directory listings and indexes of files contained within compressed archives, making it possible to search for individual filenames and discover software that might otherwise be difficult to locate. This can be especially useful for finding old Quake modifications and supplementary files distributed on compilation CDs.
+
+**Apajalista**
+
+* https://www.apajalista.net/
+
+Apajalista is an unofficial catalogue of files from MBnet Apaja, a Finnish BBS file area that operated from 1994 to 2002 and later continued as a website until 2010. Its collection includes shareware and freeware software, games, demos and utilities uploaded by users. Files are organised into categories, with descriptions, original filenames and historical listing dates. Individual file pages can provide additional metadata and, where available, links to downloadable files and listings from historical CDs. This makes Apajalista particularly useful for discovering older Quake modifications, tools and supplementary files that may be difficult to find through conventional search engines.
 
 **Abandonware and historical software archives**
 
