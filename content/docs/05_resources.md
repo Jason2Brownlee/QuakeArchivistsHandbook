@@ -111,7 +111,7 @@ Search a catalogue of historical Finnish BBS software collections, including gam
 
 ## **Quake Archives**
 
-Several dedicated Quake archives preserve large collections of maps, modifications, utilities and other community-created files. These are useful places to search for missing releases, find alternative copies and discover material that may not appear in general search engines.
+Several dedicated Quake archives preserve large collections of maps, modifications, utilities and other community-created files. These are useful places to search for missing releases, find alternative copies and discover material that may not (does not!) appear in general search engines.
 
 \- **Quaddicted**\
 `https://www.quaddicted.com/files/`\
@@ -153,6 +153,9 @@ A collection of files from the Brazilian Quake community, preserved and shared b
 `https://www.quaketastic.com/`\
 Quaketastic is a community file archive dedicated to Quake and its related games. It hosts a large collection of maps, modifications, source ports, tools and other community-created content. Browse its file categories and search for known project names and filenames to find releases, alternative copies and supplementary material.
 
+\- **Clan RUM Files**\
+`http://www.clan-rum.org/files/`\
+A file archive associated with Clan RUM, containing Quake-related community files. Browse the directory for modifications, maps, utilities and other contributions that may provide additional copies of older releases or material not found in the larger Quake archives.
 
 
 

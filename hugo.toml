@@ -7,34 +7,6 @@ theme = 'hugo-book'
 [markup.goldmark.renderer]
   unsafe = true
 
-[menu]
-[[menu.home]]
-  name = 'Documentation'
-  pageRef = '/docs/getting-started/introduction'
-  weight = 10
-[[menu.home]]
-  name = 'Showcases'
-  pageRef = '/showcases/'
-  weight = 20
-[[menu.home]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 30
-
-# [[menu.before]]
-[[menu.after]]
-  name = 'Single Page'
-  url = '/docs/'
-  weight = 10
-[[menu.after]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 20
-[[menu.after]]
-  name = 'Codeberg'
-  url = 'https://codeberg.org/alex-shpak/hugo-book'
-  weight = 30
-
 
 
 [params]
