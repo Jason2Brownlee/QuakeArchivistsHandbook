@@ -1,5 +1,5 @@
 baseURL = 'https://example.org/'
-title = 'Quake Archivist Book'
+title = "Quake Archivist's Handbook"
 theme = 'hugo-book'
 
 
