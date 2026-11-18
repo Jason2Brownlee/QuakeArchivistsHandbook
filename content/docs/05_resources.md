@@ -97,11 +97,11 @@ Resources for finding Quake modifications distributed on magazine cover CDs, sha
 A catalogue of historical Quake add-on CDs, including disc contents and file listings. Useful for identifying modifications and other files distributed on magazine cover CDs and commercial compilations. It is a catalogue rather than a complete collection of downloadable CD images, so use it to identify discs and files to investigate elsewhere.
 
 \- **CD.textfiles.com**\
-`https://cd.textfiles.com/`\
+`http://cd.textfiles.com/`\
 Browse catalogues of historical shareware and shovelware CDs, including directory listings and links to individual files.
 
 \- **RetroArchive**\
-`https://www.retroarchive.org/`\
+`http://www.retroarchive.org/`\
 Browse historical software collections, CD-ROM contents and FTP archives, including indexes of files inside compressed archives.
 
 \- **Apajalista**\
