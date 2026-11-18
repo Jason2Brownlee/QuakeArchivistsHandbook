@@ -6,4 +6,3 @@ title: Quake Archivist Book
 
 Welcome
 
-[Got to book](/docs)
