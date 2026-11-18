@@ -7,6 +7,13 @@ weight: 5
 
 more personal intro to the book by jason brownlee, almost a preface
 
+this is not the one or best way to be a quake archivist, to archive old quake stuff, but it the way i do it and recommend to do it based no archiving for 5+ years and being very entheastic about it. all my learnings and advice togehter
+
+also, by writing it all out i can tighten my own future archive projects.
+i found many files for my archives will writing this guide becuase it reminded me of places and ways to look
+this guide is valuable for that alone
+also, you may decide to get started as an archivist or as an archivist you find helpful advice/tips/resources/etc
+
 why do I it? why do i create archives
 - fun
 - exciting
@@ -48,7 +55,14 @@ who is it for
 	helpful to know a lot about files, internet, programs, etc.
 	most people that played these games ended up in IT, it was what we did
 
+i sometimes wish i could go back to 1996, 1998 or 1999 and tell myself to back this or that onto cds
+to have a complete record of this or that mod, website, etc.
+that is the dream
+everything we do is an imperfect version of that
+it's frustrating, exciting, a treasure hunt
 
 write with ai
 i wrote notes on everything i could think of based on years of experience creating and maintaining archives
 ai helped me shape it into chapters and then i heavily edited/refined based on what i think is most helpful
+if that bothers you, i understand
+maybe this guide is not for you, or maybe you can dip in and pull out a resource that will help or a techniaue that will give you ideas
