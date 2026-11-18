@@ -1,5 +1,5 @@
 ---
-title: Verify, classify and connect discoveries
+title: Verify, Classify and Connect Discoveries
 weight: 1
 ---
 
