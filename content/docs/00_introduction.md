@@ -49,3 +49,6 @@ who is it for
 	most people that played these games ended up in IT, it was what we did
 
 
+write with ai
+i wrote notes on everything i could think of based on years of experience creating and maintaining archives
+ai helped me shape it into chapters and then i heavily edited/refined based on what i think is most helpful
