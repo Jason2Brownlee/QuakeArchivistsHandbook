@@ -23,7 +23,7 @@ Then the websites disappeared. FTP servers shut down. Download links broke. Enti
 
 But not everything is gone.
 
-**How to Archive Quake Mods** is a practical guide to tracking down, recovering, documenting and preserving these forgotten pieces of gaming history.
+**The Quake Archivist's Handbook** is a practical guide to tracking down, recovering, documenting and preserving these forgotten pieces of gaming history.
 
 Drawing on more than five years of hands-on experience creating Quake archives, Jason Brownlee shares the techniques, tools, resources and research methods he uses to uncover lost releases and reconstruct the histories of old modifications.
 

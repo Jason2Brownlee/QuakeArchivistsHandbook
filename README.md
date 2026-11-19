@@ -19,3 +19,4 @@ Then visit `http://localhost:1313`
 
 * Hugo: https://gohugo.io/
 * hugo-book theme: https://github.com/alex-shpak/hugo-book
+* Deploy to GitHub Pages https://gohugo.io/host-and-deploy/deploy-to-github-pages/

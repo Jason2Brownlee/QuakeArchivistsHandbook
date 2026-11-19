@@ -7,7 +7,9 @@ theme = 'hugo-book'
 [markup.goldmark.renderer]
   unsafe = true
 
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
