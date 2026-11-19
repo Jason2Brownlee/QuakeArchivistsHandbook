@@ -14,7 +14,7 @@ This chapter explains how to use search engines systematically, using the inform
 
 The key idea is that every discovery gives you new search terms. A project name leads to a developer name. A developer name leads to a personal website. A recovered release reveals filenames. Those filenames can lead to other copies of the same release or previously unknown distribution locations.
 
-## **8.1 Search Multiple Search Engines**
+## Search Multiple Search Engines
 
 Do not rely exclusively on Google.
 
@@ -22,10 +22,14 @@ Different search engines maintain different indexes of the web. They use differe
 
 Start with several general-purpose search engines:
 
-- Google (`https://www.google.com/`)
-- Yandex (`https://yandex.com/`)
-- DuckDuckGo (`https://duckduckgo.com/`)
-- Bing (`https://www.bing.com/`)
+- [Google](https://www.google.com/)\
+    `https://www.google.com/`
+- [Yandex](https://yandex.com/)\
+    `https://yandex.com/`
+- [DuckDuckGo](https://duckduckgo.com/)\
+    `https://duckduckgo.com/`
+- [Bing](https://www.bing.com/)\
+    `https://www.bing.com/`
 
 You can also try other search engines that are available at the time of your research.
 
@@ -33,7 +37,7 @@ The goal is not to find one perfect search engine. It is to search across severa
 
 For each important search term, try more than one search engine. This is particularly important when researching older material, where a single indexed page might be the only surviving reference to a modification or download.
 
-## **8.2 Search the Modification and Related Names**
+## Search the Modification and Related Names
 
 Begin with the information already collected in `research/history.md` and `research/notes.txt`.
 
@@ -55,7 +59,7 @@ Also search for related project names, development teams and known aliases. A mo
 
 Do not assume that the name used in the original project website is the only name that appears elsewhere.
 
-### **Search developer names**
+### Search developer names
 
 Search for the names and usernames of developers associated with the modification.
 
@@ -84,7 +88,7 @@ These searches can uncover:
 
 Treat identity matches carefully. A similar name or username does not automatically establish that two references concern the same person.
 
-## **8.3 Search Every Known Filename**
+## Search Every Known Filename
 
 Filename searching becomes increasingly valuable as your research progresses.
 
@@ -107,7 +111,7 @@ Search for each one.
 
 Do not assume that a file is still available simply because you have found its name in an old announcement. Search engines might reveal another website hosting a copy, a file listing on a mirror or a reference to a different distribution location.
 
-### **Search exact filenames**
+### Search exact filenames
 
 Use quotation marks to search for an exact filename:
 
@@ -130,7 +134,7 @@ action15.zip
 
 Search for both the original archive filename and any alternative names discovered during your research.
 
-### **Search filenames inside recovered releases**
+### Search filenames inside recovered releases
 
 Do not restrict your searches to the names of ZIP archives.
 
@@ -150,7 +154,7 @@ This is particularly useful when a website or CD collection contains the modific
 
 As your archive grows, maintain a list of known filenames and use it as a regular source of search terms.
 
-## **8.4 Search Distinctive Readme Content**
+## Search Distinctive Readme Content
 
 A readme file often contains information that is much easier to search for than the modification's name.
 
@@ -186,7 +190,7 @@ Try shorter phrases if an exact search produces no results. The text may have be
 
 A particularly useful approach is to search for a phrase that is unlikely to appear in unrelated Quake modifications.
 
-## **8.5 Search Known Historical URLs**
+## Search Known Historical URLs
 
 During earlier research, you will have collected original URLs from project websites, news articles, Usenet messages and CD documentation.
 
@@ -215,7 +219,7 @@ Also search for just the domain name, without the full path.
 
 A domain might have been used for several different projects or distribution directories. Searching for it can reveal pages that you would not find using the original project URL alone.
 
-### **Search known mirrors and distribution locations**
+### Search known mirrors and distribution locations
 
 If you discover a mirror or download site, search for its name and domain alongside the modification name and known filenames.
 
@@ -234,7 +238,7 @@ You can also search for known directory paths and filenames together.
 
 These searches may reveal other copies of a release or additional files that were distributed alongside it.
 
-## **8.6 Explore Search Results Thoroughly**
+## Explore Search Results Thoroughly
 
 Do not stop after looking at the first page of search results.
 
@@ -256,7 +260,7 @@ Continue through the search result pages rather than stopping at the first few r
 
 When a result looks relevant, inspect the actual page. A search snippet can omit important information or display text from an unrelated part of the page.
 
-### **Follow links on relevant pages**
+### Follow links on relevant pages
 
 A useful page can lead to many more discoveries.
 
@@ -275,7 +279,7 @@ An old-looking page with broken images and a basic HTML layout might be more val
 
 Do not judge a source by its appearance.
 
-### **Search within discovered websites**
+### Search within discovered websites
 
 When you find a promising website, investigate it beyond the page returned by the search engine.
 
@@ -295,7 +299,7 @@ A website might contain an entire archive of old Quake modifications even though
 
 This leads to an important limitation of general-purpose search engines.
 
-## **8.7 Understand What Search Engines Do Not Find**
+## Understand What Search Engines Do Not Find
 
 Search engines are useful, but they do not contain a complete index of the web.
 
@@ -303,7 +307,7 @@ Many current websites, file archives and historical collections are not indexed.
 
 This is particularly important when researching old Quake material.
 
-### **Different search engines have different indexes**
+### Different search engines have different indexes
 
 As discussed earlier, search engines do not necessarily index the same pages.
 
@@ -311,7 +315,7 @@ A page missing from Google's results might appear in Yandex or DuckDuckGo. Anoth
 
 This is one reason to search multiple engines throughout your research rather than treating one search engine as authoritative.
 
-### **Some websites deliberately exclude themselves**
+### Some websites deliberately exclude themselves
 
 Website owners can instruct search engines not to index their pages.
 
@@ -323,7 +327,7 @@ Some old websites that have been resurrected or copied may also retain exclusion
 
 Do not assume that a site does not exist simply because a search engine cannot find it.
 
-### **File archives are often not indexed**
+### File archives are often not indexed
 
 Many file archives are difficult for general search engines to discover.
 
@@ -345,7 +349,7 @@ This is especially relevant when investigating:
 - Large collections of ZIP files.
 - Historical file repositories with limited web interfaces.
 
-### **Resurrected historical websites may not be indexed**
+### Resurrected historical websites may not be indexed
 
 Some old websites have been brought back online using copied files or preserved website content.
 
@@ -359,7 +363,7 @@ You might discover a resurrected website through a forum post, an archive catalo
 
 Do not rely on search engines to discover every page within it.
 
-### **Manually explore discovered websites**
+### Manually explore discovered websites
 
 When you find a relevant website, explore its structure manually.
 
@@ -384,7 +388,7 @@ If you find a directory listing, inspect its files and subdirectories. A page co
 
 The important principle is that search engines are discovery tools, not complete catalogues of the web.
 
-## **8.8 Know the Limitations of Searching for Files**
+## Know the Limitations of Searching for Files
 
 General-purpose search engines are not necessarily good at finding files on old FTP servers or obscure web directories.
 
@@ -408,7 +412,7 @@ You should still search for filenames because it is a valuable technique, but re
 
 When you discover an old FTP server, mirror or obscure directory, investigate it directly. This is the subject of the next chapter.
 
-## **8.9 Build a Systematic Search Process**
+## Build a Systematic Search Process
 
 By this stage of your research, you should have accumulated a substantial collection of information:
 
@@ -441,7 +445,7 @@ For example:
 
 The table is illustrative. You do not need to record every unsuccessful search. The goal is to make sure important terms are not forgotten and that you do not repeatedly perform the same searches without making progress.
 
-### **Add new discoveries to your search terms**
+### Add new discoveries to your search terms
 
 Research should be iterative.
 
@@ -458,7 +462,7 @@ Each discovery creates new opportunities for searching.
 
 Do not treat the search process as something that happens once at the beginning of the project. Return to it whenever you uncover new information.
 
-### **Record useful discoveries**
+### Record useful discoveries
 
 Update your existing research documents as you find information.
 
@@ -469,7 +473,7 @@ Update your existing research documents as you find information.
 
 This keeps your search process connected to the archival record rather than allowing useful discoveries to disappear into browser history.
 
-## **8.12 Summary**
+## Summary
 
 General-purpose search engines can reveal surviving references and copies of historical Quake modifications that have not been found through the earlier research methods.
 

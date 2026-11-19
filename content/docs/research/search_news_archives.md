@@ -19,7 +19,7 @@ In some cases, a news article may be the only surviving evidence that a particul
 
 This chapter explains how to find and investigate contemporary gaming news websites, search their archives and connect their reports to the releases in your historical record.
 
-## **5.1 Identify relevant gaming news websites**
+## Identify relevant gaming news websites
 
 Start by identifying gaming news websites that were active during the period when the modification was developed.
 
@@ -45,7 +45,7 @@ You can discover additional news sites through links from:
 
 Record relevant websites and their URLs in your research notes. You can investigate each one using the same general approach as the original project websites in Chapter 4.
 
-## **5.2 Find archived versions of gaming news websites**
+## Find archived versions of gaming news websites
 
 Many historical gaming news websites have changed their design, moved to new domains or disappeared entirely. The Internet Archive's Wayback Machine (`https://web.archive.org`) is therefore an important starting point.
 
@@ -68,7 +68,7 @@ There are two particularly useful types of archived pages to investigate:
 
 You should examine both.
 
-### **Inspect archived main news pages**
+### Inspect archived main news pages
 
 The main news page is often the easiest place to start.
 
@@ -84,7 +84,7 @@ You might find an announcement that includes the project name, a download link o
 
 If the archived main page is incomplete, try captures from nearby dates. A story might appear in one capture but not another.
 
-### **Inspect dedicated news archives**
+### Inspect dedicated news archives
 
 Many news websites maintained separate archive pages containing older stories.
 
@@ -125,7 +125,7 @@ Here are three archived major Quake news pages I frequent often:
 * ShugaShack (later ShackNews) circa March 1997 to Jun 1999: https://web.archive.org/web/19991002101914/http://shugashack.com/archives/archives.htm
 
 
-## **5.3 Search news pages for the modification's name**
+## Search news pages for the modification's name
 
 Once you have located an archived news page, search its contents for the modification's name.
 
@@ -164,7 +164,7 @@ Do not rely exclusively on the browser's Find function. It can only search the c
 
 You may need to inspect several pages or follow links manually.
 
-### **Search the entire active period of the project**
+### Search the entire active period of the project
 
 Do not limit your investigation to the dates of known releases.
 
@@ -186,7 +186,7 @@ This is particularly important when the original project website has an incomple
 
 A gaming news website may have reported on releases that are no longer mentioned anywhere on the surviving project homepage.
 
-## **5.4 Use known release dates to guide your search**
+## Use known release dates to guide your search
 
 One of the most effective techniques is to use dates you have already discovered during your research.
 
@@ -220,7 +220,7 @@ These are five separate historical events. Together, they provide a more complet
 
 The release was created and perhaps tested locally before being uploaded to a public facing server. The differing dates allow corroborating evidence that version was real and release occurred. The public release date is probably taken as the developers announcement.
 
-### **Search around every known release**
+### Search around every known release
 
 Repeat this process for every release you have identified.
 
@@ -243,7 +243,7 @@ It also works in reverse. If you find an article announcing a version that is no
 
 Add it to the `Releases and Chronology` section of `history.md`, even if the file itself has not yet been recovered.
 
-## **5.5 Investigate individual news articles**
+## Investigate individual news articles
 
 When you find a relevant news announcement, carefully examine its contents.
 
@@ -269,7 +269,7 @@ A contemporary news article could identify the release, link to the developer's 
 
 That one article could resolve several outstanding questions.
 
-### **Follow every relevant link**
+### Follow every relevant link
 
 Do not simply read the article and move on.
 
@@ -289,7 +289,7 @@ If a link points to another website, investigate that website using the Wayback 
 
 An article can therefore become the starting point for another round of research.
 
-### **Look for stories about mirrors**
+### Look for stories about mirrors
 
 Mirror announcements deserve particular attention.
 
@@ -303,7 +303,7 @@ They might also reveal files that were distributed under filenames different fro
 
 Record each mirror separately. A news site's copy may be an important source for recovering a release, even if it was not the original distribution location.
 
-## **5.6 Preserve news announcements in the release record**
+## Preserve news announcements in the release record
 
 When you discover a relevant article, add it to the appropriate release entry in `research/history.md`.
 
@@ -351,7 +351,7 @@ This format preserves the most useful parts of the article without requiring you
 
 The original article and archived page provide the supporting evidence. The quotation reminds you what the article said, while the links allow you or another researcher to investigate the original material.
 
-### **Record the full download links**
+### Record the full download links
 
 Pay particular attention to links included in news stories.
 
@@ -377,7 +377,7 @@ If the article links to multiple files, record each one separately. A story migh
 
 These could represent different distributions of the same release.
 
-## **5.7 Use news articles to discover missing releases**
+## Use news articles to discover missing releases
 
 One of the most valuable uses of gaming news archives is discovering releases that are missing from your existing research.
 
@@ -405,7 +405,7 @@ This is particularly important when the original project website did not have a 
 
 A gaming news website may have preserved announcements that the developers' own website no longer contains.
 
-### **Look for releases mentioned indirectly**
+### Look for releases mentioned indirectly
 
 Not every article will explicitly announce a new version.
 
@@ -440,7 +440,7 @@ For example:
 
 You can investigate the announcement further using the links and other references it provides.
 
-## **5.8 Search beyond the major news websites**
+## Search beyond the major news websites
 
 The websites listed at the beginning of this chapter are useful starting points, but they are not the only sources worth investigating.
 
@@ -463,7 +463,7 @@ You can also search the web for distinctive phrases from an announcement, filena
 
 Treat these discoveries as additional evidence and record the original source wherever possible.
 
-## **Chapter summary**
+## Chapter summary
 
 Contemporary gaming news websites provide an independent source of historical information about Quake modifications.
 

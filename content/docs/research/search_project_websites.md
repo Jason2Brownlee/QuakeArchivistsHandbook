@@ -23,7 +23,7 @@ The Internet Archive's Wayback Machine has preserved snapshots of many historica
 
 This chapter explains how to find original project websites, investigate their archived versions and extract useful information for your archive.
 
-## **4.1 Find the original project website**
+## Find the original project website
 
 Your first task is to identify the websites associated with the modification.
 
@@ -61,11 +61,7 @@ You should also search for variations of the project name. A modification might 
 
 The goal at this stage is to build a list of candidate websites, not to decide that one particular site contains the complete history.
 
-## **4.2 Use the Internet Archive's Wayback Machine**
-
-[Scraping Historical Data From the Wayback Machine](https://images.openai.com/static-rsc-4/vZ94OrdDndFhkFJUi0pqz1EuC2j0jIKubJrb3GIWCABY1Bp8WGaj4x__ekZWTJM9eK4aCe8NF7bHKNBlmcVxN2cbkduVa5DWejYJ84d3dqdUlq5xXe2hCPRQl9ZeURrOzjPrbScbqpEqH_RbWBOBxCvW77CxXqjPcF-Aal7jOb0?purpose=inline)
-
-[substack.thewebscraping.club](https://substack.thewebscraping.club/p/scraping-wayback-machine?utm_source=chatgpt.com)
+## Use the Internet Archive's Wayback Machine
 
 The Internet Archive operates the [Wayback Machine](https://web.archive.org/?utm_source=chatgpt.com), a service that stores historical captures of websites.
 
@@ -75,7 +71,7 @@ A website that disappeared in 2002 might still have captures from 1998, 1999 and
 
 The Wayback Machine does not necessarily preserve every page or every file. Some captures are incomplete, and links may no longer work. Nevertheless, it is often possible to reconstruct a substantial amount of a project's original website.
 
-### **Inspect the capture history for a domain**
+### Inspect the capture history for a domain
 
 Open the Wayback Machine and enter the original project URL.
 
@@ -86,10 +82,6 @@ http://www.example.invalid/
 ```
 
 The Wayback Machine will show a calendar or timeline indicating when captures are available.
-
-[Scraping Historical Data From the Wayback Machine](https://images.openai.com/static-rsc-4/bxm4mDR-OsQTxWpZ8yh6B1ZFja6-Dkd5B3VMKpemEF3-rfAeEK1jYpkvmzG9z1M3BtRyZCygi6MyOy4qglgnY9QkAJ6DIBvjbnEbx0kF5A3M7QJ88vVR_Bv5dzCzNU4N2NNDlxXEFeoP6SJsnQmWB_vIpffVlvVC-L2Rrt2gtos?purpose=inline)
-
-[substack.thewebscraping.club](https://substack.thewebscraping.club/p/scraping-wayback-machine?utm_source=chatgpt.com)
 
 The capture history gives you an overview of how much of the website was preserved and when snapshots were taken.
 
@@ -109,7 +101,7 @@ Likewise, a capture date is not necessarily the date the page was written or the
 
 Record useful capture URLs and dates in your research notes or reference catalogue.
 
-### **Compare captures from different dates**
+### Compare captures from different dates
 
 A website might have been captured many times over several years.
 
@@ -130,7 +122,7 @@ For example, a download link might point to `aq10.zip` in one capture and `aq11.
 
 Be careful not to treat the capture dates as exact release dates. Use the page content to establish what the developer actually announced, and record the capture date as supporting evidence.
 
-## **4.3 Navigate archived versions of the website**
+## Navigate archived versions of the website
 
 Once you have found a useful capture, investigate the rest of the archived website.
 
@@ -181,7 +173,7 @@ http://www.example.invalid/downloads/
 
 A project might have a captured homepage but no captured download page, or the reverse. Investigating individual paths can reveal pages that are not obvious from the main website.
 
-### **Find all archived pages within a project directory**
+### Find all archived pages within a project directory
 
 The Wayback Machine's capture interface is useful for examining known URLs, but it is not always convenient for discovering every page that was archived.
 
@@ -213,7 +205,7 @@ The CDX interface has additional query options for filtering results, including 
 
 Treat the results as a list of research leads. A URL appearing in the index does not guarantee that its archived content can be retrieved successfully.
 
-## **4.4 Read homepage content and news pages**
+## Read homepage content and news pages
 
 Once you have located the archived pages, read them carefully and extract information relevant to the project's history.
 
@@ -279,7 +271,7 @@ Notice that you have learned several things even though you have not recovered t
 
 This is exactly the kind of discovery you want to capture.
 
-### **Look for information beyond release announcements**
+### Look for information beyond release announcements
 
 News pages can contain other useful details.
 
@@ -291,7 +283,7 @@ Record important events that are not associated with a release in the optional `
 
 Avoid copying large amounts of website text into your historical record. Summarise the relevant information and preserve the source URL so that someone else can inspect the original evidence.
 
-## **4.5 Find download links and historical file locations**
+## Find download links and historical file locations
 
 Download pages are among the most valuable parts of an original project website.
 
@@ -339,7 +331,7 @@ Your release entry might look like this:
 
 If the download link points to another website or FTP server, record that location as well. Do not assume that every file was hosted on the project's own domain.
 
-### **Investigate archived download links**
+### Investigate archived download links
 
 Sometimes the Wayback Machine has preserved the downloadable file itself.
 
@@ -367,7 +359,7 @@ Record which situation applies.
 
 Do not assume that a file is available simply because an archived page contains a download link. The page and the file are separate archival objects.
 
-### **Look for files by their URL and filename**
+### Look for files by their URL and filename
 
 The CDX interface introduced earlier can also help identify archived downloadable files.
 
@@ -400,7 +392,7 @@ Add missing files to `research/wishlist.txt` and their original URLs to `researc
 
 A historical download URL is valuable evidence in its own right. It gives you a filename and a location to investigate in later research.
 
-## **4.6 Find changelogs, readme files and documentation**
+## Find changelogs, readme files and documentation
 
 Original project websites sometimes contain documentation that was distributed separately from the main modification.
 
@@ -440,7 +432,7 @@ If you find a readme or changelog on an archived website, preserve the original 
 
 When you later recover the corresponding ZIP file, compare its contents with the website documentation. This may help establish whether the file is the expected release.
 
-## **4.7 Identify mirrors and other distribution sites**
+## Identify mirrors and other distribution sites
 
 Original project websites frequently linked to alternative download locations.
 
@@ -479,7 +471,7 @@ Record the relationship between the project and the linked site. For example, di
 
 Do not treat every linked website as an official project website. The purpose of this research is to establish what each site was and how it was connected to the modification.
 
-## **4.8 Find related projects by the same developers**
+## Find related projects by the same developers
 
 The original project website may identify the people who created the modification.
 
@@ -512,7 +504,7 @@ A developer's later project might even contain references to their earlier Quake
 
 Record related projects as research leads. Do not automatically include them in your archive. Whether they belong within the archive depends on the scope you defined in Chapter 1.
 
-## **4.9 Investigate developers' personal websites**
+## Investigate developers' personal websites
 
 A developer's personal website can be just as useful as the original project homepage.
 
@@ -548,7 +540,7 @@ Be cautious when connecting people to projects. Similar usernames do not necessa
 
 The objective is to document the connection, not to guess at someone's identity.
 
-## **4.10 Compare findings and identify gaps**
+## Compare findings and identify gaps
 
 After investigating the website, review what you have found and consider what might be missing.
 
@@ -582,7 +574,7 @@ You now have a likely release sequence, but you still need to establish whether 
 
 The next research chapters will help you investigate these questions using other historical sources.
 
-## **4.11 Record your discoveries**
+## Record your discoveries
 
 As you investigate original websites, update the archival record rather than leaving all the work until later.
 
@@ -639,7 +631,7 @@ The example uses fictional information.
 
 Preserve important pages and downloadable evidence where possible, following the approach established in Chapter 3. A Wayback Machine URL is useful, but it should not be your only record of an important discovery. Archived pages and files can sometimes become inaccessible or behave differently over time.
 
-## **4.12 A practical example: Researching an original project website**
+## A practical example: Researching an original project website
 
 Suppose you are archiving a fictional Quake modification called *Shadow Arena*.
 
@@ -774,7 +766,7 @@ You have also generated new research leads. The FTP server, community mirror and
 
 This illustrates why original project websites are such a valuable starting point. A single surviving homepage can lead to a much broader investigation.
 
-## **4.13 Your original website research checklist**
+## Your original website research checklist
 
 Before moving on, make sure you have investigated the available original project websites and recorded your findings.
 
@@ -797,7 +789,7 @@ Before moving on, make sure you have investigated the available original project
 
 You do not need to find every page or recover every file. The objective is to investigate the available evidence systematically and record what you discover.
 
-## **Chapter summary**
+## Chapter summary
 
 Original project websites are among the best sources for reconstructing the history of a Quake modification.
 

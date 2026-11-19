@@ -13,7 +13,7 @@ Usenet discussions can preserve information that is difficult to find elsewhere.
 
 This chapter explains how to search Usenet archives and use the information you find to improve your archival record.
 
-## **6.1 What is Usenet?**
+## What is Usenet?
 
 Usenet is an early distributed discussion system that predates the modern web. It became widely used during the 1980s and 1990s, providing a way for people around the world to exchange messages in organised discussion groups called *newsgroups*.
 
@@ -38,7 +38,7 @@ Some messages also included binary attachments. These could be files such as ZIP
 
 For a Quake archivist, Usenet is valuable because it provides contemporary evidence. Rather than relying on a modern webpage describing an old modification, you can sometimes find a message written by the developer at the time of the release.
 
-## **6.2 Google Groups**
+## Google Groups
 
 Google Groups (`https://groups.google.com`) is the most useful starting point for searching historical Usenet discussions. Google acquired the Deja News Usenet archive in 2001 and incorporated its collection into Google Groups.
 
@@ -88,7 +88,7 @@ This fictional message provides several useful pieces of evidence:
 
 Each of these details can lead to further research.
 
-## **6.3 Search Google Groups**
+## Search Google Groups
 
 Start by visiting Google Groups (`https://groups.google.com`).
 
@@ -96,7 +96,7 @@ Enter the modification's name into the search box. Google Groups searches messag
 
 Do not assume that the modification was discussed in only one newsgroup. Search broadly first, then investigate relevant groups and threads.
 
-### **Search the modification's name**
+### Search the modification's name
 
 Begin with the most obvious name of the project.
 
@@ -114,7 +114,7 @@ These variations matter because people do not always use consistent naming conve
 
 A search for only the official project name can miss many relevant messages.
 
-### **Search known filenames**
+### Search known filenames
 
 If you have already recovered some releases, search for their filenames.
 
@@ -132,7 +132,7 @@ A discussion might reveal that a file was distributed under a different name, or
 
 Search for filenames found in contemporary announcements as well as those found in recovered files.
 
-### **Search developer names**
+### Search developer names
 
 Search for the names and usernames of developers associated with the modification.
 
@@ -149,7 +149,7 @@ If you find a likely developer account, inspect other messages posted by that ac
 
 Be careful when connecting identities. Two people can use the same username, and a name in a message does not necessarily establish that the author was a particular developer. Record the evidence supporting any identification.
 
-### **Search personal websites**
+### Search personal websites
 
 If you discover a developer's personal website, search for its domain name and distinctive parts of its URL.
 
@@ -164,7 +164,7 @@ People sometimes included their website in their message signature. Other users 
 
 These searches can uncover websites that were not mentioned on the official project homepage.
 
-### **Search alternative spellings and naming conventions**
+### Search alternative spellings and naming conventions
 
 Repeat searches using variations of project names, developer names and filenames.
 
@@ -182,7 +182,7 @@ For example, a project might appear as `Action Quake 2`, `Action Quake II`, `Act
 
 The goal is to avoid treating one spelling as the only valid name for the project.
 
-### **Search unique filenames inside recovered releases**
+### Search unique filenames inside recovered releases
 
 This is a useful technique that is easy to overlook.
 
@@ -202,7 +202,7 @@ A player might have asked a question about one of the files, or a developer migh
 
 This technique is especially useful when the project name has changed or is difficult to search for.
 
-### **Search for release announcements and distribution messages**
+### Search for release announcements and distribution messages
 
 Look for messages containing words and phrases commonly used when distributing software:
 
@@ -234,7 +234,7 @@ Other users might post messages reporting that a release is available from a mir
 
 These messages can reveal distribution locations that are not recorded in surviving project websites or gaming news archives.
 
-## **6.4 Investigate Threads and Individual Messages**
+## Investigate Threads and Individual Messages
 
 Finding a relevant search result is only the beginning. Open the message and examine the surrounding discussion.
 
@@ -260,7 +260,7 @@ Pay attention to the following details:
 
 Do not assume that the first message in a thread contains all the useful information. A reply posted weeks later might be the only surviving reference to a particular download.
 
-## **6.5 Search Other Surviving Usenet Archives**
+## Search Other Surviving Usenet Archives
 
 Google Groups is an excellent starting point, but it is not a complete record of Usenet.
 
@@ -281,7 +281,7 @@ You do not need to understand the technical details of every archive format to b
 
 When you find a message in an alternative archive, record the archive's URL and any original message identifiers or headers that are available. This makes it easier to locate the same message again and distinguish it from other copies.
 
-## **6.6 Preserve and Record Usenet Evidence**
+## Preserve and Record Usenet Evidence
 
 Usenet messages should be treated as historical evidence, just like original project websites and gaming news articles.
 
@@ -308,7 +308,7 @@ The example is fictional, but it illustrates how a Usenet message can be connect
 
 If the message reveals a new download URL that you cannot recover, add it to `research/wishlist_urls.txt`. If it mentions a missing release or filename, add that information to `research/wishlist.txt`.
 
-### **Preserve uncertainty**
+### Preserve uncertainty
 
 Usenet messages are contemporary sources, but they are not automatically correct.
 
@@ -326,7 +326,7 @@ These are three different events. They may help establish the release timeline, 
 
 Also distinguish between the author of a message and the developer of a modification. A message can be valuable without its author being directly involved in the project.
 
-### **Preserve links and message details**
+### Preserve links and message details
 
 Where possible, retain a direct link to the message in Google Groups or the alternative archive.
 
@@ -336,7 +336,7 @@ If you can save a copy of the message, preserve it with your other research evid
 
 A screenshot can be useful as supplementary evidence, particularly when a webpage or message is difficult to access consistently. It should not replace the original message URL or other identifying details.
 
-## **6.9 Summary**
+## Summary
 
 Usenet is a valuable historical source for researching Quake modifications. Its messages can preserve contemporary announcements, developer comments, release information, changelogs, download URLs and discussions about files that are no longer available.
 
