@@ -160,7 +160,7 @@ It should also preserve references to the evidence supporting its historical cla
 
 **The goal is not to create a plausible history. It is to reconstruct the most accurate history supported by surviving evidence.**
 
-## Files and artifacts: What exactly are we preserving?
+## Files and artefacts: What exactly are we preserving?
 
 The actual files are the heart of a software modification archive.
 
@@ -195,8 +195,8 @@ A file recovered from an original developer's website has a different provenance
 
 Finally, it is useful to distinguish between:
 
-- **Original artifacts:** The files as they were originally distributed.
-- **Derived artifacts:** Files that have been modified, repaired or repackaged.
+- **Original artefacts:** The files as they were originally distributed.
+- **Derived artefacts:** Files that have been modified, repaired or repackaged.
 - **Metadata:** Information describing the files.
 - **Evidence:** Historical material supporting claims about the files and their origins.
 
@@ -243,7 +243,7 @@ Level 1
 
 **Basic preservation**
 
-The project has been identified, at least one original file has been preserved, and basic information about the modification has been documented.
+The project has been identified, perhaps one original file has been preserved, and basic information about the modification has been documented.
 
 Level 2
 
@@ -271,9 +271,10 @@ To understand what we are building, remember these six concepts:
 2. **The releases:** The different versions and distributions of the project.
 3. **The chronology:** The sequence of events in the project's history.
 4. **The evidence:** The surviving information that supports historical claims.
-5. **The artifacts:** The actual files, their metadata and their provenance.
+5. **The artefacts:** The actual files, their metadata and their provenance.
 6. **The archive:** The organised, publicly accessible record that brings everything together.
 
 With these concepts established, we now have a clear picture of what we want to create.
 
 The next step is to learn how to do it: how to research a modification, locate surviving files, reconstruct its release history, organise the material and publish the finished archive.
+
