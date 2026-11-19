@@ -70,7 +70,7 @@ Examples include:
 
 A category archive can be especially valuable because it brings together projects that might otherwise be difficult to discover.
 
-For example, an archive of Quake 1 bots could include dozens of independent projects. Some might have been widely used, while others were small experiments by individual developers.
+For example, an archive of Quake 1 bots could include hundreds of independent projects. Some might have been widely used, while others were small experiments by individual developers.
 
 The challenge is deciding which projects qualify. Does a bot need to be a standalone modification? Do bot libraries and navigation tools count? What about modifications that include bot support as one of several features?
 
@@ -143,7 +143,7 @@ Not every preservation project needs to become a major research undertaking.
 
 It is useful to distinguish between two broad approaches.
 
-**Quick archive**
+### Create a quick archive
 
 Small, focused project
 
@@ -159,7 +159,7 @@ Examples:
 
 The objective is to preserve a useful discovery without requiring a complete reconstruction of the project's history.
 
-**Comprehensive archive**
+### Create a comprehensive archive
 
 Long-term research project
 
@@ -228,7 +228,7 @@ This is important because modifications rarely exist in isolation. They often ha
 
 Consider an archive focused on Action Quake.
 
-Should it include only the original Action Quake modification, or should it also include Action Quake 2?
+Should it include only the original Action Quake 2 modification, or should it also include modern extensions?
 
 What about custom maps created for Action Quake? Should server-side modifications be included? What about patches created by third parties or independent projects derived from the original modification?
 
@@ -292,31 +292,7 @@ Do not leave the boundaries of your archive as informal assumptions. Write them 
 
 A short scope statement is usually sufficient.
 
-For example:
-
-**Example: Action Quake archive scope**
-
-**Included**
-
-- Official releases of the original Action Quake modification.
-- Known beta versions and patches.
-- Official maps, models and supplementary files.
-- Original project websites and historical announcements.
-- Known developers and contributors.
-- Unofficial files that are clearly identified as related to the project.
-
-**Excluded**
-
-- Action Quake 2 and later independent projects.
-- Unrelated Quake modifications by the same developers.
-- General Quake maps that were not designed for Action Quake.
-- Unrelated server utilities and configuration collections.
-
-**Approach**
-
-The archive will initially focus on recovering original releases and reconstructing the development history. It will record related community contributions where useful, but will not attempt to preserve every community-created map or server configuration.
-
-This statement does not need to anticipate every possible discovery. You can revise it as your research progresses.
+Your scope statement does not need to anticipate every possible discovery. You can revise it as your research progresses.
 
 For example, you might initially exclude unofficial patches, then discover that one of them was widely distributed and became an important part of the modification's history. You can update the scope and document the reason for doing so.
 
