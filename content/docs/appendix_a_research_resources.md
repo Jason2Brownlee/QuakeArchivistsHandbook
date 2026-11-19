@@ -3,11 +3,11 @@ title: "Appendix A: Research Resources"
 weight: 60
 ---
 
-# **Appendix A: Research Resources**
+# Appendix A: Research Resources
 
 This appendix contains a collection of web resources that can help you research, recover and document files for your Quake archive. The resources include historical websites, file archives, software collections, discussion forums and other useful research tools. These links are intended as starting points for your own investigations. Given the age and changing nature of many of these websites, some links may no longer work or may become unavailable in the future. Even when a website is no longer active, archived copies or references elsewhere may still prove useful.
 
-## **Internet Archive**
+## Internet Archive
 
 The Internet Archive is a digital library that preserves historical websites, software, books, videos and other digital material. It is an important resource for Quake archiving, particularly when researching original project websites, recovering old files and investigating historical software collections.
 
@@ -19,7 +19,7 @@ Search and access archived digital material, including software collections, CD-
 `https://web.archive.org/`\
 View historical captures of websites to recover old project pages, announcements, download links and other information.
 
-## **Quake Gaming News**
+## Quake Gaming News
 
 During the 1990s and early 2000s, several websites published regular news about Quake, including modification releases, updates, developers, community events and download locations. Their historical news archives can be particularly useful for establishing release dates and discovering files that are no longer available elsewhere.
 
@@ -50,7 +50,7 @@ A historical gaming news and community resource. No longer active. Historical pa
 **Research note:** For sites that are no longer active, try searching the Internet Archive using both the original domain and specific historical page URLs.
 
 
-## **Web Search Engines**
+## Web Search Engines
 
 General-purpose search engines are useful for discovering surviving Quake websites, download mirrors, developer pages, historical references and individual files. Different search engines maintain different indexes, so searching across several services can reveal results that others miss.
 
@@ -70,7 +70,7 @@ A general-purpose search engine that provides another independent set of search 
 `https://www.bing.com/`\
 Microsoft's search engine, useful for finding websites, archived references and downloadable files.
 
-## **FTP search engines**
+## FTP search engines
 
 FTP search engines index files and directory listings from public FTP servers. They can help locate known Quake modification filenames, discover alternative download locations and find releases that are not indexed by general-purpose search engines. Some results link directly to FTP servers, which may require an FTP client such as FileZilla to access.
 
@@ -82,13 +82,13 @@ Search for files across indexed FTP servers and other file repositories. Useful 
 `https://www.mmnt.net/`\
 Search indexed public FTP directory listings for files and folders. Particularly useful for discovering files stored in historical FTP archives and mirrors.
 
-## **Usenet and discussion archives**
+## Usenet and discussion archives
 
 \- **Google Groups**\
 `https://groups.google.com/`\
 Search archived Usenet discussions for project names, developers, release announcements and download references.
 
-## **CD-ROM and software collections**
+## CD-ROM and software collections
 
 Resources for finding Quake modifications distributed on magazine cover CDs, shareware compilations and other historical media.
 
@@ -109,7 +109,7 @@ Browse historical software collections, CD-ROM contents and FTP archives, includ
 Search a catalogue of historical Finnish BBS software collections, including games, shareware and freeware.
 
 
-## **Quake Archives**
+## Quake Archives
 
 Several dedicated Quake archives preserve large collections of maps, modifications, utilities and other community-created files. These are useful places to search for missing releases, find alternative copies and discover material that may not (does not!) appear in general search engines.
 

@@ -13,7 +13,7 @@ This is an advanced topic, primarily intended for readers with some programming 
 
 The goal is not to develop a comprehensive archival software system. Instead, build small, reusable tools that perform specific research tasks and produce useful output.
 
-## **12.1 Start with a repetitive research task**
+## Start with a repetitive research task
 
 The best automation opportunities usually emerge naturally during research.
 
@@ -35,7 +35,7 @@ For example, you might want a script that takes a directory of downloaded HTML p
 
 Avoid trying to automate the entire research process at once. Build one useful tool, use it during your research, and extend it when another need becomes apparent.
 
-## **12.2 Choose a simple programming language**
+## Choose a simple programming language
 
 Python is a good choice for archival research tools. It is relatively easy to learn, works across Windows, macOS and Linux, and has libraries for working with websites, HTML, compressed files, text documents and cryptographic hashes.
 
@@ -53,7 +53,7 @@ You do not need to learn all these libraries before starting. Learn the parts re
 
 Python also has a large ecosystem of existing tools and examples. If you encounter a problem, there is a good chance someone has already solved something similar.
 
-## **12.3 Keep tools small and self-contained**
+## Keep tools small and self-contained
 
 For this type of research, a collection of small scripts is generally more useful than a large application.
 
@@ -91,7 +91,7 @@ A tool should be easy to understand, modify and run several months later when yo
 You can always introduce more structure if a tool becomes sufficiently complicated to justify it.
 
 
-## **12.4 Download and search archived websites**
+## Download and search archived websites
 
 One of the most useful automation opportunities is extracting information from historical websites.
 
@@ -145,7 +145,7 @@ A good place to get started with the Wayback Machine's APIs is this website:
 
 * [Wayback Machine APIs](https://archive.org/help/wayback_api.php) (`https://archive.org/help/wayback_api.php`)
 
-## **12.5 Analyse recovered files**
+## Analyse recovered files
 
 As your collection grows, you will accumulate many ZIP archives and other files. Manually inspecting every archive becomes increasingly inefficient.
 
@@ -200,7 +200,7 @@ For example, a comparison might identify:
 
 These comparisons can help establish whether two recovered archives represent different releases, repackaged versions or simply duplicate copies.
 
-## **12.6 Create research indexes**
+## Create research indexes
 
 Another useful application of automation is building searchable indexes of the material you have already collected.
 
@@ -223,7 +223,7 @@ The output does not need to be sophisticated. A plain text file or CSV spreadshe
 
 The important thing is that the information becomes searchable and can be used to guide further research.
 
-## **12.7 Keep output simple**
+## Keep output simple
 
 The purpose of these tools is to assist research, not create another software project that requires ongoing maintenance.
 
@@ -270,7 +270,7 @@ For larger inventories, CSV is useful because the results can be opened in a spr
 
 Avoid introducing a database or web interface unless you have a specific reason to do so. A text file that you can inspect, search, compare and preserve is often all you need.
 
-## **12.8 Be considerate when accessing historical servers**
+## Be considerate when accessing historical servers
 
 Automation makes it easy to send large numbers of requests to websites and download large collections of files. Just because you can automate these operations does not mean you should do so without considering the server.
 
@@ -290,7 +290,7 @@ For example, a script that queries the Wayback Machine should not issue hundreds
 
 Prefer targeted research over indiscriminate downloading. If you know the likely release filenames or the relevant period of a website, use that information to narrow your searches.
 
-## **12.9 Use AI to help build research tools**
+## Use AI to help build research tools
 
 You do not need to be an experienced programmer to benefit from automation. Modern large language models can help you write small scripts based on plain-language requirements.
 
@@ -322,7 +322,7 @@ Be especially careful with scripts that rename, move, modify or delete files. Fo
 
 AI makes it much easier to build small research tools, even if you only have basic programming knowledge. You still need to understand what the tool is supposed to do and verify that its results are correct.
 
-## **12.10 Build tools that can be reused**
+## Build tools that can be reused
 
 A useful research tool should ideally work across multiple archival projects.
 
@@ -336,7 +336,7 @@ You can then reuse the same tools when researching a different modification, a d
 
 Over time, you may develop a small personal collection of research scripts that becomes increasingly useful with each new project.
 
-## **Chapter summary**
+## Chapter summary
 
 Automation is not necessary for creating a Quake archive, but it becomes increasingly valuable as the amount of historical material grows. Small Python scripts can download and search archived websites, extract historical links, analyse recovered files, calculate hashes, compare releases and build searchable research indexes.
 

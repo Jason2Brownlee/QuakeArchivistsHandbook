@@ -20,7 +20,7 @@ A single download URL might lead to an old directory listing, which reveals addi
 
 Learning to recognise and exploit these connections is one of the most useful skills you can develop as a Quake archivist.
 
-## **17.1. Google Does Not Index Everything**
+## Google Does Not Index Everything
 
 One of the most important lessons I have learned is how limited Google and other general-purpose search engines are when it comes to finding historical files.
 
@@ -52,7 +52,7 @@ Be respectful when using automated tools. Cache downloaded pages, limit requests
 
 We have already covered manual searching and automation in earlier chapters, but I cannot stress this point enough: **search engines are only one way of discovering files, and they miss an enormous amount of historical material.**
 
-## **17.2. Investigate the Walnut Creek CDROM Archive**
+## Investigate the Walnut Creek CDROM Archive
 
 Walnut Creek CDROM operated `ftp.cdrom.com`, one of the most important historical FTP servers for game modifications and other downloadable software.
 
@@ -73,7 +73,7 @@ You can also explore historical copies of the archive through its surviving mirr
 
 
 
-### **Search alternative directory structures**
+### Search alternative directory structures
 
 One complication is that `ftp.cdrom.com` used different directory structures over time.
 
@@ -103,7 +103,7 @@ One variation may have been archived at a useful date when another was not.
 
 You may also discover directory listings that reveal files that have not appeared in your research elsewhere.
 
-### **Search archive index and maintenance files**
+### Search archive index and maintenance files
 
 Historical FTP archives often maintained special files that described their contents and recent changes.
 
@@ -136,7 +136,7 @@ The `CHANGES` file can also help explain why a directory disappeared or why the 
 
 Do not restrict your investigation to the individual ZIP file you are looking for. The surrounding directory and its maintenance files can be just as valuable.
 
-## **17.3. Search Historical Mirrors of idgames and idgames2**
+## Search Historical Mirrors of idgames and idgames2
 
 The idgames and idgames2 archives were mirrored across many FTP servers around the world.
 
@@ -160,7 +160,7 @@ An archived listing from one mirror may provide information that is absent from 
 
 This is particularly valuable when trying to determine whether a release was replaced, renamed or distributed in more than one form.
 
-### **Mirrors of mirrors**
+### Mirrors of mirrors
 
 An additional complication is that `ftp.cdrom.com` mirrored other major file collections, including PlanetQuake material.
 
@@ -195,7 +195,7 @@ Investigate both the original source and the downstream mirrors.
 
 This is one of the most productive ways to expand a search beyond the obvious download locations.
 
-## **17.4. Search Every Historical PlanetQuake Website Address**
+## Search Every Historical PlanetQuake Website Address
 
 PlanetQuake was a major hosting service for Quake modifications and community projects.
 
@@ -244,7 +244,7 @@ One address might have captures from an earlier period. Another might contain ad
 
 You may also discover that an archived website is broken under one hostname but navigable under another.
 
-### **Automate the search**
+### Automate the search
 
 This is an excellent task to automate.
 
@@ -262,7 +262,7 @@ The goal is to identify unique historical snapshots that contain information mis
 
 A small reusable tool can make this process much faster, particularly when researching several PlanetQuake projects.
 
-## **17.5. Investigate Every Known Download Directory**
+## Investigate Every Known Download Directory
 
 This is one of the techniques that has helped me most over the years.
 
@@ -301,7 +301,7 @@ You might discover an earlier version, an incremental patch, a supplementary dow
 
 You may also discover unexpected files that suggest a different naming convention.
 
-### **Look for patterns across download locations**
+### Look for patterns across download locations
 
 Once you have collected several download directories, look for patterns.
 
@@ -321,7 +321,7 @@ Search for the same directory on other mirrors.
 
 This approach can turn a handful of historical download URLs into dozens of useful research targets.
 
-### **Automate directory investigation**
+### Automate directory investigation
 
 This is another excellent opportunity for automation.
 
@@ -343,7 +343,7 @@ It also turns your accumulated research into something more powerful than a coll
 
 **Every historical download URL is a clue to an entire directory, and every directory may contain clues to other releases.**
 
-## **17.6. Get Good at Guessing Historical Filenames**
+## Get Good at Guessing Historical Filenames
 
 Searching for missing releases often requires making educated guesses about their original filenames.
 
@@ -359,7 +359,7 @@ Magazine CDs and shovelware collections sometimes unpacked releases, compressed 
 
 As a result, the filename you are looking for may be different from the one originally published by the developer.
 
-### **Guess version number variations**
+### Guess version number variations
 
 Suppose you know that a modification had a release called version 1.2.
 
@@ -392,7 +392,7 @@ Then generate variations for missing versions.
 
 A script can help produce candidate filenames and search your locally indexed collections.
 
-### **Guess alternative archive formats**
+### Guess alternative archive formats
 
 Do not restrict your search to ZIP files.
 
@@ -416,7 +416,7 @@ Remember that the presence of a candidate filename does not prove that it contai
 
 Download and inspect promising candidates before drawing conclusions.
 
-### **Investigate generic filenames**
+### Investigate generic filenames
 
 Some modifications were distributed using generic filenames such as:
 
@@ -436,7 +436,7 @@ Inspect the files and their contents rather than dismissing them because their n
 
 You may also find that a collector or CD publisher renamed a release to fit its directory organisation.
 
-### **Search for missing versions**
+### Search for missing versions
 
 If you have versions 1.0 and 1.2, consider whether version 1.1 existed.
 
@@ -452,7 +452,7 @@ The key is to become comfortable making informed guesses while keeping guesses s
 
 A candidate filename is a research lead until you find evidence supporting it.
 
-## **17.7. Build a Searchable Collection of Historical File Listings**
+## Build a Searchable Collection of Historical File Listings
 
 As you investigate more archives, you may accumulate hundreds or thousands of historical directory listings.
 
@@ -489,7 +489,7 @@ The listings you collected while researching one modification may contain valuab
 
 Over time, this can become one of your most useful research resources.
 
-## **17.8. Reuse Research Across Archive Projects**
+## Reuse Research Across Archive Projects
 
 Researching one modification often reveals information about others.
 
@@ -511,7 +511,7 @@ You may also notice relationships between projects that were not obvious when re
 
 An obscure modification that originally seemed impossible to investigate might become much easier after you have worked on several other projects from the same period.
 
-## **17.9. Follow Unexpected Leads**
+## Follow Unexpected Leads
 
 The research techniques described in this chapter are systematic, but many worthwhile discoveries begin with something unexpected.
 
@@ -537,7 +537,7 @@ The most important skill is not memorising a list of websites or commands. It is
 
 Those relationships are often what lead you to material that conventional searches cannot find.
 
-## **Chapter Summary**
+## Chapter Summary
 
 Advanced Quake archival research often involves looking beyond individual files and investigating the historical systems that distributed them.
 

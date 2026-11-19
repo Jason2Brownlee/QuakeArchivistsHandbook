@@ -17,7 +17,7 @@ You do not need to work on it continuously. Instead, maintain the archive as new
 
 The goal is to preserve what you have recovered while allowing the archive to become more complete and accurate over time.
 
-## **15.1. Accept Contributions from Others**
+## Accept Contributions from Others
 
 Once your archive is public, other people may contact you with files, information or corrections.
 
@@ -41,7 +41,7 @@ A recollection that a modification was released in 1998 may be valuable, but a c
 
 Remember to acknowledge contributors and respect their preferences about how they are credited.
 
-## **15.2. Evaluate Newly Discovered Files**
+## Evaluate Newly Discovered Files
 
 When you receive a new file, do not immediately add it to the public release list.
 
@@ -72,7 +72,7 @@ Only add the file to `bin/` and link it from the README when you have establishe
 
 If its identity remains uncertain, document the questions and continue investigating.
 
-## **15.3. Update the Release History**
+## Update the Release History
 
 New discoveries may change your understanding of the modification's history.
 
@@ -94,7 +94,7 @@ The public release list should always present your best current understanding of
 
 Visitors should not need to read the detailed research documents to discover that a missing release has been recovered.
 
-## **15.4. Correct Historical Information**
+## Correct Historical Information
 
 Historical research is rarely perfect.
 
@@ -122,7 +122,7 @@ When the evidence remains inconclusive, document the uncertainty.
 
 An accurate archive does not need to have an answer to every question.
 
-## **15.5. Preserve New Evidence**
+## Preserve New Evidence
 
 Not every new discovery will be a downloadable modification file.
 
@@ -144,7 +144,7 @@ If a source supports an important claim in your historical record, try to preser
 
 Avoid collecting material without a clear purpose. Focus on evidence that helps establish the modification's history, identify its releases or explain the provenance of recovered files.
 
-## **15.6. Record Changes to the Archive**
+## Record Changes to the Archive
 
 As the archive evolves, keep a record of significant additions and corrections.
 
@@ -174,7 +174,7 @@ Keep the maintenance process proportional to the size of the project.
 
 The purpose of recording changes is to preserve accountability and make the archive easier to understand, not to create unnecessary administrative work.
 
-## **15.7. Track Outstanding Research Questions**
+## Track Outstanding Research Questions
 
 Even after publication, your archive may contain unresolved questions.
 
@@ -200,7 +200,7 @@ Do not feel obligated to resolve every outstanding question.
 
 A well-documented uncertainty is preferable to an unsupported conclusion.
 
-## **15.8. Review External Links and Backups**
+## Review External Links and Backups
 
 Over time, some of the external resources referenced by your archive may disappear.
 
@@ -220,7 +220,7 @@ Also check that the repository's own download links work correctly.
 
 If you host large files outside GitHub, make sure those files remain available.
 
-### **Maintain independent backups**
+### Maintain independent backups
 
 Keep at least one backup of the archive outside its public hosting platform.
 
@@ -236,7 +236,7 @@ The files you have recovered may be difficult or impossible to obtain again.
 
 Protecting them is one of the most important responsibilities of maintaining an archive.
 
-## **15.9. Revisit the Archive with Fresh Eyes**
+## Revisit the Archive with Fresh Eyes
 
 One of the most effective ways to improve an archive is to leave it alone for a while and return to it later.
 
@@ -256,7 +256,7 @@ A website or search tool that was unfamiliar during your first investigation mig
 
 Even without any new resources, approaching the same material with fresh eyes can lead to new discoveries.
 
-### **Revisit after one month**
+### Revisit after one month
 
 About a month after publishing, return to the archive for a short review.
 
@@ -272,7 +272,7 @@ You may also think of new search terms, filename variations or sources that were
 
 This first revisit is often an opportunity to tidy the archive and pursue a few promising leads.
 
-### **Revisit after six months**
+### Revisit after six months
 
 After six months, consider conducting another research pass.
 
@@ -290,7 +290,7 @@ Look again at the known releases and consider whether any gaps suggest alternati
 
 You do not need to repeat every search from the beginning. Focus on opportunities that were not available or not considered during your first investigation.
 
-### **Revisit after one year**
+### Revisit after one year
 
 After a year, conduct a broader review of the archive.
 
@@ -310,7 +310,7 @@ If the archive is already as complete as you can reasonably make it, there is no
 
 Simply confirm that the collection remains accessible and leave it available for future contributors.
 
-## **15.10. Understand That Completeness Can Improve Over Time**
+## Understand That Completeness Can Improve Over Time
 
 An archive does not have to be complete to be valuable.
 
@@ -340,7 +340,7 @@ Some files may be permanently lost, and some historical questions may never be a
 
 The purpose of an archive is not to guarantee that every piece of information can be recovered. It is to preserve what survives, document what is known and make future discoveries possible.
 
-## **15.11. Know When to Stop**
+## Know When to Stop
 
 Maintaining an archive does not mean working on it indefinitely.
 
@@ -364,7 +364,7 @@ Over time, a collection of small archival projects can preserve a substantial am
 
 The important thing is that the material you have recovered remains accessible, documented and protected.
 
-## **Chapter Summary**
+## Chapter Summary
 
 A published archive is not necessarily a finished archive.
 

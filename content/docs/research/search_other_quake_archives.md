@@ -13,7 +13,7 @@ These collections can be difficult to discover. They may not be indexed by searc
 
 This chapter explains how to find these collections, investigate their contents and engage with the people who maintain them.
 
-## **10.1 Explore Existing Quake Archives**
+## Explore Existing Quake Archives
 
 Start by identifying established Quake archives and community-maintained collections. These are often the most productive sources because their maintainers have already spent considerable time gathering and preserving files.
 
@@ -49,7 +49,7 @@ There are many smaller Quake archives maintained by enthusiasts, community websi
 
 Do not limit your research to the largest or best-known collections. Smaller archives can contain unusual releases or files that were never submitted to the major distribution sites.
 
-## **10.2 Look Beyond Quake-Specific Archives**
+## Look Beyond Quake-Specific Archives
 
 Not every surviving Quake file is stored in an archive dedicated to Quake.
 
@@ -95,7 +95,7 @@ Search these archives for known filenames, project names and distinctive files. 
 
 A general software archive might contain an old Quake modification because it was included on a compilation CD, uploaded by a collector, or preserved as part of a larger game collection.
 
-## **10.3 Find Personal Collections and FTP Servers**
+## Find Personal Collections and FTP Servers
 
 Some of the most valuable collections are not maintained by established websites or organisations. They belong to individuals who have accumulated files over many years.
 
@@ -115,7 +115,7 @@ Look for references to personal collections in old forum posts, website announce
 
 Do not assume that a collection is irrelevant because it has no public catalogue. Ask its owner whether they have files related to your project or topic.
 
-## **10.4 Find Other Collectors and Archivists**
+## Find Other Collectors and Archivists
 
 Finding people who collect and preserve Quake files can be just as important as finding the archives themselves.
 
@@ -135,7 +135,7 @@ For example, a collector might have:
 
 Finding these people requires some active community engagement.
 
-### **Ask in community forums and Discord servers**
+### Ask in community forums and Discord servers
 
 Search for Quake-related forums, Discord servers and other online communities. Look for discussions about historical preservation, old modifications, mapping, mod development and game archives.
 
@@ -145,7 +145,7 @@ For example, rather than simply asking whether anyone has old Quake files, expla
 
 You can also ask whether anyone knows of other collectors or archives worth investigating.
 
-### **Contact people who worked on the original projects**
+### Contact people who worked on the original projects
 
 Developers, mappers, artists, server administrators and community website operators may still have old files or know where they were distributed.
 
@@ -153,7 +153,7 @@ A former developer might have kept their original source code and release archiv
 
 Use names and contact details discovered during earlier research to identify potential contacts. Be respectful of people's time and explain why you are interested in their material.
 
-### **Build relationships with other archivists**
+### Build relationships with other archivists
 
 Treat other collectors as potential collaborators rather than simply sources of files.
 
@@ -163,7 +163,7 @@ Over time, these relationships can lead to new sources, additional files and a m
 
 Some people may be happy to share their collections publicly. Others may prefer to provide information or files privately. Respect their preferences and ask before redistributing material.
 
-## **10.5 Investigate Collections Systematically**
+## Investigate Collections Systematically
 
 Once you identify a promising archive or collector, investigate whether it contains material relevant to your project.
 
@@ -188,7 +188,7 @@ Record the collection as a research source in `research/lists/references.md`. Ad
 
 If you discover a potentially important release that you cannot yet recover, add it to `research/wishlist.txt`.
 
-## **10.6 Be Prepared for Incomplete and Disorganised Collections**
+## Be Prepared for Incomplete and Disorganised Collections
 
 Community archives are not necessarily maintained to professional archival standards.
 
@@ -209,7 +209,7 @@ Preserve the original files and directory structures where possible. Avoid renam
 
 Also distinguish between a collector's copy and an original release. A file supplied by an individual may have been downloaded from a mirror, copied from a CD-ROM or repackaged from extracted files. Ask about its source where possible and record what is known.
 
-## **Summary**
+## Summary
 
 Other Quake archives, collectors and community members are an essential part of historical preservation research. Established collections such as Quaddicted, Shub-Hub and Gamers.org provide useful starting points, but many valuable files survive in smaller archives and private collections.
 

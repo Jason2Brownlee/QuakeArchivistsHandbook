@@ -17,7 +17,7 @@ The objective is to move beyond simply collecting files. You want to establish w
 
 This is an iterative process. Every new discovery can change your understanding of the project's history, including the interpretation of files you recovered earlier.
 
-## **13.1 Maintain the distinction between files and releases**
+## Maintain the distinction between files and releases
 
 One of the most important distinctions in archival research is the difference between a file and a release.
 
@@ -38,7 +38,7 @@ This distinction is important when documenting the history of a modification. Yo
 
 Instead, identify the underlying release or distribution that each file represents, and document the relationship between the two.
 
-## **13.2 Identify duplicate files**
+## Identify duplicate files
 
 The first task is to determine which recovered files are identical.
 
@@ -99,7 +99,7 @@ Do not assume that an executable is the original developer distribution. It migh
 
 Record the relationship between the executable and its extracted contents.
 
-## **13.3 Distinguish different releases**
+## Distinguish different releases
 
 Once you have identified obvious duplicates, examine the files that might represent different releases.
 
@@ -172,7 +172,7 @@ The suffixes distinguish two different recovered distributions associated with v
 
 Document the original filenames, differences and evidence in `history.md`.
 
-## **13.4 Compare files with different names**
+## Compare files with different names
 
 Different filenames do not necessarily indicate different content.
 
@@ -196,7 +196,7 @@ This process can reveal several useful relationships:
 
 Preserve the original filenames in your research records. A filename can itself be useful historical evidence, particularly when it appears in contemporary news articles, FTP listings or download announcements.
 
-## **13.5 Verify archive contents**
+## Verify archive contents
 
 A successful download does not necessarily mean that you have recovered a complete or valid file.
 
@@ -248,7 +248,7 @@ If an archive is corrupted but contains recoverable files, preserve it in its or
 
 Do not silently replace a corrupted original with a repaired version.
 
-## **13.6 Connect files to known releases**
+## Connect files to known releases
 
 After examining recovered files, determine which known release they belong to.
 
@@ -289,7 +289,7 @@ Look for additional evidence before assigning it a version number. Search histor
 
 Even when you cannot identify the exact version, document the possibility in `history.md` and add relevant leads to your research notes.
 
-## **13.7 Identify files with uncertain origins**
+## Identify files with uncertain origins
 
 Not every recovered file will have a clear provenance.
 
@@ -320,7 +320,7 @@ A later discovery might reveal that the file was a beta version, a modified copy
 
 The archival record should reflect your current understanding without presenting uncertain conclusions as established facts.
 
-## **13.8 Resolve conflicting release dates**
+## Resolve conflicting release dates
 
 Conflicting dates are common in historical software research.
 
@@ -357,7 +357,7 @@ For example, you might conclude that a file dated March 10 was probably the orig
 
 Avoid silently selecting one date and discarding the others.
 
-## **13.9 Record confidence and uncertainty**
+## Record confidence and uncertainty
 
 The historical record should distinguish established facts from interpretations and speculation.
 
@@ -378,7 +378,7 @@ For example, you might be certain that a ZIP file was recovered from a particula
 
 Document the evidence behind important conclusions so that another researcher can understand how you reached them.
 
-## **13.10 Preserve original files and derived copies**
+## Preserve original files and derived copies
 
 One of the most important archival principles is to preserve recovered files independently of anything you create or modify.
 
@@ -412,7 +412,7 @@ Calculate hashes for both the original and derived files. This makes it possible
 
 The goal is to preserve the original evidence while making useful derived material available to researchers.
 
-## **13.11 Revisit the release chronology**
+## Revisit the release chronology
 
 Verification and classification should lead you back to the historical record.
 
@@ -446,7 +446,7 @@ Do not be concerned about changing earlier conclusions. Historical research is i
 
 Keep the evidence that led to the earlier interpretation where it is useful. The objective is not to make the historical record appear certain, but to make it accurate and defensible.
 
-## **13.12 Keep the README.md up to date**
+## Keep the README.md up to date
 
 While `research/history.md` is your detailed working historical record, `README.md` is the public face of your archive. It is likely to be the first page most visitors see, and many visitors will come specifically to find and download a copy of the modification.
 
@@ -475,7 +475,7 @@ The README should not reproduce all the evidence and uncertainty discussed in `h
 
 Remember that the README is a living document. As you recover additional files, resolve uncertainties and revise your understanding of the release history, update it accordingly. The public archive should always reflect your best current understanding, even when that understanding is incomplete.
 
-## **Chapter summary**
+## Chapter summary
 
 Recovering files is only part of archival research. Each discovery needs to be examined, verified, classified and connected to the historical record.
 

@@ -19,7 +19,7 @@ The most important advice is to **keep moving forward**.
 
 You do not need a complete release history, a perfect directory structure or even a single recovered file to begin an archive. Start with what you know, document what you discover and improve the archive as your understanding grows.
 
-## **I don't know what to archive**
+## I don't know what to archive
 
 Start with a modification you remember playing.
 
@@ -31,7 +31,7 @@ You could also choose a popular modification, a particular development team or a
 
 Start as small as possible. Archiving one modification is a manageable project and will teach you techniques that can be applied to larger collections later.
 
-## **I don't know where to start researching**
+## I don't know where to start researching
 
 Start with a simple web search for the modification's name.
 
@@ -47,7 +47,7 @@ Follow these connections and begin recording your discoveries.
 
 If you are unsure where to look next, revisit the research chapters of this guide and try another source.
 
-## **I don't have enough information to start an archive**
+## I don't have enough information to start an archive
 
 You probably have more than you think.
 
@@ -63,7 +63,7 @@ The act of organising this information often reveals new search terms and resear
 
 You can expand the archive's structure later when you have more material.
 
-## **Another archive already exists**
+## Another archive already exists
 
 This is good news. It means someone else cares about preserving the modification.
 
@@ -77,7 +77,7 @@ Consider contacting the other archivist. You may be able to exchange files, comp
 
 Multiple archives can be better for the community than a single collection maintained by one person.
 
-## **The project seems too large or complicated**
+## The project seems too large or complicated
 
 Reduce its scope.
 
@@ -91,7 +91,7 @@ Record what you discover and move on to the next task.
 
 A modest archive that is publicly available is more useful than an ambitious archive that never gets finished.
 
-## **I am worried about publishing incomplete or incorrect research**
+## I am worried about publishing incomplete or incorrect research
 
 An archive does not need to be complete before it becomes public.
 
@@ -107,7 +107,7 @@ You can correct mistakes as new information becomes available.
 
 The goal is not to publish a perfect historical account on the first attempt. It is to create a reliable record that can improve over time.
 
-## **GitHub seems too complicated**
+## GitHub seems too complicated
 
 You do not need a full GitHub repository to create a useful archive.
 
@@ -129,7 +129,7 @@ Someone can use it to download an old modification, understand what other releas
 
 You can always move the information into a larger repository later.
 
-## **I cannot find the original project homepage**
+## I cannot find the original project homepage
 
 Start with contemporary references to the modification.
 
@@ -145,7 +145,7 @@ The project may have moved between several hosting services, and an early homepa
 
 If you cannot identify the homepage, document the references you have found and continue researching other aspects of the modification.
 
-## **I cannot determine the original release filenames**
+## I cannot determine the original release filenames
 
 Look for historical download links rather than relying only on surviving files.
 
@@ -161,7 +161,7 @@ Treat guessed filenames as search leads, not established historical facts.
 
 Document what you know and keep investigating.
 
-## **I cannot recover any files**
+## I cannot recover any files
 
 An archive without recovered files can still be useful.
 
@@ -181,7 +181,7 @@ Be creative. A missing release might survive inside an unrelated CD collection, 
 
 If you exhaust the available leads, publish what you know and move on. A documented missing file is easier for another collector to recognise and recover.
 
-## **I can only find broken historical download links**
+## I can only find broken historical download links
 
 Broken links are still valuable discoveries.
 
@@ -197,7 +197,7 @@ Do not spend unlimited time pursuing a single broken link. Document the evidence
 
 A copy may eventually turn up through another archive or collector.
 
-## **The file timestamps don't match the release date**
+## The file timestamps don't match the release date
 
 This is common and does not necessarily indicate a problem.
 
@@ -223,7 +223,7 @@ Document your interpretation and the evidence supporting it.
 
 If you cannot establish the reason for the discrepancy, record the uncertainty and move on.
 
-## **The readme contains the wrong version number, date or filename**
+## The readme contains the wrong version number, date or filename
 
 This is also common.
 
@@ -241,7 +241,7 @@ Do not silently correct the original readme. Preserve it as distributed and docu
 
 If the most likely explanation is that the developer forgot to update the document, say so, while making clear that this is an interpretation.
 
-## **I found multiple files with the same filename but different hashes**
+## I found multiple files with the same filename but different hashes
 
 This is very common in historical software archives.
 
@@ -265,7 +265,7 @@ Sometimes you will be able to establish a clear relationship between the files. 
 
 Preserve both copies and document what you know.
 
-## **I found files with different names but identical contents**
+## I found files with different names but identical contents
 
 This may indicate that a release was renamed by a mirror, CD publisher or collector.
 
@@ -281,7 +281,7 @@ You do not necessarily need to preserve every identical copy in `bin/`, but the 
 
 In particular, an alternative filename can provide a valuable search term for locating additional mirrors.
 
-## **I cannot tell whether two files are different releases**
+## I cannot tell whether two files are different releases
 
 Start by comparing their contents.
 
@@ -299,7 +299,7 @@ If you cannot determine their relationship, preserve both and describe the diffe
 
 There is no need to invent a version number or force every file into a definitive release sequence.
 
-## **The release dates conflict between sources**
+## The release dates conflict between sources
 
 First, determine whether the sources are describing the same event.
 
@@ -317,7 +317,7 @@ Record the conflicting information and explain which date you consider most like
 
 If the evidence is insufficient, leave the date uncertain.
 
-## **A recovered archive is damaged or incomplete**
+## A recovered archive is damaged or incomplete
 
 Preserve the damaged file before attempting to repair it.
 
@@ -333,7 +333,7 @@ Do not present a repaired copy as an untouched original release.
 
 Even when recovery is impossible, the damaged archive may provide useful evidence about a missing distribution.
 
-## **I found an extracted directory but not the original ZIP**
+## I found an extracted directory but not the original ZIP
 
 This often happens with files recovered from magazine CDs, old installations or personal backups.
 
@@ -347,7 +347,7 @@ Document the source, original directory structure, repackaging process and any k
 
 The recovered content is still valuable, even if the original distribution archive has been lost.
 
-## **I cannot determine where a file originally came from**
+## I cannot determine where a file originally came from
 
 Record where you recovered the copy and what you can establish about it.
 
@@ -363,7 +363,7 @@ If the original distribution location remains unknown, say so.
 
 A documented recovery source is still useful provenance, even when the complete chain of custody cannot be reconstructed.
 
-## **I cannot contact the original developers**
+## I cannot contact the original developers
 
 Many Quake developers used temporary email addresses, old usernames or personal websites that disappeared decades ago.
 
@@ -379,7 +379,7 @@ Remember that contacting people is only one research technique.
 
 If you cannot reach the developers, continue investigating public sources and other collectors.
 
-## **Nobody responds when I ask the community for help**
+## Nobody responds when I ask the community for help
 
 Community requests do not always receive immediate responses.
 
@@ -395,7 +395,7 @@ Try different communities and consider posting again after a reasonable amount o
 
 Do not interpret a lack of responses as evidence that the files no longer exist.
 
-## **I keep finding the same files everywhere**
+## I keep finding the same files everywhere
 
 This is often a sign that you have thoroughly searched the most accessible sources.
 
@@ -409,7 +409,7 @@ You can also pause the project and return later with new ideas.
 
 Finding the same files repeatedly is not necessarily wasted effort. It can help confirm their distribution history and establish which copies are identical.
 
-## **I have run out of research leads**
+## I have run out of research leads
 
 Review everything you have already collected.
 
@@ -429,7 +429,7 @@ Publish your current findings and return after a month, six months or a year.
 
 New resources, new techniques and experience from other archival projects may help you make progress later.
 
-## **I don't have enough time to finish the archive**
+## I don't have enough time to finish the archive
 
 You do not need to finish everything in one sitting or even one continuous research effort.
 
@@ -445,7 +445,7 @@ A small, well-documented archive is a worthwhile contribution.
 
 You can improve it whenever time and interest allow.
 
-## **I am worried that the archive will disappear**
+## I am worried that the archive will disappear
 
 This is a reasonable concern, particularly when you have recovered rare files that may not exist elsewhere.
 
@@ -459,7 +459,7 @@ Keep the repository simple enough that someone else could download it and contin
 
 The easier your archive is to copy, understand and reuse, the better its chances of surviving.
 
-## **I am not sure whether the archive is finished**
+## I am not sure whether the archive is finished
 
 There is no universal definition of a finished archive.
 
@@ -479,7 +479,7 @@ Publish it, maintain it when necessary and move on to another project if you wis
 
 You can always return when new information becomes available.
 
-## **Chapter Summary**
+## Chapter Summary
 
 Quake archiving involves incomplete evidence, missing files, conflicting information and research leads that sometimes go nowhere.
 

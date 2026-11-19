@@ -13,7 +13,7 @@ Publishing an archive does not require a complicated website or expensive hostin
 
 The goal is to create a public resource that is easy to find, easy to browse and easy for others to contribute to.
 
-## **14.1. Prepare the README**
+## Prepare the README
 
 The `README.md` file is the front door to your archive.
 
@@ -38,7 +38,7 @@ Keep the README relatively concise. It should be a useful entry point rather tha
 
 Visitors who want more information can follow links into the `research/` directory.
 
-## **14.2. Publish the Archive on GitHub**
+## Publish the Archive on GitHub
 
 GitHub is the recommended platform for publishing a Quake modification archive.
 
@@ -72,7 +72,7 @@ If you are new to GitHub and git, the GitHub documentation is excellent and a go
 
 * [GitHub Docs](https://docs.github.com/) (`https://docs.github.com/`)
 
-### **Why Git version control matters**
+### Why Git version control matters
 
 Git records the evolution of your archive.
 
@@ -94,7 +94,7 @@ A repository's history becomes an additional record of the archive's development
 
 However, Git version control is not a substitute for the historical documentation in `research/history.md`. Git records changes to your repository, not necessarily the original history of the modification.
 
-## **14.3. Organise the Markdown Documentation**
+## Organise the Markdown Documentation
 
 GitHub automatically renders Markdown files as readable web pages.
 
@@ -137,7 +137,7 @@ Informal research notes can remain available without being prominently advertise
 
 The aim is to make the important information discoverable without overwhelming visitors with the details of your working process.
 
-## **14.4. Publish the Recovered Files**
+## Publish the Recovered Files
 
 The most important part of the archive is the recovered files themselves.
 
@@ -169,7 +169,7 @@ Likewise, avoid modifying files inside original distribution archives.
 
 If a recovered release must be repackaged, repaired or otherwise reconstructed, clearly identify it as a derived copy and document the changes in the historical record.
 
-### **File size limits**
+### File size limits
 
 GitHub is suitable for most Quake modifications because many original releases are relatively small.
 
@@ -193,7 +193,7 @@ When using external hosting, record the original filename, file size, hash and h
 
 External links can disappear, so avoid relying on a single hosting service for the only surviving copy of an important file.
 
-## **14.5. Link Releases to Their Historical Evidence**
+## Link Releases to Their Historical Evidence
 
 The README is primarily for visitors who want to download files.
 
@@ -219,7 +219,7 @@ Instead, provide a prominent link to the project history and allow readers to ex
 
 This also helps other researchers verify your conclusions, identify mistakes and contribute new information.
 
-## **14.6. Document Missing Files and Uncertainties**
+## Document Missing Files and Uncertainties
 
 Do not wait until every release has been recovered before publishing your archive.
 
@@ -250,7 +250,7 @@ If a release date is unknown, use `?` rather than inventing a date. If the ident
 
 An archive becomes more useful when it distinguishes established facts from incomplete or speculative information.
 
-## **14.7. Credit the People Who Helped**
+## Credit the People Who Helped
 
 Quake modifications were often created by individuals or small teams working in their spare time.
 
@@ -278,7 +278,7 @@ Acknowledgements are important because archival work often depends on the genero
 
 They also demonstrate that the archive is a community effort rather than simply a collection assembled by one person.
 
-## **14.8. Explain How Others Can Help**
+## Explain How Others Can Help
 
 A public archive creates opportunities for further discoveries.
 
@@ -310,7 +310,7 @@ Keep the invitation friendly and specific.
 
 You want visitors to understand that even a single old ZIP file, screenshot or recollection could be useful.
 
-## **14.9. Make the Archive Discoverable**
+## Make the Archive Discoverable
 
 Publishing a repository does not guarantee that people will find it.
 
@@ -326,7 +326,7 @@ Mention alternative project names and common abbreviations in the README when re
 
 These details help people searching for an old modification recognise the archive.
 
-### **Share the archive with the community**
+### Share the archive with the community
 
 Once the repository is public, share it with relevant Quake communities.
 
@@ -344,7 +344,7 @@ You may find that sharing the archive leads to additional discoveries, which can
 
 Publishing is therefore not necessarily the end of your research. It can become another way to find missing material.
 
-## **14.10. Consider Copyright and Redistribution Permissions**
+## Consider Copyright and Redistribution Permissions
 
 Quake modifications are historical software, but their age does not automatically make them public domain.
 
@@ -368,7 +368,7 @@ If a rights holder contacts you with a legitimate concern, respond respectfully 
 
 The purpose of the archive is preservation, not claiming ownership of someone else's work.
 
-## **14.11. Maintain Backups and the Repository**
+## Maintain Backups and the Repository
 
 Once the archive is published, it needs occasional maintenance.
 
@@ -395,7 +395,7 @@ You may also receive corrections or contributions through GitHub Issues or other
 
 A public archive does not need constant attention, but occasional maintenance helps keep it useful and trustworthy.
 
-## **14.12. Keep the Archive Simple**
+## Keep the Archive Simple
 
 It can be tempting to build a dedicated website, searchable database or elaborate interface for your archive.
 
@@ -413,7 +413,7 @@ For now, focus on making the recovered material publicly accessible and the hist
 
 The archive's value comes from the files you have preserved and the research you have documented, not from the complexity of its website.
 
-## **Chapter Summary**
+## Chapter Summary
 
 Publishing turns your working archive into a public resource.
 

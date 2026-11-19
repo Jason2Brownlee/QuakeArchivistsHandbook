@@ -13,7 +13,7 @@ In my experience, contacting people directly has been one of the most successful
 
 This chapter describes how to identify potential contacts, organise your outreach and make the most of the connections you establish.
 
-## **11.1 Identify Who Might Have the Files**
+## Identify Who Might Have the Files
 
 Start by building a list of people who were involved with the modification or its surrounding community.
 
@@ -59,7 +59,7 @@ Identify people who have spent years collecting Quake files. Some maintain publi
 
 They may have the exact files you need, or they may know other collectors who can help. Their knowledge of historical FTP servers, mirrors and distribution networks can also provide valuable research leads.
 
-## **11.2 Find Potential Contacts**
+## Find Potential Contacts
 
 Use the information already collected during your research to identify people.
 
@@ -83,7 +83,7 @@ Do not assume that two similar usernames belong to the same person. Look for sup
 
 Also search community discussions for people who mention the modification or its developers. Someone who was not directly involved in development may still know how to contact the original team.
 
-## **11.3 Build a Contact Spreadsheet**
+## Build a Contact Spreadsheet
 
 Maintain a spreadsheet of everyone you identify. This is important because contacting people can become a substantial research activity involving dozens or even hundreds of potential contacts.
 
@@ -122,7 +122,7 @@ You can also use a CSV file or a simple Markdown table. The important thing is t
 
 I exclude spreadsheets like this from the public archive project to ensure the contact details I track down remain private. I recommend that you take a similar respectful approach.
 
-## **11.4 Exhaust Public Research Before Contacting People**
+## Exhaust Public Research Before Contacting People
 
 I recommend leaving direct personal outreach until relatively late in the research process.
 
@@ -147,7 +147,7 @@ For example, rather than asking a former developer whether they have any old Qua
 
 Prioritise the rarest and most valuable missing material. Do not ask someone to search for files that are already readily available from public archives.
 
-## **11.5 Reach Out to the Community**
+## Reach Out to the Community
 
 Before contacting individuals directly, introduce your archival project to relevant communities.
 
@@ -163,7 +163,7 @@ Community engagement can produce unexpected leads. Someone might recognise a dev
 
 Do not restrict your search to one community. Different groups have different members and historical knowledge. A mapper community might know someone who contributed maps to your modification, while a general Quake archive community might know someone who preserved its original releases.
 
-## **11.6 Contact Specific Individuals**
+## Contact Specific Individuals
 
 Once you have identified potential contacts, reach out to them individually.
 
@@ -189,7 +189,7 @@ Avoid sending a long list of questions or asking someone to undertake a substant
 
 If they respond positively, explain exactly what you are missing and ask whether they might have retained any relevant material.
 
-### **Ask about old storage media**
+### Ask about old storage media
 
 People often forget what they have retained from earlier computers. Ask specifically about old backups and storage devices.
 
@@ -209,7 +209,7 @@ Even if the original computer no longer works, its hard drive may still be reada
 
 Be specific about the likely files and approximate time period. This makes it easier for someone to decide whether looking through old storage is worthwhile.
 
-## **11.7 Be Patient, Kind and Grateful**
+## Be Patient, Kind and Grateful
 
 Remember that people are doing you a favour. They may need to spend considerable time searching through old computers, backups and storage media.
 
@@ -223,7 +223,7 @@ Also ask whether they know anyone else who might have relevant files. A referral
 
 Keep track of these referrals in your contact spreadsheet and add new people to your list.
 
-## **11.8 Expect a Low Response Rate**
+## Expect a Low Response Rate
 
 One of the most important things to understand is that contacting people is a numbers game.
 
@@ -239,7 +239,7 @@ Do not let this discourage you. A single successful contact can recover files th
 
 Work through your contact spreadsheet systematically. Try alternative contact methods when appropriate, record the results and follow referrals. Over time, even unsuccessful attempts can help establish a better picture of the people and communities involved in the modification.
 
-## **11.9 A Sample Email**
+## A Sample Email
 
 The initial email should be friendly, brief and specific. You want to explain the project, establish why you are contacting this particular person, and make it easy for them to respond. Avoid asking for everything they might possibly have in the first message.
 
@@ -265,7 +265,7 @@ It is a good idea to reach out to people after your archive has been published s
 
 If you do not receive a response within a few weeks, consider sending a gentle follow-up. Keep it low-pressure and do not simply repeat the original request. You might instead say that you are still working on the archive and would be interested to hear whether they have any fond memories of the modification, remember who was involved, or know what happened to the project. The aim is simply to make contact and invite a conversation, rather than make someone feel obliged to search through old files or respond to a request. Even if they cannot help with the specific file, they may have an interesting story, useful recollection or lead to another person who can help.
 
-### **Continue the conversation**
+### Continue the conversation
 
 The first email should focus on making contact and asking for something specific. If the person responds positively and is receptive to helping, you can gradually broaden the conversation.
 
@@ -273,7 +273,7 @@ For example, you could ask whether they have copies of other releases, including
 
 Finally, ask whether they remember other people who might be able to help. Former team members, contributors, beta testers and community members may have retained files or know where to find them. One successful contact can lead to several more, creating a network of people who can help reconstruct the project's history.
 
-## **Summary**
+## Summary
 
 People are potentially the best source of non-public Quake files. Former developers, contributors, beta testers and long-time archivists may have retained original releases, beta versions, source code, backups and documentation that cannot be found through public archives.
 
