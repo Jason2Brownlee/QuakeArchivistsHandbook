@@ -247,4 +247,7 @@ And, of course, the excitement of discovering something that has been missing fo
 
 I hope you enjoy the hunt as much as I do.
 
-**Jason Brownlee**
+**Jason Brownlee**\
+Melbourne, Australia\
+November 2026\
+https://JasonBrownlee.me
