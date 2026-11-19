@@ -1,15 +1,15 @@
-# Quake Archivist Book
+# The Quake Archivist's Handbook
 
 ## Checkout
 
 ```bash
-git clone --recurse-submodules git@github.com:Jason2Brownlee/QuakeArchivistBook.git
+git clone --recurse-submodules git@github.com:Jason2Brownlee/QuakeArchivistsHandbook.git
 ```
 
 ## Local Website
 
 ```bash
-cd QuakeArchivistBook
+cd QuakeArchivistsHandbook
 hugo server
 ```
 
