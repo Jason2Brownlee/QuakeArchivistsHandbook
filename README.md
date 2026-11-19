@@ -1,5 +1,7 @@
 # The Quake Archivist's Handbook
 
+Read online now: https://jasonbrownlee.me/QuakeArchivistsHandbook/
+
 ## Checkout
 
 ```bash
