@@ -1,6 +1,6 @@
 ---
 title: 7. Establish the Archival Record
-weight: 3
+weight: 30
 ---
 
 # 7. Establish the Archival Record

@@ -1,6 +1,6 @@
 ---
 title: 6. Design the Archive Structure
-weight: 2
+weight: 20
 ---
 
 # 6. Design the Archive Structure
