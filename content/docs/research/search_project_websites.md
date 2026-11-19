@@ -1,9 +1,9 @@
 ---
-title: Research original project websites
+title: 8. Research Original Project Websites
 weight: 1
 ---
 
-# **Chapter 4. Research original project websites**
+# 8. Research Original Project Websites
 
 In the previous chapter, you established a system for recording the history of a modification, documenting its releases and connecting discoveries to supporting evidence.
 

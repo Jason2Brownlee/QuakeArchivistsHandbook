@@ -1,9 +1,9 @@
 ---
-title: Search Usenet archives
+title: 10. Search Usenet Archives
 weight: 3
 ---
 
-# **Chapter 6. Search Usenet Archives**
+# 10. Search Usenet Archives
 
 In the previous chapters, we used original project websites and gaming news archives to reconstruct the history of a Quake modification. These sources can reveal release announcements, download links, project websites and information about the people involved.
 

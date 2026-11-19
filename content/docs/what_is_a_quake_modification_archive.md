@@ -1,9 +1,9 @@
 ---
-title: What is a Quake modification archive?
+title: 3. What is a Quake Modification Archive
 weight: 20
 ---
 
-# **What is a Quake modification archive?**
+# 3. What is a Quake Modification Archive
 
 Before creating an archive, it helps to understand exactly what you are trying to preserve.
 
@@ -11,7 +11,7 @@ A Quake modification archive is more than a collection of old downloads. It is a
 
 In this section, we'll introduce the key concepts that make up an archive and establish what a successful archive should contain.
 
-## **1. The subject of the archive: A modification**
+## The subject of the archive: A modification
 
 The first thing to understand is that a modification is not necessarily a single downloadable file.
 
@@ -36,7 +36,7 @@ All of these might be relevant to its history.
 
 **The important concept is that we are archiving a project and its history, not simply collecting ZIP files.**
 
-## **2. Releases and versions: What was distributed?**
+## Releases and versions: What was distributed?
 
 A release is a particular distribution of a modification at a particular point in its development.
 
@@ -79,7 +79,7 @@ These dates can differ considerably. For example, a magazine CD distributed in O
 
 An archive should preserve these distinctions wherever possible.
 
-## **3. The historical record: What happened and when?**
+## The historical record: What happened and when?
 
 An archive should preserve more than the files themselves. It should also attempt to reconstruct the history of the modification.
 
@@ -123,7 +123,7 @@ Some releases might be missing entirely. Others might have uncertain dates or in
 
 The objective is to reconstruct the most complete history possible from the surviving information, while clearly identifying gaps and uncertainties.
 
-## **4. Historical evidence: How do we know?**
+## Historical evidence: How do we know?
 
 Historical archiving involves making claims about events that happened decades ago.
 
@@ -160,7 +160,7 @@ It should also preserve references to the evidence supporting its historical cla
 
 **The goal is not to create a plausible history. It is to reconstruct the most accurate history supported by surviving evidence.**
 
-## **5. Files and artifacts: What exactly are we preserving?**
+## Files and artifacts: What exactly are we preserving?
 
 The actual files are the heart of a software modification archive.
 
@@ -202,7 +202,7 @@ Finally, it is useful to distinguish between:
 
 Where possible, original files should be preserved independently of any modifications made during archival work.
 
-## **6. The finished archive: What does it contain?**
+## The finished archive: What does it contain?
 
 We can now bring these concepts together.
 
@@ -229,7 +229,7 @@ It should also be possible for other people to contribute missing files, histori
 
 The result is something more useful than a folder of old downloads. It is a structured, publicly accessible historical record of a creative project.
 
-## **7. Levels of archival completeness**
+## Levels of archival completeness
 
 One final concept is worth understanding: not every archive will be equally complete.
 
@@ -261,7 +261,7 @@ These are not formal archival standards. They are simply a useful way to think a
 
 An archive does not need to be comprehensive to be valuable. Even preserving one otherwise-lost release can make a meaningful contribution.
 
-## **Summary**
+## Summary
 
 A Quake modification archive is a structured collection of files and historical information about a modification and its development.
 

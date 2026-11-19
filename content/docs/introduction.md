@@ -1,9 +1,9 @@
 ---
-title: Introduction
+title: 1. Introduction
 weight: 5
 ---
 
-# **Introduction**
+# 1. Introduction
 
 I love archiving old Quake files.
 
@@ -17,7 +17,7 @@ It is not intended to describe the only way, or even necessarily the best way, t
 
 My hope is that sharing these methods will help you create better archives, avoid some of the mistakes I have made and perhaps recover files that would otherwise remain lost.
 
-## **Why I Archive Quake**
+## Why I Archive Quake
 
 I was in high school during the mid to late 1990s, when Quake 1, Quake 2 and Quake 3 were released.
 
@@ -57,7 +57,7 @@ It is a treasure hunt where the treasure is a 30-year-old ZIP file that might me
 
 Archiving is also a way for me to give something back to a community that I loved growing up and still care about today.
 
-## **My Experience Creating Quake Archives**
+## My Experience Creating Quake Archives
 
 Over the past five or more years, I have created a large number of archives covering different aspects of Quake history.
 
@@ -127,7 +127,7 @@ This is the experience I want to share.
 
 My hope is that you can use these methods to save time, avoid unnecessary work and become more productive in your own archival projects.
 
-## **Why I Wrote This Guide**
+## Why I Wrote This Guide
 
 There are two main reasons I decided to write this guide.
 
@@ -167,7 +167,7 @@ I also suspect many of the techniques will be useful to people preserving other 
 
 The details may differ, but the underlying problems are often the same.
 
-## **Who This Guide Is For**
+## Who This Guide Is For
 
 This guide is primarily for people who want to create an archive of old Quake material.
 
@@ -197,7 +197,7 @@ I suspect a lot of people who grew up playing Quake ended up working in IT anywa
 
 In some ways, Quake archiving feels like a continuation of that experience.
 
-## **A Note About How This Guide Was Written**
+## A Note About How This Guide Was Written
 
 I used AI to help write this guide.
 
@@ -221,7 +221,7 @@ Perhaps this guide is not for you. Or perhaps you can still dip into a chapter, 
 
 I am much more interested in whether the information is useful than in how the prose was produced.
 
-## **A Final Thought Before We Begin**
+## A Final Thought Before We Begin
 
 Quake archiving can be a surprisingly deep hobby.
 

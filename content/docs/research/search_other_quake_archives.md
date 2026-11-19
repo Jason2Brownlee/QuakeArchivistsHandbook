@@ -1,9 +1,9 @@
 ---
-title: Search other Quake archives and communities
+title: 14. Search Other Quake Archives and Communities
 weight: 7
 ---
 
-# **Chapter 10. Search Other Quake Archives and Communities**
+# 14. Search Other Quake Archives and Communities
 
 The previous chapters have focused on finding files through historical websites, news archives, Usenet, CD-ROM collections, search engines and FTP mirrors. There is another important source of material: people and organisations that have already collected Quake files.
 

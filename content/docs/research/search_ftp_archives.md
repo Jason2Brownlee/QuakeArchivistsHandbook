@@ -1,9 +1,9 @@
 ---
-title: Search FTP archives and file indexes
+title: 13. Search FTP Archives and File Indexes
 weight: 6
 ---
 
-# **Chapter 9. Search FTP Archives and File Indexes**
+# 13. Search FTP Archives and File Indexes
 
 Previous chapters explored project websites, gaming news archives, Usenet, CD-ROM collections and modern search engines. Another important source of historical Quake files is the FTP archive.
 

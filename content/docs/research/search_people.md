@@ -1,9 +1,9 @@
 ---
-title: Contact People for Historical Files
+title: 15. Contact People for Historical Files
 weight: 9
 ---
 
-# **Chapter 11. Contact People for Historical Files**
+# 15. Contact People for Historical Files
 
 So far, this guide has focused primarily on finding files through websites, archives, FTP servers, CD-ROM collections and other publicly accessible sources. There is another resource that can be even more valuable: people.
 

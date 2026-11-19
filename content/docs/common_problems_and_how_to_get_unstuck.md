@@ -1,9 +1,9 @@
 ---
-title: Common Problems and How to Get Unstuck
+title: 20. Common Problems and How to Get Unstuck
 weight: 40
 ---
 
-# **Chapter 16. Common Problems and How to Get Unstuck**
+# 20. Common Problems and How to Get Unstuck
 
 Archiving old Quake modifications can be frustrating.
 

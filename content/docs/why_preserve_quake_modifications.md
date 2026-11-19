@@ -1,9 +1,9 @@
 ---
-title: Why preserve Quake modifications?
+title: 2. Why Preserve Quake Modifications
 weight: 10
 ---
 
-# **Why preserve Quake modifications?**
+# 2. Why Preserve Quake Modifications
 
 Imagine discovering that a Quake modification you played obsessively in 1998 is no longer available.
 
@@ -19,7 +19,7 @@ A piece of gaming history has been lost.
 
 In this section, we'll explore why preserving these modifications matters, why so much of this material has disappeared and how you can help ensure that it isn't forgotten.
 
-## **1. A disappearing piece of gaming history**
+## A disappearing piece of gaming history
 
 Quake modifications were an important part of the history of PC gaming.
 
@@ -39,11 +39,11 @@ Today, we can still find references to many of these projects, but the original 
 
 **Preserving these modifications helps document an important period of independent game development and the communities that grew around it.**
 
-## **2. Why does preservation matter?**
+## Why does preservation matter?
 
 There are several reasons why preserving Quake modifications is worthwhile.
 
-### **Preserve gaming history**
+### Preserve gaming history
 
 Modifications demonstrate how players extended commercial games, experimented with new ideas, built communities and created entirely new experiences using the tools available to them.
 
@@ -51,7 +51,7 @@ Some became influential in their own right. Others were important stepping stone
 
 Preserving these projects helps document the evolution of PC gaming, game development and online communities.
 
-### **Recover lost creative work**
+### Recover lost creative work
 
 Every modification represents somebody's time, creativity and technical effort.
 
@@ -61,7 +61,7 @@ When the files disappear, that work becomes inaccessible.
 
 An archive gives these creations a chance to survive long after their original websites, FTP servers and distribution channels have disappeared.
 
-### **Revisit the past**
+### Revisit the past
 
 Not everything needs to have historical significance to be worth preserving.
 
@@ -77,7 +77,7 @@ They might want to:
 
 An archive makes these experiences possible.
 
-### **Understand how projects evolved**
+### Understand how projects evolved
 
 A modification is not necessarily a single release.
 
@@ -96,7 +96,7 @@ We can answer questions such as:
 
 This turns a collection of old downloads into a historical record.
 
-### **Preserve the contributions of forgotten developers**
+### Preserve the contributions of forgotten developers
 
 Many people contributed to the Quake modding scene.
 
@@ -106,7 +106,7 @@ An archive can preserve their contributions and help reconnect projects with the
 
 It can also provide evidence of the origins and evolution of ideas that influenced later games.
 
-## **3. Why isn't somebody else doing this?**
+## Why isn't somebody else doing this?
 
 You might assume that popular modifications have already been preserved somewhere.
 
@@ -126,7 +126,7 @@ In other words, preservation does not happen automatically.
 
 Someone has to do it.
 
-## **4. What does a successful archive achieve?**
+## What does a successful archive achieve?
 
 Imagine a future Quake player, researcher or former developer discovering your archive.
 
@@ -150,7 +150,7 @@ The result is more than a backup of some old files.
 
 **It is a publicly accessible historical record of a creative project and the community that surrounded it.**
 
-## **5. Become the archivist**
+## Become the archivist
 
 You don't need to be the original developer to preserve a modification's history. You don't need to have been part of the original community, and you don't need to possess all the original files.
 
@@ -166,7 +166,7 @@ You are helping ensure that the work of people who created, shared and enjoyed t
 
 **An archive doesn't have to be comprehensive to be valuable. It just has to preserve something that might otherwise be lost.**
 
-## **Summary**
+## Summary
 
 Preserving Quake modifications matters because these projects represent an important part of gaming history, creative expression and the evolution of game development.
 

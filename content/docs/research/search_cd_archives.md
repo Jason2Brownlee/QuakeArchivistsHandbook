@@ -1,9 +1,9 @@
 ---
-title: Search CD archives and historical software collections
+title: 11. Search CD Archives and Historical Software Collections
 weight: 4
 ---
 
-# **Chapter 7. Search CD Archives and Historical Software Collections**
+# 11. Search CD Archives and Historical Software Collections
 
 In the previous chapters, we investigated original project websites, gaming news archives and Usenet discussions. These sources can reveal where a modification was announced and how it was distributed. However, they do not necessarily preserve the files themselves.
 

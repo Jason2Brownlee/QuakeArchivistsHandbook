@@ -1,7 +1,9 @@
 ---
-title: Establish the Archival Record
+title: 7. Establish the Archival Record
 weight: 3
 ---
+
+# 7. Establish the Archival Record
 
 In the previous chapter, you created a directory structure for your archive. You now have somewhere to store recovered files, research notes and information about missing releases.
 
@@ -17,7 +19,7 @@ If you do not record these discoveries systematically, you will eventually lose 
 
 This chapter introduces a practical system for turning those scattered discoveries into an organised historical record.
 
-## **3.1 The archival record**
+## The archival record
 
 The central document for your archive is:
 
@@ -42,7 +44,7 @@ These are closely related. A release announcement might establish that a new ver
 
 You should aim to record the information once and connect it to the relevant parts of the document.
 
-## **3.2 Create the history document**
+## Create the history document
 
 Start by creating a basic structure in `research/history.md`.
 
@@ -92,7 +94,7 @@ You do not need to fill in every section immediately. In fact, some sections mig
 
 The important thing is to establish the document early and update it whenever you discover something relevant.
 
-## **3.3 Create a chronology of releases**
+## Create a chronology of releases
 
 The central part of `history.md` should be a chronological account of the modification's releases.
 
@@ -190,7 +192,7 @@ The example uses fictional information. Its purpose is to show how the release r
 
 You do not need to know all these details before creating an entry. Start with what the evidence establishes, leave unknown fields blank or mark them as unknown, and update the entry as you make discoveries.
 
-### **Record the release name and version**
+### Record the release name and version
 
 Use the version number or release name as it appeared in the original material whenever possible.
 
@@ -219,7 +221,7 @@ For example:
 
 You can revise this entry later if additional evidence becomes available.
 
-### **Distinguish different kinds of dates**
+### Distinguish different kinds of dates
 
 Historical research often produces several different dates for the same release.
 
@@ -256,7 +258,7 @@ You can also distinguish between confirmed and approximate dates:
 
 The objective is to build an accurate historical record, not to make every entry appear equally certain.
 
-### **Record filenames, file sizes and hashes**
+### Record filenames, file sizes and hashes
 
 Record the original filename exactly as it was distributed.
 
@@ -288,7 +290,7 @@ This is particularly useful when comparing files recovered from magazine CDs, FT
 
 You do not need to calculate hashes for every file before starting your research. However, you should plan to include them in the relevant release entry as files are recovered and verified.
 
-### **Record the contents of distributed archives**
+### Record the contents of distributed archives
 
 A ZIP file may contain much more than the main modification.
 
@@ -316,7 +318,7 @@ For example, a readme might refer to a map that is not included in the archive. 
 
 Initially, a short description may be sufficient. For larger projects, you might maintain a separate file inventory.
 
-### **Record changelog information**
+### Record changelog information
 
 If a release includes a changelog or readme, record the important changes.
 
@@ -335,7 +337,7 @@ You do not necessarily need to reproduce every changelog in `history.md`. You ca
 
 Changelogs are particularly useful for distinguishing releases and understanding how a modification evolved.
 
-### **Record the evidence for each release**
+### Record the evidence for each release
 
 For every release, record where you found evidence of its existence and what that evidence establishes.
 
@@ -370,7 +372,7 @@ Record the source and the specific information it supports. For example:
 
 The references themselves should also be included in `research/lists/references.md`, as described later in this chapter. The release entry should make it clear which references support that particular release.
 
-### **Record other historical events separately**
+### Record other historical events separately
 
 Not every important event belongs to a release entry.
 
@@ -407,7 +409,7 @@ Record these in an optional section after the release chronology:
 
 Keep this section for events that are not already documented as part of a release. For example, do not repeat a version announcement here if it is already recorded in that version's entry.
 
-## **3.4 Maintain a list of project websites**
+## Maintain a list of project websites
 
 The project website is often one of the most valuable sources of historical information.
 
@@ -460,7 +462,7 @@ A vanished website is still historically important. Its URL may appear in announ
 
 Do not discard a URL simply because it no longer works.
 
-## **3.5 Maintain a record of historical download locations**
+## Maintain a record of historical download locations
 
 Project websites and download locations are closely related, but they are not quite the same thing.
 
@@ -541,7 +543,7 @@ Record URLs exactly as they appear in the source. Preserve the original protocol
 
 If you find a possible alternative URL, record it as a separate location.
 
-## **3.6 Create a catalogue of historical references**
+## Create a catalogue of historical references
 
 Your research will produce many sources that do not fit neatly into the release catalogue or website list.
 
@@ -607,7 +609,7 @@ A reference should ideally include:
 
 You do not need to write a full summary of every article. A short description is usually enough to remind you why the source matters.
 
-### **Why maintain a separate reference catalogue?**
+### Why maintain a separate reference catalogue?
 
 Imagine that you discover 30 historical references while researching a modification.
 
@@ -623,7 +625,7 @@ For example, you might have a list of 15 Usenet posts but only have examined fiv
 
 The reference catalogue also helps you avoid repeatedly rediscovering the same source.
 
-## **3.7 Connect discoveries to the relevant releases**
+## Connect discoveries to the relevant releases
 
 The most important principle in maintaining the archival record is that information should be connected.
 
@@ -681,7 +683,7 @@ Each discovery should help establish or clarify something about the modification
 
 You should also record the source of each claim. If you later discover that the news article was referring to a beta rather than the final release, you can revisit the evidence and correct the record.
 
-## **3.8 Record uncertainty and outstanding questions**
+## Record uncertainty and outstanding questions
 
 Historical research is rarely complete.
 
@@ -731,7 +733,7 @@ The important thing is consistency.
 
 If you use these labels, make sure they mean the same thing throughout your research documents.
 
-## **3.9 Update the record as you research**
+## Update the record as you research
 
 You should not wait until the end of your research to write the historical record.
 
@@ -780,7 +782,7 @@ This process ensures that your archival record develops alongside your research.
 
 It also means that you can stop working at any point and return later without having to reconstruct everything you discovered.
 
-## **3.10 A practical example: Starting an archival record**
+## A practical example: Starting an archival record
 
 Suppose you have chosen to archive a fictional Quake modification called *Shadow Arena*.
 
@@ -851,7 +853,7 @@ You also know what remains uncertain.
 
 This is a meaningful result. It gives you a starting point for the next stage of research.
 
-## **3.11 Your archival record checklist**
+## Your archival record checklist
 
 Before moving on, make sure your archive has a place for each of the following:
 
@@ -871,7 +873,7 @@ Before moving on, make sure your archive has a place for each of the following:
 
 You do not need to have all this information yet. The purpose is to establish a system that can accommodate it as you make discoveries.
 
-## **Chapter summary**
+## Chapter summary
 
 The archival record turns scattered research into an organised account of a modification's history.
 

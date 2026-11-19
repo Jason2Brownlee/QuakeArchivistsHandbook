@@ -1,9 +1,9 @@
 ---
-title: Design the Archive Structure
+title: 6. Design the Archive Structure
 weight: 2
 ---
 
-# **Design the Archive Structure**
+# 6. Design the Archive Structure
 
 Before you begin substantial research, establish a simple structure for storing what you discover.
 
@@ -15,7 +15,7 @@ A little organisation at the beginning makes the entire project easier.
 
 The goal of this chapter is to create a working directory that separates the archived files from the research about those files, while remaining simple enough to maintain.
 
-## **2.1 Keep the structure simple**
+## Keep the structure simple
 
 An archival project does not need a complicated database or elaborate document management system.
 
@@ -46,7 +46,7 @@ This is deliberately simple. You should be able to understand the structure imme
 
 You can add more documents and directories as the project grows, but there is no need to anticipate every possible research activity in advance.
 
-## **2.2 The project README**
+## The project README
 
 The `README.md` file is the main entry point to your archive.
 
@@ -110,7 +110,7 @@ The README should be updated as the archive grows. When you recover a missing re
 
 Think of it as the public catalogue for your archive.
 
-## **2.3 The bin directory**
+## The bin directory
 
 The `bin/` directory contains the actual files you have recovered.
 
@@ -142,7 +142,7 @@ For now, you do not need a complicated directory hierarchy inside `bin/`. A flat
 
 If the collection eventually becomes very large, you can introduce subdirectories for games, releases or file types. Do this when there is a practical reason, not simply because the archive has started to grow.
 
-## **2.4 The research directory**
+## The research directory
 
 The `research/` directory contains the information you collect while investigating the project.
 
@@ -168,7 +168,7 @@ research/
 
 Each has a specific purpose.
 
-### **history.md**
+### history.md
 
 This is the main historical record of the project.
 
@@ -226,7 +226,7 @@ The references section provides a convenient place to record useful sources. You
 
 As the project grows, you may decide to move some of these sections into separate research documents. For now, keeping them together makes the archive easier to manage.
 
-### **notes.txt**
+### notes.txt
 
 This is your informal working notebook.
 
@@ -263,7 +263,7 @@ Do not spend time deciding exactly where every observation belongs. Put it in yo
 
 One useful habit is to include dates when recording important discoveries. This helps you remember when and how a particular research lead emerged.
 
-### **wishlist.txt**
+### wishlist.txt
 
 This file records files that you know or suspect exist but have not yet acquired.
 
@@ -301,7 +301,7 @@ It also helps prevent an important problem: forgetting that you once found a ref
 
 As you recover files, update the wishlist and remove or mark the corresponding entries as acquired.
 
-### **wishlist_urls.txt**
+### wishlist_urls.txt
 
 This file records historical URLs for files that you have not yet recovered.
 
@@ -335,7 +335,7 @@ That distinction is important when reconstructing a project's distribution histo
 
 Your wishlist URLs may be invaluable later when searching archived alternate mirrors for popular download locations. We'll explore how to do this later with the wayback machine.
 
-## **2.5 Keep research evidence and file metadata connected**
+## Keep research evidence and file metadata connected
 
 The initial structure deliberately keeps things simple. However, two important types of information will become increasingly significant as your research progresses.
 
@@ -421,7 +421,7 @@ A CSV file can be opened in a spreadsheet or processed with a small script. It a
 
 The important point is to keep the actual files in `bin/` and the information describing those files in your research documents.
 
-## **2.6 Distinguish verified information from research leads**
+## Distinguish verified information from research leads
 
 Not everything you discover will be equally reliable.
 
@@ -473,7 +473,7 @@ This distinction is particularly important when multiple sources disagree. A dat
 
 Preserving uncertainty is better than inventing precision.
 
-## **2.7 Allow the structure to grow**
+## Allow the structure to grow
 
 The directory structure introduced in this chapter is a starting point, not a rigid specification.
 
@@ -527,7 +527,7 @@ Do not create dozens of empty documents at the beginning. Start small, and expan
 
 A good archive structure should reflect the research you are actually doing.
 
-## **2.8 Keep working material separate from the published archive**
+## Keep working material separate from the published archive
 
 There is an important distinction between the information you collect while researching and the information you eventually publish.
 
@@ -555,7 +555,7 @@ The choice is yours.
 
 The important thing is to avoid confusing temporary research material with the finished archive.
 
-## **2.9 Your first working directory**
+## Your first working directory
 
 You are now ready to create the initial directory structure.
 
@@ -595,7 +595,7 @@ The goal is simply to establish a place where future discoveries can be recorded
 
 As you work through the research chapters, you will gradually populate these documents, add new ones where needed and build a more complete archival record.
 
-## **Chapter summary**
+## Chapter summary
 
 A simple and consistent directory structure makes an archival project easier to research, maintain and publish.
 

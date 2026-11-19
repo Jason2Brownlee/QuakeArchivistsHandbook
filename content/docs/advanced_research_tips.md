@@ -1,10 +1,10 @@
 ---
-title: "Advanced Research Tips"
+title: 21. Advanced Research Tips
 weight: 50
 ---
 
 
-# **Chapter 17. Advanced Research Tips**
+# 21. Advanced Research Tips
 
 By this point, you should have some experience researching Quake modifications, recovering historical files and building an archive.
 

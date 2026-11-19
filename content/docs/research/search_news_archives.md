@@ -1,9 +1,9 @@
 ---
-title: Research gaming news archives
+title: 9. Research Gaming News Archives
 weight: 2
 ---
 
-# **Chapter 5. Research gaming news archives**
+# 9. Research Gaming News Archives
 
 In the previous chapter, you learned how to investigate original project websites and use the Wayback Machine to reconstruct their public-facing history.
 

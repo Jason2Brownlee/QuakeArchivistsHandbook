@@ -1,9 +1,9 @@
 ---
-title: Build tools to automate research
+title: 16. Build Tools to Automate Research
 weight: 10
 ---
 
-# **Chapter 12. Build Tools to Automate Research**
+# 16. Build Tools to Automate Research
 
 Most of the research in this guide can be performed manually using a web browser, search engines, archive websites and file utilities. This is a perfectly reasonable way to begin. However, as an archive grows, some tasks become repetitive and time-consuming. You may find yourself downloading hundreds of historical webpages, searching thousands of files, calculating hashes or comparing directory listings.
 

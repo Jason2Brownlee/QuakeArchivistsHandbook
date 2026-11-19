@@ -1,9 +1,9 @@
 ---
-title: Publish the Archive
+title: 18. Publish the Archive
 weight: 2
 ---
 
-# **Chapter 14. Publish the Archive**
+# 18. Publish the Archive
 
 After researching the modification, recovering its files and reconstructing its release history, the next step is to make the archive publicly available.
 

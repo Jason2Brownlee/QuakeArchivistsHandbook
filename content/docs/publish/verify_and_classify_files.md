@@ -1,9 +1,9 @@
 ---
-title: Verify, Classify and Connect Discoveries
+title: 17. Verify, Classify and Connect Discoveries
 weight: 1
 ---
 
-# **Chapter 13. Verify, Classify and Connect Discoveries**
+# 17. Verify, Classify and Connect Discoveries
 
 By this stage, you should have recovered files from a variety of sources, including original project websites, news archives, FTP servers, magazine CDs, community collections and individual contributors. You may also have accumulated historical webpages, readme files, announcements and other evidence.
 

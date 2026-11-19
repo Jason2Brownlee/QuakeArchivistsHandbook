@@ -1,10 +1,10 @@
 ---
-title: Choose an Archive Topic
+title: 5. Choose an Archive Topic
 weight: 1
 ---
 
 
-# **Choose an Archive Topic**
+# 5. Choose an Archive Topic
 
 Before you start searching for old websites, downloading files or reconstructing release histories, you need to decide exactly what you are trying to preserve.
 
@@ -12,7 +12,7 @@ This might sound like a simple decision, but it has a significant effect on the 
 
 The goal of this chapter is to help you choose a worthwhile topic, understand the trade-offs between different project sizes and define clear boundaries for your archive.
 
-## **1.1 What makes a good archive topic?**
+## What makes a good archive topic?
 
 A good archive topic is one that has some historical, technical or community value and is practical enough for you to make progress.
 
@@ -33,11 +33,11 @@ That is a promising starting point.
 
 However, interest alone is not enough. You should also consider whether the project is manageable. A topic can be fascinating but so broad that you never finish documenting it.
 
-## **1.2 Different ways to define an archive topic**
+## Different ways to define an archive topic
 
 There are several useful ways to approach an archive. Each produces a different kind of preservation project.
 
-### **A specific modification**
+### A specific modification
 
 The simplest approach is to choose one particular modification and document its history and releases.
 
@@ -55,7 +55,7 @@ This is often the best starting point for a first archive. You have a reasonably
 
 For example, an Action Quake archive might aim to identify every known public release of the original modification, recover surviving downloads and reconstruct the project's development history.
 
-### **A category of modifications**
+### A category of modifications
 
 Instead of choosing one project, you could archive a particular category of modifications.
 
@@ -76,7 +76,7 @@ The challenge is deciding which projects qualify. Does a bot need to be a standa
 
 Category archives therefore require more careful scope definition than archives of individual modifications.
 
-### **A developer or development team**
+### A developer or development team
 
 Another approach is to follow the work of a particular developer or team.
 
@@ -98,7 +98,7 @@ This approach can reveal connections between projects that would otherwise be mi
 
 It can also be challenging. Developers sometimes used different usernames, collaborated under team names or contributed anonymously. Identifying all their work may require considerable investigation.
 
-### **A historical collection**
+### A historical collection
 
 You could define your archive around a particular period of Quake modding.
 
@@ -117,7 +117,7 @@ The main difficulty is that historical periods are not always neatly separated. 
 
 You will need to decide whether the archive is based on the original release date, the development period or some other criterion.
 
-### **A distribution source**
+### A distribution source
 
 You can also build an archive around a particular place where modifications were distributed.
 
@@ -137,7 +137,7 @@ A distribution-source archive may also reveal obscure modifications that would n
 
 The main challenge is that the collection may contain many unrelated projects. You will need to decide whether you are preserving the original distribution as a whole, documenting every file or extracting and documenting individual modifications.
 
-## **1.3 Choose between a quick archive and a comprehensive archive**
+## Choose between a quick archive and a comprehensive archive
 
 Not every preservation project needs to become a major research undertaking.
 
@@ -185,7 +185,7 @@ You might begin by preserving the contents of a single magazine CD. Several mont
 
 The important thing is to preserve what you have found rather than postpone the work until you have enough information to create a perfect archive.
 
-## **1.4 Understand the trade-off between narrow and broad topics**
+## Understand the trade-off between narrow and broad topics
 
 One of the most important decisions is how much material your archive will cover.
 
@@ -220,7 +220,7 @@ Neither approach is inherently better.
 
 A useful strategy is to begin with a narrow topic and design the archive so that it can grow. You could start with one modification, then add related projects once you understand the research process and have a working archival structure.
 
-## **1.5 Define the boundaries of the archive**
+## Define the boundaries of the archive
 
 Once you have selected a topic, you need to decide exactly what belongs in the archive.
 
@@ -236,7 +236,7 @@ There is no universally correct answer. The important thing is to make the decis
 
 Here are some boundaries you might define.
 
-### **Related games and sequels**
+### Related games and sequels
 
 Decide whether your archive covers only one game or includes related projects for other Quake titles.
 
@@ -244,7 +244,7 @@ For example, an archive of Quake 1 modifications might exclude Quake 2 and Quake
 
 Alternatively, you could deliberately create a broader archive covering a modification series across multiple games.
 
-### **Related maps and content**
+### Related maps and content
 
 Decide whether to include maps, models, skins, sounds and other content created for the modification.
 
@@ -252,7 +252,7 @@ You might choose to include only official releases, or also preserve community-c
 
 A map designed specifically for a particular modification might be an important part of its history, even if it was distributed separately.
 
-### **Patches and supplementary files**
+### Patches and supplementary files
 
 Decide whether to include patches, fixes, server updates, configuration files and other supplementary downloads.
 
@@ -260,7 +260,7 @@ These files can be important because they document how a project evolved and how
 
 For example, a modification might have a main release followed by several small updates distributed separately. If you preserve only the main download, you may miss important parts of its release history.
 
-### **Third-party contributions**
+### Third-party contributions
 
 Decide whether to include work created by people outside the original development team.
 
@@ -276,7 +276,7 @@ This might include:
 
 You could include these in the main archive or document them in a separate section.
 
-### **Derivative projects**
+### Derivative projects
 
 Some modifications inspire other projects or are adapted by other developers.
 
@@ -286,7 +286,7 @@ For example, a project might use the original modification's code, assets or gam
 
 A useful distinction is between the original project and related projects. You can document the relationship without necessarily treating every derivative as part of the original archive.
 
-## **1.6 Write down the scope**
+## Write down the scope
 
 Do not leave the boundaries of your archive as informal assumptions. Write them down before beginning substantial research.
 
@@ -322,7 +322,7 @@ For example, you might initially exclude unofficial patches, then discover that 
 
 The purpose of defining boundaries is not to prevent the archive from growing. It is to make sure that growth happens deliberately rather than allowing the project to expand without direction.
 
-## **1.7 Avoid making the project too ambitious**
+## Avoid making the project too ambitious
 
 A common mistake is to begin with an enormous objective.
 
@@ -351,7 +351,7 @@ You should also remember that archival completeness is often impossible to estab
 
 Your objective is to create the best record you reasonably can, not to guarantee that every historical artifact has been recovered.
 
-## **1.8 Your first archival decision**
+## Your first archival decision
 
 Before moving on, make a decision about the topic you want to archive.
 
@@ -367,7 +367,7 @@ For now, write a short project definition containing:
 6. **First milestone:** What is the smallest useful result you want to publish?
 
 
-## **Chapter summary**
+## Chapter summary
 
 Choosing an archive topic is the first step in turning an interest in Quake history into a practical preservation project.
 

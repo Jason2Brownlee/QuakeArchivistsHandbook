@@ -1,9 +1,9 @@
 ---
-title: Maintain and Improve the Archive
+title: 19. Maintain and Improve the Archive
 weight: 3
 ---
 
-# **Chapter 15. Maintain and Improve the Archive**
+# 19. Maintain and Improve the Archive
 
 Publishing your archive is an important milestone, but it does not necessarily mean the project is finished.
 

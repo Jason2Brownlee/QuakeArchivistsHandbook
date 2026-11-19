@@ -1,10 +1,10 @@
 ---
-title: Search the modern web and search engines
+title: 12. Search the Modern Web and Search Engines
 weight: 5
 ---
 
 
-# **Chapter 8. Search the Modern Web and Search Engines**
+# 12. Search the Modern Web and Search Engines
 
 In the previous chapters, we investigated historical project websites, gaming news archives, Usenet discussions and physical media. These sources provide valuable evidence, but they are only part of the picture.
 
