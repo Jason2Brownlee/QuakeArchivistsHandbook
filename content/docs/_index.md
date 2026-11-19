@@ -17,7 +17,7 @@ Maybe it's buried on a forgotten FTP mirror. Hidden inside an old magazine CD. S
 
 **Finding it is a treasure hunt. And this book shows you how.**
 
-In the 1990s, Quake 1, Quake 2 and Quake 3 inspired an explosion of creativity. Thousands of mods, bots, maps, total conversions and utilities were created and shared by enthusiastic developers around the world.
+In the 1990s, Quake 1, Quake II and Quake III Arena inspired an explosion of creativity. Thousands of mods, bots, maps, total conversions and utilities were created and shared by enthusiastic developers around the world.
 
 Then the websites disappeared. FTP servers shut down. Download links broke. Entire projects were lost to time.
 

@@ -9,7 +9,7 @@ I love archiving old Quake files.
 
 For me, it is part nostalgia, part historical research and part treasure hunt. There is something incredibly satisfying about finding a file that has been missing for decades, identifying an unknown release or reconstructing the history of a modification that has almost disappeared from the internet.
 
-I have been creating and maintaining Quake archives for more than five years, covering Quake 1, Quake 2 and Quake 3. During that time, I have developed a collection of research techniques, tools and habits that help me find old files and make sense of incomplete historical information.
+I have been creating and maintaining Quake archives for more than five years, covering Quake 1, Quake II and Quake III Arena. During that time, I have developed a collection of research techniques, tools and habits that help me find old files and make sense of incomplete historical information.
 
 This guide brings together everything I have learned.
 
@@ -25,7 +25,7 @@ These games had an enormous impact on me.
 
 It was an exciting time to be interested in computers and games. The internet was still relatively new to most people, and Quake had an incredible community of players, programmers, artists and hobbyists creating new things.
 
-There were modifications that changed how the games played, bots that allowed you to fight computer-controlled opponents, new maps, utilities, total conversions and all kinds of experiments.
+There were modifications that changed how the games were played, bots that allowed you to fight computer-controlled opponents, new maps, utilities, total conversions and all kinds of experiments.
 
 You could download something new, try it out and then look for something else. There was always another project, another update or another interesting idea.
 
@@ -69,9 +69,9 @@ For example, I maintain archives of the official releases of the three Quake gam
 
 - [Quake Official Archive](https://github.com/Jason2Brownlee/QuakeOfficialArchive)\
 	`https://github.com/Jason2Brownlee/QuakeOfficialArchive`
-- [Quake 2 Official Archive](https://github.com/Jason2Brownlee/Quake2OfficialArchive)\
+- [Quake II Official Archive](https://github.com/Jason2Brownlee/Quake2OfficialArchive)\
 	`https://github.com/Jason2Brownlee/Quake2OfficialArchive`
-- [Quake 3 Official Archive](https://github.com/Jason2Brownlee/Quake3OfficialArchive)\
+- [Quake III Arena Official Archive](https://github.com/Jason2Brownlee/Quake3OfficialArchive)\
 	`https://github.com/Jason2Brownlee/Quake3OfficialArchive`
 
 I have also spent considerable time researching historical Quake bots, including:
@@ -81,7 +81,7 @@ I have also spent considerable time researching historical Quake bots, including
 - [Quake 2 Bot Archive](https://github.com/Jason2Brownlee/Quake2BotArchive)\
 	`https://github.com/Jason2Brownlee/Quake2BotArchive`
 
-Other projects focus on particular modifications and their development history:
+Other projects focus on particular modifications and their development history include:
 
 - [ThreeWave Capture The Flag Archive](https://github.com/Jason2Brownlee/ThreeWaveCTF)\
 	`https://github.com/Jason2Brownlee/ThreeWaveCTF`
