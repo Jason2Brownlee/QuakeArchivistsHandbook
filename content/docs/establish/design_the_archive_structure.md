@@ -46,7 +46,12 @@ This is deliberately simple. You should be able to understand the structure imme
 
 You can add more documents and directories as the project grows, but there is no need to anticipate every possible research activity in advance.
 
-## The project README
+I generally recommend markdown (`.md` files) for documentation (e.g. readme and history) as it gives a little more flexibility over plain text. If you are new to markdown, you can get started here:
+
+* [Markdown, Wikipedia](https://en.wikipedia.org/wiki/Markdown)\
+    `https://en.wikipedia.org/wiki/Markdown`
+
+## The project `README.md`
 
 The `README.md` file is the main entry point to your archive.
 
@@ -64,7 +69,7 @@ A useful README might contain the following sections:
 - **Credits and references:** Acknowledgements and links to important historical sources.
 - **Outstanding gaps:** A brief note about important missing releases or unresolved questions.
 
-For example, a simplified README for an Action Quake archive might look like this:
+For example, a simplified `README.md` for an Action Quake archive might look like this:
 
 ```
 # Action Quake Archive
@@ -110,13 +115,15 @@ The README should be updated as the archive grows. When you recover a missing re
 
 Think of it as the public catalogue for your archive.
 
-## The bin directory
+## The `bin/` directory
 
 The `bin/` directory contains the actual files you have recovered.
 
 The name is short and convenient, although you could use `files/` or `downloads/` if you prefer.
 
-For a Quake modification archive, this directory might contain:
+For a Quake modification archive, this directory might contain file types like `.zip`, `.txt`, `.exe`. and more.
+
+For example:
 
 ```
 bin/
@@ -142,7 +149,18 @@ For now, you do not need a complicated directory hierarchy inside `bin/`. A flat
 
 If the collection eventually becomes very large, you can introduce subdirectories for games, releases or file types. Do this when there is a practical reason, not simply because the archive has started to grow.
 
-## The research directory
+For example, in the Quake Bot Archive, a separate subdirectory is added to the `bin/` directory for each bot to house quake bot route files that are required but a given bot to navigating popular deathmatch maps:
+
+```
+bin/
+    reaper/
+    frogbot/
+    frikbot/
+    ...
+```
+
+
+## The `research/` directory
 
 The `research/` directory contains the information you collect while investigating the project.
 
@@ -168,7 +186,7 @@ research/
 
 Each has a specific purpose.
 
-### history.md
+### `history.md`
 
 This is the main historical record of the project.
 
@@ -226,11 +244,11 @@ The references section provides a convenient place to record useful sources. You
 
 As the project grows, you may decide to move some of these sections into separate research documents. For now, keeping them together makes the archive easier to manage.
 
-### notes.txt
+### `notes.txt`
 
 This is your informal working notebook.
 
-Use it to record discoveries, ideas, questions and observations that do not yet belong in the formal historical record.
+Use it to record discoveries, ideas, todos, questions and observations that do not yet belong in the formal historical record.
 
 For example:
 
@@ -263,13 +281,13 @@ Do not spend time deciding exactly where every observation belongs. Put it in yo
 
 One useful habit is to include dates when recording important discoveries. This helps you remember when and how a particular research lead emerged.
 
-### wishlist.txt
+### `wishlist.txt`
 
 This file records files that you know or suspect exist but have not yet acquired.
 
 It is particularly useful for tracking incomplete releases and missing downloads.
 
-When talking with other quake archivists, you may be asked: "What files do you need?" You may immediately share your `wishlist.txt` file in response.
+When talking with other quake archivists, you may be asked: "_What files do you need?_" You may immediately share your `wishlist.txt` file in response.
 
 I like to keep my `wishlist.txt` machine readable with comment lines prepended with a `#` and only the filenames exposed. This allows us to later write a script that reads the file and automatically checks resources for reference to wanted files.
 
@@ -279,15 +297,13 @@ For example:
 # Known missing files
 
 # Referenced in a December 1997 announcement.
-# Original download not yet located.
 aq07.zip
 
 # Mentioned in a contemporary review.
-# May have been distributed separately.
 aq10_patch.zip
 
 # Referenced in a server installation guide.
-# No surviving copy found.
+# guessed filename
 aq_server_linux.tar.gz
 ```
 
@@ -301,7 +317,7 @@ It also helps prevent an important problem: forgetting that you once found a ref
 
 As you recover files, update the wishlist and remove or mark the corresponding entries as acquired.
 
-### wishlist_urls.txt
+### `wishlist_urls.txt`
 
 This file records historical URLs for files that you have not yet recovered.
 
@@ -358,12 +374,12 @@ You should record enough information to find each source again. This normally in
 
 Initially, you can record references directly in `history.md`. For example, evidence of a release file size and timestamp can be captured from archived HTML pages that show FTP archives. These can be copy-and-pasted into `history.md` under the heading for the given version number:
 
-```text
+```
 btskn22.txt            04-Nov-96 21:37     7k
 btskn22.zip            04-Nov-96 21:39   383k
 ```
 
-If you begin collecting copious amounts evidence for a large number of releases, you can add a dedicated directory:
+If you begin collecting copious amounts of evidence for a large number of releases, you can add a dedicated directory:
 
 ```
 research/
@@ -394,13 +410,13 @@ You do not need to create a separate metadata catalogue immediately. You can beg
 
 The contents of archive files can be queried and stored in text sections using a command like:
 
-```bash
+```
 tar tvf as-1.52-x86-win32.zip
 ```
 
 Which gives a listing of the contents of the archive with file sizes and timestapms, for example:
 
-```text
+```
 -rw-rw-r--  0 0      0       20608 21 Jul  1999 CHANGES
 -rw-rw-r--  0 0      0       11355 21 Jul  1999 README
 -rw-rw-r--  0 0      0      437248 21 Jul  1999 gamex86.dll
