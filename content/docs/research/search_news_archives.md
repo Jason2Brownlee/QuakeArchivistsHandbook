@@ -27,7 +27,7 @@ Some particularly useful sources for Quake-related research include:
 
 - **PlanetQuake** (`planetquake.com`): A major Quake community site with project pages, news and links to modifications.
 - **Telefragged** (`telefragged.com`): A Quake-focused website that covered community projects and related news.
-- **Blue's News** (`bluesnews.com`): A long-running PC gaming news site that reported on Quake modifications, patches, downloads and other gaming developments.
+- **Blue's News** (`bluesnews.com`): A long-running PC gaming news site that reported on Quake modifications, patches, downloads and other gaming developments. Still active!
 - **Redwoods News** (`redwood.stomped.com`): A historical gaming news source with coverage of Quake and its community.
 - **Shacknews** (`shacknews.com`), formerly Shugashack: A PC gaming news site that covered games, modifications and community developments.
 
@@ -43,7 +43,7 @@ You can discover additional news sites through links from:
 - Contemporary gaming news articles.
 - Historical link directories.
 
-Record relevant websites and their URLs in your research notes. You can investigate each one using the same general approach as the original project websites in Chapter 4.
+Record relevant websites and their URLs in your research notes. You can investigate each one using the same general approach as the original project websites in the previous chapter.
 
 ## Find archived versions of gaming news websites
 
@@ -114,7 +114,7 @@ These are illustrative paths. The actual structure will vary between websites.
 
 Use the Wayback Machine to inspect these URLs individually. An archive page may have been captured even if the corresponding main news page was not.
 
-You can also use the CDX interface described in Chapter 4 to discover archived URLs beneath a news site's domain.
+You can also use the CDX interface described in previous chapters to discover archived URLs beneath a news site's domain.
 
 The important point is to investigate both the front page and the site's historical archives. A main page capture might be missing an article that survives in a dedicated archive, or an archive page might be incomplete while the original headline remains visible on an older main page.
 
@@ -159,7 +159,7 @@ Action
 
 A modification might be referred to by a shortened name, an acronym or a slightly different title.
 
-Search for developer names as well. A news site might report on a release under the developer's name rather than the project's name.
+Search for developer names as well. A news site might report on a release under the developer's name or project team name, rather than the project's name.
 
 If the page contains many stories, searching can quickly identify relevant headlines. Open each promising result and examine the full article.
 

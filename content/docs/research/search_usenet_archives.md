@@ -40,7 +40,7 @@ For a Quake archivist, Usenet is valuable because it provides contemporary evide
 
 ## Google Groups
 
-Google Groups (`https://groups.google.com`) is the most useful starting point for searching historical Usenet discussions. Google acquired the Deja News Usenet archive in 2001 and incorporated its collection into Google Groups.
+[Google Groups](https://groups.google.com) (`https://groups.google.com`) is the most useful starting point for searching historical Usenet discussions. Google acquired the Deja News Usenet archive in 2001 and incorporated its collection into Google Groups.
 
 Google Groups provides access to a substantial archive of historical Usenet messages. It allows you to search for terms, browse newsgroups and read individual messages.
 
@@ -90,7 +90,10 @@ Each of these details can lead to further research.
 
 ## Search Google Groups
 
-Start by visiting Google Groups (`https://groups.google.com`).
+Start by visiting Google Groups:
+
+* [Google Groups](https://groups.google.com)\
+	`https://groups.google.com`
 
 Enter the modification's name into the search box. Google Groups searches message subjects and message contents, allowing you to find both formal announcements and less obvious discussions.
 
@@ -270,7 +273,7 @@ Search for alternative Usenet archives and investigate any that appear relevant 
 
 Useful places to look include:
 
-- **Internet Archive:** `https://archive.org/` contains collections of historical Usenet messages and related data. Some collections are available as downloadable files rather than searchable webpages.
+- **Internet Archive:** (`https://archive.org/`) contains collections of historical Usenet messages and related data. Some collections are available as downloadable files rather than searchable webpages.
 - **Historical Usenet archive websites:** Various websites have preserved newsgroup messages and made them searchable through their own interfaces.
 - **Community archives:** Older gaming communities sometimes retained Usenet discussions as part of their own historical resources.
 - **Personal collections:** Individuals occasionally publish collections of messages or old newsgroup data.
