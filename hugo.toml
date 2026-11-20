@@ -11,6 +11,12 @@ theme = 'hugo-book'
   [caches.images]
     dir = ':cacheDir/images'
 
+
+[[menu.before]]
+  name = "Book Description"
+  url = "/docs/"
+  weight = 1
+
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences

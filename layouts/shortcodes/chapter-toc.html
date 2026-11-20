@@ -1,0 +1,19 @@
+{{- $bookSection := .Site.Params.BookSection | default "docs" -}}
+{{- $section := .Site.GetPage $bookSection -}}
+
+<div class="chapter-toc">
+  <ul>
+    {{- range $section.Pages.ByWeight }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- if .Pages }}
+          <ul>
+            {{- range .Pages.ByWeight }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end }}
+          </ul>
+        {{- end }}
+      </li>
+    {{- end }}
+  </ul>
+</div>

@@ -11,7 +11,19 @@ Welcome! You have discovered:
 
 Written by Jason Brownlee in November 2026.
 
+## Read
+
 * [Read Online Now](docs/)
 
+## Table of Contents
 
+{{< chapter-toc >}}
+
+## Feedback
+
+Feedback is welcome, reach out any time:
+
+Jason Brownlee\
+Homepage: [https://JasonBrownlee.me](https://jasonbrownlee.me/)\
+Email: [Jason.Brownlee05@gmail.com](mailto:Jason.Brownlee05@gmail.com)
 
