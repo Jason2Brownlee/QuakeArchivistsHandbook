@@ -1,6 +1,6 @@
 ---
 title: "Interlude: Don't Forget the Basics"
-weight: 11
+weight: 51
 ---
 
 # Interlude: Don't Forget the Basics

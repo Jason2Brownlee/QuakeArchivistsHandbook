@@ -1,6 +1,6 @@
 ---
 title: 10. Search Usenet Archives
-weight: 3
+weight: 30
 ---
 
 # 10. Search Usenet Archives

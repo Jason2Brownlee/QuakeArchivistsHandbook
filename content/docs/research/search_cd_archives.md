@@ -1,6 +1,6 @@
 ---
 title: 11. Search CD Archives and Historical Software Collections
-weight: 4
+weight: 40
 ---
 
 # 11. Search CD Archives and Historical Software Collections

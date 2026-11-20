@@ -1,6 +1,6 @@
 ---
 title: 13. Search FTP Archives and File Indexes
-weight: 6
+weight: 60
 ---
 
 # 13. Search FTP Archives and File Indexes
@@ -11,23 +11,6 @@ During the 1990s, FTP servers were a major way to distribute game modifications,
 
 This chapter explains how to find those surviving archives, search their directory structures, use FTP file indexes, and recover evidence about where and when files were distributed.
 
-## Understand Historical FTP Archives
-
-FTP stands for File Transfer Protocol. It was widely used to distribute files before modern web hosting and download platforms became common.
-
-Quake communities relied on a network of FTP servers and mirrors. A developer might upload a release to one archive, which would then be copied to several mirrors around the world. News sites and project homepages often linked directly to these files.
-
-Several important historical Quake archives became well-known distribution locations:
-
-- **idgames** was a major archive of user-created content for id Software games. It included Quake maps, modifications, utilities and other files.
-- **idgames2** was a directory and archive collection associated with Quake-engine games. It is commonly encountered in historical FTP paths and mirror listings.
-- **PlanetQuake** was a major Quake community website and file distribution service. Its FTP archive hosted a large collection of Quake-related content.
-- **Telefragged** was another Quake community website and file archive, with downloadable modifications and related material.
-- **Games Domain** was a general PC gaming website that also maintained downloadable game files.
-
-These names refer to archives and distribution services, not individual modifications. A modification might have been hosted on its developer's website, submitted to one of these archives, and copied to several mirrors.
-
-This distinction matters when reconstructing a project's history. Finding a file in an archive tells you where a copy was distributed. It does not necessarily identify the original developer or the first place the file was published.
 
 ## Understand Historical FTP Archives
 
@@ -37,11 +20,11 @@ Quake communities relied on a network of FTP servers and mirrors. Developers upl
 
 Several important historical archives became well-known distribution locations:
 
+- **idgames** was a related archive for Doom-engine games, including Doom, Heretic and Hexen. Almost certainly not relevant to Quake modifications, but mentioned for completeness.
 - **idgames2** was a major archive of files for Quake-engine games. It included Quake maps, modifications, utilities and other content.
 - **PlanetQuake** was a major Quake community website and hosting service. It hosted individual modification websites and maintained an FTP archive of their files.
 - **Telefragged** was another Quake community website and hosting service, with downloadable modifications and related material.
 - **Games Domain** was a general PC gaming website that also maintained downloadable game files.
-- **idgames** was a related archive for Doom-engine games, including Doom, Heretic and Hexen.
 
 The distinction between these archives is important. PlanetQuake and Telefragged hosted individual community projects, while idgames2 was organised primarily as a central file archive. These different arrangements are reflected in their directory structures, which can help guide your research.
 
@@ -68,6 +51,22 @@ Gamers.org hosts mirrors of several historical gaming FTP archives. Examples inc
 - [idgames2 archive](https://www.gamers.org/pub/idgames2/)\
 	`https://www.gamers.org/pub/idgames2/`
 
+The Gamers.org `idgames2/` directory for Quake and related games is mirrored in many places, such as:
+
+- ftp://ftp.fu-berlin.de/pc/games/idgames2/
+- https://ftp.fu-berlin.de/pc/games/idgames2/
+- https://www.quaddicted.com/files/idgames2/
+- https://ftpmirror1.infania.net/pub/idgames2/
+- https://mirror.braindrainlan.nu/pub/idgames2/
+- https://files.xvertigox.com/idgames2/
+
+Some of these mirrors are more or less reliable than others, and some may disappear by the time you read this.
+
+For more information on mirrors see:
+
+- [Gamers.org Community Archives](https://www.gamers.org/ftp/archives.html)\
+	`https://www.gamers.org/ftp/archives.html`
+
 **Dukeworld**
 
 Dukeworld preserves files from several historical gaming archives, including a PlanetQuake and Telefragged mirrors.
@@ -75,12 +74,24 @@ Dukeworld preserves files from several historical gaming archives, including a P
 - [Dukeworld Downloads](https://dukeworld.com/)\
 	`https://dukeworld.com/`
 
+Specifically:
+
+- https://dukeworld.com/idgames2/
+- https://dukeworld.com/planetquake/
+- https://dukeworld.com/telefragged/
+
 **Quaddicted**
 
 Quaddicted maintains a large collection of Quake files, including modifications, maps and other content. Its file archive and associated mirrors are particularly useful when researching Quake 1.
 
 - [Quaddicted Files](https://www.quaddicted.com/files/)\
 	`https://www.quaddicted.com/files/`
+
+The Quaddicted file archive is large and is being added to in an ad hoc manner.
+
+You can download a compressed archive file that contains a full and up-to-date list of all files and directories on Quaddicted here:
+
+- https://www.quaddicted.com/files/ls-goalR_cut.xz
 
 ### Understand how the archives organise their files
 

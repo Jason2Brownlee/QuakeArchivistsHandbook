@@ -1,6 +1,6 @@
 ---
 title: 9. Research Gaming News Archives
-weight: 2
+weight: 20
 ---
 
 # 9. Research Gaming News Archives

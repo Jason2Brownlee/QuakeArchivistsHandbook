@@ -1,6 +1,6 @@
 ---
 title: 16. Build Tools to Automate Research
-weight: 10
+weight: 100
 ---
 
 # 16. Build Tools to Automate Research

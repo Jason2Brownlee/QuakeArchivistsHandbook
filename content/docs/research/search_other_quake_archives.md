@@ -1,6 +1,6 @@
 ---
 title: 14. Search Other Quake Archives and Communities
-weight: 7
+weight: 70
 ---
 
 # 14. Search Other Quake Archives and Communities
@@ -107,7 +107,66 @@ Some collectors have organised their files carefully. Others have accumulated la
 
 Look for references to personal collections in old forum posts, website announcements, readmes, FTP welcome messages and community discussions. A developer might have mentioned keeping an archive of their old work, or a community member might have offered to provide files that were no longer available elsewhere.
 
+Cloud storage services such as Google Drive, MEGA and other file-sharing platforms are also worth investigating. Some collectors have made entire directories of historical Quake files publicly accessible. These collections may not be indexed by search engines, so links shared in forums, Discord servers and community discussions can be particularly valuable.
+
 Do not assume that a collection is irrelevant because it has no public catalogue. Ask its owner whether they have files related to your project or topic.
+
+The following are examples of publicly shared collections worth exploring.
+
+**Anders Urdal's Quake Collection**
+
+* https://cloud.elkjop.no/s/158fb9c65c673ef48119d133f4d81376ab9/list/
+
+A personal collection of Quake-related files shared by Anders Urdal. Browse the available directories for archived modifications and other historical material.
+
+**Quake Bots and Cheating Collection**
+
+* https://drive.google.com/drive/folders/12sgmo96ezEeZLie6SXjUunHRW78sCzhM
+
+A Google Drive collection of Quake-related bots, cheats and associated files. Useful for researching bot development, cheating tools and other less commonly preserved aspects of Quake history.
+
+**QuakeBrasil by Vegetous**
+
+* https://mega.nz/folder/pZZnBLCK#fZxeV9Lwa76-CG5mdKlbVA
+
+A collection of files from the Brazilian Quake community, preserved and shared by Vegetous. It may contain modifications, maps, utilities and other community contributions that are difficult to find in larger international archives. Browse the collection for files and releases that may not be represented elsewhere.
+
+## Search Historical Mailing List Archives
+
+Before forums and modern discussion platforms became widespread, mailing lists were an important way for Quake developers and enthusiasts to communicate.
+
+Unlike Usenet newsgroups, mailing lists typically required participants to subscribe to receive messages by email. Some lists maintained public archives of these discussions, preserving conversations between developers, modders and other members of the early Quake community.
+
+Mailing list archives can provide valuable historical evidence, including:
+
+- Announcements of new modifications and releases.
+- Discussions about QuakeC programming and engine development.
+- References to early versions, patches and experimental builds.
+- Original filenames and download locations.
+- Links to developer websites and FTP servers.
+- Names and contact details of developers and contributors.
+
+There were relatively few Quake-specific mailing lists, and not all of their archives have survived. However, those that remain are particularly valuable because they capture discussions from the earliest days of Quake development.
+
+Search these archives for project names, developer names, release announcements and references to downloadable files. Pay particular attention to messages containing URLs, as they may reveal original distribution locations that were never documented elsewhere.
+
+Some surviving mailing list archives include:
+
+**Quake Developers Mailing List (quake-dev)**
+
+* https://www.gamers.org/dEngine/quake/archive/
+
+An archive of the Quake Developers Mailing List, covering March through August 1996. It preserves early discussions from the Quake development community and may contain references to modifications, programming techniques, development tools and historical download locations.
+
+**Quake-C Mailing List Archives**
+
+* https://web.archive.org/web/19990427113042/http://www2.csn.net/~rudeseal/quakec/list.html
+
+An archived collection of Quake-C mailing list discussions from July through August 1996. The original archive was hosted at `http://www2.csn.net/~rudeseal/quakec/list.html` and is accessible through the Internet Archive. It provides another source of early QuakeC development discussions and potentially useful references to projects, files and developers.
+
+When investigating a mailing list, remember that surviving archives may be incomplete. Messages might refer to attachments that were not preserved, or to files distributed through websites and FTP servers that no longer exist.
+
+Even when the files themselves are missing, the discussions can establish that particular releases existed, identify their original filenames and provide historical URLs worth investigating through the Internet Archive.
 
 ## Find Other Collectors and Archivists
 
