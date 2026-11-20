@@ -40,7 +40,7 @@ Look for references such as:
 
 Do not assume that the first website you find is the original project homepage. A modification might have been hosted on several different websites over its lifetime.
 
-For example, a project could have started on a developer's personal website, moved to a dedicated domain and later been mirrored by a Quake community portal.
+For example, a project could have started on a developer's personal website, moved to a dedicated domain and later been migrated to a Quake community portal. In fact, a progression like this is common.
 
 Record each relevant URL in the project websites section of `research/history.md`.
 
@@ -63,7 +63,10 @@ The goal at this stage is to build a list of candidate websites, not to decide t
 
 ## Use the Internet Archive's Wayback Machine
 
-The Internet Archive operates the [Wayback Machine](https://web.archive.org/?utm_source=chatgpt.com), a service that stores historical captures of websites.
+The Internet Archive operates the Wayback Machine, a service that stores historical captures of websites.
+
+* [Wayback Machine](https://web.archive.org/)\
+  `https://web.archive.org/`
 
 It is one of the most important tools for researching old Quake modifications.
 
@@ -173,6 +176,30 @@ http://www.example.invalid/downloads/
 
 A project might have a captured homepage but no captured download page, or the reverse. Investigating individual paths can reveal pages that are not obvious from the main website.
 
+### Be Careful With Websites That Use Frames
+
+Some older websites, particularly those from the 1990s and early 2000s, used an HTML feature called *frames*. If you were browsing Quake websites back then, you'll probably remember them.
+
+Frames allowed a website to display multiple HTML pages within a single browser window. For example, a website might have a navigation menu on the left and a main content area on the right. Clicking a link in the navigation menu would load a different page into the content area without reloading the entire website.
+
+The important detail is that **each frame loads a separate HTML page with its own URL**.
+
+This can cause confusion when browsing a website in the Wayback Machine.
+
+You might open an archived version of a project's homepage and click through to its downloads page. The downloads page appears within the original frame layout, but it may not represent the same point in time as the homepage.
+
+The Wayback Machine archives individual URLs separately. The homepage and the pages displayed inside its frames may have been captured on different dates. You could be viewing a homepage from 1998 alongside a downloads page captured in 1999, for example.
+
+This matters when researching release histories. An older or newer downloads page might list different releases, filenames, or version numbers.
+
+**Don't assume that the pages displayed together in a framed website were archived at the same time.**
+
+Instead, identify the original URLs of the individual pages, particularly important sections such as downloads, files, news, and release history.
+
+Open these URLs separately in the Wayback Machine and examine their available captures. You may discover earlier or later versions of individual pages that are not accessible by simply navigating through the archived homepage.
+
+This is especially useful when reconstructing a modification's release chronology, as different captures of a downloads page may reveal when files were added, updated, or removed.
+
 ### Find all archived pages within a project directory
 
 The Wayback Machine's capture interface is useful for examining known URLs, but it is not always convenient for discovering every page that was archived.
@@ -182,8 +209,7 @@ The Internet Archive also provides a CDX server interface that can list captured
 For example, you can open this address in your browser:
 
 ```
-https://web.archive.org/cdx/search/cdx?url=example.invalid/*
-&output=json
+https://web.archive.org/cdx/search/cdx?url=example.invalid/*&output=json
 ```
 
 This is a request for archived URLs matching the specified domain pattern. Replace `example.invalid` with the actual domain.
@@ -204,6 +230,21 @@ This can be particularly useful when the original website had many pages or when
 The CDX interface has additional query options for filtering results, including by URL pattern, file type and capture status. You do not need to learn all of these options immediately. Start by using it to discover the archived URLs associated with a project.
 
 Treat the results as a list of research leads. A URL appearing in the index does not guarantee that its archived content can be retrieved successfully.
+
+You can learn more about wayback machine APIs (that may be used in the browser and in your own scripts) here:
+
+* [Wayback Machine APIs](https://archive.org/help/wayback_api.php)\
+  `https://archive.org/help/wayback_api.php`
+
+There is also a way to see all archived files under a given domain or directory via the Wayback Machine web interface. Simply click the "URLs" button for a given domain or URL directory you have entered.
+
+This will take you to an address like the the following:
+
+```
+https://web.archive.org/web/*/example.com*
+```
+
+Use this URL in your browser directly if you wish and change "example.com" to your website domain or directory as needed.
 
 ## Read homepage content and news pages
 
@@ -234,40 +275,7 @@ For every useful announcement, record:
 - The developers or contributors mentioned.
 - The archived page URL and capture date.
 
-For example, you might find this announcement on an archived news page:
-
-```
-April 12, 1998
-
-Action Quake 1.0 released!
-
-The first public version of Action Quake is now
-available. This release includes five new maps,
-updated weapons and improved multiplayer support.
-
-Download: aq10.zip
-```
-
-You could record the discovery in `research/history.md`:
-
-```
-#### Version 1.0
-
-- Announcement date: 12 April 1998
-- Release date: April 1998
-- Filename: aq10.zip
-- Contents: Five maps, updated weapons and
-  multiplayer improvements.
-- Announcement evidence:
-  Archived project news page, captured
-  15 April 1998: [URL]
-- Original download URL: [URL]
-- Status: File not yet recovered.
-```
-
-The example is fictional.
-
-Notice that you have learned several things even though you have not recovered the file. You have a release name, an approximate release date, a filename, a description of the contents and a source supporting the information.
+Notice that you can learn several things even though you have not recovered the file. You may have a release name, an approximate release date, a filename, a description of the contents and a source supporting the information.
 
 This is exactly the kind of discovery you want to capture.
 
@@ -313,21 +321,6 @@ http://www.example.invalid/files/aq10.zip
 Do not replace this with the Wayback Machine URL. The original URL and the archived URL serve different purposes.
 
 The original URL tells you where the developer intended the file to be downloaded. The archived URL identifies a preserved copy of the page or file, if one exists.
-
-Your release entry might look like this:
-
-```
-#### Version 1.0
-
-- Filename: aq10.zip
-- Original download URL:
-  http://www.example.invalid/files/aq10.zip
-- Archived download URL:
-  [Wayback Machine URL]
-- Announcement:
-  [Archived news page]
-- Status: Not yet recovered.
-```
 
 If the download link points to another website or FTP server, record that location as well. Do not assume that every file was hosted on the project's own domain.
 
@@ -502,26 +495,24 @@ These connections can help you discover additional material and understand the w
 
 A developer's later project might even contain references to their earlier Quake work.
 
-Record related projects as research leads. Do not automatically include them in your archive. Whether they belong within the archive depends on the scope you defined in Chapter 1.
+Record related projects as research leads. Do not automatically include them in your archive. Whether they belong within the archive depends on the scope you defined earlier.
 
 ## Investigate developers' personal websites
 
 A developer's personal website can be just as useful as the original project homepage.
 
-In the late 1990s, many developers maintained personal websites containing information about their programming, mapping, artwork and other projects.
+In the late 1990s, many developers maintained personal websites containing information about their life, online or otherwise. Personal homepages were typically hosted on free hosting provided by domestic internet service providers or free website hosts.
 
 A personal website might include:
 
-- A portfolio of Quake maps or models.
-- Links to previous projects.
-- Development notes.
-- Source code.
-- Screenshots.
-- Downloadable utilities.
-- Credits and acknowledgements.
+- A portfolio of projects.
+- Links to friends.
+- Bookmarks links
 - Contact information or biographical details.
 
-These websites can help establish who contributed to a modification and identify other work they created.
+These websites can can sometime link to or mirror Quake projects.
+
+Personal websites are sometimes listed in modification readme files or linked to from Quake modification project websites, such as on the team webpage.
 
 Start with the names and aliases you collected from the project website.
 
@@ -585,7 +576,7 @@ Use them consistently:
 | Discovery                              | Where to record it                                        |
 | -------------------------------------- | --------------------------------------------------------- |
 | Original project URL                   | `research/history.md`                                     |
-| Archived website captures              | `research/history.md` and `research/lists/references.md`  |
+| Archived website captures              | `research/history.md`                                     |
 | Release announcements                  | Relevant release entry in `history.md`                    |
 | Release dates and version numbers      | Relevant release entry in `history.md`                    |
 | Original download URLs                 | Relevant release entry and `wishlist_urls.txt` if missing |
@@ -595,199 +586,8 @@ Use them consistently:
 | Related projects                       | `research/notes.txt`                                      |
 | Missing files and unresolved questions | `research/wishlist.txt` and `research/notes.txt`          |
 
-For each useful archived page, preserve enough information for someone else to find it again.
 
-At a minimum, record:
-
-- The original URL.
-- The Wayback Machine URL.
-- The capture date.
-- The information you extracted.
-- The related release or developer.
-
-For example:
-
-```
-Source: Original Action Quake news page
-
-Original URL:
-http://www.example.invalid/news.html
-
-Archived URL:
-https://web.archive.org/web/19980415000000/
-http://www.example.invalid/news.html
-
-Capture date: 15 April 1998
-
-Information:
-Announces version 1.0 and identifies the
-download filename as aq10.zip.
-
-Related release:
-Version 1.0
-```
-
-The example uses fictional information.
-
-Preserve important pages and downloadable evidence where possible, following the approach established in Chapter 3. A Wayback Machine URL is useful, but it should not be your only record of an important discovery. Archived pages and files can sometimes become inaccessible or behave differently over time.
-
-## A practical example: Researching an original project website
-
-Suppose you are archiving a fictional Quake modification called *Shadow Arena*.
-
-You have found an old reference to its original homepage:
-
-```
-http://shadowarena.example.invalid/
-```
-
-You enter the URL into the Wayback Machine and discover captures from 1997, 1998 and 1999.
-
-You investigate the available captures and make the following discoveries:
-
-**March 1997 capture**
-
-The homepage describes Shadow Arena as a multiplayer modification for Quake. It identifies two developers and links to a news page.
-
-**June 1997 capture**
-
-The news page announces the first public beta. It identifies the filename as `shadow01.zip`.
-
-**September 1997 capture**
-
-A later news item announces version 0.5. The download page links to `shadow05.zip`, hosted on an external FTP server.
-
-**April 1998 capture**
-
-The homepage announces version 1.0. A changelog lists several new maps and updated weapons.
-
-**October 1998 capture**
-
-The download page has been updated with version 1.1. It also links to a community mirror.
-
-**February 1999 capture**
-
-A news item mentions that development has stopped.
-
-You have also found an archived developer website containing a reference to another Quake project.
-
-You have not recovered any files yet, but you have reconstructed much of the project's public-facing history.
-
-Your archival record might now contain:
-
-```
-# Shadow Arena History
-
-## Overview
-
-Shadow Arena was a multiplayer modification
-for Quake, developed by two contributors.
-
-## Releases and Chronology
-
-### 1997
-
-#### Initial public beta
-
-- Announcement date: June 1997
-- Release date: Unknown
-- Filename: shadow01.zip
-- Status: Missing
-- Original download URL: Unknown
-- Evidence: Archived project news page.
-- Questions: Where was the file hosted?
-
-#### Version 0.5
-
-- Announcement date: September 1997
-- Release date: September 1997
-- Filename: shadow05.zip
-- Status: Missing
-- Original download URL:
-  ftp://ftp.example.invalid/shadow05.zip
-- Evidence: Archived news and download pages.
-
-### 1998
-
-#### Version 1.0
-
-- Announcement date: April 1998
-- Release date: April 1998
-- Filename: Unknown
-- Status: Missing
-- Contents:
-  - Additional maps
-  - Updated weapons
-- Evidence: Archived homepage and changelog.
-
-#### Version 1.1
-
-- Announcement date: October 1998
-- Release date: October 1998
-- Filename: Unknown
-- Status: Missing
-- Distribution:
-  - Original project website
-  - Community mirror
-- Evidence: Archived download page.
-
-## Other Historical Events
-
-### 1999
-
-- February: Development is reported to have ended.
-  Evidence: Archived project news page.
-
-## Project Websites
-
-- Original project homepage:
-  http://shadowarena.example.invalid/
-- Developer website:
-  http://developer.example.invalid/
-
-## Historical Download Locations
-
-- ftp://ftp.example.invalid/shadow05.zip
-- Community mirror: [Original URL]
-
-## Outstanding Questions
-
-- Can any of the missing releases be recovered?
-- What was the filename for version 1.0?
-- Was version 1.1 distributed on a magazine CD?
-- Can the developers' other Quake projects be identified?
-```
-
-The example is fictional.
-
-This is a substantial result. You have established a release sequence, identified developers, discovered historical download locations and identified several missing files.
-
-You have also generated new research leads. The FTP server, community mirror and related developer project can all be investigated in subsequent chapters.
-
-This illustrates why original project websites are such a valuable starting point. A single surviving homepage can lead to a much broader investigation.
-
-## Your original website research checklist
-
-Before moving on, make sure you have investigated the available original project websites and recorded your findings.
-
-- Identified the original project homepage, where possible.
-- Recorded other known project and developer websites.
-- Inspected the Wayback Machine capture history for each domain.
-- Examined captures around known release dates.
-- Investigated news, download and documentation pages.
-- Compared different captures of important pages.
-- Looked for release announcements and version numbers.
-- Recorded announcement dates and release dates separately.
-- Recorded original filenames and download URLs.
-- Checked whether downloadable files were archived.
-- Looked for changelogs, readmes and installation instructions.
-- Identified links to mirrors and other distribution sites.
-- Investigated developers and their personal websites.
-- Looked for related projects by the same developers.
-- Recorded missing pages, files and other research gaps.
-- Updated `history.md`, `research/lists/references.md` and your research notes.
-
-You do not need to find every page or recover every file. The objective is to investigate the available evidence systematically and record what you discover.
+Preserve important pages and downloadable evidence where possible, following the approach established earlier. A Wayback Machine URL is useful, but it should not be your only record of an important discovery. Archived pages and files can sometimes become inaccessible or behave differently over time.
 
 ## Chapter summary
 
