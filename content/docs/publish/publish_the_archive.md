@@ -42,7 +42,8 @@ Visitors who want more information can follow links into the `research/` directo
 
 GitHub is the recommended platform for publishing a Quake modification archive.
 
-`https://github.com/`
+* [GitHub](https://github.com/)\
+    `https://github.com/`
 
 GitHub provides free hosting for public repositories, displays Markdown files automatically and allows visitors to browse directories and download individual files.
 
@@ -70,7 +71,8 @@ Your archive will have a permanent public URL that you can share with other Quak
 
 If you are new to GitHub and git, the GitHub documentation is excellent and a good place to start:
 
-* [GitHub Docs](https://docs.github.com/) (`https://docs.github.com/`)
+* [GitHub Docs](https://docs.github.com/)\
+    `https://docs.github.com/`
 
 ### Why Git version control matters
 

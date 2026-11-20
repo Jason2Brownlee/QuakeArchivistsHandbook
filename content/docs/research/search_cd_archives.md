@@ -98,15 +98,6 @@ If an ISO is available, you can download it and inspect its directory structure 
 
 Do not limit your search to discs that mention Quake in their titles. A general magazine cover disc or shareware collection might contain the modification you are looking for.
 
-Useful Internet Archive collections include:
-
-- [CD-ROM Software Library](https://archive.org/details/cdromsoftware)\
-    `https://archive.org/details/cdromsoftware`
-- [CD-ROM Software Collection](https://archive.org/details/cd-roms)\
-    `https://archive.org/details/cd-roms`
-- [Vintage Software Collection](https://archive.org/details/vintagesoftware)\
-    `https://archive.org/details/vintagesoftware`
-
 The archive's search and collection structure can change over time. Search broadly and follow relevant collection links rather than assuming that one search query will find everything.
 
 ### QuakeDiscs

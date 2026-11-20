@@ -41,7 +41,7 @@ Search for known project names and filenames, but also browse the archive's cate
 
 Gamers.org maintains a collection of historical gaming FTP archives and mirrors, including several important sources for Quake files.
 
-Its collections are particularly useful for investigating the original distribution locations discussed in Chapter 9.
+Its collections are particularly useful for investigating the original distribution locations discussed in previous chapters.
 
 **Other community-maintained Quake archives**
 
@@ -56,12 +56,6 @@ Not every surviving Quake file is stored in an archive dedicated to Quake.
 Some collectors maintain broader collections of PC games, first-person shooters, shareware, demos and historical software. These archives may contain Quake files alongside material from other games.
 
 Useful places to investigate include:
-
-**Valve Archive**
-
-* https://valvearchive.com/
-
-Valve Archive preserves files and historical material related to Valve games and their communities. Although its primary focus is not Quake, it is an example of a community-maintained game archive worth investigating when researching related game communities and historical distribution networks.
 
 **BetaArchive**
 

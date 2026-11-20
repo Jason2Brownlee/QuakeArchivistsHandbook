@@ -143,7 +143,8 @@ There are limitations. The Wayback Machine does not necessarily preserve every p
 
 A good place to get started with the Wayback Machine's APIs is this website:
 
-* [Wayback Machine APIs](https://archive.org/help/wayback_api.php) (`https://archive.org/help/wayback_api.php`)
+* [Wayback Machine APIs](https://archive.org/help/wayback_api.php)\
+    `https://archive.org/help/wayback_api.php`
 
 ## Analyse recovered files
 
