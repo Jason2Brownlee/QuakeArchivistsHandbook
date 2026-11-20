@@ -118,11 +118,14 @@ You can also use the CDX interface described in Chapter 4 to discover archived U
 
 The important point is to investigate both the front page and the site's historical archives. A main page capture might be missing an article that survives in a dedicated archive, or an archive page might be incomplete while the original headline remains visible on an older main page.
 
-Here are three archived major Quake news pages I frequent often:
+Here are three archived major Quake news pages I frequent often (via the Wayback Machine):
 
-* BluesNews circa July 1996 to Feb 1999: https://www.bluesnews.com/archives/
-* Redwood's 3D News (later Stomped) circa April 1996 to April 1999: https://web.archive.org/web/20011216182813/http://redwood.stomped.com/archives.html
-* ShugaShack (later ShackNews) circa March 1997 to Jun 1999: https://web.archive.org/web/19991002101914/http://shugashack.com/archives/archives.htm
+* BluesNews circa July 1996 to Feb 1999\
+  `https://www.bluesnews.com/archives/`
+* Redwood's 3D News (later Stomped) circa April 1996 to April 1999\
+  `http://redwood.stomped.com/archives.html`
+* ShugaShack (later ShackNews) circa March 1997 to Jun 1999\
+  `http://shugashack.com/archives/archives.htm`
 
 
 ## Search news pages for the modification's name
