@@ -28,8 +28,6 @@ Start with several general-purpose search engines:
     `https://yandex.com/`
 - [DuckDuckGo](https://duckduckgo.com/)\
     `https://duckduckgo.com/`
-- [Bing](https://www.bing.com/)\
-    `https://www.bing.com/`
 
 You can also try other search engines that are available at the time of your research.
 
