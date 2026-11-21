@@ -7,7 +7,7 @@ weight: 41
 
 For years, one of my favourite places to look for missing Quake files has been old CD-ROM collections.
 
-The Internet Archive hosts thousands of magazine cover discs and third-party game compilation CDs, many containing Quake modifications that are difficult or impossible to find elsewhere.
+The Internet Archive hosts thousands of magazine cover discs and third-party game compilation CDs, many containing Quake modifications that are difficult or impossible to find elsewhere. It's a great resource!
 
 When I started researching Quake modifications, I would regularly download these discs and manually inspect their contents, looking for missing releases.
 
@@ -67,7 +67,7 @@ Many Quake modifications were distributed inside ZIP, RAR, ARJ, PAK, and other a
 
 I wanted to make those files searchable too.
 
-The result was [QuakeDiscs](https://quakediscs.com) (`https://quakediscs.com`), a dedicated catalogue and search engine for third-party Quake CDs.
+The result was [QuakeDiscs](https://QuakeDiscs.com) (`https://QuakeDiscs.com`), a dedicated catalogue and search engine for third-party Quake CDs.
 
 I created a website with cover images of the discs, information about their publication, and detailed file listings.
 
@@ -75,7 +75,7 @@ Most importantly, I added a search interface that lets you look for files across
 
 Initially, I focused on third-party Quake 1 add-on CDs and magazine cover discs containing substantial amounts of Quake 1 material.
 
-Later, I expanded the collection to include Quake 2 and Quake 3 discs.
+Later, I expanded the collection to include Quake II and Quake III Arena discs.
 
 At the time of writing, QuakeDiscs catalogues **116 third-party Quake CDs**, with more than **270,000 files** in its search index.
 
@@ -83,7 +83,7 @@ At the time of writing, QuakeDiscs catalogues **116 third-party Quake CDs**, wit
 
 One of the difficulties with searching old CD collections is that files weren't always distributed under their original names.
 
-A modification originally released as `something.zip` might have been renamed, extracted into a directory, or repackaged as part of a larger compilation.
+A modification originally released as `something.zip` might have been renamed, extracted into a directory, or repackaged as part of a larger compilation. Especially if it was distributed on BBS.
 
 Sometimes the original archive is missing entirely, but its contents survive as individual files on a CD.
 
@@ -101,8 +101,8 @@ So I built it.
 
 You can explore it here:
 
-* [QuakeDiscs](https://quakediscs.com/)\
-	`https://quakediscs.com/`
+* [QuakeDiscs](https://QuakeDiscs.com/)\
+	`https://QuakeDiscs.com/`
 
 I hope you find it useful.
 
