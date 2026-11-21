@@ -96,6 +96,8 @@ When you find a relevant item, inspect its description and available files. A CD
 
 If an ISO is available, you can download it and inspect its directory structure on your computer. This lets you browse the disc as if you had the original physical media.
 
+Sometimes the Internet Archive offers a link to inspect the contents of an uploaded CD image without having to download it. Get to know the web interface for the Internet Archive well.
+
 Do not limit your search to discs that mention Quake in their titles. A general magazine cover disc or shareware collection might contain the modification you are looking for.
 
 The archive's search and collection structure can change over time. Search broadly and follow relevant collection links rather than assuming that one search query will find everything.
@@ -125,7 +127,7 @@ If a matching file is found, inspect the disc's dedicated page. You may be able 
 - The archive containing the file, if applicable.
 - Other files distributed alongside it.
 
-QuakeDiscs is focused on Quake add-on CDs, so it should not be treated as a complete index of every magazine or general-purpose software disc. Its catalogue also does not directly host the CD images or downloadable files. Instead, it helps identify where content was distributed and points towards other sources where discs may be available.
+QuakeDiscs is focused on Quake add-on CDs, so it should not be treated as a complete index of every magazine or general-purpose software disc. Its catalogue also does not directly host the CD images or downloadable files. Instead, it helps you to identify where content was distributed and points towards other sources where discs may be available.
 
 
 ### DiscMaster
@@ -146,7 +148,7 @@ For example, suppose you are looking for a modification called *Shadow Arena*. S
 
 DiscMaster can also help you find files that have been extracted from their original ZIP archives. This is important because some CD collections contain the contents of a modification as ordinary files in directories rather than as the original downloadable archive.
 
-DiscMaster also allows you to search the content of files that it has indexed. A good tip for DiscMaster is to search for unique content from the mod's readme file, such as the mod's homepage URL or name of the primary programmer.
+DiscMaster also allows you to search the content of files that it has indexed. A good tip for DiscMaster is to search for unique content from the mod's ZIP file, such as a unique map or configuration filename.
 
 ### Other historical software collections
 
@@ -177,8 +179,6 @@ ActionQuake2
 AQ2
 Action Quake
 ```
-
-Also search for the names of developers, development teams and related projects.
 
 A CD might include a modification under a directory named after its author rather than the project. A collection might use a shortened name or a generic category such as `mods`, `addons` or `quake2`.
 
