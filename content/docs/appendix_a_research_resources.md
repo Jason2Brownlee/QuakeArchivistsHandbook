@@ -1,6 +1,6 @@
 ---
 title: "Appendix A: Research Resources"
-weight: 60
+weight: 70
 ---
 
 # Appendix A: Research Resources

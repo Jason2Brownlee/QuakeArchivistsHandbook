@@ -1,6 +1,6 @@
 ---
 title: "Final Word"
-weight: 70
+weight: 60
 ---
 
 # Final Word
