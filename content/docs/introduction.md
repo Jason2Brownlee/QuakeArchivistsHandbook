@@ -249,5 +249,4 @@ I hope you enjoy the hunt as much as I do.
 
 **Jason Brownlee**\
 Melbourne, Australia\
-November 2026\
-https://JasonBrownlee.me
+November 2026
