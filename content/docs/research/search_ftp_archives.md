@@ -310,7 +310,7 @@ When using these files, record their own filenames, source locations and availab
 
 If you recover a compressed listing or text archive, preserve the original file in your research materials. You can extract a working copy for searching without modifying the original.
 
-## Research the CD-ROM.COM FTP Archive and Its Mirrors
+## Research the `cdrom.com` FTP Archive and Its Mirrors
 
 One particularly important historical source for Quake 1 modifications was the Walnut Creek CDROM (`cdrom.com`) FTP archive.
 

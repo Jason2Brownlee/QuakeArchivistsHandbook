@@ -21,23 +21,26 @@ Some useful starting points include:
 
 **Quaddicted**
 
-* https://www.quaddicted.com/files/
+* [Quaddicted](https://www.quaddicted.com/files/)\
+	`https://www.quaddicted.com/files/`
 
-Quaddicted maintains a large collection of Quake 1 maps, modifications and other files. Its collection also includes mirrors of historical Quake websites and FTP archives.
+Quaddicted maintains a large collection of Quake 1 maps, modifications and other files. Its collection also includes mirrors of historical Quake websites and FTP archives, as we saw in the previous chapter.
 
 It is particularly useful for finding maps and modifications that may no longer be available from their original websites. Explore the directory structure and look beyond the main project files for additional releases, patches and related material.
 
 **Shub-Hub**
 
-* https://shub-hub.com/files/
+* [Shub-Hub](https://shub-hub.com/files/)\
+	`https://shub-hub.com/files/`
 
-Shub-Hub is a community archive containing a large collection of Quake-related files, including maps, modifications and other contributions.
+Shub-Hub is a community archive containing a large collection of Quake-related files, including maps, modifications and other contributions. Files are uploaded by members of the func_messageboard forum (`https://celephais.net/board/`).
 
 Search for known project names and filenames, but also browse the archive's categories. You may discover files that were not identified during earlier research.
 
 **Gamers.org**
 
-* https://gamers.org/
+* [Gamers.org](https://gamers.org/)\
+	`https://gamers.org/`
 
 Gamers.org maintains a collection of historical gaming FTP archives and mirrors, including several important sources for Quake files.
 
@@ -59,25 +62,29 @@ Useful places to investigate include:
 
 **BetaArchive**
 
-* https://www.betaarchive.com/
+* [BetaArchive](https://www.betaarchive.com/)\
+	`https://www.betaarchive.com/`
 
 BetaArchive is a community dedicated to preserving historical software and related material, including old games and development releases. Its collections and discussions can provide useful leads for broader software preservation research.
 
 **CD.textfiles.com**
 
-* https://cd.textfiles.com/
+* [CD.textfiles.com](https://cd.textfiles.com/)\
+	`https://cd.textfiles.com/`
 
 CD.textfiles.com is an archive of historical CD-ROM collections, particularly shareware and shovelware discs from the 1990s. It provides catalogues of individual CDs, including directory listings and links to the files they contain. This makes it a valuable resource for discovering Quake modifications and related material distributed on compilation CDs. Its file listings can reveal releases that are difficult to find through ordinary search engines, including files that are not indexed by Google.
 
 **RetroArchive**
 
-* http://www.retroarchive.org/
+* [RetroArchive](http://www.retroarchive.org/)\
+	`http://www.retroarchive.org/`
 
 RetroArchive is a collection of historical software and documentation for older computer systems. Its particularly useful section is the CD-ROM and FTP Site Archive, which makes the contents of historical shareware CDs and FTP collections browseable. It includes directory listings and indexes of files contained within compressed archives, making it possible to search for individual filenames and discover software that might otherwise be difficult to locate. This can be especially useful for finding old Quake modifications and supplementary files distributed on compilation CDs.
 
 **Apajalista**
 
-* https://www.apajalista.net/
+* [Apajalista](https://www.apajalista.net/)\
+	`https://www.apajalista.net/`
 
 Apajalista is an unofficial catalogue of files from MBnet Apaja, a Finnish BBS file area that operated from 1994 to 2002 and later continued as a website until 2010. Its collection includes shareware and freeware software, games, demos and utilities uploaded by users. Files are organised into categories, with descriptions, original filenames and historical listing dates. Individual file pages can provide additional metadata and, where available, links to downloadable files and listings from historical CDs. This makes Apajalista particularly useful for discovering older Quake modifications, tools and supplementary files that may be difficult to find through conventional search engines.
 
@@ -115,21 +122,24 @@ The following are examples of publicly shared collections worth exploring.
 
 **Anders Urdal's Quake Collection**
 
-* https://cloud.elkjop.no/s/158fb9c65c673ef48119d133f4d81376ab9/list/
+* [Anders Urdal's Quake Collection](https://cloud.elkjop.no/s/158fb9c65c673ef48119d133f4d81376ab9/list/)\
+	`https://cloud.elkjop.no/s/158fb9c65c673ef48119d133f4d81376ab9/list/`
 
 A personal collection of Quake-related files shared by Anders Urdal. Browse the available directories for archived modifications and other historical material.
 
 **Quake Bots and Cheating Collection**
 
-* https://drive.google.com/drive/folders/12sgmo96ezEeZLie6SXjUunHRW78sCzhM
+* [Quake Bots and Cheating Collection](https://drive.google.com/drive/folders/12sgmo96ezEeZLie6SXjUunHRW78sCzhM)\
+	`https://drive.google.com/drive/folders/12sgmo96ezEeZLie6SXjUunHRW78sCzhM`
 
 A Google Drive collection of Quake-related bots, cheats and associated files. Useful for researching bot development, cheating tools and other less commonly preserved aspects of Quake history.
 
 **QuakeBrasil by Vegetous**
 
-* https://mega.nz/folder/pZZnBLCK#fZxeV9Lwa76-CG5mdKlbVA
+* [QuakeBrasil by Vegetous](https://mega.nz/folder/pZZnBLCK#fZxeV9Lwa76-CG5mdKlbVA)\
+	`https://mega.nz/folder/pZZnBLCK#fZxeV9Lwa76-CG5mdKlbVA`
 
-A collection of files from the Brazilian Quake community, preserved and shared by Vegetous. It may contain modifications, maps, utilities and other community contributions that are difficult to find in larger international archives. Browse the collection for files and releases that may not be represented elsewhere.
+A collection of files from the Brazilian Quake community, preserved and shared by Fabiano D. Amorim aka "Vegetous". It may contain modifications, maps, utilities and other community contributions that are difficult to find in larger international archives. Browse the collection for files and releases that may not be represented elsewhere.
 
 ## Search Historical Mailing List Archives
 
@@ -154,15 +164,17 @@ Some surviving mailing list archives include:
 
 **Quake Developers Mailing List (quake-dev)**
 
-* https://www.gamers.org/dEngine/quake/archive/
+* [Quake Developers Mailing List (quake-dev)](https://www.gamers.org/dEngine/quake/archive/)\
+	`https://www.gamers.org/dEngine/quake/archive/`
 
 An archive of the Quake Developers Mailing List, covering March through August 1996. It preserves early discussions from the Quake development community and may contain references to modifications, programming techniques, development tools and historical download locations.
 
 **Quake-C Mailing List Archives**
 
-* https://web.archive.org/web/19990427113042/http://www2.csn.net/~rudeseal/quakec/list.html
+* [Quake-C Mailing List Archives](https://web.archive.org/web/19990427113042/http://www2.csn.net/~rudeseal/quakec/list.html)\
+	`http://www2.csn.net/~rudeseal/quakec/list.html`
 
-An archived collection of Quake-C mailing list discussions from July through August 1996. The original archive was hosted at `http://www2.csn.net/~rudeseal/quakec/list.html` and is accessible through the Internet Archive. It provides another source of early QuakeC development discussions and potentially useful references to projects, files and developers.
+An archived collection of Quake-C mailing list discussions from July through August 1996. **The original archive is no longer available but is accessible through the Internet Archive**. It provides another source of early QuakeC development discussions and potentially useful references to projects, files and developers.
 
 When investigating a mailing list, remember that surviving archives may be incomplete. Messages might refer to attachments that were not preserved, or to files distributed through websites and FTP servers that no longer exist.
 
@@ -206,6 +218,8 @@ A former developer might have kept their original source code and release archiv
 
 Use names and contact details discovered during earlier research to identify potential contacts. Be respectful of people's time and explain why you are interested in their material.
 
+We will explore more on how to make contact with people in the Quake community in the next chapter.
+
 ### Build relationships with other archivists
 
 Treat other collectors as potential collaborators rather than simply sources of files.
@@ -237,7 +251,7 @@ Pay particular attention to files that do not match any known release. They migh
 
 If a collection contains a large number of files, consider obtaining a directory listing or catalogue before requesting individual downloads. This can help you identify promising material without requiring the entire collection to be transferred.
 
-Record the collection as a research source in `research/lists/references.md`. Add relevant findings to `research/history.md`, including the collector or archive name, location, filenames, provenance and any information about how the files were obtained.
+Add relevant findings to `research/history.md`, including the collector or archive name, location, filenames, provenance and any information about how the files were obtained.
 
 If you discover a potentially important release that you cannot yet recover, add it to `research/wishlist.txt`.
 
@@ -269,3 +283,4 @@ Other Quake archives, collectors and community members are an essential part of 
 Finding these resources requires more than searching the web. Explore related game archives, investigate personal FTP servers and cloud collections, participate in community forums and Discord servers, and contact people who worked on or collected the original material.
 
 Most importantly, engage with other archivists. They may have files that are not publicly indexed, know about forgotten distribution locations, or be able to connect you with other collectors. Building relationships with these people can be one of the most productive parts of the entire archival process.
+
