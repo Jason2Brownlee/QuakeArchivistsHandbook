@@ -9,13 +9,9 @@ In the previous chapter, you learned how to investigate original project website
 
 Your next source of information is contemporary gaming news websites.
 
-During the late 1990s and early 2000s, several websites regularly reported on Quake modifications, new releases, community projects and developments in PC gaming. These sites often linked directly to project homepages and download locations. They also reported on new versions, patches, reviews, previews and other events that might not have been documented on the original project website.
+During the late 1990s and early 2000s, gaming news sites regularly reported on Quake modifications, announcing new releases, patches, reviews and community developments. Their articles often linked directly to project homepages, downloads and alternative mirrors.
 
-This makes gaming news archives particularly valuable for historical research.
-
-A project homepage might have disappeared, or its news section might contain only a few surviving announcements. A gaming news website could have reported on the same release, preserved the original download links and provided additional information about where the files were hosted.
-
-In some cases, a news article may be the only surviving evidence that a particular release existed.
+These archives are particularly valuable when original project websites have disappeared or their surviving records are incomplete. Sometimes, a news article is the only surviving evidence that a particular release existed.
 
 This chapter explains how to find and investigate contemporary gaming news websites, search their archives and connect their reports to the releases in your historical record.
 
@@ -116,8 +112,6 @@ Use the Wayback Machine to inspect these URLs individually. An archive page may 
 
 You can also use the CDX interface described in previous chapters to discover archived URLs beneath a news site's domain.
 
-The important point is to investigate both the front page and the site's historical archives. A main page capture might be missing an article that survives in a dedicated archive, or an archive page might be incomplete while the original headline remains visible on an older main page.
-
 Here are three archived major Quake news pages I frequent often (via the Wayback Machine):
 
 * BluesNews circa July 1996 to Feb 1999\
@@ -185,23 +179,11 @@ You might discover:
 - A development milestone.
 - The announcement that development had ended.
 
-This is particularly important when the original project website has an incomplete news section or has disappeared entirely.
-
-A gaming news website may have reported on releases that are no longer mentioned anywhere on the surviving project homepage.
-
 ## Use known release dates to guide your search
 
 One of the most effective techniques is to use dates you have already discovered during your research.
 
-Suppose you have established from an archived project homepage that version 1.0 was released in August 1999.
-
-You now have a specific period to investigate.
-
-Inspect archived news pages from:
-
-- The weeks immediately before the release.
-- The week of the release.
-- The weeks immediately after the release.
+For each known release, examine news archives from the weeks immediately before and after its release date.
 
 Why search before the release? A news site might publish a preview or announcement before the files become available.
 
@@ -219,32 +201,13 @@ The dates might differ. For example:
 - A mirror becomes available on 15 August.
 - A magazine CD containing the release is published in October.
 
-These are five separate historical events. Together, they provide a more complete picture of the release and its distribution.
-
-The release was created and perhaps tested locally before being uploaded to a public facing server. The differing dates allow corroborating evidence that version was real and release occurred. The public release date is probably taken as the developers announcement.
+These dates provide independent evidence of the release and its subsequent distribution. Record each date according to what its source establishes rather than treating them as interchangeable.
 
 ### Search around every known release
 
 Repeat this process for every release you have identified.
 
-For example, suppose your current release record contains:
-
-| Release     | Known date     |
-| ----------- | -------------- |
-| Public beta | March 1998     |
-| Version 0.5 | September 1998 |
-| Version 1.0 | February 1999  |
-| Version 1.1 | August 1999    |
-
-Use these dates to guide your searches across the relevant news websites.
-
-You may find that one site reported the beta, another covered version 1.0, and a third announced a mirror for version 1.1.
-
-This is useful because no single news website is likely to have covered every release.
-
-It also works in reverse. If you find an article announcing a version that is not in your release record, you have discovered a new research lead.
-
-Add it to the `Releases and Chronology` section of `history.md`, even if the file itself has not yet been recovered.
+Repeat this search across all known releases and relevant news websites. Different sites may have covered different releases, and their reports may reveal versions missing from your existing historical record.
 
 ## Investigate individual news articles
 
@@ -274,17 +237,7 @@ That one article could resolve several outstanding questions.
 
 ### Follow every relevant link
 
-Do not simply read the article and move on.
-
-Follow the links associated with the modification.
-
-A news story might link to:
-
-1. The original project homepage.
-2. A developer's personal website.
-3. The main download location.
-4. One or more mirrors.
-5. A review or earlier announcement.
+Follow relevant links to project websites, developer pages, download locations, mirrors and earlier announcements. Each link may provide another source of historical evidence or surviving files.
 
 Record these URLs exactly as they appear.
 
@@ -294,15 +247,7 @@ An article can therefore become the starting point for another round of research
 
 ### Look for stories about mirrors
 
-Mirror announcements deserve particular attention.
-
-A news site might report that a popular modification is difficult to download because the original server is unavailable or overloaded.
-
-The article may provide alternative download links, sometimes hosted directly by the news website.
-
-These links can be extremely valuable when the original project website no longer exists.
-
-They might also reveal files that were distributed under filenames different from those used by the developer.
+Mirror announcements may contain alternative download links published when the original server was unavailable or overloaded. News websites sometimes hosted their own copies, occasionally using filenames different from the developer's original distribution.
 
 Record each mirror separately. A news site's copy may be an important source for recovering a release, even if it was not the original distribution location.
 
@@ -350,31 +295,13 @@ Information established:
 
 The example is based on the type of information found in historical news reporting. The excerpt is illustrative.
 
-This format preserves the most useful parts of the article without requiring you to copy the entire story into your historical record.
-
-The original article and archived page provide the supporting evidence. The quotation reminds you what the article said, while the links allow you or another researcher to investigate the original material.
+This format preserves the essential evidence and provides enough context for another researcher to investigate the original article.
 
 ### Record the full download links
 
 Pay particular attention to links included in news stories.
 
-Preserve the complete URL, including:
-
-- The protocol, such as `http` or `ftp`.
-- The hostname.
-- The directory path.
-- The filename.
-- Any query parameters, if present.
-
-For example:
-
-```
-ftp://ftp.gamesnet.net/pub/bluesnews/quake2/action/actn95cl.zip
-```
-
-Do not shorten the URL or replace it with a modern equivalent.
-
-The original location might no longer work, but it can still help you identify the file and search for copies elsewhere.
+Preserve each original download URL exactly as it appeared in the article, including its complete path and filename.
 
 If the article links to multiple files, record each one separately. A story might provide an installer, a ZIP archive, a patch or a server-only version.
 
@@ -382,18 +309,7 @@ These could represent different distributions of the same release.
 
 ## Use news articles to discover missing releases
 
-One of the most valuable uses of gaming news archives is discovering releases that are missing from your existing research.
-
-Suppose the original project homepage has only two surviving announcements:
-
-- Version 1.0, released in April 1998.
-- Version 1.2, released in November 1998.
-
-You search Blue's News and find an article from August 1998 announcing version 1.1.
-
-This is a new discovery.
-
-You should:
+When a news article reveals a previously unknown release:
 
 1. Add the filename and release date to `README.md`
 2. Add version 1.1 to `research/history.md`.
@@ -401,12 +317,6 @@ You should:
 4. Record the filenames and download URLs.
 5. Add any unrecovered files to `research/wishlist.txt`.
 6. Add the original download URLs to `research/wishlist_urls.txt`.
-
-You now have a more complete release sequence.
-
-This is particularly important when the original project website did not have a complete news section, or when its archived captures are missing.
-
-A gaming news website may have preserved announcements that the developers' own website no longer contains.
 
 ### Look for releases mentioned indirectly
 
@@ -445,20 +355,7 @@ You can investigate the announcement further using the links and other reference
 
 ## Search beyond the major news websites
 
-The websites listed at the beginning of this chapter are useful starting points, but they are not the only sources worth investigating.
-
-Many smaller websites reported on Quake modifications. Some were dedicated to Quake, while others covered PC gaming more generally.
-
-You might discover these sites through links in articles, original project homepages or other community websites.
-
-Also consider searching for:
-
-- Quake news sites.
-- Quake II and Quake III news sites.
-- PC gaming news archives.
-- Gaming magazine websites.
-- Mod download directories.
-- Individual community news pages.
+Do not overlook smaller Quake news sites, gaming magazine websites, modification directories and individual community news pages. You can discover these through links from other articles, original project websites and historical community resources.
 
 A smaller site might have covered a modification that the larger news sites ignored. This is especially true for larger modifications that have their own dedicated sub-community like Team Fortress and Capture The Flag.
 

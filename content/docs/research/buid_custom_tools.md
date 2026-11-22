@@ -346,3 +346,4 @@ Keep tools focused, generic and easy to reuse. Prefer single-file scripts with s
 The aim is to spend less time performing repetitive operations and more time investigating the history, identifying missing releases and improving the archive.
 
 **Outcome:** You can automate repetitive research tasks and process large collections of historical material more efficiently.
+

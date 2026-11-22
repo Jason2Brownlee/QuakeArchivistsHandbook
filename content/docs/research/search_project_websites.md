@@ -9,17 +9,11 @@ In the previous chapter, you established a system for recording the history of a
 
 You are now ready to begin researching.
 
-One of the best places to start is the original project website.
+One of the best places to begin researching a Quake modification is its original project website.
 
-During the Quake modding era, developers commonly maintained their own websites to announce updates, distribute files, publish screenshots, provide installation instructions and communicate with their communities. Some projects had dedicated websites, while others were hosted on personal pages, community portals or gaming sites.
+During the Quake modding era, developers used dedicated websites, personal homepages and community portals to announce releases, distribute files and communicate with players. These pages often contain some of the best surviving evidence of the project's development and distribution history.
 
-These websites can be extremely valuable historical sources. They often provide direct evidence of what was released, when it was released, what files were distributed and where those files were hosted.
-
-Unfortunately, many of these websites no longer exist. The original domain may have expired, the hosting provider may have disappeared, or the developer may have moved on to other projects.
-
-This does not necessarily mean the information is lost.
-
-The Internet Archive's Wayback Machine has preserved snapshots of many historical websites. Even when a website is no longer available, you may be able to recover its pages, follow old links and discover references to files that survive elsewhere.
+Although many original websites have disappeared, the Internet Archive's Wayback Machine may have preserved their content, allowing you to reconstruct the website and discover references to missing files.
 
 This chapter explains how to find original project websites, investigate their archived versions and extract useful information for your archive.
 
@@ -123,17 +117,9 @@ It can also reveal changes that are not obvious from any single capture.
 
 For example, a download link might point to `aq10.zip` in one capture and `aq11.zip` in a later capture. The change provides a useful lead about the release sequence.
 
-Be careful not to treat the capture dates as exact release dates. Use the page content to establish what the developer actually announced, and record the capture date as supporting evidence.
-
 ## Navigate archived versions of the website
 
-Once you have found a useful capture, investigate the rest of the archived website.
-
-Do not stop at the homepage.
-
-The homepage may link to separate pages for downloads, news, screenshots, documentation, development information and frequently asked questions.
-
-These pages can contain much more useful historical information than the homepage itself.
+Once you find a useful capture, explore the rest of the archived website. Important information may be spread across separate pages for downloads, news, documentation and development updates.
 
 Look for navigation links such as:
 
@@ -184,27 +170,17 @@ Frames allowed a website to display multiple HTML pages within a single browser 
 
 The important detail is that **each frame loads a separate HTML page with its own URL**.
 
-This can cause confusion when browsing a website in the Wayback Machine.
+This can cause confusion when browsing archived websites because the Wayback Machine captures each URL independently. You might be viewing a homepage from 1998 alongside a downloads page captured in 1999, potentially giving a misleading picture of which releases were available at the time.
 
-You might open an archived version of a project's homepage and click through to its downloads page. The downloads page appears within the original frame layout, but it may not represent the same point in time as the homepage.
+**Don't assume that pages displayed together in a framed website were archived at the same time.**
 
-The Wayback Machine archives individual URLs separately. The homepage and the pages displayed inside its frames may have been captured on different dates. You could be viewing a homepage from 1998 alongside a downloads page captured in 1999, for example.
+Instead, identify the original URLs of individual frames, particularly news and download pages, and investigate their capture histories separately. This may reveal earlier or later versions of pages that are inaccessible through the archived homepage.
 
-This matters when researching release histories. An older or newer downloads page might list different releases, filenames, or version numbers.
 
-**Don't assume that the pages displayed together in a framed website were archived at the same time.**
-
-Instead, identify the original URLs of the individual pages, particularly important sections such as downloads, files, news, and release history.
-
-Open these URLs separately in the Wayback Machine and examine their available captures. You may discover earlier or later versions of individual pages that are not accessible by simply navigating through the archived homepage.
-
-This is especially useful when reconstructing a modification's release chronology, as different captures of a downloads page may reveal when files were added, updated, or removed.
 
 ### Find all archived pages within a project directory
 
-The Wayback Machine's capture interface is useful for examining known URLs, but it is not always convenient for discovering every page that was archived.
-
-The Internet Archive also provides a CDX server interface that can list captured URLs for a domain or URL prefix.
+To discover archived URLs that may not appear in a website's navigation, use the Internet Archive's CDX server interface to list captures for a domain or URL prefix.
 
 For example, you can open this address in your browser:
 
@@ -275,9 +251,7 @@ For every useful announcement, record:
 - The developers or contributors mentioned.
 - The archived page URL and capture date.
 
-Notice that you can learn several things even though you have not recovered the file. You may have a release name, an approximate release date, a filename, a description of the contents and a source supporting the information.
-
-This is exactly the kind of discovery you want to capture.
+A surviving announcement can establish valuable release details even when the original downloadable file is missing.
 
 ### Look for information beyond release announcements
 
@@ -318,9 +292,7 @@ For example:
 http://www.example.invalid/files/aq10.zip
 ```
 
-Do not replace this with the Wayback Machine URL. The original URL and the archived URL serve different purposes.
-
-The original URL tells you where the developer intended the file to be downloaded. The archived URL identifies a preserved copy of the page or file, if one exists.
+Preserve the original URL rather than replacing it with its Wayback Machine equivalent.
 
 If the download link points to another website or FTP server, record that location as well. Do not assume that every file was hosted on the project's own domain.
 
@@ -383,8 +355,6 @@ Record every plausible file URL, even if the file cannot be recovered.
 
 Add missing files to `research/wishlist.txt` and their original URLs to `research/wishlist_urls.txt`, following the structure established in the previous chapters.
 
-A historical download URL is valuable evidence in its own right. It gives you a filename and a location to investigate in later research.
-
 ## Find changelogs, readme files and documentation
 
 Original project websites sometimes contain documentation that was distributed separately from the main modification.
@@ -405,21 +375,6 @@ These documents can provide information that is not present in release announcem
 A readme might identify the exact version number, list the files included in a release, describe installation requirements and credit the developers.
 
 A changelog can establish the differences between versions.
-
-For example:
-
-```
-Action Quake 1.1
-
-Changes since version 1.0:
-
-- Added two new maps.
-- Fixed a weapon selection bug.
-- Updated player models.
-- Improved server configuration.
-```
-
-This information helps distinguish version 1.1 from version 1.0 and provides a record of how the modification evolved.
 
 If you find a readme or changelog on an archived website, preserve the original file if it can be downloaded. If it is only visible as part of an archived webpage, record the page URL and capture date.
 
@@ -482,18 +437,7 @@ Record developer names and aliases carefully. A person might have used a real na
 
 Once you have identified developers, look for other projects associated with them.
 
-For example, a developer might have worked on:
-
-- Another Quake modification.
-- A map pack.
-- A standalone game.
-- A utility or editing tool.
-- A later project for Quake II or Quake III.
-- A project with a different development team.
-
-These connections can help you discover additional material and understand the wider history of the people involved.
-
-A developer's later project might even contain references to their earlier Quake work.
+A developer may have worked on other Quake modifications, maps, editing tools or later projects for Quake II and Quake III. These connections can reveal additional material, including references to earlier work that might otherwise be difficult to locate.
 
 Record related projects as research leads. Do not automatically include them in your archive. Whether they belong within the archive depends on the scope you defined earlier.
 
@@ -518,14 +462,7 @@ Start with the names and aliases you collected from the project website.
 
 Search for each name together with terms such as `Quake`, `mod`, `mapping`, `programming` and the project name.
 
-If you find a likely personal website, inspect it using the same process as the original project website:
-
-1. Record the original URL.
-2. Check its capture history in the Wayback Machine.
-3. Inspect the homepage and project pages.
-4. Look for references to the modification.
-5. Identify other projects and contributors.
-6. Record useful pages and downloadable files.
+Investigate personal websites using the same approach as project websites: check their Wayback Machine captures, examine relevant pages and record any references, downloads or related projects you discover.
 
 Be cautious when connecting people to projects. Similar usernames do not necessarily belong to the same person. Look for supporting evidence such as matching credits, email addresses, personal links or explicit statements.
 
@@ -550,28 +487,13 @@ These gaps are useful research information.
 
 Record them in `research/notes.txt` or the relevant release entry in `history.md`. Add missing files to your wishlist and preserve any known URLs.
 
-You should also compare information from different captures.
-
-Suppose you find the following:
-
-| Capture       | Information                                             |
-| ------------- | ------------------------------------------------------- |
-| March 1998    | Version 0.5 is listed as the latest release             |
-| June 1998     | Version 1.0 is announced                                |
-| October 1998  | Version 1.1 is available                                |
-| February 1999 | Version 2.0 is mentioned, but no download link survives |
-
-You now have a likely release sequence, but you still need to establish whether all these releases were publicly distributed and whether any files survive.
+These gaps help identify releases that require further investigation, particularly those mentioned in announcements but absent from surviving download pages. Other historical sources may help establish whether these releases were publicly distributed and whether copies survive.
 
 The next research chapters will help you investigate these questions using other historical sources.
 
 ## Record your discoveries
 
-As you investigate original websites, update the archival record rather than leaving all the work until later.
-
-The previous chapter established the main documents for this process.
-
-Use them consistently:
+Add discoveries to the appropriate archival documents as you investigate each website:
 
 | Discovery                              | Where to record it                                        |
 | -------------------------------------- | --------------------------------------------------------- |

@@ -7,11 +7,9 @@ weight: 20
 
 Before you begin substantial research, establish a simple structure for storing what you discover.
 
-You will encounter many different kinds of information during an archival project. You might find an original download, an archived website, a release announcement, a reference to a missing version or a clue about the developer's identity. You need somewhere to put each discovery so that it can be found and used later.
+During an archival project, you will collect original downloads, historical URLs, release announcements, research notes and clues about missing files. Without an organised structure, these discoveries can quickly become scattered and difficult to manage.
 
-It is tempting to start searching immediately and organise everything afterwards. This often creates problems. Files end up scattered across download directories, useful URLs are lost in browser bookmarks, research notes become difficult to navigate and it becomes increasingly difficult to distinguish original files from files you have modified.
-
-A little organisation at the beginning makes the entire project easier.
+Establishing a simple directory structure before beginning substantial research makes it easier to preserve original files and keep track of what you discover.
 
 The goal of this chapter is to create a working directory that separates the archived files from the research about those files, while remaining simple enough to maintain.
 
@@ -33,14 +31,6 @@ quake-archive/
         wishlist.txt
         wishlist_urls.txt
 ```
-
-This structure has only two directories and five files.
-
-The root directory contains the main project description and the two directories that hold the actual archive and its supporting research.
-
-The `bin/` directory contains the recovered files.
-
-The `research/` directory contains information about the project, including its history, research notes and lists of files that have not yet been recovered.
 
 This is deliberately simple. You should be able to understand the structure immediately, even if you return to the project after several months.
 
@@ -162,11 +152,7 @@ bin/
 
 ## The `research/` directory
 
-The `research/` directory contains the information you collect while investigating the project.
-
-This is where you record what you know, where you found it, what you think might exist and what you still need to investigate.
-
-It is separate from `bin/` because the research and the files serve different purposes.
+The `research/` directory contains your historical records, research notes, outstanding questions and information about missing files. It is kept separate from the recovered files in `bin/`.
 
 Someone might download the archive simply to play an old modification. They do not necessarily need to read your research notes.
 
@@ -188,59 +174,9 @@ Each has a specific purpose.
 
 ### `history.md`
 
-This is the main historical record of the project.
+The document should provide a chronological account of releases, project websites, historical download locations and supporting references. We will develop the structure and contents of history.md in the next chapter.
 
-It contains the release chronology, information about the original websites and references to useful historical sources.
-
-You will develop this document throughout your research.
-
-A useful initial structure might look like this:
-
-```
-# Project History
-
-## Overview
-
-A short description of the project and its development.
-
-## Release History
-
-### Version 0.1
-
-- Date: 1997
-- Files: aq01.zip
-- Status: Recovered
-- Evidence: [Source reference]
-
-### Version 0.5
-
-- Date: 1997
-- Files: aq05.zip
-- Status: Missing
-- Evidence: [Source reference]
-
-## Project Websites
-
-- Original homepage: http://example.invalid/
-- Archived homepage: [Wayback Machine URL]
-
-## References
-
-- News announcements
-- Usenet discussions
-- Magazine CD listings
-- Historical FTP directories
-```
-
-The example uses placeholder information.
-
-The release history should eventually become the central record of what was released, when it was released and what evidence supports each entry. There should be enough information here such that someone else could reconstruct your archive and chronological release history from the primary sources that you reference.
-
-The project websites section records the original homepages, developer websites and other important locations associated with the project.
-
-These URLs are worth preserving even when they no longer work. They can provide clues about where files were originally hosted and where you might find archived copies.
-
-The references section provides a convenient place to record useful sources. You can include links to news articles, forum discussions, Usenet posts, archived pages and other historical material.
+The aim is to document the project's history with enough supporting evidence that another researcher could independently reconstruct your findings. As the research grows, you may move substantial sections into separate documents.
 
 As the project grows, you may decide to move some of these sections into separate research documents. For now, keeping them together makes the archive easier to manage.
 
@@ -311,10 +247,6 @@ You can also record uncertain filenames and possible variations.
 
 For example, an old announcement might mention a file called `aq2_final.zip`, but you have no evidence that this was the exact filename. Record it as a possible filename rather than treating it as confirmed.
 
-The wishlist gives you a concrete list of things to search for.
-
-It also helps prevent an important problem: forgetting that you once found a reference to a missing file.
-
 As you recover files, update the wishlist and remove or mark the corresponding entries as acquired.
 
 ### `wishlist_urls.txt`
@@ -337,17 +269,7 @@ These are illustrative URLs.
 
 You might discover them in an archived homepage, an old announcement, a readme file or a directory listing.
 
-Even if a URL no longer works, record it.
-
-It may be possible to recover the file through the Wayback Machine, an FTP mirror, a magazine CD or another historical collection.
-
-Keep the original URL exactly as you found it. Do not replace it with a modern download link or an archived URL.
-
-If you later find a Wayback capture or an alternative mirror, record that separately.
-
-The historical URL tells you where the file was originally distributed. The alternative URL tells you where you found another copy.
-
-That distinction is important when reconstructing a project's distribution history.
+Preserve historical URLs exactly as found, even when they no longer work. Keep original download locations separate from Wayback Machine captures and alternative mirrors so that the original distribution history remains clear.
 
 Your wishlist URLs may be invaluable later when searching archived alternate mirrors for popular download locations. We'll explore how to do this later with the wayback machine.
 
@@ -357,20 +279,7 @@ The initial structure deliberately keeps things simple. However, two important t
 
 The first is historical evidence. The second is file metadata.
 
-**Historical evidence** is the material that supports your claims about the project.
-
-Examples include:
-
-- Archived project webpages.
-- Original release announcements.
-- Readme files.
-- Magazine CD directory listings.
-- Usenet posts.
-- Contemporary news articles.
-- Screenshots of historical websites.
-- FTP directory listings.
-
-You should record enough information to find each source again. This normally includes the original URL, an archived URL where available, the date of the source and the date you accessed or captured it.
+**Historical evidence** includes archived webpages, release announcements, readmes, directory listings and other sources that support your findings. Record enough information to locate each source again, including relevant URLs and dates.
 
 Initially, you can record references directly in `history.md`. For example, evidence of a release file size and timestamp can be captured from archived HTML pages that show FTP archives. These can be copy-and-pasted into `history.md` under the heading for the given version number:
 
@@ -391,40 +300,9 @@ research/
         ftp-listings/
 ```
 
-The second type of information is **file metadata**.
-
-For each recovered file, you may want to record:
-
-- Original filename.
-- File size.
-- File format.
-- Modification timestamp, if available.
-- SHA-256 hash.
-- Known release or version.
-- Original download URL.
-- Source from which you recovered it.
-- Date recovered.
-- Any known problems or modifications.
+The second type of information is file metadata, including filenames, file sizes, timestamps, hashes and recovery sources. Initially, this information can be recorded alongside the relevant release in history.md.
 
 You do not need to create a separate metadata catalogue immediately. You can begin by recording this information in the relevant release entry in `history.md`.
-
-The contents of archive files can be queried and stored in text sections using a command like:
-
-```
-tar tvf as-1.52-x86-win32.zip
-```
-
-Which gives a listing of the contents of the archive with file sizes and timestapms, for example:
-
-```
--rw-rw-r--  0 0      0       20608 21 Jul  1999 CHANGES
--rw-rw-r--  0 0      0       11355 21 Jul  1999 README
--rw-rw-r--  0 0      0      437248 21 Jul  1999 gamex86.dll
-```
-
-This command works on most archive types, including `.tgz`, `.tar.gz` and self extracting `.exe` files.
-
-The timestamps may aid as supporting evidence for the reconstructed release chronology.
 
 As the archive grows, a separate file catalogue may become useful:
 
@@ -439,11 +317,7 @@ The important point is to keep the actual files in `bin/` and the information de
 
 ## Distinguish verified information from research leads
 
-Not everything you discover will be equally reliable.
-
-During research, you will encounter confirmed release announcements, old readmes, vague forum references, filenames mentioned in passing and guesses about missing versions.
-
-You need a way to distinguish these.
+Your research will include both reliable historical evidence and uncertain leads. Distinguish between them so that speculation does not become part of the established historical record.
 
 For example, consider the following statements:
 
@@ -484,10 +358,6 @@ This tells a future reader that the release is a research lead, not a confirmed 
 You can use the same approach in `notes.txt` and `wishlist.txt`.
 
 As you find stronger evidence, update the status. If a claim turns out to be incorrect, correct it rather than allowing it to remain in the historical record.
-
-This distinction is particularly important when multiple sources disagree. A date in a readme might differ from the date of a news announcement, or a file might have been distributed on a magazine CD months after its original release.
-
-Preserving uncertainty is better than inventing precision.
 
 ## Allow the structure to grow
 
@@ -537,11 +407,7 @@ research/
     developers.md
 ```
 
-You should add a document when a particular research topic becomes substantial enough to benefit from its own space.
-
-Do not create dozens of empty documents at the beginning. Start small, and expand when there is a clear need.
-
-A good archive structure should reflect the research you are actually doing.
+Add specialised documents only when a research topic becomes substantial enough to justify them.
 
 ## Keep working material separate from the published archive
 
@@ -575,22 +441,7 @@ The important thing is to avoid confusing temporary research material with the f
 
 You are now ready to create the initial directory structure.
 
-For example, if you are working on an Action Quake archive, create a directory called `action-quake-archive` and add the files and directories shown below.
-
-```
-action-quake-archive/
-    README.md
-    bin/
-    research/
-        history.md
-        notes.txt
-        wishlist.txt
-        wishlist_urls.txt
-```
-
-You can create these directories using your file manager or the command line.
-
-On macOS or Linux, the following commands will create the structure:
+For example, you can create the initial Action Quake archive structure using the following commands on macOS or Linux:
 
 ```
 mkdir -p action-quake-archive/bin
@@ -603,13 +454,7 @@ touch action-quake-archive/research/wishlist.txt
 touch action-quake-archive/research/wishlist_urls.txt
 ```
 
-You can then open the directory in your preferred text editor.
-
-Do not worry about filling in every document yet. Add a short project description to `README.md`, create the initial headings in `history.md` and write down any questions or early discoveries in `notes.txt`.
-
-The goal is simply to establish a place where future discoveries can be recorded.
-
-As you work through the research chapters, you will gradually populate these documents, add new ones where needed and build a more complete archival record.
+Add a short project description to `README.md` and record any initial research questions in `notes.txt`. In the next chapter, we will begin developing `history.md` into a detailed historical record.
 
 ## Chapter summary
 

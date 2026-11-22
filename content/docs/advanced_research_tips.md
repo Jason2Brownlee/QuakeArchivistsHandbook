@@ -56,9 +56,9 @@ We have already covered manual searching and automation in earlier chapters, but
 
 Walnut Creek CDROM operated `ftp.cdrom.com`, one of the most important historical FTP servers for game modifications and other downloadable software.
 
-Its archives included the original idgames collection for Doom and the idgames2 collection for Quake-engine games.
+Its archives included the original `idgames/` collection for Doom and the `idgames2/` collection for Quake-engine games.
 
-The idgames2 archive is particularly important for Quake research because it was a major distribution location for modifications, maps, tools and other community-created files.
+The `idgames2/` archive is particularly important for Quake research because it was a major distribution location for modifications, maps, tools and other community-created files.
 
 Historical references often point directly to files hosted at `cdrom.com`.
 
@@ -68,10 +68,7 @@ This is valuable because the Wayback Machine preserved many of these historical 
 
 A file may no longer be available, but an archived directory page can still confirm that it existed, reveal its original filename and provide information about its size or distribution location.
 
-You can also explore historical copies of the archive through its surviving mirrors. Gamers.org continues to host the idgames2 archive and documentation associated with the original collections.
-
-
-
+You can also explore historical copies of the archive through its surviving mirrors. Gamers.org continues to host the `idgames2/` archive and documentation associated with the original collections.
 
 ### Search alternative directory structures
 
@@ -107,7 +104,7 @@ You may also discover directory listings that reveal files that have not appeare
 
 Historical FTP archives often maintained special files that described their contents and recent changes.
 
-These can be extremely useful for reconstructing the existence and distribution of old releases.
+These can be extremely useful for reconstructing the existence and distribution of old releases. We touched on some of these files in the chapter on searching FTP archives.
 
 Some important filenames and locations to investigate include:
 
@@ -136,9 +133,9 @@ The `CHANGES` file can also help explain why a directory disappeared or why the 
 
 Do not restrict your investigation to the individual ZIP file you are looking for. The surrounding directory and its maintenance files can be just as valuable.
 
-## Search Historical Mirrors of idgames and idgames2
+## Search Historical Mirrors of `idgames` and `idgames2`
 
-The idgames and idgames2 archives were mirrored across many FTP servers around the world.
+The `idgames` and `idgames2` archives were mirrored across many FTP servers around the world.
 
 This provides an important research opportunity.
 
@@ -168,7 +165,7 @@ Some other FTP servers then mirrored directories from `ftp.cdrom.com`.
 
 This created multiple layers of distribution.
 
-For example, historical paths associated with the idgames2 and PlanetQuake collections included:
+For example, some historical paths associated with the `idgames2` and PlanetQuake collections included:
 
 ```
 src.doc.ic.ac.uk/public/Mirrors/ftp.cdrom.com/pub/idgames2/planetquake

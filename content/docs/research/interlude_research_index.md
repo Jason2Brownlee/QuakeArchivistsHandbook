@@ -53,7 +53,7 @@ I have a simple web interface that lets me search the collected URLs.
 
 One script runs continuously in the background, crawling archived webpages from the Wayback Machine, extracting links, and adding them to the database.
 
-Another script, which I run every few weeks, checks the wishlist files across all my Quake archives to see whether the database contains any newly discovered historical download locations.
+Another script, which I run every few weeks (or days), checks the wishlist files across all my Quake archives to see whether the database contains any newly discovered historical download locations.
 
 That last one is particularly useful.
 
@@ -95,3 +95,4 @@ Perhaps this entire system is overkill.
 But after years of archival research, I've found that **the most valuable resource I've accumulated isn't necessarily the files I've recovered, but the knowledge of where to look for them.**
 
 And having that knowledge searchable makes starting the next archive just a little bit easier.
+

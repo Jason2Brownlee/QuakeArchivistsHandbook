@@ -9,9 +9,7 @@ In the previous chapter, you created a directory structure for your archive. You
 
 The next step is to establish the archival record itself.
 
-This is one of the most important parts of the entire process. An archive is not simply a collection of old downloads. It is a documented account of what a modification was, who created it, what was released, when it was distributed and where the surviving files came from.
-
-The challenge is that this information is rarely available in one place.
+An archive is more than a collection of old downloads. It is a documented account of the modification, its creators, its releases and the origins of surviving files. Reconstructing this history is difficult because the evidence is rarely available in one place.
 
 You might find a release announcement in an old gaming news archive, a filename in a Usenet discussion, a download link in an archived website and an actual copy of the file on a magazine CD. Each discovery contributes a small piece of the historical record.
 
@@ -47,8 +45,6 @@ You should aim to record the information once and connect it to the relevant par
 ## Create the history document
 
 Start by creating a basic structure in `research/history.md`.
-
-We touched on how to do this in the previous chapter.
 
 For example, the suggested sections in this document is provided below:
 
@@ -86,8 +82,6 @@ were distributed. These could be inline with each release.
 Historical sources supporting the information
 in this document.
 ```
-
-This structure gives you somewhere to record the main categories of information you will discover.
 
 You do not need to fill in every section immediately. In fact, some sections might initially contain only a few lines.
 
@@ -140,7 +134,7 @@ Content of each file:
 ...
 ```
 
-You do not need to know all these details before creating an entry. Start with what the evidence establishes, leave unknown fields blank or mark them as unknown, and update the entry as you make discoveries.
+Start with whatever evidence is available. Mark unknown details clearly and update the entry as you make discoveries.
 
 ### Record the release name and version
 
@@ -204,8 +198,6 @@ File sizes are also useful because they can help distinguish different copies or
 
 For example, two files might both be called `aq10.zip`, but have different sizes. This could indicate that one is a modified copy, an incomplete download or a different release that reused the same filename.
 
-Do not assume that matching filenames mean matching files.
-
 For recovered files, calculate a cryptographic hash such as SHA-256.
 
 A hash provides a compact identifier for the exact contents of a file.
@@ -260,9 +252,7 @@ Use the `tree` or `ls -l` command on macOS or Linux to summarize an unzipped dis
 
 ### Record changelog information
 
-A changelog is a list of changes in  a given modification release and typically included in the modification readme and/or as part of a release announcement.
-
-If a release includes a changelog or readme, record the important changes.
+Changelogs are often included in modification readmes or release announcements. Record significant changes for each release.
 
 For example:
 
@@ -353,13 +343,7 @@ Keep this section for events that are not already documented as part of a releas
 
 ## Maintain a list of project websites
 
-The project website is often one of the most valuable sources of historical information.
-
-It may contain release announcements, screenshots, readmes, developer information, download links and references to related projects.
-
-However, many Quake modification websites have disappeared.
-
-You should therefore maintain a list of all known websites associated with the project, including websites that no longer exist.
+Original project websites can provide release announcements, readmes, developer information and download links. Many have disappeared, making it important to record every known website associated with the modification, including those no longer accessible.
 
 Add a section to `history.md`:
 
@@ -401,8 +385,6 @@ You might discover:
 Record the original URL and any archived or alternative locations separately.
 
 A vanished website is still historically important. Its URL may appear in announcements, readmes and other websites, providing clues about where files were distributed.
-
-Do not discard a URL simply because it no longer works.
 
 ## Maintain a record of historical download locations
 
@@ -459,17 +441,9 @@ If you find a possible alternative URL, record it as a separate location.
 
 ## Update the record as you research
 
-You should not wait until the end of your research to write the historical record.
+Update the archival record as you research, rather than leaving the work until the end.
 
-This is a surprisingly easy mistake to make.
-
-You might spend several weeks searching old websites, reading forum discussions and downloading files. You collect dozens of browser bookmarks and save a few notes in different places.
-
-Eventually, you decide to organise everything.
-
-By then, you might no longer remember which website provided a particular filename, whether a date came from a readme or a news article, or which download URL was associated with a particular release.
-
-Instead, update the archival record whenever you make a useful discovery.
+After several weeks of searching websites, reading discussions and downloading files, it can become difficult to remember where individual discoveries came from. You might forget which website provided a filename, whether a date came from a readme or an announcement, or which URL was associated with a particular release.
 
 For example:
 
@@ -501,9 +475,7 @@ For example:
 - Add any known filename to `wishlist.txt`.
 - Record the historical download URL in `wishlist_urls.txt`, if available.
 
-This process ensures that your archival record develops alongside your research.
-
-It also means that you can stop working at any point and return later without having to reconstruct everything you discovered.
+Keeping the record current also makes it easier to pause your research and resume it later without retracing your steps.
 
 ## Chapter summary
 
