@@ -87,7 +87,9 @@ Also search community discussions for people who mention the modification or its
 
 Maintain a spreadsheet of everyone you identify. This is important because contacting people can become a substantial research activity involving dozens or even hundreds of potential contacts.
 
-A useful spreadsheet might contain the following columns:
+A simple spreadsheet might contain name, role, email address, and contacted "yes" or "no".
+
+A more elaborate contact spreadsheet might contain the following columns:
 
 | Column            | Description                                         |
 | ----------------- | --------------------------------------------------- |
@@ -120,7 +122,7 @@ research/
 
 You can also use a CSV file or a simple Markdown table. The important thing is to maintain a central record and work through it systematically.
 
-I exclude spreadsheets like this from the public archive project to ensure the contact details I track down remain private. I recommend that you take a similar respectful approach.
+I exclude spreadsheets like this from the public archive project to ensure the contact details I track down remain private. More recently, I use a private spreadsheet in a cloud platform that is completely separate from the archive, like Google Docs. I recommend that you take a similar respectful approach.
 
 ## Exhaust Public Research Before Contacting People
 
@@ -162,6 +164,8 @@ Ask whether anyone has relevant files or knows someone who worked on the project
 Community engagement can produce unexpected leads. Someone might recognise a developer's old username, remember a forgotten FTP server or know of a collector with a large backup of historical Quake files.
 
 Do not restrict your search to one community. Different groups have different members and historical knowledge. A mapper community might know someone who contributed maps to your modification, while a general Quake archive community might know someone who preserved its original releases.
+
+I'm reticent to list specific communities and forums for you, as they come and go over the years. A Google search will locate many.
 
 ## Contact Specific Individuals
 
@@ -282,3 +286,4 @@ The process involves identifying potential contacts, researching their backgroun
 Leave this work until you have exhausted the easier public sources and know precisely what you need. Be specific in your requests, patient with responses and grateful for any assistance. Ask people for referrals to other potential contacts.
 
 This approach requires considerable legwork and has a low success rate, but the results can be exceptional. A single former developer or collector may have exactly the rare release that your entire archival project has been missing.
+

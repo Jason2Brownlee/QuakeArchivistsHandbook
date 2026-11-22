@@ -97,6 +97,11 @@ One of the most useful automation opportunities is extracting information from h
 
 The Wayback Machine provides a CDX API that can be used to discover archived URLs for a particular website. A script can query this API, retrieve the resulting URL list and identify pages or downloadable files worth investigating.
 
+A good place to get started with the Wayback Machine's APIs is this website:
+
+* [Wayback Machine APIs](https://archive.org/help/wayback_api.php)\
+    `https://archive.org/help/wayback_api.php`
+
 For example, you could build a tool that:
 
 1. Accepts a project website domain.
@@ -112,9 +117,9 @@ You can build further tools to process the downloaded HTML pages.
 
 **Extract links from HTML pages**
 
-A project homepage might contain links to news pages, downloads, screenshots, documentation and external mirrors. A script using Beautiful Soup can extract all the links from an HTML page and write them to a text file.
+A project homepage might contain links to news pages, downloads, screenshots, documentation and external mirrors. A script using Beautiful Soup (a Python library mentioned above) can extract all the links from an HTML page and write them to a text file.
 
-**Identify downloadable artifacts**
+**Identify downloadable artefacts**
 
 You can filter extracted links for common archive and file extensions, including:
 
@@ -140,11 +145,6 @@ Historical project websites often linked to external FTP servers, personal websi
 The result is a searchable inventory of historical file locations and website references.
 
 There are limitations. The Wayback Machine does not necessarily preserve every page or downloadable file, and an archived page may contain a link to a file that was never captured. Treat extracted links as research leads rather than proof that a file is available.
-
-A good place to get started with the Wayback Machine's APIs is this website:
-
-* [Wayback Machine APIs](https://archive.org/help/wayback_api.php)\
-    `https://archive.org/help/wayback_api.php`
 
 ## Analyse recovered files
 
