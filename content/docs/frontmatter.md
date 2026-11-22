@@ -25,7 +25,7 @@ Quake and related names and trademarks are the property of their respective owne
 
 ## Use of Artificial Intelligence
 
-Large language models (LLMs) were used to help transform the author's notes and research into initial prose drafts. All material was reviewed and edited by the author.
+Large language models (LLMs) were used to help transform the author's notes and research into initial prose drafts. All material was reviewed and edited by the author. If using AI in the writing process bothers you, I understand. Perhaps this guide is not a good fit for you.
 
 ## About the Author
 

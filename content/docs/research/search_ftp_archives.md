@@ -20,8 +20,7 @@ Quake communities relied on a network of FTP servers and mirrors. Developers upl
 
 Several important historical archives became well-known distribution locations:
 
-- **idgames** was a related archive for Doom-engine games, including Doom, Heretic and Hexen. Almost certainly not relevant to Quake modifications, but mentioned for completeness.
-- **idgames2** was a major archive of files for Quake-engine games. It included Quake maps, modifications, utilities and other content.
+- **idgames2** was a major archive of files for Quake-engine games. It included Quake maps, modifications, utilities and other content. Initially hosted on `cdrom.com` and later `gamers.org`.
 - **PlanetQuake** was a major Quake community website and hosting service. It hosted individual modification websites and maintained an FTP archive of their files.
 - **Telefragged** was another Quake community website and hosting service, with downloadable modifications and related material.
 - **Games Domain** was a general PC gaming website that also maintained downloadable game files.
@@ -40,7 +39,7 @@ Several useful collections include:
 
 **Gamers.org mirrors**
 
-Gamers.org hosts mirrors of several historical gaming FTP archives. Examples include:
+Gamers.org hosts mirrors of several historical gaming FTP archives, such as:
 
 - [id Software FTP archive](https://www.gamers.org/pub/mirrors/ftp.idsoftware.com/)\
 	`https://www.gamers.org/pub/mirrors/ftp.idsoftware.com/`
@@ -51,7 +50,7 @@ Gamers.org hosts mirrors of several historical gaming FTP archives. Examples inc
 - [idgames2 archive](https://www.gamers.org/pub/idgames2/)\
 	`https://www.gamers.org/pub/idgames2/`
 
-The Gamers.org `idgames2/` directory for Quake and related games is mirrored in many places, such as:
+The Gamers.org `idgames2/` directory for Quake and related games was and is currently mirrored in many places, such as:
 
 - ftp://ftp.fu-berlin.de/pc/games/idgames2/
 - https://ftp.fu-berlin.de/pc/games/idgames2/
@@ -89,7 +88,7 @@ Quaddicted maintains a large collection of Quake files, including modifications,
 
 The Quaddicted file archive is large and is being added to in an ad hoc manner.
 
-You can download a compressed archive file that contains a full and up-to-date list of all files and directories on Quaddicted here:
+You can download a compressed archive file that contains a full and up-to-date list of all files and directories in the archive here:
 
 - https://www.quaddicted.com/files/ls-goalR_cut.xz
 
@@ -163,7 +162,7 @@ It can also reveal releases you were not previously aware of. For example, a sea
 
 Some FTP search engines provide links directly to the FTP server and directory containing a matching file. You may need an FTP client to browse these locations or download the files.
 
-Modern web browsers generally no longer support direct FTP access, so a dedicated FTP client is often required. One popular open-source option is **FileZilla**: `https://filezilla-project.org/`.
+Modern web browsers generally no longer support direct FTP access, so a dedicated FTP client is often required. One popular open-source option is [FileZilla](https://filezilla-project.org/) (`https://filezilla-project.org/`).
 
 When connecting to a public FTP server, try anonymous access. Typical connection details are:
 
@@ -177,7 +176,7 @@ Once connected, browse the directory structure and inspect the files. You can do
 
 Treat search results as leads rather than definitive evidence. Follow them to the actual directory or file where possible, inspect the contents, and record the full FTP hostname and directory path. Do not rely only on the search engine's result page, since its index may be incomplete or outdated.
 
-Add a practical search workflowExplain what to record from FTP results
+Add a practical search workflowExplain what to record from FTP results.
 
 ## Inspect FTP Directory Structures
 
@@ -252,6 +251,8 @@ http://example.com/pub/quake/
 ```
 
 The actual web interface may use a different hostname or URL structure, so treat this as a lead rather than an assumption.
+
+For example, historical files on `ftp://ftp.cdrom.com/pub/...` may be available via an archived web interface like `http://www.cdrom.com/pub/...`. Searching the Wayback Machine with URLs starting with `cdrom.com/` (without the ftp or http elements) is a handy trick.
 
 Archived directory pages can reveal:
 

@@ -197,30 +197,6 @@ I suspect a lot of people who grew up playing Quake ended up working in IT anywa
 
 In some ways, Quake archiving feels like a continuation of that experience.
 
-## A Note About How This Guide Was Written
-
-I used AI to help write this guide.
-
-I started by making detailed notes about everything I could think of from my years of creating and maintaining Quake archives.
-
-These included the steps I follow, the websites I use, the problems I encounter, the tools I have developed and the techniques I have found most useful.
-
-I then used AI to help organise those notes into chapters and turn them into readable prose.
-
-From there, I heavily edited, corrected and refined the material based on my own experience and what I believe would be most helpful to someone creating an archive.
-
-The research methods, examples, recommendations and opinions presented here are based on how I actually approach Quake archiving.
-
-I wanted to write this guide, but I also wanted to spend most of my time thinking about the substance rather than struggling to turn years of accumulated notes into polished chapters.
-
-AI helped make that possible.
-
-If using AI in the writing process bothers you, I understand.
-
-Perhaps this guide is not for you. Or perhaps you can still dip into a chapter, discover a useful resource or pick up a research technique that gives you a new idea.
-
-I am much more interested in whether the information is useful than in how the prose was produced.
-
 ## A Final Thought Before We Begin
 
 Quake archiving can be a surprisingly deep hobby.
