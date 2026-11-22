@@ -5,13 +5,11 @@ weight: 40
 
 # 11. Search CD Archives and Historical Software Collections
 
-In the previous chapters, we investigated original project websites, gaming news archives and Usenet discussions. These sources can reveal where a modification was announced and how it was distributed. However, they do not necessarily preserve the files themselves.
+Magazine cover CDs, shareware compilations and other historical software collections are valuable sources of Quake modifications that may no longer be available online.
 
-Another important source is physical media, particularly CD-ROMs distributed during the 1990s and early 2000s.
+During the 1990s and early 2000s, thousands of modifications, maps, patches and utilities were redistributed on physical media. Many of these discs have since been digitised and preserved in online archives.
 
-Many Quake modifications were collected and redistributed on magazine cover CDs, shareware compilations, BBS collections and commercial or semi-commercial collections of third-party software. These discs can preserve releases that have disappeared from the original project website and are no longer available from online mirrors.
-
-This chapter explains how to search digital archives of physical media, identify relevant discs and recover files from them.
+This chapter explains how to find these collections, search their contents and recover missing releases.
 
 ## Understand the Different Types of CD Collections
 
@@ -48,27 +46,11 @@ A Quake modification might be included in a general games collection without any
 
 ### Semi-commercial collections of third-party material
 
-During the 1990s, various CD collections containing third-party software were sold commercially or semi-commercially, particularly in Europe.
-
-These discs often gathered freeware, shareware, game modifications, utilities and other downloadable material into large collections.
-
-They were not necessarily produced by the original developers. Instead, a publisher or distributor collected material that was already circulating online and packaged it for distribution.
-
-Such collections can be valuable because they may preserve files from small projects that never appeared on major magazine CDs.
+Some commercial and semi-commercial publishers, particularly in Europe, sold collections of third-party software. Unlike magazine cover discs, these products were often standalone compilations of freeware, shareware and game modifications, sometimes including obscure projects overlooked by larger publishers.
 
 ### Other physical media
 
-Although CD-ROMs are the main focus of this chapter, do not limit your research to them.
-
-Quake modifications could also have been distributed on:
-
-- Floppy disks included with magazines.
-- BBS compilation disks.
-- Game compilation CDs.
-- Collections of shareware and freeware.
-- Backup discs created by individuals or communities.
-
-The important point is to investigate collections of software, not just discs explicitly labelled as Quake or gaming collections.
+Although CD-ROMs are the focus here, consider floppy disks, BBS collections and personal backup media. These may contain files that never appeared in commercial compilations or online archives.
 
 ## Important CD-ROM Archives
 
@@ -104,11 +86,9 @@ The archive's search and collection structure can change over time. Search broad
 
 ### QuakeDiscs
 
-[QuakeDiscs](https://QuakeDiscs.com) (`https://QuakeDiscs.com`), a website I created for fellow Quake Archivists) is a catalogue dedicated to third-party add-on CDs for the original Quake. It is particularly useful because it indexes the contents of individual discs, including files contained inside archives.
+[QuakeDiscs](https://QuakeDiscs.com) (https://QuakeDiscs.com) is a catalogue I created for fellow Quake archivists. It indexes third-party add-on CDs for the original Quake, including files nested inside ZIP, RAR, ARJ, PAK and other archives.
 
-QuakeDiscs is one of the most directly useful resources for researching Quake CD distributions. It provides a catalogue of discs, with information about their publishers, dates and contents. Its file listings can include files nested inside ZIP, RAR, ARJ, PAK and other archives.
-
-This means you can search for a filename without first knowing which CD contains it.
+You can search for filenames without knowing which disc contains them, then inspect the disc's title, publisher, publication date and directory structure.
 
 For example, you might search for:
 
@@ -132,9 +112,7 @@ QuakeDiscs is focused on Quake add-on CDs, so it should not be treated as a comp
 
 ### DiscMaster
 
-[DiscMaster](https://discmaster.textfiles.com) (`https://discmaster.textfiles.com`) is a search engine for files contained on historical discs preserved by the Internet Archive.
-
-DiscMaster is especially useful because it searches inside the contents of old CD-ROM and floppy disk collections. Rather than requiring you to identify a disc first, you can search for a filename or a distinctive phrase and find collections containing matching material.
+[DiscMaster](https://discmaster.textfiles.com) (https://discmaster.textfiles.com) searches filenames and indexed content from historical CD-ROM and floppy disk collections preserved by the Internet Archive. It can identify matching files without requiring you to know which disc contains them.
 
 This makes it a good resource for searching for:
 
@@ -148,8 +126,6 @@ For example, suppose you are looking for a modification called *Shadow Arena*. S
 
 DiscMaster can also help you find files that have been extracted from their original ZIP archives. This is important because some CD collections contain the contents of a modification as ordinary files in directories rather than as the original downloadable archive.
 
-DiscMaster also allows you to search the content of files that it has indexed. A good tip for DiscMaster is to search for unique content from the mod's ZIP file, such as a unique map or configuration filename.
-
 ### Other historical software collections
 
 Continue looking for other archives and catalogues of historical software. Some specialise in particular platforms, magazine collections, countries or types of physical media.
@@ -162,39 +138,19 @@ The important lesson is that there is no single complete catalogue of historical
 
 ## Search for the Modification's Name and Filenames
 
-Once you have identified the relevant archives, begin searching for the modification itself.
-
-Use the same general search strategy introduced in earlier chapters, but adapt it to the contents of physical media.
+Search the identified CD archives using project names, release filenames and distinctive content from recovered files.
 
 ### Search the modification's name
 
-Start with the project's official name, then try alternative spellings and abbreviations.
-
-For example:
-
-```
-Action Quake 2
-Action Quake II
-ActionQuake2
-AQ2
-Action Quake
-```
+Search the project's official name, alternative spellings, abbreviations and earlier titles, as described in previous chapters.
 
 A CD might include a modification under a directory named after its author rather than the project. A collection might use a shortened name or a generic category such as `mods`, `addons` or `quake2`.
 
 ### Search known release filenames
 
-If you have already recovered a release, search for its original filename.
+Search the original filenames of recovered releases and any variations discovered during your research. CD publishers sometimes renamed archives, removed version numbers or shortened filenames when assembling collections.
 
-For example:
-
-```
-action15.zip
-actionquake15.zip
-aq2-1.5.zip
-```
-
-A match can reveal which CD contains the file and where it appears in the directory structure.
+A match can identify the disc containing the release and its location within the disc's directory structure.
 
 Do not assume that the same release will always have the same filename. A magazine or CD publisher might rename files when assembling a collection.
 
@@ -202,15 +158,7 @@ Try variations of the filename, including shortened names and names without vers
 
 ### Search unique filenames inside the modification
 
-This is one of the most important techniques in CD research.
-
-A modification might have been distributed on a CD under a generic name such as:
-
-```
-aq2.zip
-```
-
-Searching for the project name might not find it. However, the archive may contain distinctive files that are much easier to identify.
+When an archive has been renamed or extracted before being added to a disc, its internal filenames may be more useful search terms than the original ZIP filename.
 
 For example:
 
@@ -222,8 +170,6 @@ shadow_arena_map.bsp
 
 Search for these internal filenames individually.
 
-The idea is to search for content that is likely to be unique to the modification, rather than relying only on the name of the project.
-
 This technique is particularly useful when:
 
 - The CD publisher renamed the original archive.
@@ -232,13 +178,9 @@ This technique is particularly useful when:
 - The project name does not appear in the CD's catalogue.
 - The original archive filename is unknown.
 
-If you have recovered one release, inspect its contents and make a list of distinctive filenames. These can become search terms for finding other copies of the release on physical media.
-
 ### Search distinctive phrases from readme files
 
-Readme files are another excellent source of search terms.
-
-A readme might contain a distinctive description of the modification, a copyright statement, installation instructions or a list of credits.
+Full-text indexes such as DiscMaster may also reveal copies of a modification through distinctive phrases from its readme, credits or installation instructions.
 
 For example, imagine a readme contains this fictional sentence:
 
@@ -251,43 +193,11 @@ Search for a distinctive part of the sentence, rather than the entire paragraph.
 
 This can locate a copy of the readme even if the modification itself has been renamed or extracted into a directory.
 
-Try searching for:
-
-- A distinctive sentence from the introduction.
-- An unusual phrase from the installation instructions.
-- A developer's name or email address.
-- A distinctive copyright notice.
-- A unique entry in the credits.
-- A particular changelog entry.
-
 When searching full text, remember that punctuation, spacing and line breaks can vary. Try shorter phrases if an exact search does not produce results.
-
-### Search for other content in the distribution package
-
-Do not restrict your searches to files that appear to be documentation.
-
-A modification may contain unique maps, models, sounds, textures, configuration files and scripts.
-
-For example, a Quake modification might include:
-
-```
-progs/player.mdl
-maps/arena1.bsp
-sound/weapons/custom.wav
-gfx/menu/custom.lmp
-```
-
-Some filenames will be too generic to be useful. Others may be distinctive enough to identify the project.
-
-Look for files that are unlikely to appear in unrelated Quake distributions. A custom map name, unusual model filename or project-specific configuration file can be a useful search term.
-
-The more familiar you become with the contents of a modification, the more opportunities you have to search for it in other collections.
 
 ## Search for Content, Not Just the Original Archive
 
-An important difference between online downloads and CD distributions is that the files may not have been preserved in their original packaging.
-
-When a modification was originally distributed online, it might have been downloaded as a ZIP file. A magazine publisher or CD collector could then extract the ZIP and copy its contents directly onto a CD.
+CD publishers sometimes extracted modifications from their original ZIP archives and placed the contents directly onto the disc. Consequently, the original archive filename may no longer exist in the collection.
 
 For example, the original download might have looked like this:
 
@@ -315,11 +225,7 @@ QUAKE2/
             sound/
 ```
 
-There is no longer an `aq2.zip` file to find.
-
-This is why searching for filenames inside the original release is so important. You might find the modification even when its original archive has been renamed, extracted or reorganised.
-
-It also means you should not dismiss a CD search result just because its file structure differs from the release you have already recovered.
+It means you should not dismiss a CD search result just because its file structure differs from the release you have already recovered.
 
 ### Compare the contents
 
@@ -346,38 +252,13 @@ If a catalogue such as QuakeDiscs provides a file listing, use it to identify th
 
 For an ISO image, you can generally mount it or open it using software that supports ISO files. On many operating systems, mounting an ISO makes its contents accessible as a normal directory.
 
-Once you have access to the disc, investigate the surrounding files and directories.
-
-For example, if you find:
-
-```
-QUAKE/
-    MODS/
-        ACTION/
-            readme.txt
-            pak0.pak
-            pak1.pak
-```
-
-Inspect the readme and compare the files with known releases.
+Once you have access to the disc, inspect the matching files and their surrounding directories. Compare readmes and other contents with known releases, and look for nearby patches, maps or supplementary files.
 
 Also inspect nearby directories. The disc might contain other versions, patches, maps or supplementary files related to the same modification.
 
 ### Record the original CD structure
 
-Preserve the directory structure as it appeared on the disc when documenting the source.
-
-For example:
-
-```
-PC_ZONE_QUAKE/
-    QUAKE/
-        MODS/
-            ACTION/
-                readme.txt
-                pak0.pak
-                pak1.pak
-```
+Record the original directory path of each recovered file within the CD. This provides provenance, distinguishes the disc's copy from independently recovered downloads and makes it easier to locate the material again.
 
 This provides useful provenance. It shows where the files were located within the original collection and helps distinguish the CD copy from an independently recovered download.
 
@@ -387,40 +268,11 @@ Record the CD title, publisher, publication date, source URL and relevant direct
 
 ## Distinguish Release Dates from CD Distribution Dates
 
-Physical media introduces an important dating problem.
-
-A modification might have been released online in March 1998 but included on a magazine CD published in September 1998.
-
-These are two different events.
-
-The release date describes when the modification became available from its developer or original distribution location. The CD publication date describes when a particular collection containing the modification was distributed.
-
-Do not confuse the two.
-
-For example:
-
-| Event                                         | Date           |
-| --------------------------------------------- | -------------- |
-| Modification originally released              | March 1998     |
-| Modification downloaded by magazine publisher | April 1998     |
-| Magazine CD published                         | September 1998 |
-| CD image added to Internet Archive            | 2012           |
-
-These dates describe different stages in the history of the files.
-
-A CD's publication date can provide useful evidence that a modification existed by that time. It does not establish that the modification was originally released on that date.
+A modification might have been released online in March 1998 but included on a magazine CD published in September. The CD's publication date provides evidence of later distribution, not necessarily the original release date.
 
 ### Be careful with file timestamps
 
-Files on a CD may contain timestamps that are older than the disc itself.
-
-For example, a ZIP archive might have been created in March, copied onto a CD in September and later extracted from that CD in 2010.
-
-The timestamps you see depend on how the files were originally created, packaged and copied.
-
-A timestamp inside a ZIP archive may preserve information about the original files. A timestamp on an extracted file may reflect the original file's modification time, or it may have been changed during extraction or copying.
-
-Use timestamps as supporting evidence, not as definitive release dates.
+File timestamps may have been preserved or changed as files were packaged, copied onto CDs and later extracted. A timestamp inside a ZIP archive may differ from the timestamp of the extracted file. Treat these as supporting evidence rather than definitive release dates.
 
 ### Record the different dates separately
 
@@ -435,40 +287,23 @@ For example, an entry in `research/history.md` might look like:
 - Original filename: action15.zip
 - Recovered from: PC Zone Complete Quake CD
 - CD publisher: PC Zone Magazine
-- CD publication date: December 1997
+- CD publication date: September 1998
 - CD directory: QUAKE/MODS/ACTION/
 - CD source: [Internet Archive URL]
 - Files: readme.txt, pak0.pak, pak1.pak
 - SHA-256: ...
 ```
 
-This is a fictional example. Notice that the release date and CD publication date are recorded separately.
+This example records the recovered files alongside their physical distribution source.
 
 If the dates appear inconsistent, investigate further. Perhaps the release date is wrong, the CD date refers to a different edition, or the files on the disc were added after its original publication. Do not silently resolve the discrepancy by choosing one date.
 
 
 ## Repackage Recovered Releases Carefully
 
-A release recovered from a CD-ROM may not be in the same form as the original download.
+When a modification survives only as extracted files on a CD, you may want to create a new ZIP archive to make the release easier to distribute.
 
-For example, the original developer might have distributed a modification as:
-
-```
-shadowarena11.zip
-```
-
-However, the magazine CD might contain the extracted contents of that archive:
-
-```
-QUAKE/
-    MODS/
-        SHADOW/
-            readme.txt
-            pak0.pak
-            pak1.pak
-            maps/
-            sound/
-```
+This is reasonable, provided the reconstructed archive is clearly distinguished from the original download.
 
 To make the recovered release easier to distribute and use, you may want to repackage these files into a ZIP archive.
 
@@ -526,27 +361,17 @@ Also record the source CD and its publication date, as described earlier in this
 
 ### Why this distinction matters
 
-Repackaging is a practical way to make otherwise inaccessible releases available to others. However, it introduces a new archival object that did not necessarily exist in that exact form when the modification was originally distributed.
+Repackaging creates a new archival object, even when the recovered files themselves remain unchanged. A future researcher should be able to distinguish between an original distribution and an archive reconstructed from its contents.
 
-A future researcher should be able to distinguish between:
-
-1. The original archive distributed by the developer.
-2. A copy of that archive recovered from a mirror or CD.
-3. A new archive created by the archivist from extracted files.
-
-These distinctions preserve provenance and prevent the archive from accidentally presenting a reconstructed package as an original release.
-
-**The guiding principle is simple: preserve what you find, make recovered content accessible when necessary, and clearly document anything you have reconstructed or repackaged.**
+**Preserve what you find, make recovered content accessible when necessary, and document anything you reconstruct or repackage.**
 
 ## Summary
 
-Physical media is an important source of historical Quake modifications. Magazine cover CDs, shareware compilations, BBS collections and semi-commercial software collections often preserved files that are no longer available from their original websites.
+Historical CD-ROM collections can preserve Quake modifications that have disappeared from online sources. Resources such as the Internet Archive, QuakeDiscs and DiscMaster help identify discs and search their contents.
 
-The Internet Archive provides access to many historical CD images. QuakeDiscs provides a specialised catalogue of Quake add-on CDs, while DiscMaster makes it possible to search the contents of many archived discs.
+Search for release filenames, distinctive internal files and phrases from documentation. Once you locate a possible copy, inspect its contents and preserve the details of its original distribution.
 
-The most important search technique is to look beyond the modification's name. Search for known release filenames, unique filenames inside recovered releases and distinctive phrases from readme files. A modification might have been renamed, extracted or reorganised before being copied onto a CD.
-
-Finally, distinguish the original release date from the date a particular CD was published or its files were extracted. These are separate historical events and should be recorded separately.
+When recovering files from CD-ROMs, distinguish original releases from repackaged copies and document the source of each recovered file.
 
 **Outcome:** You can identify releases preserved on physical media and recover files that might not exist on the original project website.
 
