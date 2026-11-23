@@ -165,7 +165,7 @@ Here is an example of an initial email to a former Quake developer or contributo
 >
 > **[Your Name]**
 
-I recommend publishing at least an initial version of your archive before contacting people. Including a link demonstrates that you have already invested time in the project and gives potential contributors something concrete to inspect.
+If you have already published an initial version of your archive, include a link so potential contributors can see your work. Otherwise, briefly describe the research you have completed and the specific files you are trying to recover. You do not need to publish the archive before making your first enquiries.
 
 If you do not receive a response after a few weeks, consider sending one gentle follow-up. Rather than repeating the file request, you might ask whether they remember the project, its developers or what happened to it. Even if they have no files to share, their recollections may provide useful leads. Avoid repeated messages if they do not respond.
 

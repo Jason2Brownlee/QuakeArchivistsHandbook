@@ -13,24 +13,13 @@ Publishing an archive does not require a complicated website or expensive hostin
 
 ## Prepare the README
 
-The `README.md` file is the front door to your archive.
+Before publishing, review the `README.md` prepared during the earlier stages of your project. Consider how it will appear to someone visiting the archive for the first time.
 
-Most visitors will not be interested in the details of your research. They will be nostalgic Quake players who remember a particular modification and want to download a copy, perhaps to play it again after many years.
+Check that the release list agrees with `research/history.md`, that download links point to the correct files and that missing releases are clearly identified. Make sure repackaged or repaired files are distinguishable from original distributions.
 
-The README should make this as easy as possible.
+Test links to the historical record, wishlists and other supporting documentation. Confirm that credits are accurate and that visitors have a way to contact you or contribute missing material.
 
-Before publishing, review the README from the perspective of someone who knows nothing about your archival project.
-
-Make sure it includes:
-
-- **Project description:** A short introduction explaining what the modification is and why it is worth preserving.
-- **Archive contents:** A list of known releases, including version numbers, dates and download links where files are available.
-- **Historical research:** Links to `research/history.md` and other relevant documents for visitors who want to investigate the modification's history.
-- **Known gaps:** A brief explanation of missing releases, incomplete collections and important uncertainties.
-- **Credits:** Acknowledgements of the original developers and people who helped recover material.
-- **How to help:** Information about missing files and how visitors can contribute.
-
-Keep the README concise, providing an accessible entry point with links to the detailed documentation in `research/`.
+Keep the README concise. Someone looking for a particular release should be able to find it quickly, while readers interested in the historical research should have a clear path to the supporting evidence.
 
 ## Publish the Archive on GitHub
 
@@ -45,7 +34,7 @@ To publish your archive:
 
 1. Create a GitHub account if you do not already have one.
 2. Create a new public repository with a descriptive name, such as `action-quake-archive`.
-3. Upload your existing archive directory, including `README.md`, `bin/` and `research/`.
+3. Upload the files you have chosen to publish, including `README.md`, `bin/` and the appropriate documentation from `research/`. Keep private working notes and correspondence outside the public repository.
 4. Commit the files to the repository.
 5. Open the repository in your browser and inspect how it appears to visitors.
 
@@ -101,7 +90,7 @@ action-quake-archive/
         wishlist_urls.txt
 ```
 
-Keep this structure when publishing.
+Keep the basic directory structure when publishing, but decide which research documents should be public. Your historical record and missing-file wishlists are useful to visitors and contributors, while informal notes, private correspondence and unverified working material may be better kept outside the public repository. Review each document before publishing it.
 
 Use relative Markdown links to connect documents.
 
@@ -119,7 +108,7 @@ Relative links work within GitHub and remain useful if someone downloads or clon
 
 You do not need to link every research document from the README. Link the documents most likely to interest visitors and contributors.
 
-Informal research notes can remain available without being prominently advertised.
+Remember that any file committed to a public GitHub repository can be accessed by visitors, even if the README does not link to it. Keep documents that should remain private outside the public repository.
 
 The aim is to make the important information discoverable without overwhelming visitors with the details of your working process.
 
@@ -300,23 +289,9 @@ The purpose of the archive is preservation, not claiming ownership of someone el
 
 ## Maintain Backups and the Repository
 
-Once the archive is published, it needs occasional maintenance.
+Before publishing your archive, ensure that you have a complete local copy and at least one independent backup of your recovered files and research documentation. GitHub provides convenient hosting and version control, but it should not be your only copy of historically important material.
 
-GitHub is a convenient public host, but it should not be the only place where your archival material exists.
-
-Keep a local copy of the complete repository and maintain at least one additional backup, preferably on a separate drive or storage service.
-
-This is particularly important for rare files that you recovered from sources that may no longer exist.
-
-Git history helps protect against accidental changes, but it does not replace independent backups.
-
-As new material is recovered, update the historical record, README, wishlists and contributor acknowledgements as appropriate. Continue preserving original files and documenting the provenance of each discovery.
-
-Periodically check that download links still work, particularly when files are hosted outside GitHub.
-
-You may also receive corrections or contributions through GitHub Issues or other contact methods. Review these and incorporate useful information into the archive.
-
-A public archive does not need constant attention, but occasional maintenance helps keep it useful and trustworthy.
+Publication is also the beginning of an ongoing preservation responsibility. The next chapter explains how to maintain the archive, incorporate new discoveries, review external links, manage contributions and protect your collection with independent backups.
 
 ## Keep the Archive Simple
 

@@ -157,43 +157,13 @@ Surviving mailing list archives may be incomplete, with missing attachments or b
 
 ## Find Other Collectors and Archivists
 
-Experienced collectors and archivists may have spent years gathering files from particular Quake communities, game engines or historical distribution networks. Their collections sometimes contain material that has never been publicly catalogued.
+Other Quake archivists may maintain private collections, historical FTP backups, CD collections or file catalogues that have never been fully published.
 
-For example, a collector might have:
+Look for collectors and archivists through community websites, forum discussions, archive credits and references in other historical collections. Record promising contacts and any collections they are known to maintain.
 
-- A complete copy of an old FTP archive.
-- A backup of a developer's personal website.
-- An unreleased or previously unknown version of a modification.
-- A collection of old magazine CDs.
-- Files recovered from a discontinued hosting service.
-- Old readmes, announcements and documentation.
-- A list of other people who maintain related collections.
+Relationships between archivists can be reciprocal. Sharing file inventories, research findings and recovered material may benefit both projects. Always respect preferences about sharing private collections and ask before redistributing material provided privately.
 
-Finding these people requires some active community engagement.
-
-### Ask in community forums and Discord servers
-
-Search for Quake-related forums, Discord servers and other online communities. Look for discussions about historical preservation, old modifications, mapping, mod development and game archives.
-
-Introduce your archival project and make specific requests for the releases, patches, readmes or website backups you are trying to locate.
-
-You can also ask whether anyone knows of other collectors or archives worth investigating.
-
-### Contact people who worked on the original projects
-
-Former developers, mappers, artists, server administrators and website operators may still have original files, source code or project backups. They may also remember where releases were distributed.
-
-Use the names and contact details discovered during earlier research to identify potential contacts. The next chapter explains how to approach these people and request assistance.
-
-### Build relationships with other archivists
-
-Treat other collectors as potential collaborators rather than simply sources of files.
-
-Share useful discoveries, explain your research methods and offer to provide copies of material you have recovered. If another archivist has a missing release, you may be able to help them recover something from your own collection.
-
-Over time, these relationships can lead to new sources, additional files and a much better understanding of the history of the Quake community.
-
-Some people may be happy to share their collections publicly. Others may prefer to provide information or files privately. Respect their preferences and ask before redistributing material.
+The next chapter explains how to contact collectors, developers and other individuals, make specific requests for missing files and organise your correspondence.
 
 ## Investigate Collections Systematically
 

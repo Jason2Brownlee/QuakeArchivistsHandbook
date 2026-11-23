@@ -292,22 +292,9 @@ Record your current interpretation without presenting it as an established fact.
 
 ## Resolve conflicting release dates
 
-Conflicting dates are common in historical software research.
+Return to the date distinctions established in Chapter 7. An announcement date, a file upload timestamp, a mirror distribution date and a CD publication date may differ because they describe separate events.
 
-You might find a news article announcing a release on one date, an FTP listing showing the file uploaded several days later and a magazine CD containing the same file several months afterward.
-
-These dates do not necessarily contradict one another. They may describe different events.
-
-Distinguish between:
-
-- The date a developer announced a release.
-- The date the release was made available.
-- The date a file was uploaded to an FTP server.
-- The date a mirror received a copy.
-- The publication date of a magazine CD.
-- The date a file was recovered or uploaded to a modern archive.
-
-Record the dates separately whenever possible.
+Record each date according to what its evidence establishes rather than treating every timestamp as a release date. When different sources appear to provide conflicting dates for the same event, investigate the discrepancy before deciding which interpretation is best supported.
 
 **Investigate discrepancies**
 
@@ -323,24 +310,21 @@ When the evidence is inconclusive, record the competing explanations and identif
 
 ## Record confidence and uncertainty
 
-The historical record should distinguish established facts from interpretations and speculation.
+Use the confidence classifications established in Chapter 6 to distinguish established facts from interpretations and speculation:
 
-This is especially important when reconstructing a release history from incomplete and sometimes contradictory sources.
+- Confirmed: Directly supported by reliable surviving evidence.
+- Probable: Supported by evidence, but some details remain uncertain.
+- Unverified: A reference or claim has been found but not independently confirmed.
+- Speculative: A possibility or research hypothesis.
+- Unknown: Insufficient information to make a determination.
 
-You can use simple confidence descriptions throughout `research/history.md`:
+These classifications are qualitative descriptions of the available evidence, not formal statistical probabilities.
 
-- **Confirmed:** Directly supported by reliable evidence, such as an original release announcement or matching developer documentation.
-- **Probable:** Supported by several pieces of consistent evidence, but not explicitly confirmed.
-- **Possible:** Plausible based on available evidence, but significant uncertainty remains.
-- **Unknown:** There is insufficient evidence to reach a reasonable conclusion.
+Apply them to individual claims rather than assigning a single confidence level to an entire release.
 
-These descriptions are not formal statistical probabilities. They are a practical way of communicating how much confidence you have in a particular claim.
+For example, you might have confirmed where a ZIP file was recovered, consider its identification as version 1.2 probable, but remain uncertain whether it contains the complete original distribution.
 
-Apply them to individual claims rather than assigning one confidence level to an entire release.
-
-For example, you might be certain that a ZIP file was recovered from a particular magazine CD, reasonably confident that it contains version 1.2 and uncertain whether the CD contains the complete original distribution.
-
-Document the evidence behind important conclusions so that another researcher can understand how you reached them.
+Record the evidence behind important conclusions so that another researcher can understand how you reached them.
 
 ## Preserve original files and derived copies
 

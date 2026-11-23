@@ -91,6 +91,8 @@ The important thing is to establish the document early and update it whenever yo
 
 The central part of `history.md` should be a chronological account of the modification's releases.
 
+It is useful to distinguish between a release and a file. A release represents a particular version or distribution of a modification, while a file is an actual downloadable artefact. A single release might be distributed through several files, and different files might contain identical copies of the same release. We will examine these distinctions in detail when verifying recovered files in a later chapter.
+
 The section should capture what was released, when it was announced or distributed, what files were involved, what changed and what evidence supports the record.
 
 A modification might have many different types of releases:
@@ -173,7 +175,7 @@ Similarly, a ZIP file might contain files with timestamps from March 1998, but t
 
 Record the date that the evidence actually supports. Keep announcement, release and later distribution dates distinct rather than choosing one date to represent them all.
 
-If you only know that a release appeared sometime during March 1998, record the year rather than inventing a precise month or day.
+If you only know that a release appeared sometime during March 1998, record March 1998 without inventing a precise day. If you only know the year, record the year.
 
 You can also distinguish between confirmed and approximate dates:
 
@@ -182,8 +184,9 @@ You can also distinguish between confirmed and approximate dates:
 
 - Announcement date: April 1998
   Evidence: Original project announcement.
-- Release date: Approximately April 1998
+- Download advertised by: April 1998
   Evidence: Archived download page captured in April.
+- Release date: Not established precisely.
 - Later distribution: July 1998
   Evidence: Magazine CD contents listing.
 ```

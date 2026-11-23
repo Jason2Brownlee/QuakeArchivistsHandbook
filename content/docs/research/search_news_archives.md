@@ -311,12 +311,12 @@ These could represent different distributions of the same release.
 
 When a news article reveals a previously unknown release:
 
-1. Add the filename and release date to `README.md`
-2. Add version 1.1 to `research/history.md`.
-3. Record the announcement date and any release date supported by the article.
-4. Record the filenames and download URLs.
-5. Add any unrecovered files to `research/wishlist.txt`.
-6. Add the original download URLs to `research/wishlist_urls.txt`.
+1. Create an entry in `research/history.md` using the version number or descriptive label supported by the evidence.
+2. Record the announcement date separately from any established release date.
+3. Record the original filenames, download URLs and supporting references.
+4. Add any unrecovered filenames to `research/wishlist.txt`.
+5. Add their historical download URLs to `research/wishlist_urls.txt`.
+6. Update the `README.md` release table, clearly identifying missing downloads and uncertain details.
 
 ### Look for releases mentioned indirectly
 
