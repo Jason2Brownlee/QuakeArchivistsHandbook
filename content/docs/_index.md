@@ -54,4 +54,4 @@ Every recovered file is another small piece of Quake history saved from disappea
 
 ## **Next**
 
-On to the [Introduction](introduction)
+Continue to [Chapter 1: Introduction](introduction.md).

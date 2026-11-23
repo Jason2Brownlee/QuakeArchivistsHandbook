@@ -9,13 +9,13 @@ Historical Quake websites are often incomplete, difficult to browse or missing a
 
 The Wayback Machine preserves more than individual homepages. Its capture index can reveal forgotten directories, different website addresses and files that no longer appear on surviving pages. Meanwhile, server websites, clan pages, regional news sites and developer records may point to releases that were never collected by a major archive.
 
-This chapter shares the techniques I use to investigate these less obvious sources and turn historical URLs into new research targets. It builds on the archive techniques covered in the previous chapter, but focuses on websites and the connections between them.
+This chapter shares the techniques I use to investigate these less obvious sources and turn historical URLs into new research targets. It builds on [Chapter 21: Advanced File Archive Research](advanced_file_archive_research.md), but focuses on websites and the connections between them.
 
 ## Enumerate Archived URLs Using the Wayback Machine
 
 The Wayback Machine's CDX API provides a way to search its historical capture index directly, revealing archived URLs that might not appear in a website's navigation.
 
-We introduced the Wayback Machine's browser-based URL listing in Chapter 8. The CDX API provides additional control over these searches and is particularly useful when investigating large websites or automating archival research.
+The Wayback Machine's browser-based URL listing was introduced in [Chapter 8: Research Original Project Websites](research/search_project_websites.md).
 
 For example, you can open the following URL in your browser:
 
@@ -133,7 +133,7 @@ You may also discover that an archived website is broken under one hostname but 
 
 ### Automate the search
 
-This is an excellent task to automate.
+This is an excellent task to automate, using the small-script approach described in [Chapter 16: Build Tools to Automate Research](research/buid_custom_tools.md).
 
 Write a script that accepts a PlanetQuake project name and generates the known historical URL variations.
 

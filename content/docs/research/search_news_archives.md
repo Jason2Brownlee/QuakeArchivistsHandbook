@@ -5,7 +5,7 @@ weight: 20
 
 # 9. Research Gaming News Archives
 
-In the previous chapter, you learned how to investigate original project websites and use the Wayback Machine to reconstruct their public-facing history.
+In [Chapter 8: Research Original Project Websites](search_project_websites.md), you learned how to investigate project websites and reconstruct their public-facing history using the Wayback Machine.
 
 Your next source of information is contemporary gaming news websites.
 
@@ -39,7 +39,7 @@ You can discover additional news sites through links from:
 - Contemporary gaming news articles.
 - Historical link directories.
 
-Record relevant websites and their URLs in your research notes. You can investigate each one using the same general approach as the original project websites in the previous chapter.
+Record relevant websites and their URLs in your research notes. Investigate each one using the same general approach as for original project websites.
 
 ## Find archived versions of gaming news websites
 
@@ -357,7 +357,7 @@ You can investigate the announcement further using the links and other reference
 
 Do not overlook smaller Quake news sites, gaming magazine websites, modification directories and individual community news pages. You can discover these through links from other articles, original project websites and historical community resources.
 
-A smaller site might have covered a modification that the larger news sites ignored. This is especially true for larger modifications that have their own dedicated sub-community like Team Fortress and Capture The Flag.
+A smaller site might have covered a modification that larger news sites ignored. This is especially true for modifications with dedicated communities, such as Team Fortress and Capture the Flag. For more unusual sources, including international Quake news sites, see [Chapter 22: Advanced Website Research](../advanced_website_research.md).
 
 You can also search the web for distinctive phrases from an announcement, filenames or developer names. Sometimes a story has been reproduced or referenced by another website.
 
@@ -382,4 +382,4 @@ The main ideas from this chapter are:
 
 **Outcome:** You can use contemporary gaming news reporting to discover additional releases, websites, developers and historical download locations. You can also use news articles as supporting evidence to reconstruct a project's release history, particularly when the original project website is incomplete or no longer available.
 
-In the next chapter, you will investigate Usenet archives. These can preserve discussions between developers and players, release announcements, technical support questions and references to files that may not appear in either the original project website or gaming news archives.
+In [Chapter 10: Search Usenet Archives](search_usenet_archives.md), you will investigate contemporary discussions, release announcements and download references preserved in Usenet archives.

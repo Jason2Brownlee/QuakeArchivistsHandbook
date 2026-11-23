@@ -122,7 +122,7 @@ GitHub allows visitors to browse these files and download them individually.
 
 Make each recovered release downloadable through the links in your README's release table. Keep missing releases listed without download links so that visitors can distinguish available material from files still being sought.
 
-Publish the original recovered files whenever possible, preserving their historical filenames and contents. Clearly identify any repaired or repackaged copies as derived artefacts, following the practices established in the previous chapter.
+Publish the original recovered files whenever possible, preserving their historical filenames and contents. Clearly identify repaired or repackaged copies as derived artefacts, following [Chapter 17: Verify, Classify and Connect Discoveries](verify_and_classify_files.md).
 
 ### File size limits
 
@@ -291,7 +291,7 @@ The purpose of the archive is preservation, not claiming ownership of someone el
 
 Before publishing your archive, ensure that you have a complete local copy and at least one independent backup of your recovered files and research documentation. GitHub provides convenient hosting and version control, but it should not be your only copy of historically important material.
 
-Publication is also the beginning of an ongoing preservation responsibility. The next chapter explains how to maintain the archive, incorporate new discoveries, review external links, manage contributions and protect your collection with independent backups.
+Publication also begins an ongoing preservation responsibility: incorporating discoveries, reviewing links, managing contributions and maintaining independent backups.
 
 ## Keep the Archive Simple
 
@@ -317,5 +317,5 @@ By documenting missing material, acknowledging contributors and explaining how o
 
 **Outcome:**  You can make your archive publicly accessible so that others can browse, download from, research and contribute to.
 
-The next chapter explains how to maintain and improve your archive over time, incorporate new discoveries and revisit your research as new opportunities arise.
+[Chapter 19: Maintain and Improve the Archive](maintain_the_archive.md) explains how to maintain and improve your archive as new discoveries and opportunities arise.
 

@@ -294,7 +294,7 @@ Record your current interpretation without presenting it as an established fact.
 
 ## Resolve conflicting release dates
 
-Return to the date distinctions established in Chapter 7. An announcement date, a file upload timestamp, a mirror distribution date and a CD publication date may differ because they describe separate events.
+Return to the date distinctions established in [Chapter 7: Establish the Archival Record](../establish/establish_the_archival_record.md).
 
 Record each date according to what its evidence establishes rather than treating every timestamp as a release date. When different sources appear to provide conflicting dates for the same event, investigate the discrepancy before deciding which interpretation is best supported.
 
@@ -312,7 +312,7 @@ When the evidence is inconclusive, record the competing explanations and identif
 
 ## Record confidence and uncertainty
 
-Use the confidence classifications established in Chapter 6 to distinguish established facts from interpretations and speculation:
+Use the confidence classifications established in [Chapter 6: Design the Archive Structure](../establish/design_the_archive_structure.md) to distinguish established facts from interpretations and speculation:
 
 - Confirmed: Directly supported by reliable surviving evidence.
 - Probable: Supported by evidence, but some details remain uncertain.
@@ -417,4 +417,5 @@ The result is more than a collection of downloads. It is a documented account of
 
 **Outcome:** You can turn recovered material into a coherent and defensible archival record.
 
-With your recovered files verified, classified and connected to the historical record, you are ready to share the results of your work. The next chapter explains how to publish your archive so that others can explore its history, download the recovered files and help fill the remaining gaps.
+With your files verified and connected to the historical record, [Chapter 18: Publish the Archive](publish_the_archive.md) explains how to share your archive so that others can explore it, download the files and help fill the gaps.
+

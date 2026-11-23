@@ -69,7 +69,7 @@ Start with single-file scripts and introduce packages, databases or more elabora
 
 ## Download and search archived websites
 
-The Wayback Machine's CDX API, introduced in Chapter 8, can be queried programmatically to discover archived pages and download URLs for a particular website.
+The Wayback Machine's CDX API can be queried programmatically to discover archived pages and download URLs; [Chapter 22: Advanced Website Research](../advanced_website_research.md) explains how to use it.
 
 A good place to get started with the Wayback Machine's APIs is this website:
 
@@ -141,7 +141,7 @@ These comparisons can help establish whether two recovered archives represent di
 
 ## Create research indexes
 
-A research index allows you to search hundreds or thousands of downloaded webpages, readmes, news articles, Usenet messages and directory listings together.
+A research index allows you to search hundreds or thousands of downloaded webpages, readmes, news articles, Usenet messages and directory listings together. For an application to historical FTP listings, see [Chapter 21: Advanced File Archive Research](../advanced_file_archive_research.md).
 
 A simple script can search a directory of text files and report which documents contain a specified term.
 

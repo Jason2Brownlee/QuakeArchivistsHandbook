@@ -35,7 +35,7 @@ Remember to acknowledge contributors and respect their preferences about how the
 
 When you receive a new file, do not immediately add it to the public release list.
 
-Apply the verification techniques from the previous chapter, comparing the new file's hash and contents against the existing collection.
+Apply the techniques from [Chapter 17: Verify, Classify and Connect Discoveries](verify_and_classify_files.md), comparing the new file's hash and contents against the existing collection.
 
 Determine whether it is:
 
@@ -150,7 +150,7 @@ If you host large files outside GitHub, make sure those files remain available.
 
 ### Maintain independent backups
 
-As discussed in the previous chapter, maintain an independent backup containing your recovered files, research documents and supporting evidence, preferably on a separate drive or storage service.
+As recommended in [Chapter 18: Publish the Archive](publish_the_archive.md), maintain an independent backup of recovered files, research documents and evidence, preferably on a separate drive or storage service.
 
 Consider preserving the complete Git repository so that its commit history is retained.
 

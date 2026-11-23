@@ -22,7 +22,7 @@ Some useful starting points include:
 * [Quaddicted](https://www.quaddicted.com/files/)\
 	`https://www.quaddicted.com/files/`
 
-Quaddicted, introduced in the previous chapter, is also worth searching as a broader community archive. Explore its collections for additional releases, patches and related material beyond the historical FTP mirrors.
+Quaddicted, also discussed in [Chapter 13: Search FTP Archives and File Indexes](search_ftp_archives.md), is worth searching as a broader community archive.
 
 **Shub-Hub**
 
@@ -38,7 +38,7 @@ Search for known project names and filenames, but also browse the archive's cate
 * [Gamers.org](https://gamers.org/)\
 	`https://gamers.org/`
 
-Gamers.org hosts the historical FTP archives and mirrors discussed in Chapter 13, making it another useful starting point when investigating related Quake collections.
+Gamers.org hosts important historical FTP archives and mirrors, making it a useful starting point when investigating related Quake collections.
 
 **Other community-maintained Quake archives**
 
@@ -163,7 +163,7 @@ Look for collectors and archivists through community websites, forum discussions
 
 Relationships between archivists can be reciprocal. Sharing file inventories, research findings and recovered material may benefit both projects. Always respect preferences about sharing private collections and ask before redistributing material provided privately.
 
-The next chapter explains how to contact collectors, developers and other individuals, make specific requests for missing files and organise your correspondence.
+When a public collection cannot answer your questions, contacting its maintainer or other collectors may provide another way forward.
 
 ## Investigate Collections Systematically
 
@@ -197,4 +197,4 @@ Investigate collections systematically, compare recovered files with known relea
 
 **Outcome**: You can discover and investigate established Quake archives, historical software collections and personal file collections, identify missing releases, and connect with collectors who may help recover additional material.
 
-In the next chapter, we will turn our attention to people who may have retained original Quake files, including former developers, contributors and collectors. We will explore how to find these people, make contact and ask for help recovering files that may no longer exist in any public archive.
+In [Chapter 15: Contact People for Historical Files](search_people.md), we will explore how to contact former developers, contributors and collectors who may have files missing from public archives.

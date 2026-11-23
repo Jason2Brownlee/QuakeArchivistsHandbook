@@ -9,7 +9,7 @@ Before creating an archive, it helps to understand exactly what you are trying t
 
 A Quake modification archive is more than a collection of old downloads. It is a structured record of historical software, its files, releases, developers and history.
 
-For simplicity, this chapter focuses on archiving an individual modification. However, the same principles apply to archives covering categories of modifications, particular developers, historical collections and distribution sources, as we will explore in Chapter 5.
+For simplicity, this chapter focuses on archiving an individual modification. The same principles apply to the other kinds of projects described in [Chapter 5: Choose an Archive Topic](establish/choose_an_archive_topic.md).
 
 In this section, we'll introduce the key concepts that make up an archive and establish what a successful archive should contain.
 
@@ -278,5 +278,5 @@ To understand what we are building, remember these six concepts:
 
 With these concepts established, we now have a clear picture of what we want to create.
 
-The next step is to learn how to do it: how to research a modification, locate surviving files, reconstruct its release history, organise the material and publish the finished archive.
+[Chapter 4: How to Create a Quake Modification Archive](how_to_create_a_quake_modification_archive.md) outlines the practical process, from researching a modification and recovering files to organising and publishing the finished archive.
 

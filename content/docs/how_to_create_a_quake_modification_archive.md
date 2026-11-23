@@ -39,7 +39,7 @@ This is the largest part of the handbook and, for me, the most exciting.
 
 The goal is to reconstruct the history of a modification and recover as many of its original files as possible.
 
-We'll explore the many places where evidence and files might survive, including historical project websites, gaming news archives, Usenet, magazine CDs, FTP servers, file mirrors and existing Quake collections.
+We'll explore the many places where evidence and files might survive, including historical project websites, gaming news archives, Usenet, magazine CDs, FTP servers, file mirrors and existing Quake collections. A consolidated list of useful starting points appears in [Appendix A: Research Resources](appendix_a_research_resources.md).
 
 We'll also look at using modern search engines, investigating forgotten distribution locations, reaching out to original developers, collectors and other archivists, and building small tools to automate repetitive research tasks.
 

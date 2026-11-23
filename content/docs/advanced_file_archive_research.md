@@ -15,7 +15,7 @@ The aim is to get more information from archives you may already have searched, 
 
 ## Search Alternative Walnut Creek Directory Structures
 
-Chapter 13 introduced the Walnut Creek CDROM archive, its historical directory listings and surviving mirrors.
+[Chapter 13: Search FTP Archives and File Indexes](research/search_ftp_archives.md) introduced the Walnut Creek CDROM archive, its historical directory listings and surviving mirrors.
 
 One less obvious area worth investigating is the alternative directory structures used by `ftp.cdrom.com` over time.
 
@@ -48,9 +48,9 @@ One variation may have been archived at a useful date when another was not.
 
 You may also discover directory listings that reveal files that have not appeared in your research elsewhere.
 
-## Search Historical Mirrors of `idgames` and `idgames2`
+## Search Historical Mirrors
 
-Chapter 13 explained how to identify and investigate historical mirrors of the `idgames` and `idgames2` archives.
+The best-known surviving mirrors are only the starting point for this investigation.
 
 A more advanced technique is to follow the distribution chain beyond the first mirror.
 
@@ -499,7 +499,7 @@ A candidate filename is a research lead until you find evidence supporting it.
 
 As you investigate more archives, you may accumulate hundreds or thousands of historical directory listings.
 
-Rather than search each one manually, consider building a local collection that can be searched repeatedly.
+Rather than search each one manually, consider building a local collection that can be searched repeatedly. [Chapter 16: Build Tools to Automate Research](research/buid_custom_tools.md) outlines ways to automate this kind of indexing.
 
 You do not need a complicated database.
 
@@ -540,6 +540,7 @@ Alternative Walnut Creek directory structures and historical mirrors can reveal 
 
 Guessing historical filenames helps identify promising candidates, while a searchable collection of old listings makes it easier to investigate multiple archives and reuse discoveries across projects.
 
-The next chapter turns to historical websites and the less obvious places where Quake files and references to them can still be found.
-
 **Outcome:** You can apply advanced techniques to investigate historical file archives, uncover missing releases and build searchable collections of archival evidence.
+
+[Chapter 22: Advanced Website Research](advanced_website_research.md) turns to historical websites and the less obvious places where Quake files and references to them can still be found.
+

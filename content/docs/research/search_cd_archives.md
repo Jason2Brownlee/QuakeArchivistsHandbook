@@ -258,7 +258,7 @@ Also inspect nearby directories. The disc might contain other versions, patches,
 
 Some shareware compilations and historical BBS collections also contain special files that catalogue their downloads or describe individual ZIP archives. These can provide useful clues about original filenames, release descriptions and historical distribution dates.
 
-We will explore these BBS file listings and descriptions, including `ALLFILES.TXT`, `FILES.BBS` and `FILE_ID.DIZ`, in Chapter 21, *Advanced Research Tips*.
+These BBS listings and descriptions, including `ALLFILES.TXT`, `FILES.BBS` and `FILE_ID.DIZ`, are examined in [Chapter 21: Advanced File Archive Research](../advanced_file_archive_research.md).
 
 ### Record the original CD structure
 
@@ -379,4 +379,4 @@ When recovering files from CD-ROMs, distinguish original releases from repackage
 
 **Outcome:** You can identify releases preserved on physical media and recover files that might not exist on the original project website.
 
-In the next chapter, we will use modern search engines to discover additional websites, files, references and distribution locations that have not yet been found through the historical archives.
+In [Chapter 12: Search the Modern Web and Search Engines](search_engines.md), we will use modern search engines to discover websites, files and distribution locations not found through historical archives.

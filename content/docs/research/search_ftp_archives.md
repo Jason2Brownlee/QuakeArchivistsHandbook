@@ -150,7 +150,7 @@ FTP directory listings can reveal which files were available, how they were orga
 
 When you locate a relevant directory, inspect its parent directory and neighbouring directories as well. A modification may have been stored in a general `mods/` directory, while related patches or documentation were placed elsewhere.
 
-Some FTP archives also contain special index files, upload summaries and historical directory listings that can reveal additional information about their contents. We will investigate these resources in Chapter 21, Advanced Research Tips.
+Some FTP archives also contain special index files, upload summaries and historical directory listings. Methods for investigating these records are covered in [Chapter 21: Advanced File Archive Research](../advanced_file_archive_research.md).
 
 Also inspect directory listings for files that you have not yet identified. A release might have a different filename from the one mentioned in a news article, or an additional patch might be stored alongside the main archive.
 
@@ -222,8 +222,8 @@ Preserve the distinction between an original FTP location and a modern mirror. T
 
 Historical FTP archives and their modern mirrors preserve Quake modifications, original directory structures and evidence of distribution. Resources such as Gamers.org, Dukeworld and Quaddicted provide access to surviving collections, while FTP file indexes help locate additional copies.
 
-Investigate archive directory structures, historical HTTP interfaces and alternative mirrors. These sources can reveal missing releases and distribution locations even when the original downloads no longer survive. More advanced techniques, including searching FTP archive indexes, upload summaries and maintenance files, are covered later in this guide.
+Investigate archive directory structures, historical HTTP interfaces and alternative mirrors. These sources can reveal missing releases and distribution locations even when the original downloads no longer survive. These specialised archive records are particularly useful when ordinary directory browsing produces no new leads.
 
 **Outcome**: You can locate and search historical FTP archives, investigate surviving mirrors and directory listings, and recover missing Quake files. You can also identify historical distribution locations and document the provenance of recovered files.
 
-The next chapter will explore another source of historical information and files: developer websites, personal archives and other surviving online collections.
+[Chapter 14: Search Other Quake Archives and Communities](search_other_quake_archives.md) explores additional collections, personal archives and the communities that maintain them.

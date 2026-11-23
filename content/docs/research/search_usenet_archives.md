@@ -283,4 +283,4 @@ Preserve useful messages and connect their evidence to the appropriate entries i
 
 **Outcome:** You can use Usenet to discover historical announcements, developer information, filenames and distribution locations.
 
-In the next chapter, we will look beyond websites and online discussions to investigate another important source of Quake history: magazine cover CDs and other physical media.
+In [Chapter 11: Search CD Archives and Historical Software Collections](search_cd_archives.md), we will look beyond online sources to magazine cover CDs and other historical software collections.

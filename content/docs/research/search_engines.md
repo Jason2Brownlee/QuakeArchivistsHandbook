@@ -229,7 +229,7 @@ If you find a directory listing, inspect its files and subdirectories. A page co
 
 When you discover an FTP server, file mirror or download directory, investigate it directly rather than relying on search results. A collection may contain files that search engines have never indexed.
 
-The next chapter explains how to explore these historical file collections.
+These collections often require direct inspection rather than relying on search engine results.
 
 ## Build a Systematic Search Process
 
@@ -272,4 +272,5 @@ Remember that many historical collections are not indexed. Search engines are us
 
 **Outcome:** You can systematically search the modern web using information accumulated during earlier research.
 
-In the next chapter, we will investigate FTP archives and old download directories. These are particularly important because many historical Quake modifications were distributed directly through FTP servers, often without an associated webpage that a modern search engine could discover.
+In [Chapter 13: Search FTP Archives and File Indexes](search_ftp_archives.md), we will investigate FTP archives and old download directories that modern search engines may not index.
+

@@ -187,5 +187,5 @@ Although the response rate may be low, a single successful contact can recover h
 
 **Outcome**: You can identify and contact people associated with historical Quake projects, organise your outreach, request missing files and build relationships that may lead to the recovery of rare or previously unavailable material.
 
-In the next chapter, we will explore how to automate some of the more repetitive parts of archival research. We will look at building small tools to search historical websites, extract download links, analyse recovered files and compare releases, allowing you to investigate larger collections more efficiently.
+In [Chapter 16: Build Tools to Automate Research](buid_custom_tools.md), we will build small tools to search archived websites, extract links, analyse files and compare releases more efficiently.
 

@@ -358,5 +358,6 @@ The main ideas from this chapter are:
 
 **Outcome:** You have selected an archive topic and defined what is inside and outside its scope.
 
-In the next chapter, you will turn that decision into a practical directory structure for storing research notes, historical evidence, recovered files and the published archive.
+In [Chapter 6: Design the Archive Structure](design_the_archive_structure.md), you will turn that decision into a practical directory structure for research notes, evidence, recovered files and the published archive.
+
 

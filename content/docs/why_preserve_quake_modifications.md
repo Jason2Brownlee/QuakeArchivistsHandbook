@@ -136,7 +136,7 @@ A successful archive makes this possible by bringing together files, historical 
 
 It does not need to be comprehensive or expensive to maintain. What matters is that the surviving material is preserved, documented and available for others to use.
 
-In the next chapter, we will look more closely at what such an archive contains.
+This raises an important question: what should such an archive actually contain?
 
 ## Become the archivist
 
@@ -168,4 +168,4 @@ To understand why we are creating archives, remember these five ideas:
 
 You don't have to recover everything. You don't have to reconstruct every release. You simply have to start preserving what remains.
 
-With that motivation established, we can now look at exactly what a Quake modification archive contains and what we are trying to build.
+With that motivation established, [Chapter 3: What is a Quake Modification Archive](what_is_a_quake_modification_archive.md) explains what we are trying to build.

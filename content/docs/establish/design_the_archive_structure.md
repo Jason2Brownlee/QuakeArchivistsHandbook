@@ -178,7 +178,7 @@ Each has a specific purpose.
 
 ### `history.md`
 
-The document should provide a chronological account of releases, project websites, historical download locations and supporting references. We will develop the structure and contents of history.md in the next chapter.
+The document should provide a chronological account of releases, project websites, historical download locations and supporting references. For now, a simple outline is sufficient; you will fill it out as you establish the archival record.
 
 The aim is to document the project's history with enough supporting evidence that another researcher could independently reconstruct your findings. As the research grows, you may move substantial sections into separate documents.
 
@@ -275,7 +275,7 @@ You might discover them in an archived homepage, an old announcement, a readme f
 
 Preserve historical URLs exactly as found, even when they no longer work. Keep original download locations separate from Wayback Machine captures and alternative mirrors so that the original distribution history remains clear.
 
-Your wishlist URLs may be invaluable later when searching archived alternate mirrors for popular download locations. We'll explore how to do this later with the wayback machine.
+Your wishlist URLs may be invaluable when searching archived directories and alternative mirrors, as explained in [Chapter 22: Advanced Website Research](../advanced_website_research.md).
 
 ## Keep research evidence and file metadata connected
 
@@ -458,7 +458,7 @@ touch action-quake-archive/research/wishlist.txt
 touch action-quake-archive/research/wishlist_urls.txt
 ```
 
-Add a short project description to `README.md` and record any initial research questions in `notes.txt`. In the next chapter, we will begin developing `history.md` into a detailed historical record.
+Add a short project description to `README.md` and record any initial research questions in `notes.txt`. You now have the foundation for developing `history.md` into a detailed historical record.
 
 ## Chapter summary
 
@@ -479,4 +479,4 @@ The main ideas from this chapter are:
 
 **Outcome:** You have created a working directory and a basic structure for recording discoveries, preserving files and documenting the history of your chosen modification.
 
-In the next chapter, you will establish the archival record itself. You will begin recording known releases, files, websites, historical locations and references in a systematic way.
+In [Chapter 7: Establish the Archival Record](establish_the_archival_record.md), you will begin recording known releases, files, websites, historical locations and references systematically.

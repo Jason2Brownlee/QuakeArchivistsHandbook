@@ -29,7 +29,7 @@ Alternatively, look through Quake forums, Discord servers and other community di
 
 You could also choose a popular modification, a particular development team or a theme such as bots, capture the flag modifications or early QuakeC projects.
 
-Start as small as possible. Archiving one modification is a manageable project and will teach you techniques that can be applied to larger collections later.
+Start as small as possible. Archiving one modification is manageable and teaches techniques you can reuse later. For help choosing and limiting a topic, see [Chapter 5: Choose an Archive Topic](establish/choose_an_archive_topic.md).
 
 ## I don't know where to start researching
 
@@ -45,7 +45,7 @@ A download page might reveal an original filename. A readme might identify the d
 
 Follow these connections and begin recording your discoveries.
 
-If you are unsure where to look next, revisit the research chapters of this handbook and try another source.
+If you are unsure where to look next, consult [Appendix A: Research Resources](appendix_a_research_resources.md) and try another source.
 
 ## I don't have enough information to start an archive
 
@@ -101,7 +101,7 @@ It gives you a reason to organise your findings, explain your conclusions and ma
 
 It also allows other people to find your work and contribute missing information.
 
-Make uncertainties explicit. Use question marks for unknown dates, identify unverified releases and distinguish evidence from speculation.
+Make uncertainties explicit. Use question marks for unknown dates, identify unverified releases and distinguish evidence from speculation, as shown in [Chapter 6: Design the Archive Structure](establish/design_the_archive_structure.md).
 
 You can correct mistakes as new information becomes available.
 
@@ -127,7 +127,7 @@ The result is useful even if I never return to the project.
 
 Someone can use it to download an old modification, understand what other releases existed or continue the research themselves.
 
-You can always move the information into a larger repository later.
+You can always move the information into a larger repository later; [Chapter 18: Publish the Archive](publish/publish_the_archive.md) explains how to publish one.
 
 ## I cannot find the original project homepage
 
@@ -143,7 +143,7 @@ Search for the developers' names and aliases as well.
 
 The project may have moved between several hosting services, and an early homepage might use a completely different address from a later one.
 
-If you cannot identify the homepage, document the references you have found and continue researching other aspects of the modification.
+If you cannot identify the homepage, document the references you have found and continue researching other aspects of the modification. The methods in [Chapter 8: Research Original Project Websites](research/search_project_websites.md) may also reveal overlooked addresses.
 
 ## I cannot determine the original release filenames
 
@@ -155,7 +155,7 @@ Search for different naming conventions, abbreviations and version number format
 
 If you have a recovered release, inspect its readme for references to earlier versions or patches.
 
-You can also make educated guesses about filenames and search for them. For example, a known release might suggest a naming convention used for earlier versions.
+You can also make educated guesses about filenames and search for them. [Chapter 21: Advanced File Archive Research](advanced_file_archive_research.md) describes ways to infer naming conventions and search for missing versions.
 
 Treat guessed filenames as search leads, not established historical facts.
 
@@ -175,7 +175,7 @@ Look for related modifications, other projects by the same developers, alternati
 
 Search for distinctive filenames, readme text, developer aliases and related project names.
 
-You may also need to contact collectors, former developers or other community members.
+You may also need to contact collectors, former developers or community members, using the approach in [Chapter 15: Contact People for Historical Files](research/search_people.md).
 
 Be creative. A missing release might survive inside an unrelated CD collection, a personal backup or an archive maintained for another modification.
 
@@ -189,7 +189,7 @@ They may reveal original filenames, version numbers, distribution locations and 
 
 Record the complete URLs in `research/wishlist_urls.txt` and connect them to the appropriate releases in `research/history.md`.
 
-Try searching for the filename and checking whether the file was preserved by the Wayback Machine or copied to another mirror.
+Try searching for the filename and checking the Wayback Machine or other mirrors. For a more systematic approach to historical download URLs, see [Chapter 22: Advanced Website Research](advanced_website_research.md).
 
 If the file remains unavailable, leave it on your wishlist.
 
@@ -215,7 +215,7 @@ There are several possible explanations:
 - The timestamps were changed by copying, extraction or archive creation tools.
 - The historical release date was recorded incorrectly.
 
-Consider the available evidence and develop plausible explanations.
+Consider the available evidence and develop plausible explanations. [Chapter 7: Establish the Archival Record](establish/establish_the_archival_record.md) explains why release, distribution and file dates must be recorded separately.
 
 Compare readmes, changelogs, file contents, archive timestamps and contemporary announcements.
 
@@ -257,7 +257,7 @@ If necessary, add a suffix to the filenames in your archive to distinguish them,
 
 Record the original filename for each copy in `research/history.md`.
 
-Compare their contents, readmes, changelogs, file timestamps and any available historical evidence.
+Compare their contents, readmes, changelogs, timestamps and historical evidence using the methods in [Chapter 17: Verify, Classify and Connect Discoveries](publish/verify_and_classify_files.md).
 
 Try to determine which copy was distributed first, whether the differences are meaningful and whether either copy can be linked to a particular release announcement.
 
@@ -313,7 +313,7 @@ If two sources genuinely disagree about the release date, compare their reliabil
 
 A contemporary announcement from the developer may be stronger evidence than a date listed in a much later archive.
 
-Record the conflicting information and explain which date you consider most likely.
+Record the conflicting information and explain which date you consider most likely, following [Chapter 17: Verify, Classify and Connect Discoveries](publish/verify_and_classify_files.md#resolve-conflicting-release-dates).
 
 If the evidence is insufficient, leave the date uncertain.
 
@@ -341,7 +341,7 @@ Preserve the extracted files and their directory structure.
 
 If you want to make the release easier to download, you can package the files into a new ZIP archive.
 
-Use a filename suffix such as `_repack` to distinguish the new archive from an original developer distribution.
+Use a filename suffix such as `_repack` to distinguish the new archive from an original developer distribution, as explained in [Chapter 11: Search CD Archives and Historical Software Collections](research/search_cd_archives.md#repackage-recovered-releases-carefully).
 
 Document the source, original directory structure, repackaging process and any known original filename.
 
@@ -377,7 +377,7 @@ If you do reach someone, be respectful of their time and avoid repeated requests
 
 Remember that contacting people is only one research technique.
 
-If you cannot reach the developers, continue investigating public sources and other collectors.
+If you cannot reach the developers, continue investigating public sources and other collectors. [Chapter 15: Contact People for Historical Files](research/search_people.md) offers additional suggestions for locating contacts.
 
 ## Nobody responds when I ask the community for help
 
@@ -401,7 +401,7 @@ This is often a sign that you have thoroughly searched the most accessible sourc
 
 Rather than repeating the same searches, change your approach.
 
-Look for historical filenames instead of modern project names. Search for individual files inside archives, developer aliases, original download URLs or references in contemporary news.
+Look for historical filenames instead of modern project names. Search individual files, developer aliases and old download URLs. If the usual sources are exhausted, try the methods in [Chapter 21: Advanced File Archive Research](advanced_file_archive_research.md).
 
 Investigate less obvious sources such as magazine CDs, personal FTP mirrors, regional gaming websites and related modifications.
 
@@ -449,7 +449,7 @@ You can improve it whenever time and interest allow.
 
 This is a reasonable concern, particularly when you have recovered rare files that may not exist elsewhere.
 
-Publish the archive on a reliable platform, maintain independent backups and preserve important evidence locally.
+Publish the archive on a reliable platform, maintain independent backups and preserve important evidence locally. See [Chapter 19: Maintain and Improve the Archive](publish/maintain_the_archive.md#review-external-links-and-backups) for maintenance practices.
 
 GitHub is a convenient public host, but do not rely on it as your only copy.
 
@@ -471,7 +471,7 @@ Or you might have documented everything you can find while several releases rema
 
 All of these can be reasonable stopping points.
 
-Review your original scope and decide whether you have achieved what you set out to do.
+Review your original scope and decide whether you have achieved what you set out to do. [Chapter 19: Maintain and Improve the Archive](publish/maintain_the_archive.md#know-when-to-stop) offers guidance on when to stop actively searching.
 
 If you have preserved the available material, documented the known history and identified outstanding gaps, you have created something useful.
 

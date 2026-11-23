@@ -5,7 +5,7 @@ weight: 30
 
 # 7. Establish the Archival Record
 
-In the previous chapter, you created a directory structure for your archive. You now have somewhere to store recovered files, research notes and information about missing releases.
+In [Chapter 6: Design the Archive Structure](design_the_archive_structure.md), you created a directory structure for your archive. You now have somewhere to store recovered files, research notes and information about missing releases.
 
 The next step is to establish the archival record itself.
 
@@ -91,7 +91,7 @@ The important thing is to establish the document early and update it whenever yo
 
 The central part of `history.md` should be a chronological account of the modification's releases.
 
-It is useful to distinguish between a release and a file. A release represents a particular version or distribution of a modification, while a file is an actual downloadable artefact. A single release might be distributed through several files, and different files might contain identical copies of the same release. We will examine these distinctions in detail when verifying recovered files in a later chapter.
+It is useful to distinguish between a release and a file. A release represents a particular version or distribution of a modification, while a file is an actual downloadable artefact. A single release might be distributed through several files, and different files might contain identical copies of the same release. These distinctions are examined in more detail in [Chapter 17: Verify, Classify and Connect Discoveries](../publish/verify_and_classify_files.md).
 
 The section should capture what was released, when it was announced or distributed, what files were involved, what changed and what evidence supports the record.
 
@@ -251,7 +251,7 @@ For example, a readme might refer to a map that is not included in the archive. 
 
 Initially, a short description may be sufficient. For larger projects, you might maintain a separate file inventory.
 
-Use the `tree` or `ls -l` command on macOS or Linux to summarize an unzipped distribution of a modification or the `tar tvf` command to list the contents of an archive. This was touched on in the previous chapter.
+Use the `tree` or `ls -l` command on macOS or Linux to summarize an unzipped distribution of a modification or the `tar tvf` command to list the contents of an archive. These commands complement the basic directory structure established earlier.
 
 ### Record changelog information
 
@@ -496,4 +496,4 @@ The main ideas from this chapter are:
 
 **Outcome:** You have a system for turning unstructured research into an organised historical record. Your archive now has a central place to document releases, websites, download locations, historical references and unresolved questions.
 
-In the next chapter, you will begin researching the original project websites. You will learn how to use surviving websites and the Wayback Machine to reconstruct project histories, identify release announcements and locate files that are no longer available from their original hosts.
+In [Chapter 8: Research Original Project Websites](../research/search_project_websites.md), you will use surviving websites and the Wayback Machine to reconstruct project histories, identify release announcements and locate files no longer available from their original hosts.

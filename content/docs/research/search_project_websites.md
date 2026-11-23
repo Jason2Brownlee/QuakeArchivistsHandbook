@@ -5,7 +5,7 @@ weight: 10
 
 # 8. Research Original Project Websites
 
-In the previous chapter, you established a system for recording the history of a modification, documenting its releases and connecting discoveries to supporting evidence.
+In [Chapter 7: Establish the Archival Record](../establish/establish_the_archival_record.md), you established a system for documenting releases and connecting discoveries to supporting evidence.
 
 You are now ready to begin researching.
 
@@ -191,7 +191,7 @@ Replace `example.com` with the historical website you are investigating.
 
 This can reveal forgotten download pages, old news archives, files and directories that are otherwise difficult to discover.
 
-For more extensive investigations, the Wayback Machine provides a CDX API that allows you to enumerate and filter archived URLs programmatically. We will explore this in Chapter 21, *Advanced Research Tips*.
+For more extensive investigations, the Wayback Machine provides a CDX API for enumerating and filtering archived URLs programmatically. This is covered in [Chapter 22: Advanced Website Research](../advanced_website_research.md).
 
 ## Read homepage content and news pages
 
@@ -502,4 +502,5 @@ The main ideas from this chapter are:
 
 **Outcome:** You can investigate original project websites and use their surviving content to reconstruct much of a modification's public-facing history. You can identify releases, find historical download locations, discover developers and record evidence that will guide your remaining research.
 
-In the next chapter, you will investigate gaming news archives. These can provide another perspective on a modification's history, including release announcements, reviews, interviews and references to files that may no longer be available from the original project website.
+In [Chapter 9: Research Gaming News Archives](search_news_archives.md), you will investigate gaming news archives for release announcements, reviews, interviews and references to files missing from original project websites.
+
