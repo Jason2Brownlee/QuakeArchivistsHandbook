@@ -36,7 +36,7 @@ Magazine CDs are especially useful because they sometimes preserve material that
 
 Another source is the large number of software compilations distributed on CD-ROM.
 
-These collections often contained hundreds or thousands of files gathered from public download sites, FTP servers, BBS systems and other sources.
+These collections often contained hundreds or thousands of files gathered from public download sites, FTP servers, bulletin board systems (BBSs) and other sources.
 
 Examples include collections associated with sites such as CD-ROM.COM, as well as compilations of BBS software and shareware.
 
@@ -255,6 +255,10 @@ For an ISO image, you can generally mount it or open it using software that supp
 Once you have access to the disc, inspect the matching files and their surrounding directories. Compare readmes and other contents with known releases, and look for nearby patches, maps or supplementary files.
 
 Also inspect nearby directories. The disc might contain other versions, patches, maps or supplementary files related to the same modification.
+
+Some shareware compilations and historical BBS collections also contain special files that catalogue their downloads or describe individual ZIP archives. These can provide useful clues about original filenames, release descriptions and historical distribution dates.
+
+We will explore these BBS file listings and descriptions, including `ALLFILES.TXT`, `FILES.BBS` and `FILE_ID.DIZ`, in Chapter 21, *Advanced Research Tips*.
 
 ### Record the original CD structure
 

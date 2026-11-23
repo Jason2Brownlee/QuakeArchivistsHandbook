@@ -258,6 +258,50 @@ When researching any large archive, make a habit of looking for these supporting
 
 **Sometimes the most useful discovery is not a missing ZIP file, but an old index that tells you exactly where that ZIP file used to be.**
 
+## Investigate BBS File Listings and Descriptions
+
+Bulletin Board Systems (BBSs) were another important way of distributing software during the 1990s, particularly before widespread internet access.
+
+Today, collections of BBS files sometimes survive on historical CD-ROMs, shareware compilations and websites preserving old BBS archives.
+
+These collections may include special files that describe the available downloads, their original filenames and when they were added to the BBS.
+
+Some filenames worth recognising include:
+
+- `ALLFILES.TXT` — A catalogue of files available on the BBS, often organised into download categories.
+- `FILES.BBS` — A listing of downloadable files with short descriptions, sometimes maintained separately for each directory.
+- `NEWFILES` — A list of recently added files, potentially useful for establishing historical distribution dates.
+- `FILE_ID.DIZ` — A short description of a downloadable program or archive, typically stored inside the ZIP file itself.
+
+These names and formats were not universal, and you may encounter variations.
+
+### Search BBS File Listings
+
+When investigating a CD-ROM containing historical BBS collections, look for these files alongside the downloadable software.
+
+A single `ALLFILES.TXT` or `FILES.BBS` might provide a searchable catalogue of hundreds or thousands of files without requiring you to examine each download individually.
+
+Search for modification names, filenames, developer aliases and relevant descriptions.
+
+Some listings include dates, file sizes or upload information that may help reconstruct the distribution history of a modification.
+
+Remember that a BBS upload date is not necessarily the original release date.
+
+### Examine `FILE_ID.DIZ` Files
+
+You may also encounter a `FILE_ID.DIZ` inside an old Quake modification ZIP file, particularly files that circulated through BBS collections.
+
+These files contain short descriptions intended for display by BBS file listing software.
+
+They can provide useful information about a modification, including its name, version, author and features.
+
+However, be aware that a `FILE_ID.DIZ` may have been added by a BBS operator or distributor rather than the original developer.
+
+This is important when verifying original releases. A ZIP file containing an added `FILE_ID.DIZ` might be a repackaged copy rather than the original distribution, even if the modification itself is unchanged.
+
+Preserve such copies as evidence of historical distribution, but distinguish them from verified original releases whenever possible.
+
+**These small files can provide valuable clues about what was distributed, where it appeared and how a modification was described at the time.**
 
 ## Search Historical Mirrors of `idgames` and `idgames2`
 
