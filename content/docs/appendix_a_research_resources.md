@@ -115,6 +115,10 @@ Search indexed public FTP directory listings for files and folders. Particularly
 `https://groups.google.com/`\
 Search archived Usenet discussions for project names, developers, release announcements and download references.
 
+* [Gamers.org Quake Usenet Archive](https://www.gamers.org/pub/archives/quake/)\
+`https://www.gamers.org/pub/archives/quake/`\
+A historical archive of postings to the `rec.games.computer.quake.announce` Usenet newsgroup, including announcements, periodic postings and documents relating to the creation of the Quake newsgroup hierarchy. Particularly useful for researching early Quake community activity, modification announcements and historical references from 1996 and 1997.
+
 ## Quake Mailing List Archives
 
 During the early years of Quake, developers and enthusiasts used email mailing lists to discuss game development, QuakeC programming, technical problems and modification projects. Archived discussions can provide useful historical evidence, including development techniques, references to early modifications, release announcements and links to files that may no longer be available elsewhere.

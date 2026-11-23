@@ -11,7 +11,7 @@ Welcome! You have discovered:
 
 Written by Jason Brownlee in November 2026.
 
-<span style="color:red">**NOTE: I am actively working on this book. Consider all content in draft form, for now.**</span>
+**NOTE:** I am actively working on this book. Consider all content in draft form, for now.
 
 ## Read
 
