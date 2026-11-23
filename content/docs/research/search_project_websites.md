@@ -177,50 +177,21 @@ This can cause confusion when browsing archived websites because the Wayback Mac
 Instead, identify the original URLs of individual frames, particularly news and download pages, and investigate their capture histories separately. This may reveal earlier or later versions of pages that are inaccessible through the archived homepage.
 
 
+### Find All Archived Pages Within a Project Directory
 
-### Find all archived pages within a project directory
+The Wayback Machine can reveal archived URLs that no longer appear in a website's navigation.
 
-To discover archived URLs that may not appear in a website's navigation, use the Internet Archive's CDX server interface to list captures for a domain or URL prefix.
+Use the **URLs** view in the Wayback Machine to examine the pages and files captured from a particular domain or directory.
 
-For example, you can open this address in your browser:
+For example:
 
-```
-https://web.archive.org/cdx/search/cdx?url=example.invalid/*&output=json
-```
+* `https://web.archive.org/web/*/example.com*`
 
-This is a request for archived URLs matching the specified domain pattern. Replace `example.invalid` with the actual domain.
+Replace `example.com` with the historical website you are investigating.
 
-The results can reveal pages and files such as:
+This can reveal forgotten download pages, old news archives, files and directories that are otherwise difficult to discover.
 
-```
-http://www.example.invalid/
-http://www.example.invalid/news.html
-http://www.example.invalid/downloads.html
-http://www.example.invalid/files/aq10.zip
-http://www.example.invalid/files/aq11.zip
-http://www.example.invalid/screenshots/shot01.jpg
-```
-
-This can be particularly useful when the original website had many pages or when its navigation links are incomplete.
-
-The CDX interface has additional query options for filtering results, including by URL pattern, file type and capture status. You do not need to learn all of these options immediately. Start by using it to discover the archived URLs associated with a project.
-
-Treat the results as a list of research leads. A URL appearing in the index does not guarantee that its archived content can be retrieved successfully.
-
-You can learn more about wayback machine APIs (that may be used in the browser and in your own scripts) here:
-
-* [Wayback Machine APIs](https://archive.org/help/wayback_api.php)\
-  `https://archive.org/help/wayback_api.php`
-
-There is also a way to see all archived files under a given domain or directory via the Wayback Machine web interface. Simply click the "URLs" button for a given domain or URL directory you have entered.
-
-This will take you to an address like the the following:
-
-```
-https://web.archive.org/web/*/example.com*
-```
-
-Use this URL in your browser directly if you wish and change "example.com" to your website domain or directory as needed.
+For more extensive investigations, the Wayback Machine provides a CDX API that allows you to enumerate and filter archived URLs programmatically. We will explore this in Chapter 21, *Advanced Research Tips*.
 
 ## Read homepage content and news pages
 

@@ -20,15 +20,13 @@ A single download URL might lead to an old directory listing, which reveals addi
 
 Learning to recognise and exploit these connections is one of the most useful skills you can develop as a Quake archivist.
 
-## Investigate the Walnut Creek CDROM Archive
+## Search Alternative Walnut Creek Directory Structures
 
 Chapter 13 introduced the Walnut Creek CDROM archive, its historical directory listings and surviving mirrors.
 
-Beyond the familiar `idgames2/` directory, there are two less obvious areas worth investigating: alternative historical directory structures and the archive's own index and maintenance files.
+One less obvious area worth investigating is the alternative directory structures used by `ftp.cdrom.com` over time.
 
-These can reveal information that is missing from the better-known surviving copies of the archive.
-
-## Search alternative directory structures
+These can reveal historical download locations and archived directories that are missing from the better-known surviving copies of `idgames2/`.
 
 One complication is that `ftp.cdrom.com` used different directory structures over time.
 
@@ -58,7 +56,7 @@ One variation may have been archived at a useful date when another was not.
 
 You may also discover directory listings that reveal files that have not appeared in your research elsewhere.
 
-## Search Archive Index and Maintenance Files
+## Search FTP Archive Index and Maintenance Files
 
 Historical FTP archives often maintained special files that documented their contents, recorded recent uploads and described changes to their directory structures.
 
@@ -168,7 +166,7 @@ However, do not assume that every file in an `incoming/` directory represents an
 
 Treat these discoveries as leads requiring further investigation.
 
-### Investigate the Walnut Creek idgames2 Maintenance Files
+### Investigate the Walnut Creek `idgames2` Maintenance Files
 
 The Walnut Creek CDROM `idgames2/` archive provides a useful example of these resources.
 
@@ -303,6 +301,8 @@ Preserve such copies as evidence of historical distribution, but distinguish the
 
 **These small files can provide valuable clues about what was distributed, where it appeared and how a modification was described at the time.**
 
+
+
 ## Search Historical Mirrors of `idgames` and `idgames2`
 
 Chapter 13 explained how to identify and investigate historical mirrors of the `idgames` and `idgames2` archives.
@@ -313,7 +313,58 @@ A server might have mirrored Walnut Creek, while another server mirrored that se
 
 Following these relationships can uncover copies and directory listings that are missing from both the original archive and its better-known mirrors.
 
-### Mirrors of mirrors
+### Investigate Historical `cdrom.com` Mirror Lists
+
+One particularly important historical source for Quake 1 modifications was the Walnut Creek CDROM (`cdrom.com`) FTP archive.
+
+The archive hosted a large collection of Quake-related files, commonly encountered under paths such as:
+
+```
+/pub/idgames2/
+```
+
+The archive was mirrored by servers around the world. Its welcome message sometimes listed alternative mirrors, including their locations and directory paths.
+
+For example, an archived welcome message from `http://www.cdrom.com/pub/idgames2/`, captured on 10 February 1997, included entries such as:
+
+```
+         Welcome to the idgames2 archives at this ftp site
+    Games using the Quake engine by id Software are covered here
+
+*** ATTENTION: To reduce the load on this machine and           ***
+***            provide faster access for all users,             ***
+***            please check the following list for a            ***
+***            mirroring site closer to you and use it.         ***
+***                                                             ***
+*** Ohio         ftp.lame.org/mirrors/quake_stuff/              ***
+*** Pennsylvania ftp.epix.net/pub/idgames2/                     ***
+*** New York     ftp.gamers.org/pub/games/idgames2/             ***
+*** UK           sunsite.doc.ic.ac.uk/packages/idgames2/        ***
+***              ftp.compulink.co.uk/pub/games/id/quake/        ***
+*** Sweden       ftp.sunet.se/pub/pc/games/idgames2/            ***
+***              ftp.edu.sollentuna.se/pub/games/quake-stuff/   ***
+*** Finland      ftp.sci.fi/pub/idgames2/                       ***
+*** Austria      flinux.tu-graz.ac.at/pub/idsoftware2/          ***
+*** Poland       ftp.task.gda.pl/pub/games/idgames2/            ***
+*** Portugal     ftp.telepac.pt/pub/idgames2/                   ***
+*** S. Africa    ftp.global.co.za/pub/quake/                    ***
+***              ftp.is.co.za/games/id2/                        **
+*** Australia    ftp.powerup.com.au/pub/games/quake/ Brisbane   ***
+***              ftp.livewire.com.au/pub/idgames2/   Brisbane   ***
+***              ftp.pnc.com.au/pub/idgames2/        Sydney     ***
+***              ftp.questnet.net.au/idgames2/       Brisbane   ***
+***              ftp.bf.rmit.edu.au/pub/quake/cdrom/ Melbourne  ***
+*** Brazil       ftp.iis.com.br/pub/mirror/Quake/               ***
+...
+```
+
+Historical mirror lists identify server hostnames, directory paths and geographical locations where copies were distributed. Some of these servers may still have surviving mirrors or archived HTTP directory listings.
+
+Search the listed hostnames and paths to locate additional copies or historical evidence of the archive's distribution.
+
+This is especially useful for Quake 1 research, where the `idgames2` archive and its mirrors were important distribution locations.
+
+### Follow Mirrors of Mirrors
 
 An additional complication is that `ftp.cdrom.com` mirrored other major file collections, including PlanetQuake material.
 
@@ -346,6 +397,129 @@ When you discover that an archive mirrored another archive, treat that relations
 Investigate both the original source and the downstream mirrors.
 
 This is one of the most productive ways to expand a search beyond the obvious download locations.
+
+## Search Historical Developer Plan Files
+
+During the 1990s, some game developers maintained personal `.plan` files containing updates about their work, projects and development activities.
+
+These were plain-text files associated with the Unix `finger` command, which allowed other people to retrieve information about a user on a remote computer.
+
+The practice became particularly well known through developers at id Software, including John Carmack and John Romero, who published updates about the development of Doom, Quake and other projects.
+
+Other developers working at game studios also maintained `.plan` files, and some of these historical records survive today.
+
+### Why Plan Files Are Useful
+
+A developer's `.plan` file might contain:
+
+- Announcements of upcoming releases and updates.
+- Development progress reports.
+- Technical details and implementation decisions.
+- References to downloadable files and source code.
+- Information about collaborators and related projects.
+- Comments about discontinued or unreleased projects.
+
+These records can provide contemporary evidence about software development that might not appear in surviving project websites or release announcements.
+
+They are particularly interesting when researching developers who began in the Quake modding community and later worked on commercial games.
+
+Be careful when interpreting this information. A developer mentioning a planned release does not establish that the release was ever made publicly available.
+
+### Find Archived Plan Files
+
+One particularly useful collection is:
+
+- **Gamers.org Developer .plan Archive**
+  `https://www.gamers.org/pub/archives/plans/`
+  A collection of historical `.plan` updates from id Software developers and others, including records from John Carmack, John Romero and developers associated with other game studios.
+
+Another useful resource is:
+
+- **John Carmack .plan Archive**
+  `https://github.com/oliverbenns/john-carmack-plan`
+  A collection of John Carmack's historical `.plan` entries, organised into readable Markdown files.
+
+You may also find individual `.plan` entries reproduced in old gaming news articles, Usenet discussions and archived personal websites.
+
+Search using developer names, historical email addresses, project names and distinctive phrases.
+
+When you find a relevant entry, record its original date, source and any references to releases or downloadable files.
+
+As with other historical evidence, distinguish the date of the original entry from the date it was copied or archived.
+
+**A developer's `.plan` file can provide a valuable contemporary account of what was happening behind the scenes, including projects, releases and development work that might otherwise be difficult to reconstruct.**
+
+
+## Enumerate Archived URLs Using the Wayback Machine
+
+The Wayback Machine's CDX API provides a way to search its historical capture index directly, revealing archived URLs that might not appear in a website's navigation.
+
+We introduced the Wayback Machine's browser-based URL listing in Chapter 8. The CDX API provides additional control over these searches and is particularly useful when investigating large websites or automating archival research.
+
+For example, you can open the following URL in your browser:
+
+`https://web.archive.org/cdx/search/cdx?url=example.invalid/*&output=json`
+
+Replace `example.invalid` with the historical website you want to investigate.
+
+The results are returned in JSON format and may include the original URL, capture timestamp, HTTP status code, content type and other metadata.
+
+For a historical Quake project website, the results might reveal URLs such as:
+
+```
+http://www.example.invalid/
+http://www.example.invalid/news.html
+http://www.example.invalid/downloads.html
+http://www.example.invalid/files/qmatrix10.zip
+http://www.example.invalid/files/qmatrix11.zip
+http://www.example.invalid/screenshots/shot01.jpg
+```
+
+These URLs provide new research leads, even when the original website's navigation is broken or incomplete.
+
+### Filter and Refine CDX Searches
+
+The CDX API supports several useful query parameters.
+
+- `output=json` — Return results in JSON format.
+- `collapse=urlkey` — Return one indexed capture per distinct URL.
+- `filter=statuscode:200` — Restrict results to captures reporting HTTP status 200.
+- `from=1997&to=1999` — Restrict results to captures from a particular period.
+- `matchType=prefix` — Search for URLs beginning with a particular path.
+
+For example, to obtain a list of distinct archived URLs for a website, try:
+
+`https://web.archive.org/cdx/search/cdx?url=example.invalid/*&output=json&collapse=urlkey`
+
+Or search for captures of files within a particular directory:
+
+`https://web.archive.org/cdx/search/cdx?url=example.invalid/files/*&output=json`
+
+You can also use these queries to identify archived ZIP files, historical download directories and pages that were added or removed during a project's development.
+
+Be aware that collapsing results by URL hides additional captures of the same address. When investigating changes over time, remove this parameter so that different historical snapshots remain visible.
+
+### Use CDX Results to Expand Your Research
+
+When investigating a modification, search the CDX index for every known historical project hostname and directory.
+
+You might discover download URLs that no longer appear on the surviving website, or references to files that were never successfully captured.
+
+Record these URLs in your research documents and investigate their parent directories and historical mirrors.
+
+Remember that a URL appearing in the CDX index does not guarantee that its contents can still be retrieved. Some captures may contain errors, redirects or incomplete content. Large queries may also be limited or temporarily unavailable.
+
+The CDX API is particularly useful for automation. A small script can collect archived URLs, remove duplicates, identify downloadable files and generate a list of historical locations for further investigation.
+
+For more information, consult the official API documentation:
+
+- **Wayback Machine CDX Server API**
+  `https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server`
+
+- **Wayback Machine APIs**
+  `https://archive.org/help/wayback_api.php`
+
+**The key advantage of the CDX API is that it lets you investigate the historical structure of a website, even when the website itself can no longer be browsed normally.**
 
 ## Search Every Historical PlanetQuake Website Address
 
@@ -402,7 +576,7 @@ This is an excellent task to automate.
 
 Write a script that accepts a PlanetQuake project name and generates the known historical URL variations.
 
-Use the Wayback Machine's capture index to identify archived versions of each possible homepage.
+Use the CDX API introduced earlier in this chapter to identify archived versions of each possible homepage.
 
 Download the relevant HTML pages and compare them.
 
@@ -691,18 +865,17 @@ Those relationships are often what lead you to material that conventional search
 
 ## Chapter Summary
 
-Advanced Quake archival research often involves looking beyond individual files and investigating the historical systems that distributed them.
+Advanced Quake archival research involves looking beyond individual downloads and investigating the historical systems that distributed them.
 
-General-purpose search engines miss large amounts of publicly accessible material, so manual exploration and locally indexed file listings remain important.
+FTP archive indexes, maintenance files and BBS listings can reveal missing releases, original filenames and historical distribution information.
 
-The Walnut Creek CDROM archive, its historical directory structures and its network of mirrors provide valuable opportunities for reconstructing old download locations.
+The Walnut Creek CDROM archive, its alternative directory structures and network of mirrors provide valuable opportunities for finding old Quake files. Historical developer `.plan` files offer another source of contemporary evidence about projects and releases.
 
-PlanetQuake's changing hostnames and directory structures offer similar opportunities, particularly when combined with automated searches of the Wayback Machine.
+The Wayback Machine's CDX API makes it possible to enumerate historical website URLs, while investigating every known download directory and alternative hostname can reveal material missing from the surviving project websites.
 
-Recording every known download URL, investigating its parent directory and looking for related mirrors can reveal releases that were not previously known.
+Learning to guess historical filenames, identify repackaged distributions and build searchable collections of historical file listings can make these investigations more productive.
 
-Finally, learning to guess historical filenames and recognise repackaged or renamed distributions can help recover files that are otherwise difficult to identify.
+These techniques become increasingly valuable with experience, particularly when the resources and tools developed for one archival project can be reused in others.
 
-These techniques become more effective with experience, and the tools and knowledge developed for one archive can be reused across many others.
+**Outcome:** You can apply advanced research techniques to uncover obscure Quake files, reconstruct historical distribution locations and discover evidence that conventional searches overlook.
 
-**The outcome of this chapter is a collection of advanced research techniques for finding obscure Quake files, reconstructing historical download locations and discovering material that ordinary searches overlook.**

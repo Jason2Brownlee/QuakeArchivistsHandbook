@@ -204,57 +204,6 @@ Sometimes the Wayback Machine has captured the files themselves. More often, it 
 
 Compare directory listings from different capture dates. This can help establish when a file first appeared in the archive, when it was removed, or whether a new version replaced an older one.
 
-## Research the `cdrom.com` FTP Archive and Its Mirrors
-
-One particularly important historical source for Quake 1 modifications was the Walnut Creek CDROM (`cdrom.com`) FTP archive.
-
-The archive hosted a large collection of Quake-related files, commonly encountered under paths such as:
-
-```
-/pub/idgames2/
-```
-
-The archive was mirrored by servers around the world. Its welcome message sometimes listed alternative mirrors, including their locations and directory paths.
-
-For example, an archived welcome message from `http://www.cdrom.com/pub/idgames2/`, captured on 10 February 1997, included entries such as:
-
-```
-         Welcome to the idgames2 archives at this ftp site
-    Games using the Quake engine by id Software are covered here
-
-*** ATTENTION: To reduce the load on this machine and           ***
-***            provide faster access for all users,             ***
-***            please check the following list for a            ***
-***            mirroring site closer to you and use it.         ***
-***                                                             ***
-*** Ohio         ftp.lame.org/mirrors/quake_stuff/              ***
-*** Pennsylvania ftp.epix.net/pub/idgames2/                     ***
-*** New York     ftp.gamers.org/pub/games/idgames2/             ***
-*** UK           sunsite.doc.ic.ac.uk/packages/idgames2/        ***
-***              ftp.compulink.co.uk/pub/games/id/quake/        ***
-*** Sweden       ftp.sunet.se/pub/pc/games/idgames2/            ***
-***              ftp.edu.sollentuna.se/pub/games/quake-stuff/   ***
-*** Finland      ftp.sci.fi/pub/idgames2/                       ***
-*** Austria      flinux.tu-graz.ac.at/pub/idsoftware2/          ***
-*** Poland       ftp.task.gda.pl/pub/games/idgames2/            ***
-*** Portugal     ftp.telepac.pt/pub/idgames2/                   ***
-*** S. Africa    ftp.global.co.za/pub/quake/                    ***
-***              ftp.is.co.za/games/id2/                        **
-*** Australia    ftp.powerup.com.au/pub/games/quake/ Brisbane   ***
-***              ftp.livewire.com.au/pub/idgames2/   Brisbane   ***
-***              ftp.pnc.com.au/pub/idgames2/        Sydney     ***
-***              ftp.questnet.net.au/idgames2/       Brisbane   ***
-***              ftp.bf.rmit.edu.au/pub/quake/cdrom/ Melbourne  ***
-*** Brazil       ftp.iis.com.br/pub/mirror/Quake/               ***
-...
-```
-
-Historical mirror lists identify server hostnames, directory paths and geographical locations where copies were distributed. Some of these servers may still have surviving mirrors or archived HTTP directory listings.
-
-Search the listed hostnames and paths to locate additional copies or historical evidence of the archive's distribution.
-
-This is especially useful for Quake 1 research, where the `idgames2` archive and its mirrors were important distribution locations.
-
 ## Record FTP Findings in the Archival Record
 
 As with the other research sources, findings should be recorded as they are discovered.
