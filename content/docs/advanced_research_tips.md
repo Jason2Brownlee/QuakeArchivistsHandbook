@@ -587,6 +587,96 @@ The goal is to identify unique historical snapshots that contain information mis
 
 A small reusable tool can make this process much faster, particularly when researching several PlanetQuake projects.
 
+
+## Explore Overlooked Quake Community Websites
+
+Not every useful historical Quake website was dedicated to developing or distributing modifications.
+
+Thousands of websites were created by server administrators, multiplayer clans and regional Quake communities. Most were concerned with playing the game rather than distributing files.
+
+However, these websites sometimes contain download links, release announcements and references to modifications that are difficult to find elsewhere.
+
+They are worth investigating, particularly when conventional searches have failed.
+
+### Search Quake Server Websites
+
+Many Quake multiplayer servers maintained their own websites.
+
+These typically provided information about the server, including its address, ports, supported games, administrators and rules.
+
+Some also maintained download sections containing:
+
+- Modifications running on the server.
+- Required client-side patches and updates.
+- Custom maps and configuration files.
+- Links to modification websites and download mirrors.
+
+These files were often hosted locally so that players could download everything needed to join the server.
+
+I have found evidence of missing releases, original filenames and even recoverable files in the Wayback Machine by exploring old server websites.
+
+When you discover a historical server website, look for pages describing the modifications it hosted and any associated download directories.
+
+Even an old server configuration page can identify a modification or version worth investigating.
+
+### Search Quake Clan Websites
+
+Quake clans created an enormous number of websites during the 1990s and early 2000s.
+
+Most contained member lists, match results, screenshots, news and information about competing clans.
+
+They may not appear particularly useful for archival research at first.
+
+However, some clans maintained download sections containing recommended modifications, patches, maps and other files used by their members.
+
+These can be surprisingly valuable.
+
+A clan website might preserve a download link to a modification that disappeared from its original homepage years ago. Occasionally, the Wayback Machine will have captured the file itself.
+
+Look for sections labelled *Files*, *Downloads*, *Patches* or *Links*.
+
+Also investigate links to other clans. These websites frequently linked to allies, opponents and multiplayer communities, providing additional sites to explore.
+
+### Explore International Quake News Websites
+
+Much of the best-known historical Quake news came from large American gaming websites.
+
+However, Quake had an international community, and many countries maintained their own news websites, forums and download collections.
+
+These included German, French, British, Australian and numerous other regional Quake websites.
+
+Some published original content, while others reported releases from international sources or maintained their own collections of downloadable files.
+
+These websites are particularly interesting because they may preserve information or downloads missing from the better-known American sources.
+
+Do not restrict your searches to English-language websites.
+
+Search for regional Quake news websites, including sites written in other languages. A release announcement may be easy to recognise even when you cannot read the surrounding text, particularly when it includes filenames, version numbers or download links.
+
+Once you find one regional news website, investigate its links section.
+
+These websites often linked to other news sites in the same country or language. Following these connections can reveal entire networks of historical Quake websites that you would never encounter through conventional searches.
+
+### Follow the Links and Explore
+
+There is no comprehensive index of historical Quake server websites, clan pages or international news sites.
+
+You generally have to discover them through old news articles, Usenet discussions, archived links pages and references on other websites.
+
+When you find a promising site:
+
+1. Browse its historical pages in the Wayback Machine.
+2. Look for download sections, file directories and release announcements.
+3. Follow links to related websites and historical mirrors.
+4. Investigate archived download URLs using the techniques described earlier in this chapter.
+5. Record useful sites and discoveries for future research.
+
+Not every website will contain useful files. Most will not.
+
+However, exploring these overlooked corners of the historical Quake community can reveal original filenames, missing releases and surviving downloads that are unlikely to appear in conventional archive searches.
+
+**Sometimes the most useful source for a missing modification is a website that was never intended to be a file archive.**
+
 ## Investigate Every Known Download Directory
 
 This is one of the techniques that has helped me most over the years.
