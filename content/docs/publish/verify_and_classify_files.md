@@ -19,7 +19,9 @@ This is an iterative process. Every new discovery can change your understanding 
 
 One of the most important distinctions in archival research is the difference between a file and a release.
 
-A release is a particular distribution of a modification by its developers. A file is an artefact that might contain that release, part of that release or something derived from it.
+A release is a particular distribution of a modification or related material at a given point in its history. Some releases are official developer distributions, while others, such as community patches and unofficial updates, are separate distributions that should be identified accordingly.
+
+A file is an artefact that might contain a release, part of a release or something derived from it.
 
 For example:
 

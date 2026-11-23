@@ -41,7 +41,7 @@ The goal is to reconstruct the history of a modification and recover as many of 
 
 We'll explore the many places where evidence and files might survive, including historical project websites, gaming news archives, Usenet, magazine CDs, FTP servers, file mirrors and existing Quake collections.
 
-We'll also look at using modern search engines, investigating forgotten distribution locations and reaching out to original developers, collectors and other archivists.
+We'll also look at using modern search engines, investigating forgotten distribution locations, reaching out to original developers, collectors and other archivists, and building small tools to automate repetitive research tasks.
 
 Along the way, we'll cover practical techniques for following historical clues, identifying missing releases, finding alternative download locations and searching collections that ordinary search engines may overlook.
 
@@ -55,7 +55,7 @@ You also need to understand what you have recovered, establish where it came fro
 
 We'll look at how to compare releases, identify duplicates, investigate conflicting information and document the evidence supporting your conclusions.
 
-We'll also cover using tools to make research more efficient and turning your findings into a public archive that others can browse, download from and contribute to.
+We'll then turn your findings into a public archive that others can browse, download from and contribute to.
 
 Finally, we'll consider how to maintain and improve the archive over time as new files, information and contributions become available.
 

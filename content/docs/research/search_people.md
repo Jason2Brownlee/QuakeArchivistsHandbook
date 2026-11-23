@@ -173,6 +173,8 @@ If you do not receive a response after a few weeks, consider sending one gentle 
 
 Once someone responds positively, you can broaden the conversation beyond your initial request. Ask about other releases, beta builds, source code, documentation, screenshots, website backups or development material they might be willing to preserve.
 
+If someone provides files from a private collection, particularly previously unreleased material, clarify whether they are also willing and authorised to have those files redistributed. Receiving a copy does not automatically grant permission to publish it. You may need to preserve the material privately until appropriate permission has been established.
+
 Also ask whether they remember former team members, contributors or collectors who could help. A single successful contact can lead to several more.
 
 ## Summary

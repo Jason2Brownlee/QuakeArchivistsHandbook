@@ -130,25 +130,13 @@ Someone has to do it.
 
 Imagine a future Quake player, researcher or former developer discovering your archive.
 
-They can visit a public website and find:
+They can rediscover old modifications, investigate their history, download surviving releases and perhaps contribute missing material of their own.
 
-- A documented history of the modification.
-- A chronology of its known releases.
-- Original download files.
-- Information about individual versions.
-- Credits and information about contributors.
-- Evidence supporting release dates and historical claims.
-- Links to related projects and resources.
+A successful archive makes this possible by bringing together files, historical information and supporting evidence in one accessible place.
 
-They can download a particular version and play it as it was originally released.
+It does not need to be comprehensive or expensive to maintain. What matters is that the surviving material is preserved, documented and available for others to use.
 
-They can also contribute missing files or historical information, helping improve the archive over time.
-
-The archive should be publicly accessible, easy to navigate and inexpensive to maintain. It doesn't need expensive infrastructure or a commercial hosting arrangement. A simple website hosted on a free or inexpensive platform can be sufficient.
-
-The result is more than a backup of some old files.
-
-**It is a publicly accessible historical record of a creative project and the community that surrounded it.**
+In the next chapter, we will look more closely at what such an archive contains.
 
 ## Become the archivist
 

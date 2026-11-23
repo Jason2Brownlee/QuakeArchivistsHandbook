@@ -7,7 +7,9 @@ weight: 20
 
 Before creating an archive, it helps to understand exactly what you are trying to preserve.
 
-A Quake modification archive is more than a collection of old downloads. It is a structured record of a modification, its releases, its developers, its files and its history.
+A Quake modification archive is more than a collection of old downloads. It is a structured record of historical software, its files, releases, developers and history.
+
+For simplicity, this chapter focuses on archiving an individual modification. However, the same principles apply to archives covering categories of modifications, particular developers, historical collections and distribution sources, as we will explore in Chapter 5.
 
 In this section, we'll introduce the key concepts that make up an archive and establish what a successful archive should contain.
 

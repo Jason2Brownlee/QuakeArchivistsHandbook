@@ -305,7 +305,7 @@ Record the source and the specific information it supports. For example:
   - ftp://ftp.example.invalid/pub/quake/aq10.zip
 ```
 
-The references themselves should also be reproduced or quoted in `research/history.md`, where possible and reasonable.
+For important sources, preserve a short, relevant quotation or summary alongside the original URL, archived URL and source details. Avoid reproducing lengthy documents in `history.md`. Where useful, preserve a separate copy of the original evidence.
 
 ### Record other historical events separately
 

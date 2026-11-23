@@ -129,7 +129,11 @@ These are examples of possible filenames, not a claim about the actual Action Qu
 
 The important principle is that this directory should contain the files themselves, not descriptions of the files or your research about them.
 
-You might recover a ZIP file from an archived website, find an identical copy on a magazine CD and later discover another copy on an FTP mirror. The archive should retain the original files and allow you to document where each copy came from.
+You might recover a ZIP file from an archived website, find an identical copy on a magazine CD and later discover another copy on an FTP mirror.
+
+Preserve at least one unchanged copy of each distinct file. If multiple recovered files are byte-for-byte identical, you do not need to retain every duplicate in `bin/`. However, record their original filenames and recovery locations in your research documentation.
+
+Files with different contents should be preserved separately, even when they share the same filename.
 
 Avoid casually renaming, modifying or repackaging recovered files. The original filename and contents can be important historical evidence.
 

@@ -75,13 +75,9 @@ But it's a trap.
 
 My advice is to resist the siren song of the ultimate Quake archive.
 
-Stay focused on small, specific projects.
+The danger is not collecting widely. It is allowing an enormous, ever-growing collection to become a prerequisite for publishing anything useful.
 
-Keep producing useful and helpful archives rather than being bogged down on an unending project that may never make it to the public internet.
-
-Choose a modification or a clearly defined collection of files. Research it properly, recover what you can, document its history, and make the results publicly available.
-
-Then move on to the next project.
+There is no reason that preserving Quake history must be an all-or-nothing undertaking. Small, independent archives can coexist with larger preservation projects, and both approaches can contribute to the same goal.
 
 Perhaps one day we'll work out a practical way to build the ultimate Quake file archive: comprehensive, searchable, inexpensive to host, and easy for anyone to contribute to.
 
@@ -92,3 +88,4 @@ For now, we have some remarkable large collections on cloud storage and FTP serv
 And perhaps that's not such a bad arrangement.
 
 **I'd rather see a hundred small, useful archives made public than one enormous archive that never gets finished.**
+

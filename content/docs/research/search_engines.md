@@ -93,21 +93,11 @@ These searches can find copies of a release that were renamed or extracted befor
 
 Search for distinctive phrases from recovered readmes, credits, installation instructions and changelogs.
 
-For example, a fictional readme might contain:
+As with searching the contents of CD-ROM collections, distinctive phrases from readmes can reveal copies of a modification that are difficult to identify by filename.
 
-```
-Shadow Arena introduces a new team-based combat system
-with custom weapons and modified player movement.
-```
+For web searches, try quoted phrases from installation instructions, changelogs or developer credits. You can also combine a distinctive phrase with a developer's name or restrict the search to a promising website using the `site:` operator.
 
-Search for a distinctive part of this text:
-
-```
-"new team-based combat system"
-"modified player movement"
-```
-
-This can locate pages containing the readme even when the project name and original archive filename are absent.
+This may reveal reproduced documentation, historical project pages and download locations that are not found by searching the modification's name alone.
 
 Try shorter phrases if an exact search produces no results. The text may have been reformatted, copied with different punctuation or split across multiple lines.
 

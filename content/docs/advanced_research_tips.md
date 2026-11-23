@@ -20,55 +20,13 @@ A single download URL might lead to an old directory listing, which reveals addi
 
 Learning to recognise and exploit these connections is one of the most useful skills you can develop as a Quake archivist.
 
-## Google Does Not Index Everything
-
-One of the most important lessons I have learned is how limited Google and other general-purpose search engines are when it comes to finding historical files.
-
-You might assume that searching for an exact filename would reveal most publicly available copies of that file.
-
-In practice, this is often not the case.
-
-The more time you spend examining public file archives, FTP mirrors and historical directory listings, the more you realise how much material is missing from Google's index.
-
-Large collections may contain thousands of files that do not appear in search results, even when their directories are publicly accessible.
-
-Other collections may be partially indexed, with some filenames appearing in search results and others completely absent.
-
-This is particularly common with historical FTP archives, directory listings, nested collections and files stored inside compressed archives.
-
-**Do not assume a file does not exist simply because Google cannot find it.**
-
-Use Google to discover websites and possible download locations, but be prepared to investigate those locations manually.
-
-Browse directory structures, inspect file listings and search for filenames within the archives themselves.
-
-If you have programming experience, consider writing tools to download and index directory listings from promising websites.
-
-A simple script can collect filenames and URLs from a public file archive, allowing you to search the collection locally.
-
-For larger collections, this can reveal files that would otherwise remain invisible to general-purpose search engines.
-
-Be respectful when using automated tools. Cache downloaded pages, limit requests, avoid unnecessary downloads and do not overload the servers hosting these collections.
-
-We have already covered manual searching and automation in earlier chapters, but I cannot stress this point enough: **search engines are only one way of discovering files, and they miss an enormous amount of historical material.**
-
 ## Investigate the Walnut Creek CDROM Archive
 
-Walnut Creek CDROM operated `ftp.cdrom.com`, one of the most important historical FTP servers for game modifications and other downloadable software.
+Chapter 13 introduced the Walnut Creek CDROM archive, its historical directory listings and surviving mirrors.
 
-Its archives included the original `idgames/` collection for Doom and the `idgames2/` collection for Quake-engine games.
+Beyond the familiar `idgames2/` directory, there are two less obvious areas worth investigating: alternative historical directory structures and the archive's own index and maintenance files.
 
-The `idgames2/` archive is particularly important for Quake research because it was a major distribution location for modifications, maps, tools and other community-created files.
-
-Historical references often point directly to files hosted at `cdrom.com`.
-
-The archive also had an HTTP interface (for a time), which allowed people to browse FTP directories through web pages.
-
-This is valuable because the Wayback Machine preserved many of these historical directory listings.
-
-A file may no longer be available, but an archived directory page can still confirm that it existed, reveal its original filename and provide information about its size or distribution location.
-
-You can also explore historical copies of the archive through its surviving mirrors. Gamers.org continues to host the `idgames2/` archive and documentation associated with the original collections.
+These can reveal information that is missing from the better-known surviving copies of the archive.
 
 ### Search alternative directory structures
 
@@ -102,60 +60,33 @@ You may also discover directory listings that reveal files that have not appeare
 
 ### Search archive index and maintenance files
 
-Historical FTP archives often maintained special files that described their contents and recent changes.
+Chapter 13 introduced the historical directory listings, upload summaries and text archives maintained by FTP servers.
 
-These can be extremely useful for reconstructing the existence and distribution of old releases. We touched on some of these files in the chapter on searching FTP archives.
+For the Walnut Creek `idgames2/` archive, there are several additional resources worth investigating.
 
-Some important filenames and locations to investigate include:
+| File or directory | Research value |
+| --- | --- |
+| `pub/idgames2/newstuff/` | Recently added or moderated material that may not appear in older directory listings. |
+| `pub/idgames2/00find.gz` | A historical index of filenames that can help identify files missing from other listings. |
+| `pub/idgames2/CHANGES` | Changes to the archive's organisation and directory structure. |
 
-| File or directory              | Research value                                                 |
-| ------------------------------ | -------------------------------------------------------------- |
-| `pub/idgames2/incoming/`       | Newly uploaded files awaiting moderation or placement          |
-| `pub/idgames2/newstuff/`       | Recently added or moderated material                           |
-| `pub/idgames2/00alltxt.tar.gz` | Collection of text descriptions associated with archived files |
-| `pub/idgames2/00find.gz`       | Historical index of text filenames                             |
-| `pub/idgames2/CHANGES`         | Changes to the archive's organisation and structure            |
-| `pub/idgames2/LAST.24hours`    | Files recently added or changed within a 24-hour period        |
-| `pub/idgames2/LAST.7days`      | Files recently added or changed within a seven-day period      |
-| `pub/idgames2/ls-laR.gz`       | Recursive listing of files and directories in the archive      |
+Search for both surviving copies and historical captures of these resources.
 
-Not every file or directory will exist in every historical snapshot or surviving mirror.
+The `CHANGES` file can be particularly useful when investigating directories that disappeared, moved or changed names over time.
 
-Search for archived copies of these resources as well as the current copies available through surviving archives.
+Likewise, historical index files may preserve references to files that are absent from current mirrors.
 
-The `ls-laR.gz` file is especially useful because it can provide a searchable snapshot of an entire directory tree.
-
-Likewise, a historical `LAST.7days` listing might reveal that a file appeared on the server during a particular week.
-
-These listings do not necessarily establish an original release date, but they provide valuable evidence about when and where files were distributed.
-
-The `CHANGES` file can also help explain why a directory disappeared or why the same material appears under a different path.
-
-Do not restrict your investigation to the individual ZIP file you are looking for. The surrounding directory and its maintenance files can be just as valuable.
+Compare these resources with the directory listings and upload summaries introduced in Chapter 13 to reconstruct how the archive changed over time.
 
 ## Search Historical Mirrors of `idgames` and `idgames2`
 
-The `idgames` and `idgames2` archives were mirrored across many FTP servers around the world.
+Chapter 13 explained how to identify and investigate historical mirrors of the `idgames` and `idgames2` archives.
 
-This provides an important research opportunity.
+A more advanced technique is to follow the distribution chain beyond the first mirror.
 
-If you know that a particular file existed in a specific directory on `ftp.cdrom.com`, you can investigate the corresponding directory on other mirrors.
+A server might have mirrored Walnut Creek, while another server mirrored that server. Each layer could preserve different directory structures, filenames or historical snapshots.
 
-A mirror might no longer host the file, but the Wayback Machine may contain a historical directory listing showing that it was available.
-
-Another mirror might preserve a different version of the file, an earlier directory listing or additional metadata.
-
-Search for mirrors using historical FTP documentation, archived websites and mirror lists maintained by the archives themselves.
-
-Try the historical directory URLs in the Wayback Machine, including HTTP interfaces where they existed.
-
-Browse archived directory listings and look for the files you need.
-
-Compare filenames, sizes, dates and neighbouring files.
-
-An archived listing from one mirror may provide information that is absent from the original server's surviving records.
-
-This is particularly valuable when trying to determine whether a release was replaced, renamed or distributed in more than one form.
+Following these relationships can uncover copies and directory listings that are missing from both the original archive and its better-known mirrors.
 
 ### Mirrors of mirrors
 
