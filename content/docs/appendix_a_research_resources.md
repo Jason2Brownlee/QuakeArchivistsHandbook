@@ -39,23 +39,27 @@ During the 1990s and early 2000s, several websites published regular news about 
 `https://www.bluesnews.com/`\
 One of the longest-running PC gaming news sites, originally established as a Quake news site in 1996. Still active, with an extensive searchable historical news archive.
 
-* [Redwood's Quake News](http://redwood.gatsbyhouse.com/)\
+* [ShugaShack / ShackNews](http://www.shacknews.com/)\
+`http://www.shugashack.com/`, `http://www.shacknews.com/`\
+Originally known as Quake Hole and then sCary's Shuga' Shack, it covered Quake and PC gaming news. It later became Shacknews. Historical material from its early Quake coverage may be accessible through the Internet Archive.
+
+* [Quake2.com](http://www.quake2.com/)\
+`http://www.quake2.com/`\
+A historical Quake 2 community website that hosted modification projects, developer pages and other Quake 2 resources. Particularly useful for researching older modifications, identifying original project websites and recovering historical download links. The original website is no longer reliably accessible, but historical pages may be available through the Wayback Machine.
+
+* Redwood's Quake News\
 `http://redwood.gatsbyhouse.com/`, `http://redwood.stomped.com/`\
 An important early Quake news site covering releases, community developments and other Quake-related news. No longer active. Historical pages may be accessible through the Internet Archive.
 
-* [Stomped](http://www.stomped.com/)\
+* Stomped\
 `http://www.stomped.com/`\
 A major early Quake community website featuring news, information and file downloads. No longer active. Historical pages may be accessible through the Internet Archive.
 
-* [ShugaShack / ShackNews](http://www.shugashack.com/)\
-`http://www.shugashack.com/`, `http://www.shacknews.com/`\
-Originally known as sCary's Shuga' Shack, it covered Quake and PC gaming news. It later became Shacknews. Historical material from its early Quake coverage may be accessible through the Internet Archive.
-
-* [Telefragged](http://www.telefragged.com/)\
+* Telefragged\
 `http://www.telefragged.com/`\
 A major Quake community website and hosting service. Its hosted project sites and news content can provide useful historical information about modifications and their releases. No longer active in its original form. Historical pages may be accessible through the Internet Archive and other Quake archives.
 
-* [Frag.com](http://www.frag.com/)\
+* Frag.com\
 `http://www.frag.com/`\
 A historical gaming news and community resource. No longer active. Historical pages may be accessible through the Internet Archive.
 
@@ -119,7 +123,7 @@ During the early years of Quake, developers and enthusiasts used email mailing l
 `https://www.gamers.org/dEngine/quake/archive/`\
 An archive of discussions from the Quake Developers Mailing List, covering March to August 1996. Useful for researching early Quake development, technical discussions and community projects.
 
-* [Quake-C Mailing List Archives](http://www2.csn.net/~rudeseal/quakec/list.html)\
+* Quake-C Mailing List Archives\
 `http://www2.csn.net/~rudeseal/quakec/list.html`\
 An archive of QuakeC programming discussions from July to August 1996. Useful for investigating early modification development, programming techniques and problems encountered by QuakeC developers.
 
@@ -137,8 +141,8 @@ A community dedicated to preserving historical software, including beta releases
 `https://quakediscs.com/`\
 A catalogue of historical Quake add-on CDs, including disc contents and file listings. Useful for identifying modifications and other files distributed on magazine cover CDs and commercial compilations. It is a catalogue rather than a complete collection of downloadable CD images, so use it to identify discs and files to investigate elsewhere.
 
-* [DiscMaster](https://discmaster.textfiles.com/)
-`https://discmaster.textfiles.com/`
+* [DiscMaster](https://discmaster.textfiles.com/)\
+`https://discmaster.textfiles.com/`\
 Search filenames and indexed content from historical CD-ROM and floppy disk collections preserved by the Internet Archive. Particularly useful for locating Quake modifications, utilities and other files without needing to know which disc contains them.
 
 * [CD.textfiles.com](http://cd.textfiles.com/)\
