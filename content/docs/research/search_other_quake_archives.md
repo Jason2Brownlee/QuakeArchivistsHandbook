@@ -5,13 +5,11 @@ weight: 70
 
 # 14. Search Other Quake Archives and Communities
 
-The previous chapters have focused on finding files through historical websites, news archives, Usenet, CD-ROM collections, search engines and FTP mirrors. There is another important source of material: people and organisations that have already collected Quake files.
+Many Quake files survive in collections maintained by players, developers, archivists and community organisations. Some are publicly available through dedicated archives, while others remain on personal computers, backup drives, FTP servers and cloud storage.
 
-Over the years, many players, developers, community websites and enthusiasts have accumulated large collections of maps, modifications, utilities, source code and other Quake-related material. Some of these collections are publicly available, while others are privately maintained on personal computers, external drives, FTP servers or cloud storage.
+These collections may have incomplete catalogues, unconventional directory structures or no search facilities, making them difficult to discover and investigate. Nevertheless, they can contain releases missing from every other source.
 
-These collections can be difficult to discover. They may not be indexed by search engines, may have incomplete catalogues, or may be organised in ways that make them difficult to browse. However, they can contain files that are missing from every other source you have investigated.
-
-This chapter explains how to find these collections, investigate their contents and engage with the people who maintain them.
+This chapter explains how to find these collections, investigate their contents and connect with the people who maintain them.
 
 ## Explore Existing Quake Archives
 
@@ -24,9 +22,7 @@ Some useful starting points include:
 * [Quaddicted](https://www.quaddicted.com/files/)\
 	`https://www.quaddicted.com/files/`
 
-Quaddicted maintains a large collection of Quake 1 maps, modifications and other files. Its collection also includes mirrors of historical Quake websites and FTP archives, as we saw in the previous chapter.
-
-It is particularly useful for finding maps and modifications that may no longer be available from their original websites. Explore the directory structure and look beyond the main project files for additional releases, patches and related material.
+Quaddicted, introduced in the previous chapter, is also worth searching as a broader community archive. Explore its collections for additional releases, patches and related material beyond the historical FTP mirrors.
 
 **Shub-Hub**
 
@@ -42,15 +38,11 @@ Search for known project names and filenames, but also browse the archive's cate
 * [Gamers.org](https://gamers.org/)\
 	`https://gamers.org/`
 
-Gamers.org maintains a collection of historical gaming FTP archives and mirrors, including several important sources for Quake files.
-
-Its collections are particularly useful for investigating the original distribution locations discussed in previous chapters.
+Gamers.org hosts the historical FTP archives and mirrors discussed in Chapter 13, making it another useful starting point when investigating related Quake collections.
 
 **Other community-maintained Quake archives**
 
-There are many smaller Quake archives maintained by enthusiasts, community websites and individual collectors. Some focus on maps, others on modifications, source code, utilities, multiplayer content or particular versions of the game.
-
-Do not limit your research to the largest or best-known collections. Smaller archives can contain unusual releases or files that were never submitted to the major distribution sites.
+Smaller community archives may specialise in maps, source code, multiplayer content, utilities or particular Quake modifications. These collections can contain unusual releases that never reached major distribution sites.
 
 ## Look Beyond Quake-Specific Archives
 
@@ -72,14 +64,14 @@ BetaArchive is a community dedicated to preserving historical software and relat
 * [CD.textfiles.com](https://cd.textfiles.com/)\
 	`https://cd.textfiles.com/`
 
-CD.textfiles.com is an archive of historical CD-ROM collections, particularly shareware and shovelware discs from the 1990s. It provides catalogues of individual CDs, including directory listings and links to the files they contain. This makes it a valuable resource for discovering Quake modifications and related material distributed on compilation CDs. Its file listings can reveal releases that are difficult to find through ordinary search engines, including files that are not indexed by Google.
+CD.textfiles.com preserves the contents of historical shareware and shovelware CDs, providing browsable directory listings and downloadable files. It is particularly useful for locating Quake modifications distributed on general-purpose software compilations.
 
 **RetroArchive**
 
 * [RetroArchive](http://www.retroarchive.org/)\
 	`http://www.retroarchive.org/`
 
-RetroArchive is a collection of historical software and documentation for older computer systems. Its particularly useful section is the CD-ROM and FTP Site Archive, which makes the contents of historical shareware CDs and FTP collections browseable. It includes directory listings and indexes of files contained within compressed archives, making it possible to search for individual filenames and discover software that might otherwise be difficult to locate. This can be especially useful for finding old Quake modifications and supplementary files distributed on compilation CDs.
+RetroArchive preserves historical software and documentation. Its CD-ROM and FTP Site Archive provides browsable directory listings and indexes of compressed archives, helping identify files distributed through historical software collections.
 
 **Apajalista**
 
@@ -90,17 +82,11 @@ Apajalista is an unofficial catalogue of files from MBnet Apaja, a Finnish BBS f
 
 **Abandonware and historical software archives**
 
-Many websites collect older PC games, demos, patches and utilities. Some include files from the same distribution networks used by Quake modifications.
-
-Search these archives for known filenames, project names and distinctive files. Also inspect their directory listings and catalogues for relevant categories.
-
-A general software archive might contain an old Quake modification because it was included on a compilation CD, uploaded by a collector, or preserved as part of a larger game collection.
+Other historical software archives may preserve Quake modifications alongside older PC games, demos, patches and utilities. Search their catalogues and directory listings for relevant project names and filenames.
 
 ## Find Personal Collections and FTP Servers
 
-Some of the most valuable collections are not maintained by established websites or organisations. They belong to individuals who have accumulated files over many years.
-
-These collections can take many forms:
+Individual collectors may maintain valuable collections outside established archival websites, including:
 
 - Personal FTP servers.
 - Directories on personal websites.
@@ -114,7 +100,7 @@ Some collectors have organised their files carefully. Others have accumulated la
 
 Look for references to personal collections in old forum posts, website announcements, readmes, FTP welcome messages and community discussions. A developer might have mentioned keeping an archive of their old work, or a community member might have offered to provide files that were no longer available elsewhere.
 
-Cloud storage services such as Google Drive, MEGA and other file-sharing platforms are also worth investigating. Some collectors have made entire directories of historical Quake files publicly accessible. These collections may not be indexed by search engines, so links shared in forums, Discord servers and community discussions can be particularly valuable.
+Links shared through forums and Discord servers can reveal publicly accessible cloud collections that search engines have not indexed.
 
 Do not assume that a collection is irrelevant because it has no public catalogue. Ask its owner whether they have files related to your project or topic.
 
@@ -143,18 +129,9 @@ A collection of files from the Brazilian Quake community, preserved and shared b
 
 ## Search Historical Mailing List Archives
 
-Before forums and modern discussion platforms became widespread, mailing lists were an important way for Quake developers and enthusiasts to communicate.
+Mailing lists were another important communication channel for early Quake developers and enthusiasts. Unlike Usenet, participants generally subscribed to receive messages by email, and some lists maintained public archives of their discussions.
 
-Unlike Usenet newsgroups, mailing lists typically required participants to subscribe to receive messages by email. Some lists maintained public archives of these discussions, preserving conversations between developers, modders and other members of the early Quake community.
-
-Mailing list archives can provide valuable historical evidence, including:
-
-- Announcements of new modifications and releases.
-- Discussions about QuakeC programming and engine development.
-- References to early versions, patches and experimental builds.
-- Original filenames and download locations.
-- Links to developer websites and FTP servers.
-- Names and contact details of developers and contributors.
+These archives may contain early release announcements, QuakeC development discussions, references to experimental builds, original download URLs and information about developers and contributors.
 
 There were relatively few Quake-specific mailing lists, and not all of their archives have survived. However, those that remain are particularly valuable because they capture discussions from the earliest days of Quake development.
 
@@ -176,17 +153,11 @@ An archive of the Quake Developers Mailing List, covering March through August 1
 
 An archived collection of Quake-C mailing list discussions from July through August 1996. **The original archive is no longer available but is accessible through the Internet Archive**. It provides another source of early QuakeC development discussions and potentially useful references to projects, files and developers.
 
-When investigating a mailing list, remember that surviving archives may be incomplete. Messages might refer to attachments that were not preserved, or to files distributed through websites and FTP servers that no longer exist.
-
-Even when the files themselves are missing, the discussions can establish that particular releases existed, identify their original filenames and provide historical URLs worth investigating through the Internet Archive.
+Surviving mailing list archives may be incomplete, with missing attachments or broken download links. Preserve any useful filenames and URLs for further investigation.
 
 ## Find Other Collectors and Archivists
 
-Finding people who collect and preserve Quake files can be just as important as finding the archives themselves.
-
-There are many individual collectors and archivists who have spent years gathering old game files. Some specialise in Quake, while others collect files from a particular era, game engine, community or distribution network.
-
-These people may have material that is not publicly indexed or even known to exist.
+Experienced collectors and archivists may have spent years gathering files from particular Quake communities, game engines or historical distribution networks. Their collections sometimes contain material that has never been publicly catalogued.
 
 For example, a collector might have:
 
@@ -204,21 +175,15 @@ Finding these people requires some active community engagement.
 
 Search for Quake-related forums, Discord servers and other online communities. Look for discussions about historical preservation, old modifications, mapping, mod development and game archives.
 
-Introduce your project and explain what you are trying to preserve. Be specific about the topic and the types of files you are looking for.
-
-For example, rather than simply asking whether anyone has old Quake files, explain that you are researching a particular modification and are looking for its original releases, patches, readmes and website backups.
+Introduce your archival project and make specific requests for the releases, patches, readmes or website backups you are trying to locate.
 
 You can also ask whether anyone knows of other collectors or archives worth investigating.
 
 ### Contact people who worked on the original projects
 
-Developers, mappers, artists, server administrators and community website operators may still have old files or know where they were distributed.
+Former developers, mappers, artists, server administrators and website operators may still have original files, source code or project backups. They may also remember where releases were distributed.
 
-A former developer might have kept their original source code and release archives. A website administrator might have backups of the entire hosted project directory. A community member might remember which FTP server hosted a particular release.
-
-Use names and contact details discovered during earlier research to identify potential contacts. Be respectful of people's time and explain why you are interested in their material.
-
-We will explore more on how to make contact with people in the Quake community in the next chapter.
+Use the names and contact details discovered during earlier research to identify potential contacts. The next chapter explains how to approach these people and request assistance.
 
 ### Build relationships with other archivists
 
@@ -234,53 +199,32 @@ Some people may be happy to share their collections publicly. Others may prefer 
 
 Once you identify a promising archive or collector, investigate whether it contains material relevant to your project.
 
-Start with the information that is already known from earlier research:
-
-- Known release filenames.
-- Alternative filenames and version numbers.
-- Developer names and project names.
-- Distinctive filenames found inside recovered archives.
-- Known patches, updates and supplementary files.
-- Original website names and historical FTP locations.
+Search the collection using filenames, project names, developer aliases and other search terms gathered during earlier research.
 
 Search the collection for these terms where possible. If there is no search facility, browse its directory structure or ask the owner whether they can search for particular filenames.
 
-When files are available, compare them with your existing collection. Check filenames, file sizes and SHA-256 hashes to identify identical copies and potential differences.
-
-Pay particular attention to files that do not match any known release. They might be an additional version, an alternative build, a patch or an unrelated file with a similar name. Inspect their contents and documentation before deciding what they represent.
+Compare recovered files with your existing collection using filenames, file sizes and SHA-256 hashes. Investigate unmatched files to determine whether they represent unknown releases, alternative builds, patches or unrelated material.
 
 If a collection contains a large number of files, consider obtaining a directory listing or catalogue before requesting individual downloads. This can help you identify promising material without requiring the entire collection to be transferred.
 
-Add relevant findings to `research/history.md`, including the collector or archive name, location, filenames, provenance and any information about how the files were obtained.
-
-If you discover a potentially important release that you cannot yet recover, add it to `research/wishlist.txt`.
+Record useful discoveries and their provenance in `research/history.md`, and add unrecovered files to your wishlist.
 
 ## Be Prepared for Incomplete and Disorganised Collections
 
-Community archives are not necessarily maintained to professional archival standards.
+Community collections may contain duplicates, renamed archives, incomplete downloads, extracted files and material from unrelated projects. They may also lack catalogues or documentation.
 
-You may encounter:
-
-- Multiple copies of the same file.
-- Files with renamed or shortened filenames.
-- Releases stored in unexpected directories.
-- Incomplete downloads.
-- Archives containing extracted files rather than the original ZIP.
-- Files with missing readmes or documentation.
-- Collections with no index or catalogue.
-- Files mixed together from several different games or projects.
-
-This is normal. A collection does not need to be perfectly organised to be valuable.
+Even a poorly organised collection can contain valuable releases that have disappeared elsewhere.
 
 Preserve the original files and directory structures where possible. Avoid renaming or modifying recovered material simply to make it fit your own archive. If you need to create a catalogue or reorganised copy, keep it separate from the original collection and document what you have done.
 
-Also distinguish between a collector's copy and an original release. A file supplied by an individual may have been downloaded from a mirror, copied from a CD-ROM or repackaged from extracted files. Ask about its source where possible and record what is known.
+Ask collectors about the origins of their files, including whether they came from original downloads, mirrors, CD-ROMs or repackaged collections. Record the available provenance.
 
 ## Summary
 
-Other Quake archives, collectors and community members are an essential part of historical preservation research. Established collections such as Quaddicted, Shub-Hub and Gamers.org provide useful starting points, but many valuable files survive in smaller archives and private collections.
+Quake archives and community-maintained collections can preserve files missing from historical websites, FTP mirrors and other public sources. Search established archives, broader historical software collections and publicly shared personal archives.
 
-Finding these resources requires more than searching the web. Explore related game archives, investigate personal FTP servers and cloud collections, participate in community forums and Discord servers, and contact people who worked on or collected the original material.
+Investigate collections systematically, compare recovered files with known releases and document their provenance. Other collectors and community members can also provide valuable leads, including access to privately preserved material.
 
-Most importantly, engage with other archivists. They may have files that are not publicly indexed, know about forgotten distribution locations, or be able to connect you with other collectors. Building relationships with these people can be one of the most productive parts of the entire archival process.
+**Outcome**: You can discover and investigate established Quake archives, historical software collections and personal file collections, identify missing releases, and connect with collectors who may help recover additional material.
 
+In the next chapter, we will turn our attention to people who may have retained original Quake files, including former developers, contributors and collectors. We will explore how to find these people, make contact and ask for help recovering files that may no longer exist in any public archive.
