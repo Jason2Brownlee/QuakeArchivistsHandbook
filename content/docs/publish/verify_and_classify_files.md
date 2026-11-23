@@ -13,17 +13,13 @@ A file might have an unfamiliar name, belong to an unknown release, be a duplica
 
 This chapter is about examining recovered material closely, determining what it represents and connecting it to the historical record.
 
-The objective is to move beyond simply collecting files. You want to establish which releases you have recovered, where they came from, how they relate to one another and how confident you are in those conclusions.
-
 This is an iterative process. Every new discovery can change your understanding of the project's history, including the interpretation of files you recovered earlier.
 
 ## Maintain the distinction between files and releases
 
 One of the most important distinctions in archival research is the difference between a file and a release.
 
-A release is a particular distribution of a modification by its developers. A file is an artifact that might contain that release, part of that release or something derived from it.
-
-There is not necessarily a one-to-one relationship.
+A release is a particular distribution of a modification by its developers. A file is an artefact that might contain that release, part of that release or something derived from it.
 
 For example:
 
@@ -44,8 +40,6 @@ The first task is to determine which recovered files are identical.
 
 This is particularly important when you have obtained files from multiple sources. The same ZIP archive might appear on an original project website, several FTP mirrors, a magazine CD and a modern community archive.
 
-The filenames might differ, but the underlying files could be identical.
-
 **Compare file hashes**
 
 Calculate a SHA-256 hash for every recovered file. Files with matching SHA-256 hashes are byte-for-byte identical.
@@ -63,7 +57,7 @@ actionq2_download.zip
     SHA-256: abc123...
 ```
 
-Despite having different filenames, these are identical files. You only have one unique artifact, recovered from three different locations.
+Despite having different filenames, these are identical files. You only have one unique artefact, recovered from three different locations.
 
 Record the different filenames and recovery sources, but avoid treating them as three separate releases.
 
@@ -135,8 +129,6 @@ Look for files that have been added, removed or renamed. Pay particular attentio
 
 For more reliable comparisons, calculate hashes for the files inside each archive.
 
-This can reveal whether two archives contain identical files despite having different archive-level hashes.
-
 For example, two releases might contain the same maps and models but different executable files or readme documents. This could indicate a minor update rather than an entirely separate release.
 
 You can also identify individual files that have been copied unchanged from an earlier release.
@@ -174,25 +166,9 @@ Document the original filenames, differences and evidence in `history.md`.
 
 ## Compare files with different names
 
-Different filenames do not necessarily indicate different content.
+Different filenames do not necessarily indicate different content. Files may be renamed by mirror administrators, repackaged for software compilations or distributed under alternative names.
 
-This is particularly common when files are copied between websites, renamed by mirror administrators or included in software compilations.
-
-You should compare files based on their contents rather than relying on their names.
-
-Start with SHA-256 hashes. If the hashes match, the files are identical regardless of their filenames.
-
-If the hashes differ, inspect the contents.
-
-For archives, compare the internal directory listings and individual file hashes. For loose files, compare their actual contents using appropriate file comparison tools.
-
-This process can reveal several useful relationships:
-
-- Identical copies distributed under different names.
-- Renamed copies of the same release.
-- Repackaged versions of an original archive.
-- Modified versions of an earlier release.
-- Patches distributed separately from the original modification.
+As described earlier, compare SHA-256 hashes first, then inspect archive contents and individual file hashes when necessary.
 
 Preserve the original filenames in your research records. A filename can itself be useful historical evidence, particularly when it appears in contemporary news articles, FTP listings or download announcements.
 
@@ -310,15 +286,9 @@ For each uncertain file, record:
 - Your current interpretation.
 - Any unresolved questions.
 
-You can make educated guesses based on the evidence.
+Use the available evidence to make a tentative classification, but leave room for alternative explanations. A file initially identified as an unofficial mirror might later prove to be a beta version or a modified distribution.
 
-For example, a file might contain a readme identifying a particular developer, and its contents might match a known project. You might reasonably conclude that it is probably an unofficial mirror of that release.
-
-However, be prepared to change your mind.
-
-A later discovery might reveal that the file was a beta version, a modified copy or an entirely different project with a similar name.
-
-The archival record should reflect your current understanding without presenting uncertain conclusions as established facts.
+Record your current interpretation without presenting it as an established fact.
 
 ## Resolve conflicting release dates
 
@@ -349,13 +319,7 @@ This can result in two different files with the same name and apparent release d
 
 Compare their contents, timestamps, hashes and associated documentation. Look for evidence of a corrected release, replacement upload or unofficial repackaging.
 
-You may not be able to determine exactly what happened. That is acceptable.
-
-Document the conflicting evidence, explain the possible reasons and identify the scenario that appears most likely.
-
-For example, you might conclude that a file dated March 10 was probably the original release, while a different copy dated March 12 was likely a corrected upload. If this is an inference rather than something explicitly documented by the developer, say so.
-
-Avoid silently selecting one date and discarding the others.
+When the evidence is inconclusive, record the competing explanations and identify the most likely sequence. For example, one file might be the original March 10 release while another represents a corrected upload from March 12. Make clear when this is your interpretation rather than a documented fact.
 
 ## Record confidence and uncertainty
 
@@ -384,8 +348,6 @@ One of the most important archival principles is to preserve recovered files ind
 
 You may need to repair an archive, extract an executable installer, repackage files from a CD or rename a file to distinguish it from another recovered copy.
 
-These operations produce derived artifacts. They should not replace the original.
-
 Keep the original recovered file unchanged in `bin/`, and use clear suffixes to distinguish derived versions.
 
 For example:
@@ -408,7 +370,7 @@ If you recover multiple versions of the same original filename, use additional s
 
 Document every transformation in `history.md`, including the source file, the operation performed and the resulting filename.
 
-Calculate hashes for both the original and derived files. This makes it possible to identify exactly which artifacts were recovered and which were created during the archival process.
+Calculate hashes for both the original and derived files. This makes it possible to identify exactly which artefacts were recovered and which were created during the archival process.
 
 The goal is to preserve the original evidence while making useful derived material available to researchers.
 
@@ -430,27 +392,13 @@ Check whether:
 - Release dates are supported by evidence.
 - Conflicting dates and uncertain conclusions are documented.
 - Patches and supplementary files are distinguished from complete releases.
-- Original and derived artifacts are clearly identified.
+- Original and derived artefacts are clearly identified.
 
-You may discover that your earlier interpretation was incorrect.
-
-A newly recovered file might turn out to be an earlier version than any previously known release. This could change the apparent starting point of the project.
-
-Another discovery might reveal that a release previously thought to be a complete package was actually an incremental patch that required an earlier version.
-
-You might also discover that two releases with different filenames are identical, or that two files with the same filename represent different distributions.
-
-Update the chronology to reflect the new evidence.
-
-Do not be concerned about changing earlier conclusions. Historical research is iterative, and revising your interpretation is a sign that the research is progressing.
-
-Keep the evidence that led to the earlier interpretation where it is useful. The objective is not to make the historical record appear certain, but to make it accurate and defensible.
+Update the chronology to reflect new evidence, retaining earlier interpretations where they help explain how your understanding changed. The objective is an accurate and defensible historical record, not one that appears more certain than the evidence allows.
 
 ## Keep the README.md up to date
 
 While `research/history.md` is your detailed working historical record, `README.md` is the public face of your archive. It is likely to be the first page most visitors see, and many visitors will come specifically to find and download a copy of the modification.
-
-Make sure this page always presents your best current understanding of the project and its releases.
 
 Include a release list with the best available version numbers and estimated release dates. Link each recovered release directly to its corresponding file in `bin/`, so visitors can easily find and download it.
 
@@ -479,10 +427,8 @@ Remember that the README is a living document. As you recover additional files, 
 
 Recovering files is only part of archival research. Each discovery needs to be examined, verified, classified and connected to the historical record.
 
-Compare hashes and archive contents to identify duplicates and distinguish different releases. Inspect timestamps, filenames, readme files and other evidence to establish relationships between recovered files. Verify archive integrity and identify incomplete or corrupted downloads.
-
-When origins, release numbers or dates are uncertain, document the available evidence and distinguish facts from educated guesses. Preserve original files independently of repaired, extracted or repackaged copies.
-
-Finally, revisit the release chronology whenever new evidence changes your understanding of the project's history.
+The result is more than a collection of downloads. It is a documented account of what has survived, how the recovered artefacts relate to the original releases and what remains uncertain.
 
 **Outcome:** You can turn recovered material into a coherent and defensible archival record.
+
+With your recovered files verified, classified and connected to the historical record, you are ready to share the results of your work. The next chapter explains how to publish your archive so that others can explore its history, download the recovered files and help fill the remaining gaps.

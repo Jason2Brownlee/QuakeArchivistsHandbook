@@ -7,9 +7,7 @@ weight: 3
 
 Publishing your archive is an important milestone, but it does not necessarily mean the project is finished.
 
-New files may be discovered, original developers may provide additional information and other archivists may identify errors or gaps in your research.
-
-Even if you have exhausted every available source, new opportunities may appear months or years later. A previously unavailable website might be recovered, another collector might publish their files or someone might discover an old backup containing a missing release.
+New files may surface, developers and collectors may provide additional information, and other archivists may identify gaps in your research. Even after you have exhausted the available sources, opportunities for new discoveries may arise months or years later.
 
 An archive should therefore be treated as a living preservation project.
 
@@ -27,17 +25,9 @@ Some people may offer complete releases that are missing from your collection. O
 
 Treat these contributions as new research leads rather than automatically accepting them as established facts.
 
-When someone provides a file, try to establish where it came from.
+When someone contributes a file, ask where and approximately when they obtained it. Distinguish original developer distributions, personal backups and copies recovered from third-party collections, recording the provenance alongside the file.
 
-Ask whether they downloaded it from the original project website, recovered it from an old CD, copied it from another archive or received it directly from a developer.
-
-If they know approximately when they obtained the file, record that information as well.
-
-A file supplied by an original developer may have a different provenance from an identical file recovered from a later compilation CD. Both can be useful, but the distinction is worth preserving.
-
-For historical information, ask whether the contributor has supporting evidence.
-
-A recollection that a modification was released in 1998 may be valuable, but a contemporary announcement or archived website provides stronger evidence for a specific release date.
+For historical claims, ask whether the contributor has supporting evidence. Personal recollections can provide useful leads, but contemporary records generally offer stronger support for specific dates and events.
 
 Remember to acknowledge contributors and respect their preferences about how they are credited.
 
@@ -45,9 +35,7 @@ Remember to acknowledge contributors and respect their preferences about how the
 
 When you receive a new file, do not immediately add it to the public release list.
 
-First, examine it using the verification techniques covered in previous chapters.
-
-Calculate its hash, inspect its contents and compare it with files already in the archive.
+Apply the verification techniques from the previous chapter, comparing the new file's hash and contents against the existing collection.
 
 Determine whether it is:
 
@@ -57,10 +45,6 @@ Determine whether it is:
 - A patch, update or supplementary download.
 - A repackaged or modified copy of an existing release.
 - An unidentified file requiring further investigation.
-
-A different filename does not necessarily indicate a different release.
-
-Likewise, two files with the same filename may contain different versions or distributions.
 
 If the file is genuinely new, record its filename, size, hash, contents and provenance in `research/history.md`.
 
@@ -74,39 +58,19 @@ If its identity remains uncertain, document the questions and continue investiga
 
 ## Update the Release History
 
-New discoveries may change your understanding of the modification's history.
+New discoveries may change your understanding of the modification's history. You might recover a previously unknown version, identify an unofficial release or establish a more accurate release date.
 
-You might recover an earlier version that was previously unknown, discover that two releases were distributed on the same day or find evidence that a supposed official release was actually a community modification.
+Update the `Releases and Chronology` section of `research/history.md` to reflect the new evidence, adding or correcting entries as appropriate.
 
-Update the `Releases and Chronology` section of `research/history.md` to reflect the best available evidence.
+If recovered files resolve outstanding entries in `research/wishlist.txt` or `research/wishlist_urls.txt`, update those lists as well.
 
-This may involve adding a new release entry, correcting an existing entry or revising the relationship between releases.
-
-Keep the chronology consistent with the rest of your research.
-
-If a new release is recovered, check whether it fills an existing gap in `research/wishlist.txt`. If it does, update the wishlist.
-
-Likewise, update `research/wishlist_urls.txt` if a previously missing file has been recovered from one of its historical download locations.
-
-Finally, update the README to reflect the new information.
-
-The public release list should always present your best current understanding of the modification's release history.
-
-Visitors should not need to read the detailed research documents to discover that a missing release has been recovered.
+Finally, update the README so that visitors can immediately see which releases are available and how the project's history has changed.
 
 ## Correct Historical Information
 
-Historical research is rarely perfect.
+Historical research is rarely perfect, and new evidence may overturn earlier conclusions.
 
-Early conclusions may be based on incomplete evidence, ambiguous filenames, unreliable timestamps or assumptions that seemed reasonable at the time.
-
-As new evidence becomes available, you may discover that some of those conclusions were incorrect.
-
-Correct the archival record rather than preserving an interpretation simply because it appeared in an earlier version of your documentation.
-
-For example, you might discover that a date previously identified as a release date was actually the date a file was uploaded to a mirror.
-
-Update the release entry to distinguish the two dates and explain the supporting evidence.
+For example, a date originally identified as a release date might prove to be the date a file was uploaded to a mirror. Correct the release entry, distinguish the two events and document the supporting evidence.
 
 Where a correction is significant, briefly document the reason for the change.
 
@@ -116,27 +80,13 @@ However, important corrections to release identities, dates, authorship or prove
 
 This helps future researchers understand why the archive presents a particular interpretation.
 
-Be willing to revise conclusions, but avoid replacing one unsupported assumption with another.
-
-When the evidence remains inconclusive, document the uncertainty.
-
-An accurate archive does not need to have an answer to every question.
-
 ## Preserve New Evidence
 
 Not every new discovery will be a downloadable modification file.
 
 You may find an archived news article, a previously unknown project website, a forum discussion or an FTP directory listing that provides useful historical information.
 
-Preserve this evidence using the same approach established earlier in the guide.
-
-Add the source and connect it to the relevant release or historical event in `research/history.md`.
-
-Where appropriate, save a local copy in your research directory.
-
-Record the original URL, archived URL, publication date and any other information needed to identify the source.
-
-This is particularly important for evidence found on websites that may disappear.
+Add useful evidence to `research/history.md`, connecting it to the relevant release or historical event. Where appropriate, preserve a local copy and record the original URL, archived URL, publication date and other identifying details.
 
 A forum post or personal website that is accessible today might not remain available indefinitely.
 
@@ -146,21 +96,7 @@ Avoid collecting material without a clear purpose. Focus on evidence that helps 
 
 ## Record Changes to the Archive
 
-As the archive evolves, keep a record of significant additions and corrections.
-
-If you are using GitHub, Git already provides a convenient history of changes through commits.
-
-Use meaningful commit messages that explain what was changed.
-
-For example:
-
-```
-Add recovered version 0.9 beta
-Correct version 1.1 release date
-Document original PlanetQuake download URL
-Add developer-provided source code
-Update missing releases wishlist
-```
+Record significant additions and corrections using descriptive Git commit messages.
 
 For larger updates, include a short explanation in the commit description.
 
@@ -182,11 +118,7 @@ You might know that a particular release existed but have no surviving copy. You
 
 You may also have leads that were not worth pursuing during the initial research.
 
-Continue using `research/notes.txt` to record these questions and ideas.
-
-Keep missing files in `research/wishlist.txt` and historical download locations in `research/wishlist_urls.txt`.
-
-When new information becomes available, revisit the relevant entries.
+Continue tracking unresolved questions in `research/notes.txt`, missing releases in `research/wishlist.txt` and historical download locations in `research/wishlist_urls.txt`. Revisit these records as new evidence becomes available.
 
 For larger questions, GitHub Issues can also be useful.
 
@@ -195,10 +127,6 @@ An issue can describe a specific problem, such as identifying an unknown release
 Other researchers can then contribute information directly to the discussion.
 
 Close issues when they are resolved, but retain the discussion as part of the project's research history.
-
-Do not feel obligated to resolve every outstanding question.
-
-A well-documented uncertainty is preferable to an unsupported conclusion.
 
 ## Review External Links and Backups
 
@@ -222,11 +150,7 @@ If you host large files outside GitHub, make sure those files remain available.
 
 ### Maintain independent backups
 
-Keep at least one backup of the archive outside its public hosting platform.
-
-A local Git repository is useful, but an additional copy on another drive or storage service provides better protection against accidental loss.
-
-Your backup should include the recovered files, research documents and supporting evidence.
+As discussed in the previous chapter, maintain an independent backup containing your recovered files, research documents and supporting evidence, preferably on a separate drive or storage service.
 
 Consider preserving the complete Git repository so that its commit history is retained.
 
@@ -262,31 +186,19 @@ About a month after publishing, return to the archive for a short review.
 
 By this point, you have had some distance from the original research.
 
-Read the README and historical record as though you were encountering them for the first time.
+Read the README and historical record with fresh eyes, looking for gaps in your reasoning, confusing descriptions and unresolved questions. Check for responses to community announcements, review any contributions and investigate promising leads you may have overlooked.
 
-Look for gaps in your reasoning, confusing descriptions and unanswered questions that now seem easier to investigate.
-
-Check whether anyone has responded to your community announcements or contributed information through GitHub.
-
-You may also think of new search terms, filename variations or sources that were overlooked during the initial investigation.
-
-This first revisit is often an opportunity to tidy the archive and pursue a few promising leads.
+Use this first revisit to tidy the archive and address problems that become apparent after some distance from the original research.
 
 ### Revisit after six months
 
 After six months, consider conducting another research pass.
 
-The internet may have changed during this time.
+New collections, recovered websites and discoveries made by other archivists may provide opportunities that did not exist during your original investigation.
 
-New collections may have appeared on the Internet Archive, other archivists may have published additional files and previously unavailable resources may have become accessible.
+You may also have discovered new research tools, FTP mirrors, CD collections or search techniques while working on other projects.
 
-You may also have started another Quake archival project and discovered useful websites, FTP mirrors, CD collections or research techniques.
-
-Apply these new resources and techniques to your earlier archive.
-
-Revisit the missing files wishlist and investigate the most promising unresolved leads.
-
-Look again at the known releases and consider whether any gaps suggest alternative filenames or distribution locations.
+Apply these resources to your earlier archive, focusing on missing releases and promising unresolved leads.
 
 You do not need to repeat every search from the beginning. Focus on opportunities that were not available or not considered during your first investigation.
 
@@ -294,13 +206,9 @@ You do not need to repeat every search from the beginning. Focus on opportunitie
 
 After a year, conduct a broader review of the archive.
 
-Consider what you now know about Quake archiving that you did not know when the project began.
+Consider what you have learned about Quake archiving over the past year. New tools, research techniques, historical sources and connections between projects may allow you to approach the archive with a deeper understanding.
 
-Perhaps you have developed better tools for searching historical websites, learned how to investigate CD-ROM collections or discovered new communities of collectors.
-
-You may now recognise connections between modifications, developers, hosting services and distribution archives that were not apparent before.
-
-Use this experience to reassess the project.
+Use this experience to conduct a broader reassessment of the project.
 
 Review the release history, outstanding questions and missing files.
 
@@ -312,19 +220,9 @@ Simply confirm that the collection remains accessible and leave it available for
 
 ## Understand That Completeness Can Improve Over Time
 
-An archive does not have to be complete to be valuable.
+An archive does not have to be complete to be valuable. Additional releases, source code, development builds and historical evidence may surface months or years after the original research.
 
-You may initially recover only a handful of releases, with several important versions still missing.
-
-Months later, another collector might provide an old CD containing one of those releases.
-
-A year later, a former developer might discover a backup containing source code, development builds or files that were never publicly distributed.
-
-Each discovery improves the archive.
-
-Completeness is therefore not necessarily a fixed state achieved at the end of the initial research.
-
-It is something that can improve over time as additional evidence and material become available.
+Completeness is therefore not a fixed state achieved when the archive is first published. It can improve as new material becomes available.
 
 There may also be different kinds of completeness.
 
@@ -342,17 +240,11 @@ The purpose of an archive is not to guarantee that every piece of information ca
 
 ## Know When to Stop
 
-Maintaining an archive does not mean working on it indefinitely.
+Maintaining an archive does not mean working on it indefinitely. When available leads are exhausted and additional research produces little new information, it is reasonable to stop actively searching.
 
-At some point, you may have exhausted the available resources and reached a point where additional research produces little new information.
+Leave the archive accessible and documented, returning when new opportunities appear or when you feel motivated to investigate again.
 
-It is reasonable to stop actively searching.
-
-The archive can remain public, with its recovered files, historical record and outstanding questions available to others.
-
-You can return when a new lead appears or when you feel motivated to investigate again.
-
-You may also decide to start another archival project.
+You may also choose to begin another archival project.
 
 This can be particularly valuable because each project teaches you something new.
 
@@ -376,4 +268,5 @@ Periodically revisit the project after one month, six months and one year. Fresh
 
 There is no requirement to work on an archive continuously or to recover every missing file.
 
-**The outcome of this chapter is an understanding of how to maintain a Quake modification archive as an ongoing preservation project, allowing it to remain useful and improve over time.**
+**Outcome:** You can maintain and improve your Quake modification archive over time, incorporating new discoveries and keeping it accurate, accessible and useful.
+

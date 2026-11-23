@@ -11,8 +11,6 @@ A private collection of files and research notes is useful, but a public archive
 
 Publishing an archive does not require a complicated website or expensive hosting. A simple GitHub repository containing the recovered files and Markdown documentation is sufficient for most projects.
 
-The goal is to create a public resource that is easy to find, easy to browse and easy for others to contribute to.
-
 ## Prepare the README
 
 The `README.md` file is the front door to your archive.
@@ -20,8 +18,6 @@ The `README.md` file is the front door to your archive.
 Most visitors will not be interested in the details of your research. They will be nostalgic Quake players who remember a particular modification and want to download a copy, perhaps to play it again after many years.
 
 The README should make this as easy as possible.
-
-As discussed in the previous chapter, the README should already contain an up-to-date list of known releases, including version numbers, approximate dates and links to recovered files.
 
 Before publishing, review the README from the perspective of someone who knows nothing about your archival project.
 
@@ -34,9 +30,7 @@ Make sure it includes:
 - **Credits:** Acknowledgements of the original developers and people who helped recover material.
 - **How to help:** Information about missing files and how visitors can contribute.
 
-Keep the README relatively concise. It should be a useful entry point rather than a complete reproduction of your research.
-
-Visitors who want more information can follow links into the `research/` directory.
+Keep the README concise, providing an accessible entry point with links to the detailed documentation in `research/`.
 
 ## Publish the Archive on GitHub
 
@@ -46,12 +40,6 @@ GitHub is the recommended platform for publishing a Quake modification archive.
     `https://github.com/`
 
 GitHub provides free hosting for public repositories, displays Markdown files automatically and allows visitors to browse directories and download individual files.
-
-It also provides Git version control, which is particularly valuable for an archival project.
-
-Every committed change is recorded in the repository's history. If you accidentally remove a file, overwrite documentation or make an incorrect change, you can usually recover an earlier committed version.
-
-This makes GitHub a natural fit for an archive that will continue to evolve as new material is discovered.
 
 To publish your archive:
 
@@ -75,8 +63,6 @@ If you are new to GitHub and git, the GitHub documentation is excellent and a go
     `https://docs.github.com/`
 
 ### Why Git version control matters
-
-Git records the evolution of your archive.
 
 You might initially identify a file as version 1.2, then later discover evidence that it was actually an earlier beta release. You can update the documentation while retaining the history of your previous interpretation.
 
@@ -117,8 +103,6 @@ action-quake-archive/
 
 Keep this structure when publishing.
 
-The README provides the main navigation, while the research documents contain the detailed information collected during your investigations.
-
 Use relative Markdown links to connect documents.
 
 For example:
@@ -147,29 +131,9 @@ For a small Quake modification archive, the simplest approach is to include the 
 
 GitHub allows visitors to browse these files and download them individually.
 
-Link directly to each available release from the README.
+Make each recovered release downloadable through the links in your README's release table. Keep missing releases listed without download links so that visitors can distinguish available material from files still being sought.
 
-For example:
-
-```
-| Version | Date | Download |
-|---|---|---|
-| 1.0 | 1997-04-12 | [actionq10.zip](bin/actionq10.zip) |
-| 1.1 | 1997-06-15 | [actionq11.zip](bin/actionq11.zip) |
-| 1.2 | ? | actionq12.zip |
-```
-
-The first two entries link to recovered files. The third identifies a known release that has not yet been recovered.
-
-This provides a simple way for visitors to find exactly the version they want.
-
-Preserve original filenames and file contents whenever possible.
-
-Do not rename historical releases simply to make the archive look more consistent. Original filenames can be valuable historical evidence and may help other collectors identify matching copies.
-
-Likewise, avoid modifying files inside original distribution archives.
-
-If a recovered release must be repackaged, repaired or otherwise reconstructed, clearly identify it as a derived copy and document the changes in the historical record.
+Publish the original recovered files whenever possible, preserving their historical filenames and contents. Clearly identify any repaired or repackaged copies as derived artefacts, following the practices established in the previous chapter.
 
 ### File size limits
 
@@ -197,29 +161,11 @@ External links can disappear, so avoid relying on a single hosting service for t
 
 ## Link Releases to Their Historical Evidence
 
-The README is primarily for visitors who want to download files.
+A historical archive should allow interested visitors to investigate where its files came from and how their release history was reconstructed.
 
-However, the archive should also make it possible for interested readers to investigate where those files came from and how their history was reconstructed.
+Each release listed in the README should correspond to an entry in `research/history.md`, containing the supporting evidence gathered during research.
 
-This is one of the main differences between a simple file collection and a historical archive.
-
-Each release listed in the README should correspond to an entry in `research/history.md`.
-
-That entry should contain the supporting evidence gathered during research, such as:
-
-- Original release announcements.
-- Historical download URLs.
-- Archived project websites.
-- FTP directory listings.
-- Magazine CD references.
-- File sizes and hashes.
-- Recovery sources and provenance.
-
-You do not need to reproduce all this information in the README.
-
-Instead, provide a prominent link to the project history and allow readers to explore the evidence themselves.
-
-This also helps other researchers verify your conclusions, identify mistakes and contribute new information.
+Provide a prominent link to the historical record rather than reproducing its contents in the README. This allows other researchers to verify your conclusions, identify mistakes and contribute additional information.
 
 ## Document Missing Files and Uncertainties
 
@@ -246,12 +192,6 @@ Your wishlists should provide enough information for someone else to recognise a
 
 For example, a visitor might remember seeing a particular filename on an old CD or discover that they still have a copy on a backup drive.
 
-Likewise, be open about uncertainties in the historical record.
-
-If a release date is unknown, use `?` rather than inventing a date. If the identity of a recovered archive is uncertain, explain the uncertainty in `research/history.md`.
-
-An archive becomes more useful when it distinguishes established facts from incomplete or speculative information.
-
 ## Credit the People Who Helped
 
 Quake modifications were often created by individuals or small teams working in their spare time.
@@ -276,10 +216,6 @@ Ask contributors how they would like to be credited. Some may prefer a username,
 
 Be particularly careful not to publish private email addresses, correspondence or other personal information without permission.
 
-Acknowledgements are important because archival work often depends on the generosity of people who have preserved material for decades.
-
-They also demonstrate that the archive is a community effort rather than simply a collection assembled by one person.
-
 ## Explain How Others Can Help
 
 A public archive creates opportunities for further discoveries.
@@ -300,13 +236,7 @@ Provide one or more contact methods, such as:
 - A social media account.
 - GitHub Issues, where visitors can report discoveries, suggest corrections or offer files.
 
-GitHub Issues is particularly convenient because it is already integrated into the repository.
-
-Visitors can open an issue to report a missing file, identify an error or provide a link to another archive.
-
-These discussions remain publicly accessible and may help future researchers.
-
-However, not everyone has a GitHub account. Providing an email address or another contact method makes it easier for former developers and collectors to reach you.
+GitHub Issues provides a convenient, public record of discoveries, corrections and contributions. However, also offer an alternative contact method for people without GitHub accounts, particularly former developers and collectors.
 
 Keep the invitation friendly and specific.
 
@@ -342,9 +272,7 @@ Include a link to the repository and invite people to check their old backups.
 
 This gives the announcement a practical purpose and encourages community participation.
 
-You may find that sharing the archive leads to additional discoveries, which can then be incorporated into the repository.
-
-Publishing is therefore not necessarily the end of your research. It can become another way to find missing material.
+Sharing your archive can lead to new discoveries, making publication another useful part of the preservation process.
 
 ## Consider Copyright and Redistribution Permissions
 
@@ -382,14 +310,7 @@ This is particularly important for rare files that you recovered from sources th
 
 Git history helps protect against accidental changes, but it does not replace independent backups.
 
-When updating the repository, continue following the practices established in earlier chapters:
-
-- Preserve original recovered files.
-- Record the source and provenance of new material.
-- Update `research/history.md` when new evidence changes your understanding.
-- Keep the README release list and download links current.
-- Update the wishlists when files are recovered or new missing releases are identified.
-- Acknowledge people who contribute new material.
+As new material is recovered, update the historical record, README, wishlists and contributor acknowledgements as appropriate. Continue preserving original files and documenting the provenance of each discovery.
 
 Periodically check that download links still work, particularly when files are hosted outside GitHub.
 
@@ -401,13 +322,7 @@ A public archive does not need constant attention, but occasional maintenance he
 
 It can be tempting to build a dedicated website, searchable database or elaborate interface for your archive.
 
-For a small collection, this is usually unnecessary.
-
-A GitHub repository with a good README, a `bin/` directory of downloadable files and a collection of Markdown research documents provides almost everything that visitors need.
-
-It is free, easy to maintain and straightforward for other people to browse.
-
-It also avoids creating a custom software system that you must maintain indefinitely.
+For a small collection, a GitHub repository containing downloadable files and Markdown documentation is usually sufficient. It is free, easy to browse and avoids introducing a custom system that must be maintained indefinitely.
 
 If your archive eventually grows into a large collection covering hundreds of modifications or thousands of files, you can consider more sophisticated publishing options.
 
@@ -425,4 +340,7 @@ The README serves as the main entry point, allowing nostalgic players to find an
 
 By documenting missing material, acknowledging contributors and explaining how others can help, you also create opportunities for further discoveries.
 
-**The outcome of this chapter is a publicly accessible Quake modification archive that others can browse, download from, research and contribute to.**
+**Outcome:**  You can make your archive publicly accessible so that others can browse, download from, research and contribute to.
+
+The next chapter explains how to maintain and improve your archive over time, incorporate new discoveries and revisit your research as new opportunities arise.
+
