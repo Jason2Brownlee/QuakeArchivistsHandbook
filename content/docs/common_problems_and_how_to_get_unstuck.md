@@ -115,8 +115,9 @@ The simplest archive can be a single Markdown document.
 
 List the known releases, approximate dates, original filenames, historical download URLs and any surviving download links. Include the project homepage, relevant references and important unanswered questions.
 
-You can publish this document using GitHub Gist:
+You can publish this document using:
 
+* [GitHub Gist](https://gist.github.com/)\
 `https://gist.github.com/`
 
 A Gist is a lightweight way to publish a Markdown document without creating and maintaining a complete repository.

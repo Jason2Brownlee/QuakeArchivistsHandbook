@@ -86,7 +86,7 @@ The archive's search and collection structure can change over time. Search broad
 
 ### QuakeDiscs
 
-[QuakeDiscs](https://QuakeDiscs.com) (https://QuakeDiscs.com) is a catalogue I created for fellow Quake archivists. It indexes third-party add-on CDs for the original Quake, including files nested inside ZIP, RAR, ARJ, PAK and other archives.
+[QuakeDiscs](https://QuakeDiscs.com) (`https://QuakeDiscs.com`) is a catalogue I created for fellow Quake archivists. It indexes third-party add-on CDs for the original Quake, including files nested inside ZIP, RAR, ARJ, PAK and other archives.
 
 You can search for filenames without knowing which disc contains them, then inspect the disc's title, publisher, publication date and directory structure.
 
@@ -112,7 +112,7 @@ QuakeDiscs is focused on Quake add-on CDs, so it should not be treated as a comp
 
 ### DiscMaster
 
-[DiscMaster](https://discmaster.textfiles.com) (https://discmaster.textfiles.com) searches filenames and indexed content from historical CD-ROM and floppy disk collections preserved by the Internet Archive. It can identify matching files without requiring you to know which disc contains them.
+[DiscMaster](https://discmaster.textfiles.com) (`https://discmaster.textfiles.com`) searches filenames and indexed content from historical CD-ROM and floppy disk collections preserved by the Internet Archive. It can identify matching files without requiring you to know which disc contains them.
 
 This makes it a good resource for searching for:
 
