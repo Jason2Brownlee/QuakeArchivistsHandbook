@@ -5,18 +5,16 @@ weight: 60
 
 # 13. Search FTP Archives and File Indexes
 
-Previous chapters explored project websites, gaming news archives, Usenet, CD-ROM collections and modern search engines. Another important source of historical Quake files is the FTP archive.
+FTP archives were among the most important distribution channels for Quake modifications during the 1990s. Developers and community members uploaded maps, patches, utilities and modifications to FTP servers, where they were often copied to mirrors around the world.
 
-During the 1990s, FTP servers were a major way to distribute game modifications, maps, utilities, patches and other community-created content. Many of these servers are no longer online, but copies of their contents survive in modern mirrors and historical collections.
+Although many original servers have disappeared, portions of their collections survive in modern mirrors and historical archives.
 
-This chapter explains how to find those surviving archives, search their directory structures, use FTP file indexes, and recover evidence about where and when files were distributed.
+This chapter explains how to locate these collections, search their contents and investigate the original distribution locations of recovered files.
 
 
 ## Understand Historical FTP Archives
 
-FTP (File Transfer Protocol) was widely used to distribute files before modern web hosting and download platforms became common.
-
-Quake communities relied on a network of FTP servers and mirrors. Developers uploaded releases to project websites or community archives, and those files were often copied to several mirrors around the world. News sites and project homepages frequently linked directly to these downloads.
+FTP (File Transfer Protocol) allowed users to upload and download files from remote servers. Quake communities relied heavily on these servers, with releases distributed through central archives, community hosting services and networks of mirrors.
 
 Several important historical archives became well-known distribution locations:
 
@@ -25,17 +23,13 @@ Several important historical archives became well-known distribution locations:
 - **Telefragged** was another Quake community website and hosting service, with downloadable modifications and related material.
 - **Games Domain** was a general PC gaming website that also maintained downloadable game files.
 
-The distinction between these archives is important. PlanetQuake and Telefragged hosted individual community projects, while idgames2 was organised primarily as a central file archive. These different arrangements are reflected in their directory structures, which can help guide your research.
+These services organised files differently. PlanetQuake and Telefragged hosted individual community projects, while `idgames2` operated primarily as a central file archive. Their directory structures reflect these differences, as we will examine below.
 
-These names refer to archives and distribution services, not individual modifications. A modification might have been hosted on its developer's website, submitted to a central archive, and copied to several mirrors.
-
-This distinction matters when reconstructing a project's history. Finding a file in an archive tells you where a copy was distributed. It does not necessarily identify the original developer or the first place the file was published.
+Finding a file in one of these archives establishes a distribution location, but does not necessarily identify where the release originated.
 
 ## Start with Modern Mirrors of Historical Archives
 
-A useful starting point is to look for modern mirrors of historical FTP archives. These are surviving copies of older directory trees, sometimes preserving much of the original organisation.
-
-Several useful collections include:
+Several modern services preserve historical FTP directory trees and their downloadable files:
 
 **Gamers.org mirrors**
 
@@ -98,11 +92,9 @@ Different archives used different approaches to organising their contents. Under
 
 **PlanetQuake and Telefragged organised files around hosted projects.**
 
-Both services hosted individual Quake community websites on their networks. Their FTP directory structures often reflect this arrangement, with directories corresponding to particular hosted projects or websites.
+PlanetQuake and Telefragged often organised their FTP directories around hosted projects. A project's directory might contain releases, patches, maps, documentation, screenshots and website resources.
 
-A project directory may contain more than just downloadable release files. It might also include readmes, screenshots, website resources, patches, maps and other files associated with that project.
-
-When you find a directory belonging to a particular modification, inspect the entire directory rather than looking only for a known release filename. It may contain additional versions or files that were never mentioned in the project's news announcements.
+Inspect the entire directory to identify supplementary files and versions that may not appear in surviving announcements.
 
 **idgames2 organised files by game and content category.**
 
@@ -119,22 +111,13 @@ This means that searching idgames2 often requires looking in the appropriate cat
 
 **Use the archive structure to guide your search.**
 
-On PlanetQuake and Telefragged, look for the modification's project directory. In idgames2, look for the relevant game and content category, then search within it.
-
-In all cases, inspect neighbouring directories and subdirectories. The archive's organisation may reveal additional releases, patches, documentation and related files that a filename search alone would miss.
+Whichever archive you investigate, examine neighbouring directories and subdirectories for related releases, patches and documentation.
 
 Do not assume that every mirror is complete or that its contents are identical to the original server. Different mirrors may have been created at different times, may contain different subsets of files, or may have been updated independently.
 
-These collections are useful because they preserve more than individual downloads. They often retain directory names, subdirectories and original filenames that help establish how files were distributed.
-
 ## Search FTP File Indexes
 
-Some websites index files available on public FTP servers. These search engines are particularly useful for two purposes:
-
-1. Finding alternative locations for files you already know about.
-2. Discovering additional releases that you may not have encountered during earlier research.
-
-Two useful examples are:
+FTP file indexes can help locate alternative copies of known releases and discover previously unidentified files. Two useful services are:
 
 - [FileMood](https://filemood.com/)\
 	`https://filemood.com/`
@@ -143,20 +126,11 @@ Two useful examples are:
 
 Search engines of this kind can help discover files across multiple FTP servers and indexed directories. Their coverage varies, and they may not include every historical archive.
 
-Start with filenames discovered during earlier research. Search for:
-
-- Original release filenames.
-- Alternative filename spellings.
-- Versioned filenames.
-- Patch and update filenames.
-- Filenames of distinctive files found inside recovered archives.
-- Team names and project names.
+Search original release filenames, known variations, patches and distinctive files found inside recovered archives. Project and development team names may also produce useful matches.
 
 For example, if earlier research identified `actionq2.zip`, search for that exact filename. Then try related forms such as `actionq2`, `actionq2_1.5.zip`, or distinctive filenames found inside the archive.
 
-Searching for known filenames can reveal copies that a project-name search would miss. A mirror might contain the original archive under its original filename without mentioning the modification anywhere else.
-
-It can also reveal releases you were not previously aware of. For example, a search might find `actionq2_1.6.zip` when your research has only identified versions 1.4 and 1.5. Treat this as a lead to investigate. Check the file contents and supporting evidence before adding it to the project's release history.
+Filename searches may uncover mirrors that do not mention the project's name or reveal previously unknown versions. For example, finding `actionq2_1.6.zip` when only versions 1.4 and 1.5 are documented provides a lead worth investigating. Verify the file's contents before adding the release to your historical record.
 
 ### Accessing FTP Servers
 
@@ -172,25 +146,11 @@ When connecting to a public FTP server, try anonymous access. Typical connection
 
 Some servers accept any password for anonymous access, while others may require an email address or another value. Follow any instructions provided by the server.
 
-Once connected, browse the directory structure and inspect the files. You can download individual files or directory listings for further investigation.
-
-Treat search results as leads rather than definitive evidence. Follow them to the actual directory or file where possible, inspect the contents, and record the full FTP hostname and directory path. Do not rely only on the search engine's result page, since its index may be incomplete or outdated.
-
-Add a practical search workflowExplain what to record from FTP results.
+Once connected, browse the directories and inspect or download relevant files. Verify search results against the actual server where possible, since FTP indexes may be incomplete or outdated.
 
 ## Inspect FTP Directory Structures
 
-A directory listing is an important historical record. Old FTP archives often contain files in directory structures that reflect their original distribution arrangements.
-
-For example, an archive might organise files by game, content type, project, developer, or release category. A Quake archive could contain directories for maps, utilities, modifications, demos and patches.
-
-A directory listing can provide useful evidence about:
-
-- Which files were available.
-- How files were organised.
-- Which versions were distributed together.
-- Where a particular project was hosted.
-- Whether additional releases might be present.
+FTP directory listings can reveal which files were available, how they were organised and which versions were distributed together. Archives may group material by game, project, developer or content category, providing clues about additional releases and related files.
 
 When you locate a relevant directory, inspect its parent directory and neighbouring directories as well. A modification may have been stored in a general `mods/` directory, while related patches or documentation were placed elsewhere.
 
@@ -204,13 +164,11 @@ Record the complete directory path, not just the filename. For example:
 /pub/games/quake/mods/actionq2/actionq2.zip
 ```
 
-This path is useful evidence of the file's historical distribution location. Even if the file itself is no longer available, the directory location can help establish where it was hosted.
+Preserve the full path even when the file is no longer available.
 
 ## Identify Alternative Copies and Mirrors
 
-A file found in one archive may also exist in several other locations.
-
-Historical gaming archives often maintained mirrors to distribute download traffic across multiple servers. A file might appear under the same filename in several countries, or be copied into a different archive with a different directory structure.
+Historical FTP archives were frequently mirrored across multiple servers. The same file may survive in several locations, sometimes with different directory paths or filenames.
 
 Use the following approach:
 
@@ -220,23 +178,13 @@ Use the following approach:
 4. Check project websites and news articles for alternative download locations.
 5. Compare any recovered copies using file sizes and cryptographic hashes.
 
-If two copies have the same SHA-256 hash, they are identical at the byte level. If their hashes differ, inspect the files before deciding whether they are different releases, modified copies, or simply repackaged archives.
+Compare file sizes and SHA-256 hashes to identify identical copies. Investigate differences before deciding whether files represent separate releases or repackaged distributions.
 
-Do not discard duplicate copies immediately. Their locations may provide useful evidence about distribution history. A file found on a developer's original FTP server and a file found on a community mirror are the same archival object in terms of content, but the two locations tell different parts of its history.
-
-Record each significant location in `research/history.md` under the relevant release. Include the original FTP path, the mirror name, the recovered URL, and any available dates or other evidence.
+Identical files recovered from different mirrors provide separate evidence of distribution. Record each significant location, including the FTP path, mirror name and available dates, under the relevant release in `research/history.md`.
 
 ## Use the Wayback Machine to Inspect Historical FTP Interfaces
 
-An advanced technique is to look for HTTP interfaces to historical FTP archives.
-
-Many FTP servers also provided a web interface that allowed visitors to browse directories and download files through a browser. These interfaces often exposed directory listings as ordinary HTML pages.
-
-Some of these pages were captured by the Wayback Machine:
-
-`https://web.archive.org/`
-
-This creates another opportunity for research. Even when the original FTP server and its files are no longer available, archived HTML directory listings may survive.
+Many historical FTP servers also offered HTTP interfaces for browsing directories and downloading files. The Wayback Machine may have preserved these HTML directory listings even when the original FTP servers have disappeared.
 
 Search the Wayback Machine for known FTP hostnames and directory paths. You can also try the HTTP version of a known FTP location. For example, if you know an archive was hosted at:
 
@@ -254,26 +202,15 @@ The actual web interface may use a different hostname or URL structure, so treat
 
 For example, historical files on `ftp://ftp.cdrom.com/pub/...` may be available via an archived web interface like `http://www.cdrom.com/pub/...`. Searching the Wayback Machine with URLs starting with `cdrom.com/` (without the ftp or http elements) is a handy trick.
 
-Archived directory pages can reveal:
-
-- Filenames and directory names.
-- File sizes.
-- Directory organisation.
-- Dates displayed by the FTP server.
-- Files that were present at particular points in time.
-- Changes between archived directory listings.
+Archived directory listings may preserve filenames, file sizes, server timestamps and evidence of changes between captures.
 
 Sometimes the Wayback Machine has captured the files themselves. More often, it has captured only the HTML index pages. Those pages are still valuable because they document which files were available, even when the downloads cannot be recovered.
 
 Compare directory listings from different capture dates. This can help establish when a file first appeared in the archive, when it was removed, or whether a new version replaced an older one.
 
-Remember that a Wayback capture date is the date the page was archived, not necessarily the date the file was uploaded or released.
-
 ## Investigate the `incoming/` Directory
 
-Some historical FTP archives provided an `incoming/` directory where users could upload files before they were reviewed and moved into the main archive.
-
-These directories are particularly interesting because they may preserve files that were submitted but never incorporated into the organised collection.
+Some FTP archives provided an `incoming/` directory for files awaiting review. These directories may preserve submissions that were never incorporated into the main collection.
 
 Look for archived versions of `incoming/` directories and their listings. They may contain:
 
@@ -285,11 +222,9 @@ Look for archived versions of `incoming/` directories and their listings. They m
 
 An `incoming/` directory can be messy. Filenames may be temporary, incomplete or poorly organised. Do not assume every file was publicly released or officially accepted into the archive.
 
-Nevertheless, these directories can reveal material that is missing from the main collection.
-
 ## Look for FTP Archive Index and Upload Summary Files
 
-Some FTP servers maintained special files that summarised their contents or recent uploads. These files can be especially useful when researching historical releases because they provide snapshots of what was available at a particular time.
+FTP servers sometimes published recursive directory listings, recent-upload summaries and documentation archives that provide historical snapshots of their contents.
 
 Examples include:
 
@@ -298,9 +233,7 @@ Examples include:
 - `LAST.7days`: A listing of files uploaded during the previous seven days.
 - `00alltxt.tar.gz`: An archive containing text files from the server, potentially including readmes, documentation and other useful material.
 
-The exact filenames and formats varied between servers. Look for similar index, listing, upload summary and documentation files when inspecting an archive.
-
-These files can provide evidence about what might have been released and when.
+Filenames and formats varied between servers, so look for equivalent listing and upload-summary files.
 
 For example, an archived `ls-laR.gz` file may show that `actionq2.zip` existed in a particular directory at the time the listing was generated. A `LAST.7days` file may show that it was recently uploaded.
 
@@ -355,13 +288,9 @@ For example, an archived welcome message from `http://www.cdrom.com/pub/idgames2
 ...
 ```
 
-This list is valuable for several reasons.
+Historical mirror lists identify server hostnames, directory paths and geographical locations where copies were distributed. Some of these servers may still have surviving mirrors or archived HTTP directory listings.
 
-First, it identifies historical mirror servers that may still have surviving copies or references to the original archive. Second, it provides the directory paths used by those mirrors. Third, it helps establish the geographical distribution of the archive and the existence of multiple copies at a particular point in time.
-
-Use these historical mirror lists as a source of further research leads. Search for the hostname and directory path, check whether a modern mirror survives, and inspect archived HTTP interfaces where available.
-
-Some of these mirrors also had web-accessible directory listings. Those pages may have been captured by the Wayback Machine, providing another way to inspect their contents.
+Search the listed hostnames and paths to locate additional copies or historical evidence of the archive's distribution.
 
 This is especially useful for Quake 1 research, where the `idgames2` archive and its mirrors were important distribution locations.
 
@@ -369,31 +298,22 @@ This is especially useful for Quake 1 research, where the `idgames2` archive and
 
 As with the other research sources, findings should be recorded as they are discovered.
 
-For each relevant file, record:
+For each relevant file, record its filename, release version, FTP hostname, complete directory path, archive or mirror name, and available source dates. Include file sizes, hashes and recovery status when available.
 
-- Project and release version, if known.
-- Original filename.
-- FTP hostname and full directory path.
-- Archive or mirror name.
-- Recovered download URL, if available.
-- File size and SHA-256 hash.
-- Any dates shown in the directory listing.
-- The date of an archived listing, if using the Wayback Machine.
-- Whether the file itself was recovered or only its listing was found.
-- Any related files or alternative copies.
+Record whether you recovered the actual file or only found evidence of its existence in a directory listing.
 
-Add the relevant distribution information to the release entry in `research/history.md`. Record the FTP archive, mirror or historical listing as a source in `research/lists/references.md`.
+Add the distribution information and supporting references to the relevant release entry in `research/history.md`.
 
 If a file is known to have existed but cannot be recovered, add its filename and historical location to `research/wishlist.txt` and `research/wishlist_urls.txt`.
 
 Preserve the distinction between an original FTP location and a modern mirror. The modern mirror is where you recovered the file. The original FTP path is evidence of where it was historically distributed.
 
-As always, be careful with dates. A file's directory timestamp, an archived listing's capture date, and the date of a release announcement are different pieces of evidence. Record each separately rather than treating them as interchangeable.
-
 ## Summary
 
-FTP archives preserve an important part of the historical distribution network for Quake modifications. Modern mirrors such as Gamers.org, Dukeworld and Quaddicted provide access to surviving collections, while FTP search engines can help locate files by their original filenames.
+Historical FTP archives and their modern mirrors preserve Quake modifications, original directory structures and evidence of distribution. Resources such as Gamers.org, Dukeworld and Quaddicted provide access to surviving collections, while FTP file indexes help locate additional copies.
 
-Directory listings are valuable archival evidence in their own right. They reveal how files were organised, which releases were available together, and where projects were distributed. Historical HTTP interfaces, `incoming/` directories, upload summaries and recursive directory listings can provide additional evidence, even when the original downloads are no longer accessible.
+Investigate archive directories, historical HTTP interfaces, incoming/ directories and upload-summary files. These sources can reveal missing releases and distribution locations even when the original downloads no longer survive.
+
+**Outcome**: You can locate and search historical FTP archives, investigate surviving mirrors and directory listings, and recover missing Quake files. You can also identify historical distribution locations and document the provenance of recovered files.
 
 The next chapter will explore another source of historical information and files: developer websites, personal archives and other surviving online collections.
