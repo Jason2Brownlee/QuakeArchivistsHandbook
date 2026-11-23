@@ -11,7 +11,7 @@ For me, it is part nostalgia, part historical research and part treasure hunt. T
 
 I have been creating and maintaining Quake archives for more than five years, covering Quake 1, Quake II and Quake III Arena. During that time, I have developed a collection of research techniques, tools and habits that help me find old files and make sense of incomplete historical information.
 
-This guide brings together everything I have learned.
+This handbook brings together everything I have learned.
 
 It is not intended to describe the only way, or even necessarily the best way, to archive old Quake material. It describes the way I do it, the methods I have found most productive and the approach I recommend based on my own experience.
 
@@ -127,9 +127,9 @@ This is the experience I want to share.
 
 My hope is that you can use these methods to save time, avoid unnecessary work and become more productive in your own archival projects.
 
-## Why I Wrote This Guide
+## Why I Wrote This Handbook
 
-There are two main reasons I decided to write this guide.
+There are two main reasons I decided to write this handbook.
 
 The first is to improve my own archival process.
 
@@ -143,13 +143,13 @@ What do I do when starting a new archive? What information do I record? Which so
 
 Thinking through these questions has helped me clarify and improve my approach.
 
-In fact, while writing this guide, I discovered additional files for some of my existing archives.
+In fact, while writing this handbook, I discovered additional files for some of my existing archives.
 
 Describing particular research techniques reminded me of websites I had not checked, alternative directory structures I had overlooked and different ways of searching for missing releases.
 
 I would stop writing, try the technique on an existing project and occasionally find something new.
 
-That alone made writing the guide worthwhile.
+That alone made writing the handbook worthwhile.
 
 I now have a more systematic process that I can refer to when starting future archival projects. It should help me avoid forgetting useful research techniques and make my archives more consistent.
 
@@ -167,15 +167,15 @@ I also suspect many of the techniques will be useful to people preserving other 
 
 The details may differ, but the underlying problems are often the same.
 
-## Who This Guide Is For
+## Who This Handbook Is For
 
-This guide is primarily for people who want to create an archive of old Quake material.
+This handbook is primarily for people who want to create an archive of old Quake material.
 
 Perhaps you have a favourite modification that is becoming difficult to find. Perhaps you have a collection of old files and want to organise and publish them. Or perhaps you simply enjoy researching Quake history and would like to preserve something for the community.
 
 I will explain why I think this work is worthwhile and walk through the practical steps I use to create an archive.
 
-The guide is also intended for people who already maintain Quake archives.
+The handbook is also intended for people who already maintain Quake archives.
 
 You may have your own research process and preferred tools. I am not suggesting you abandon them.
 
@@ -183,7 +183,7 @@ Instead, I hope you find a few useful techniques, resources or ideas that you ca
 
 Even one new search method or historical file archive could help you recover something that has been missing for years.
 
-The guide is probably most useful to people with a technical background, particularly those who work in IT or have some programming experience.
+The handbook is probably most useful to people with a technical background, particularly those who work in IT or have some programming experience.
 
 It helps to understand files, archive formats, websites, FTP servers, directory structures and basic scripting.
 

@@ -13,7 +13,7 @@ You may also find yourself questioning whether your archive is worth creating, w
 
 These problems are normal. Quake modifications were often developed by small teams, distributed through temporary websites and mirrored across dozens of servers. Many were released without formal version histories or consistent documentation.
 
-Most of the problems discussed in this chapter have already been covered elsewhere in this guide. Rather than repeat the detailed research techniques, this chapter offers practical suggestions for overcoming common roadblocks.
+Most of the problems discussed in this chapter have already been covered elsewhere in this handbook. Rather than repeat the detailed research techniques, this chapter offers practical suggestions for overcoming common roadblocks.
 
 The most important advice is to **keep moving forward**.
 
@@ -45,7 +45,7 @@ A download page might reveal an original filename. A readme might identify the d
 
 Follow these connections and begin recording your discoveries.
 
-If you are unsure where to look next, revisit the research chapters of this guide and try another source.
+If you are unsure where to look next, revisit the research chapters of this handbook and try another source.
 
 ## I don't have enough information to start an archive
 

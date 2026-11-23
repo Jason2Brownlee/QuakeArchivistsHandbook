@@ -12,7 +12,7 @@ You may also have developed a collection of scripts and tools to automate parts 
 
 This chapter shares some of the more advanced techniques I regularly use when investigating difficult archival projects. These are approaches I have developed through experience, particularly when searching for obscure files that have disappeared from their original download locations.
 
-The techniques build on the research methods covered earlier in this guide. Rather than repeat those methods, I want to highlight a few areas that are especially valuable and easy to overlook.
+The techniques build on the research methods covered earlier in this handbook. Rather than repeat those methods, I want to highlight a few areas that are especially valuable and easy to overlook.
 
 The common theme is that historical file locations contain far more information than they first appear to.
 
@@ -38,9 +38,8 @@ For example:
 
 ```
 ftp://ftp.cdrom.com/pub/quake/quakec/...
-
+ftp://ftp.cdrom.com/pub/idgames2/quakec/...
 ftp://ftp.cdrom.com/.1/idgames2/...
-
 ftp://ftp.cdrom.com/.3/planetquake/...
 ```
 
@@ -429,13 +428,13 @@ Be careful when interpreting this information. A developer mentioning a planned 
 
 One particularly useful collection is:
 
-- **Gamers.org Developer .plan Archive**
+* [Gamers.org Developer .plan Archive](https://www.gamers.org/pub/archives/plans/)
   `https://www.gamers.org/pub/archives/plans/`
   A collection of historical `.plan` updates from id Software developers and others, including records from John Carmack, John Romero and developers associated with other game studios.
 
 Another useful resource is:
 
-- **John Carmack .plan Archive**
+* [John Carmack .plan Archive](https://github.com/oliverbenns/john-carmack-plan)
   `https://github.com/oliverbenns/john-carmack-plan`
   A collection of John Carmack's historical `.plan` entries, organised into readable Markdown files.
 

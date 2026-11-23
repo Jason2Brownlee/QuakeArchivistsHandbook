@@ -35,7 +35,7 @@ The aim is to create a lightweight structure that makes it easy to begin researc
 
 ## Part 2. Research and Recover
 
-This is the largest part of the guide and, for me, the most exciting.
+This is the largest part of the handbook and, for me, the most exciting.
 
 The goal is to reconstruct the history of a modification and recover as many of its original files as possible.
 
@@ -63,7 +63,7 @@ The aim is to turn your research into a reliable and accessible resource that ca
 
 ## Putting It All Together
 
-Although the guide is presented as a sequence of steps, archival research is rarely linear.
+Although the handbook is presented as a sequence of steps, archival research is rarely linear.
 
 You might discover a release announcement that reveals an original filename. That filename leads you to a magazine CD, which contains an unknown version, which leads you to a developer's personal website.
 
