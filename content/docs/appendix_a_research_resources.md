@@ -93,7 +93,7 @@ A general-purpose search engine that provides another independent set of search 
 `https://www.bing.com/`\
 Microsoft's search engine, useful for finding websites, archived references and downloadable files.
 
-## FTP search engines
+## FTP Search Engines
 
 FTP search engines index files and directory listings from public FTP servers. They can help locate known Quake modification filenames, discover alternative download locations and find releases that are not indexed by general-purpose search engines. Some results link directly to FTP servers, which may require an FTP client such as FileZilla to access.
 
@@ -105,7 +105,7 @@ Search for files across indexed FTP servers and other file repositories. Useful 
 `https://www.mmnt.net/`\
 Search indexed public FTP directory listings for files and folders. Particularly useful for discovering files stored in historical FTP archives and mirrors.
 
-## Usenet and discussion archives
+## Usenet and Discussion Archives
 
 * [Google Groups](https://groups.google.com/)\
 `https://groups.google.com/`\
@@ -125,7 +125,7 @@ An archive of QuakeC programming discussions from July to August 1996. Useful fo
 
 **Research note:** The original Quake-C Mailing List website is no longer active. Access its archived pages through the Wayback Machine.
 
-## CD-ROM and software collections
+## CD-ROM and Software Collections
 
 Resources for finding Quake modifications distributed on magazine cover CDs, shareware compilations and other historical media.
 
@@ -136,6 +136,10 @@ A community dedicated to preserving historical software, including beta releases
 * [QuakeDiscs](https://quakediscs.com/)\
 `https://quakediscs.com/`\
 A catalogue of historical Quake add-on CDs, including disc contents and file listings. Useful for identifying modifications and other files distributed on magazine cover CDs and commercial compilations. It is a catalogue rather than a complete collection of downloadable CD images, so use it to identify discs and files to investigate elsewhere.
+
+* [DiscMaster](https://discmaster.textfiles.com/)
+`https://discmaster.textfiles.com/`
+Search filenames and indexed content from historical CD-ROM and floppy disk collections preserved by the Internet Archive. Particularly useful for locating Quake modifications, utilities and other files without needing to know which disc contains them.
 
 * [CD.textfiles.com](http://cd.textfiles.com/)\
 `http://cd.textfiles.com/`\
@@ -198,6 +202,30 @@ Quaketastic is a community file archive dedicated to Quake and its related games
 `http://www.clan-rum.org/files/`\
 A file archive associated with Clan RUM, containing Quake-related community files. Browse the directory for modifications, maps, utilities and other contributions that may provide additional copies of older releases or material not found in the larger Quake archives.
 
+
+## Modern Quake Discussion and Forums
+
+The Quake community remains active across several forums and discussion websites. These communities are useful for researching historical modifications, discovering files, asking questions and contacting developers, collectors and other archivists. Older discussion threads can also provide valuable evidence about releases, project histories and files that are no longer available.
+
+* [Quake Subreddit](https://www.reddit.com/r/quake/)\
+`https://www.reddit.com/r/quake/`\
+A general discussion community covering the Quake series, including modifications, maps, technical questions, historical material and community projects. Useful for reaching a broad audience of Quake enthusiasts and asking about obscure files or releases.
+
+* [Quaddicted Discussions](https://discuss.quaddicted.com/)\
+`https://discuss.quaddicted.com/`\
+The discussion forum accompanying the Quaddicted map archive, covering map releases, reviews, technical questions and Quake-related projects. Useful for researching modifications, finding release information and contacting community members familiar with historical Quake content.
+
+* [Func_Msgboard](https://www.celephais.net/board/forum.php)\
+`https://www.celephais.net/board/forum.php`\
+One of the longest-running Quake mapping and modding discussion boards, with extensive historical discussions about level design, QuakeC programming, source ports and community projects. Particularly useful for tracing the development of maps and modifications, locating release announcements and identifying their authors.
+
+* [QuakeOne Forums](https://quakeone.com/forum)\
+`https://quakeone.com/forum`\
+A long-standing Quake 1 community forum covering modifications, multiplayer servers, game clients, technical support and other topics. Although quieter than in previous years, its historical discussions can provide useful information about older releases, community projects and downloadable files.
+
+* [Slipseer Forums](https://www.slipseer.com/index.php?forums/)\
+`https://www.slipseer.com/index.php?forums/`\
+A modern Quake community forum focused on single-player maps, modifications, mapping events, community projects and general discussion. Particularly useful for discovering recent releases, contacting active developers and following ongoing Quake preservation and modding activities.
 
 ## GitHub and Code Hosting
 
