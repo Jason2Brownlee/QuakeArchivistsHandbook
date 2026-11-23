@@ -82,10 +82,6 @@ Quaddicted maintains a large collection of Quake files, including modifications,
 
 The Quaddicted file archive is large and is being added to in an ad hoc manner.
 
-You can download a compressed archive file that contains a full and up-to-date list of all files and directories in the archive here:
-
-- https://www.quaddicted.com/files/ls-goalR_cut.xz
-
 ### Understand how the archives organise their files
 
 Different archives used different approaches to organising their contents. Understanding these arrangements makes it easier to find files and reconstruct the distribution history of a modification.
@@ -154,7 +150,7 @@ FTP directory listings can reveal which files were available, how they were orga
 
 When you locate a relevant directory, inspect its parent directory and neighbouring directories as well. A modification may have been stored in a general `mods/` directory, while related patches or documentation were placed elsewhere.
 
-Look for files with names such as `README`, `INDEX`, `00index.txt`, or other descriptive text files. These may explain the archive's organisation or provide additional information about individual downloads.
+Some FTP archives also contain special index files, upload summaries and historical directory listings that can reveal additional information about their contents. We will investigate these resources in Chapter 21, Advanced Research Tips.
 
 Also inspect directory listings for files that you have not yet identified. A release might have a different filename from the one mentioned in a news article, or an additional patch might be stored alongside the main archive.
 
@@ -207,41 +203,6 @@ Archived directory listings may preserve filenames, file sizes, server timestamp
 Sometimes the Wayback Machine has captured the files themselves. More often, it has captured only the HTML index pages. Those pages are still valuable because they document which files were available, even when the downloads cannot be recovered.
 
 Compare directory listings from different capture dates. This can help establish when a file first appeared in the archive, when it was removed, or whether a new version replaced an older one.
-
-## Investigate the `incoming/` Directory
-
-Some FTP archives provided an `incoming/` directory for files awaiting review. These directories may preserve submissions that were never incorporated into the main collection.
-
-Look for archived versions of `incoming/` directories and their listings. They may contain:
-
-- New releases awaiting review.
-- Files that were later moved into another directory.
-- Alternative versions of existing releases.
-- Submissions that never appeared in the main archive.
-- Files with timestamps that help narrow down a release period.
-
-An `incoming/` directory can be messy. Filenames may be temporary, incomplete or poorly organised. Do not assume every file was publicly released or officially accepted into the archive.
-
-## Look for FTP Archive Index and Upload Summary Files
-
-FTP servers sometimes published recursive directory listings, recent-upload summaries and documentation archives that provide historical snapshots of their contents.
-
-Examples include:
-
-- `ls-laR.gz`: A compressed recursive directory listing of files on the server. Different copies may represent snapshots taken at different times.
-- `LAST.24hours`: A listing of files uploaded during the previous 24 hours.
-- `LAST.7days`: A listing of files uploaded during the previous seven days.
-- `00alltxt.tar.gz`: An archive containing text files from the server, potentially including readmes, documentation and other useful material.
-
-Filenames and formats varied between servers, so look for equivalent listing and upload-summary files.
-
-For example, an archived `ls-laR.gz` file may show that `actionq2.zip` existed in a particular directory at the time the listing was generated. A `LAST.7days` file may show that it was recently uploaded.
-
-The `00alltxt.tar.gz` archive can be particularly useful because it may contain readmes and other documentation that are otherwise difficult to locate. These documents can identify project names, version numbers, authors, release dates and original download locations.
-
-When using these files, record their own filenames, source locations and available dates. A directory listing is a snapshot, not a definitive record of the exact upload or release date. Similarly, an upload summary describes activity according to the server's own reporting period.
-
-If you recover a compressed listing or text archive, preserve the original file in your research materials. You can extract a working copy for searching without modifying the original.
 
 ## Research the `cdrom.com` FTP Archive and Its Mirrors
 
@@ -312,7 +273,7 @@ Preserve the distinction between an original FTP location and a modern mirror. T
 
 Historical FTP archives and their modern mirrors preserve Quake modifications, original directory structures and evidence of distribution. Resources such as Gamers.org, Dukeworld and Quaddicted provide access to surviving collections, while FTP file indexes help locate additional copies.
 
-Investigate archive directories, historical HTTP interfaces, incoming/ directories and upload-summary files. These sources can reveal missing releases and distribution locations even when the original downloads no longer survive.
+Investigate archive directory structures, historical HTTP interfaces and alternative mirrors. These sources can reveal missing releases and distribution locations even when the original downloads no longer survive. More advanced techniques, including searching FTP archive indexes, upload summaries and maintenance files, are covered later in this guide.
 
 **Outcome**: You can locate and search historical FTP archives, investigate surviving mirrors and directory listings, and recover missing Quake files. You can also identify historical distribution locations and document the provenance of recovered files.
 

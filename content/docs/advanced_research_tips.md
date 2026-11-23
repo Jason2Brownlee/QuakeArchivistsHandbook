@@ -28,7 +28,7 @@ Beyond the familiar `idgames2/` directory, there are two less obvious areas wort
 
 These can reveal information that is missing from the better-known surviving copies of the archive.
 
-### Search alternative directory structures
+## Search alternative directory structures
 
 One complication is that `ftp.cdrom.com` used different directory structures over time.
 
@@ -58,25 +58,206 @@ One variation may have been archived at a useful date when another was not.
 
 You may also discover directory listings that reveal files that have not appeared in your research elsewhere.
 
-### Search archive index and maintenance files
+## Search Archive Index and Maintenance Files
 
-Chapter 13 introduced the historical directory listings, upload summaries and text archives maintained by FTP servers.
+Historical FTP archives often maintained special files that documented their contents, recorded recent uploads and described changes to their directory structures.
 
-For the Walnut Creek `idgames2/` archive, there are several additional resources worth investigating.
+These files can be particularly valuable because they provide information about releases that are no longer available. A directory listing might contain the original filename of a missing modification. An upload summary might help establish when a file appeared on the server. An archived text collection might preserve a readme that cannot be found anywhere else.
+
+The important thing to understand is that **an FTP archive contains more than downloadable software. It may also contain historical records of its own contents and activity.**
+
+These files are worth investigating systematically, particularly when researching missing or obscure releases.
+
+### Understand the Different Types of Archive Files
+
+FTP archives used different naming conventions and maintained different kinds of supporting files. However, several common types are worth recognising.
+
+**Directory listings**
+
+These files record the contents of an FTP archive, sometimes including every file and directory on the server.
+
+One common example is:
+
+- `ls-laR.gz` — A compressed recursive directory listing containing filenames, directory paths and associated file metadata.
+
+A recursive listing can be extremely valuable because it allows you to search the contents of an entire historical FTP archive without manually browsing every directory.
+
+Different copies of the listing may represent snapshots taken at different times.
+
+For example, you might discover that `actionq2.zip` appears in a listing from 1998 but is absent from the surviving modern mirror.
+
+This provides evidence that the file was once present, even if the original download cannot be recovered.
+
+**Recent upload summaries**
+
+Some archives maintained automatically generated lists of recently added or changed files.
+
+Common examples include:
+
+- `LAST.24hours` — Files added or changed during the previous 24 hours.
+- `LAST.7days` — Files added or changed during the previous seven days.
+
+These summaries can help establish when a file appeared in an archive.
+
+For example, finding a modification listed in a dated `LAST.7days` report might narrow its arrival on the server to a particular week.
+
+Be careful when interpreting this evidence. An upload date is not necessarily the original release date. A file might have been uploaded to a mirror days, weeks or months after the developer first distributed it.
+
+**Text and description archives**
+
+Some FTP archives collected the text documentation associated with their downloadable files.
+
+An important example is:
+
+- `00alltxt.tar.gz` — A compressed collection of text descriptions associated with files in the archive.
+
+This is particularly useful because the descriptions may survive even when the corresponding software has disappeared.
+
+These records may reveal:
+
+- Original filenames.
+- Project names and descriptions.
+- Version numbers.
+- Developer names.
+- Release dates.
+- Installation instructions.
+- References to related files or earlier releases.
+
+Search these descriptions using project names, filenames, developer aliases and distinctive phrases.
+
+You might find information about a release that never appeared in your earlier research.
+
+**Filename indexes**
+
+Some archives maintained specialised indexes to help users locate files.
+
+For example:
+
+- `00find.gz` — A historical index of text filenames associated with the archive.
+
+These indexes are useful because they allow you to search historical file inventories without browsing the complete directory structure.
+
+They may also preserve references to files that have since been removed, renamed or lost.
+
+**Archive maintenance and change records**
+
+Some FTP archives recorded changes to their own organisation.
+
+For example:
+
+- `CHANGES` — A record of changes to the archive's contents or directory structure.
+
+These files can explain why a directory disappeared, why files were moved or why a historical URL no longer corresponds to the surviving directory structure.
+
+This is particularly useful when reconstructing the history of an archive that operated for many years.
+
+**Upload and staging directories**
+
+Some FTP archives maintained directories for newly submitted files or material awaiting review.
+
+Common examples from the Walnut Creek archive include:
+
+- `incoming/` — Newly uploaded material awaiting moderation or placement.
+- `newstuff/` — Recently added or processed material.
+
+These directories are worth investigating because they may contain files that never appeared in the main archive.
+
+You might discover an early beta, an alternative version, an incorrectly named upload or a submission that was never incorporated into the published collection.
+
+However, do not assume that every file in an `incoming/` directory represents an official public release. Some submissions may have been incomplete, rejected or uploaded by third parties.
+
+Treat these discoveries as leads requiring further investigation.
+
+### Investigate the Walnut Creek idgames2 Maintenance Files
+
+The Walnut Creek CDROM `idgames2/` archive provides a useful example of these resources.
+
+Some important historical filenames and locations include:
 
 | File or directory | Research value |
 | --- | --- |
-| `pub/idgames2/newstuff/` | Recently added or moderated material that may not appear in older directory listings. |
-| `pub/idgames2/00find.gz` | A historical index of filenames that can help identify files missing from other listings. |
-| `pub/idgames2/CHANGES` | Changes to the archive's organisation and directory structure. |
+| `pub/idgames2/incoming/` | Newly submitted material awaiting review. |
+| `pub/idgames2/newstuff/` | Recently added or processed files. |
+| `pub/idgames2/ls-laR.gz` | Recursive listing of files and directories. |
+| `pub/idgames2/LAST.24hours` | Recent additions or changes over 24 hours. |
+| `pub/idgames2/LAST.7days` | Recent additions or changes over seven days. |
+| `pub/idgames2/00alltxt.tar.gz` | Collection of text descriptions associated with archived files. |
+| `pub/idgames2/00find.gz` | Historical index of text filenames. |
+| `pub/idgames2/CHANGES` | Changes to the archive's organisation and structure. |
 
-Search for both surviving copies and historical captures of these resources.
+Not every resource will be available in every historical snapshot or surviving mirror.
 
-The `CHANGES` file can be particularly useful when investigating directories that disappeared, moved or changed names over time.
+Investigate the original historical paths, modern mirrors and archived directory listings through the Wayback Machine.
 
-Likewise, historical index files may preserve references to files that are absent from current mirrors.
+Remember that alternative directory structures, as discussed in the previous section, may provide additional copies of these files.
 
-Compare these resources with the directory listings and upload summaries introduced in Chapter 13 to reconstruct how the archive changed over time.
+### Search the Contents of Recovered Index Files
+
+When you recover an index, listing or text collection, download it and examine its contents.
+
+For compressed files, extract a working copy and search the resulting text for information relevant to your project.
+
+Useful search terms include:
+
+- Known original filenames.
+- Partial filenames and filename patterns.
+- Modification and project names.
+- Developer names and aliases.
+- Version numbers.
+- Names of related projects.
+- Distinctive text found in surviving readmes.
+
+For large listings, a simple text search or command-line tool can be much faster than manually browsing the archive.
+
+Do not restrict your search to the exact filename you already know.
+
+If you find a relevant entry, inspect its surrounding entries and directory path. Nearby files might reveal earlier releases, patches, documentation or additional material associated with the same project.
+
+You can also compare listings from different dates to identify files that appeared, disappeared or moved between directories.
+
+### Preserve and Interpret Historical Listings Carefully
+
+These resources are valuable historical evidence, but they have limitations.
+
+A file appearing in a directory listing establishes that it was recorded in that listing. It does not necessarily prove when the file was originally released.
+
+Similarly, a recent-upload report documents activity on a particular server, not necessarily the first public distribution of the software.
+
+When using these resources, record:
+
+- The original filename and path of the index or maintenance file.
+- The FTP server or mirror where it was recovered.
+- The historical URL, if known.
+- The date of the listing or report, when available.
+- The Wayback Machine capture date, if applicable.
+- The relevant entries supporting your conclusions.
+
+Preserve the original recovered listing or compressed archive in your research materials. Work from extracted copies rather than modifying the original.
+
+Record significant discoveries in `research/history.md` and add missing files or historical download locations to the appropriate wishlist files.
+
+### Look for Similar Resources in Other Archives
+
+These techniques are not limited to Walnut Creek.
+
+Other historical FTP archives maintained their own directory indexes, upload summaries and documentation files.
+
+Look for names such as `README`, `INDEX`, `00index.txt` and other files that describe the archive's contents or organisation.
+
+Modern file archives may also provide downloadable inventories of their collections.
+
+For example, Quaddicted provides a compressed listing of the files and directories in its archive:
+
+- `https://www.quaddicted.com/files/ls-goalR_cut.xz`
+
+This is useful for searching the modern collection without browsing every directory individually.
+
+A modern inventory is not a historical snapshot, but it can help locate surviving files and identify promising directories for further investigation.
+
+When researching any large archive, make a habit of looking for these supporting resources before manually exploring thousands of files.
+
+**Sometimes the most useful discovery is not a missing ZIP file, but an old index that tells you exactly where that ZIP file used to be.**
+
 
 ## Search Historical Mirrors of `idgames` and `idgames2`
 
@@ -107,7 +288,6 @@ task.gda.pl/pub/games/idgames2/planetquake
 ```
 
 Each represents another location to investigate.
-
 
 A file originally hosted by PlanetQuake might have been available directly from PlanetQuake, through the Walnut Creek archive and through several mirrors of Walnut Creek.
 
