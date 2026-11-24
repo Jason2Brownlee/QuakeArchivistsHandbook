@@ -367,6 +367,34 @@ When investigating a CD-ROM containing historical BBS collections, look for thes
 
 A single `ALLFILES.TXT` or `FILES.BBS` might provide a searchable catalogue of hundreds or thousands of files without requiring you to examine each download individually.
 
+Below is a snippet of Quake files from the `/doom/files.bbs` file from the "_Cream of the Crop #22_" CD-ROM.
+
+```
+...
+BSTCHEAT.ZIP  146,739  10-01-96  Quake - Ultimate Cheat Patch
+DARTS06.ZIP   156,314  10-01-96  Quake - Poison Dart Gun V06
+QUAKECPP.ZIP  164,888  08-07-96  Quake - C Powerpack
+RAPFIRE2.ZIP  183,922  10-22-96  Quake - Rapid Fire Shotgun II
+GUIDE101.ZIP  243,636  10-14-96  Quake - Guided Missiles V101
+XTRAWP19.ZIP  249,437  10-01-96  Quake - Xtraweapons 19
+MNSTLURE.ZIP  259,045  10-01-96  Quake - Monster Lure and Nail Bomb
+NOWPATCH.ZIP  261,830  10-01-96  Quake - How to use Quakec Patch
+BSP44A.ZIP    315,742  10-14-96  Quake - Bsp 044a - A Quake Editor
+DRKEY012.ZIP  832,182  10-06-96  Quake - Darkeye Guided Missile V012
+ACBETA1.ZIP  1082,380  10-07-96  Quake - Aircraft V09
+LODOSSV1.ZIP 1838,945  10-01-96  Quake - My Very First Quake Add-on
+ELIM14PK.ZIP 1931,161  10-01-96  Quake - This is the Latest Version of Elim 14
+QDE1M6.ZIP    192,314  10-02-96  Quake King Reol Runs Through Quake
+DM5_HELL.ZIP  940,850  09-30-96  Quake Maniacs Kicking in Dm5!
+PROJ1_91.ZIP  706,405  11-11-96  Quake Project1 V091
+QUEST080.ZIP  198,276  10-06-96  Quake Quest Beta 1080 Additions New Things
+FREDCAST.ZIP  209,153  10-23-96  Quake Reg 101 or Hi - Fredcast
+QSE372F.ZIP  1446,676  09-29-96  Quake Server Explorer V371 Full Version
+SERVER_1.ZIP  193,780  10-14-96  Quake Server Modules V256
+PROGS106.ZIP  229,004  10-04-96  Quakec - Sources
+...
+```
+
 Search for modification names, filenames, developer aliases and relevant descriptions.
 
 Some listings include dates, file sizes or upload information that may help reconstruct the distribution history of a modification.
@@ -378,6 +406,12 @@ Remember that a BBS upload date is not necessarily the original release date.
 You may also encounter a `FILE_ID.DIZ` inside an old Quake modification ZIP file, particularly files that circulated through BBS collections.
 
 These files contain short descriptions intended for display by BBS file listing software.
+
+Below is the content of a `FILE_ID.DIZ` found in a redistributed version of the Quake Reaper bot version 0.5.
+
+```
+Quake: - The Reaper Bot. (Last revision date in archive: 09-01-96).
+```
 
 They can provide useful information about a modification, including its name, version, author and features.
 

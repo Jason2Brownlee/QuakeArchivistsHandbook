@@ -60,6 +60,40 @@ You can also use these queries to identify archived ZIP files, historical downlo
 
 Be aware that collapsing results by URL hides additional captures of the same address. When investigating changes over time, remove this parameter so that different historical snapshots remain visible.
 
+Below is a sample output for querying the CDX API for the CRBot homepage on PlanetQuake with results in JSON format:
+
+```
+[
+  [
+    "urlkey",
+    "timestamp",
+    "original",
+    "mimetype",
+    "statuscode",
+    "digest",
+    "length"
+  ],
+  [
+    "com,planetquake)/crbot",
+    "19980218111743",
+    "http://planetquake.com:80/crbot/",
+    "text/html",
+    "200",
+    "ZBMYAVQUZCXK4VJQ372MUDYWTY6HHQZP",
+    "409"
+  ],
+  [
+    "com,planetquake)/crbot",
+    "19981201085059",
+    "http://planetquake.com:80/crbot/",
+    "text/html",
+    "200",
+    "4JSI2WKZ7HBN7ET3US5HO2ZZ4OQCH4DB",
+    "482"
+  ],
+...
+```
+
 ### Use CDX Results to Expand Your Research
 
 When investigating a modification, search the CDX index for every known historical project hostname and directory.
@@ -174,6 +208,9 @@ Some also maintained download sections containing:
 
 These files were often hosted locally so that players could download everything needed to join the server.
 
+![Example of downloads provided by the MINOS, the European QuakeWorld Master Server.](/ServerDownloadFiles.png)\
+_Figure: Example of downloads provided by the MINOS, the European QuakeWorld Master Server._
+
 I have found evidence of missing releases, original filenames and even recoverable files in the Wayback Machine by exploring old server websites.
 
 When you discover a historical server website, look for pages describing the modifications it hosted and any associated download directories.
@@ -282,6 +319,22 @@ Another useful resource is:
 You may also find individual `.plan` entries reproduced in old gaming news articles, Usenet discussions and archived personal websites.
 
 Search using developer names, historical email addresses, project names and distinctive phrases.
+
+Below is an snippet of a `.plan` file by John Carmack:
+
+```
+[idsoftware.com]
+Login name: johnc       (messages off)  In real life: John Carmack
+...
+Plan:
+Quake is out.
+Finally.
+I think the end product is damn good, and I am proud of my 18+ months of
+sweating over it.
+I hope lots of you enjoy the shareware levels enough to register :-)
+...
+```
+
 
 When you find a relevant entry, record its original date, source and any references to releases or downloadable files.
 
