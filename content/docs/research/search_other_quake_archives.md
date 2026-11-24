@@ -67,8 +67,8 @@ BetaArchive is a community dedicated to preserving historical software and relat
 
 **CD.textfiles.com**
 
-* [CD.textfiles.com](https://cd.textfiles.com/)\
-	`https://cd.textfiles.com/`
+* [CD.textfiles.com](http://cd.textfiles.com/)\
+	`http://cd.textfiles.com/`
 
 CD.textfiles.com preserves the contents of historical shareware and shovelware CDs, providing browsable directory listings and downloadable files. It is particularly useful for locating Quake modifications distributed on general-purpose software compilations.
 
@@ -78,6 +78,9 @@ CD.textfiles.com preserves the contents of historical shareware and shovelware C
 	`http://www.retroarchive.org/`
 
 RetroArchive preserves historical software and documentation. Its CD-ROM and FTP Site Archive provides browsable directory listings and indexes of compressed archives, helping identify files distributed through historical software collections.
+
+![List of browsable CD-ROM images available on the RetroArchive.](/RetroArchiveCDROMS.png)\
+_Figure: List of browsable CD-ROM images available on the RetroArchive._
 
 **Apajalista**
 
@@ -133,6 +136,9 @@ A Google Drive collection of Quake-related bots, cheats and associated files. Us
 
 A collection of files from the Brazilian Quake community, preserved and shared by Fabiano D. Amorim aka "Vegetous". It may contain modifications, maps, utilities and other community contributions that are difficult to find in larger international archives. Browse the collection for files and releases that may not be represented elsewhere.
 
+![QuakeBrasil File Archive by Vegetous on mega.nz showing the directory structure](/QuakeBrasilFiles.png)\
+_Figure: QuakeBrasil File Archive by Vegetous on mega.nz showing the directory structure._
+
 ## Search Historical Mailing List Archives
 
 Mailing lists were another important communication channel for early Quake developers and enthusiasts. Unlike Usenet, participants generally subscribed to receive messages by email, and some lists maintained public archives of their discussions.
@@ -154,10 +160,13 @@ An archive of the Quake Developers Mailing List, covering March through August 1
 
 **Quake-C Mailing List Archives**
 
-* [Quake-C Mailing List Archives](https://web.archive.org/web/19990427113042/http://www2.csn.net/~rudeseal/quakec/list.html)\
+* Quake-C Mailing List Archives\
 	`http://www2.csn.net/~rudeseal/quakec/list.html`
 
 An archived collection of Quake-C mailing list discussions from July through August 1996. **The original archive is no longer available but is accessible through the Internet Archive**. It provides another source of early QuakeC development discussions and potentially useful references to projects, files and developers.
+
+![Quake-C Mailing List Archives Showing Downloads For Date Ranges.](/QuakeCMailingListArchives.png)\
+_Figure: Quake-C Mailing List Archives Showing Downloads For Date Ranges._
 
 Surviving mailing list archives may be incomplete, with missing attachments or broken download links. Preserve any useful filenames and URLs for further investigation.
 
