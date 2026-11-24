@@ -25,11 +25,11 @@ Quake and related names and trademarks are the property of their respective owne
 
 ## Use of Artificial Intelligence
 
-Large language models (LLMs) were used to help transform the author's notes and research into initial prose drafts. All material was reviewed and edited by the author. If using AI in the writing process bothers you, I understand. Perhaps this handbook is not a good fit for you.
+Large language models (LLMs) were used to help transform the author's notes and research into initial prose drafts. All material was reviewed, often rewritten, and edited by the author. If using AI in the writing process bothers you, I understand. Perhaps this handbook is not a good fit for you.
 
 ## About the Author
 
-Jason Brownlee is a computer scientist, software engineer, and Quake enthusiast with a longstanding interest in artificial intelligence and game development.
+Jason Brownlee is a computer scientist, software engineer, and Quake enthusiast with a long-standing interest in artificial intelligence and game development.
 
 He maintains several projects dedicated to researching, documenting, and preserving historical Quake modifications and software.
 
