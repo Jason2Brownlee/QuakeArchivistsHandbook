@@ -51,6 +51,9 @@ Others search the database in different ways, looking for particular filenames, 
 
 I have a simple web interface that lets me search the collected URLs.
 
+![My custom Quake research tool for searching indexed historical file URLs.](/QuakeArchiveSearch.png)\
+_Figure: My custom Quake research tool for searching indexed historical file URLs._
+
 One script runs continuously in the background, crawling archived webpages from the Wayback Machine, extracting links, and adding them to the database.
 
 Another script, which I run every few weeks (or days), checks the wishlist files across all my Quake archives to see whether the database contains any newly discovered historical download locations.

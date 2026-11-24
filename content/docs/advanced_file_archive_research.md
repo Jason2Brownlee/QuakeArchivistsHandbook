@@ -245,6 +245,9 @@ Common examples from the Walnut Creek archive include:
 
 These directories are worth investigating because they may contain files that never appeared in the main archive.
 
+![Figure: A listing of the Walnut Creek CDROM archive showing special files and directories alongside Quake files.](/SpecialFTPFiles.png)\
+_Figure: A listing of the Walnut Creek CDROM archive showing special files and directories alongside Quake files._
+
 You might discover an early beta, an alternative version, an incorrectly named upload or a submission that was never incorporated into the published collection.
 
 However, do not assume that every file in an `incoming/` directory represents an official public release. Some submissions may have been incomplete, rejected or uploaded by third parties.

@@ -90,6 +90,9 @@ The archive's search and collection structure can change over time. Search broad
 
 You can search for filenames without knowing which disc contains them, then inspect the disc's title, publisher, publication date and directory structure.
 
+![Searching for Quake modification files across historical CD-ROM collections using QuakeDiscs.](/SearchOnQuakeDiscs.png)\
+_Figure: Searching for Quake modification files across historical CD-ROM collections using QuakeDiscs._
+
 For example, you might search for:
 
 ```
@@ -121,6 +124,9 @@ This makes it a good resource for searching for:
 - Readme filenames.
 - Unique phrases from documentation.
 - Filenames of maps, models, sounds and other custom assets.
+
+![Searching for Quake modification files across historical CD-ROM collections using DiscMaster.](/SearchOnQuakeDiscMaster.png)\
+_Figure: Searching for Quake modification files across historical CD-ROM collections using DiscMaster._
 
 For example, suppose you are looking for a modification called *Shadow Arena*. Searching for the project name might not produce a result because the CD's contents are stored under a generic filename. Searching for a distinctive sentence from its readme might locate the file and identify the disc.
 

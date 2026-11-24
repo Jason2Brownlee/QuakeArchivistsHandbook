@@ -71,13 +71,16 @@ The result was [QuakeDiscs](https://QuakeDiscs.com) (`https://QuakeDiscs.com`), 
 
 I created a website with cover images of the discs, information about their publication, and detailed file listings.
 
+![The QuakeDiscs catalogue of historical third-party Quake CD-ROMs.](/QuakeDiscsCatalog.png)\
+_Figure: The QuakeDiscs catalogue of historical third-party Quake CD-ROMs._
+
 Most importantly, I added a search interface that lets you look for files across the entire collection without knowing which CD might contain them.
 
 Initially, I focused on third-party Quake 1 add-on CDs and magazine cover discs containing substantial amounts of Quake 1 material.
 
 Later, I expanded the collection to include Quake II and Quake III Arena discs.
 
-At the time of writing, QuakeDiscs catalogues **116 third-party Quake CDs**, with more than **270,000 files** in its search index.
+At the time of writing, QuakeDiscs catalogues **125 third-party Quake CDs**, with more than **320,000 files** in its search index.
 
 ## Why It Matters
 

@@ -24,6 +24,9 @@ Some useful starting points include:
 
 Quaddicted, also discussed in [Chapter 13: Search FTP Archives and File Indexes](search_ftp_archives.md), is worth searching as a broader community archive.
 
+![The root directory of the Quaddicted file archive, showing the variety of collections, mirrors and directories available.](/QuaddictedFilesDirectory.png)\
+_Figure: The root directory of the Quaddicted file archive, showing the variety of collections, mirrors and directories available._
+
 **Shub-Hub**
 
 * [Shub-Hub](https://shub-hub.com/files/)\
@@ -32,6 +35,9 @@ Quaddicted, also discussed in [Chapter 13: Search FTP Archives and File Indexes]
 Shub-Hub is a community archive containing a large collection of Quake-related files, including maps, modifications and other contributions. Files are uploaded by members of the func_messageboard forum (`https://celephais.net/board/`).
 
 Search for known project names and filenames, but also browse the archive's categories. You may discover files that were not identified during earlier research.
+
+![The root directory of the Shub-Hub file archive, showing the variety of Quake files and directories available.](/ShubHubDirectory.png)\
+_Figure: The root directory of the Shub-Hub file archive, showing the variety of Quake files and directories available._
 
 **Gamers.org**
 

@@ -200,6 +200,9 @@ For example, historical files on `ftp://ftp.cdrom.com/pub/...` may be available 
 
 Archived directory listings may preserve filenames, file sizes, server timestamps and evidence of changes between captures.
 
+![A historical HTTP directory listing of the Walnut Creek CDROM FTP archive preserved by the Wayback Machine.](/HistoricalFTPDirectoryListing.png)\
+_Figure: A historical HTTP directory listing of the Walnut Creek CDROM FTP archive preserved by the Wayback Machine._
+
 Sometimes the Wayback Machine has captured the files themselves. More often, it has captured only the HTML index pages. Those pages are still valuable because they document which files were available, even when the downloads cannot be recovered.
 
 Compare directory listings from different capture dates. This can help establish when a file first appeared in the archive, when it was removed, or whether a new version replaced an older one.

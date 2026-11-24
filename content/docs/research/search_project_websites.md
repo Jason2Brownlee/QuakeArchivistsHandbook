@@ -189,6 +189,9 @@ The Wayback Machine can reveal archived URLs that no longer appear in a website'
 
 Use the **URLs** view in the Wayback Machine to examine the pages and files captured from a particular domain or directory.
 
+![The Wayback Machine URLs interface displaying captured HTML pages, ZIP files and other resources for a historical project.](/WaybackMachineURLsInterface.png)\
+_Figure: The Wayback Machine URLs interface displaying captured HTML pages, ZIP files and other resources for a historical project._
+
 For example:
 
 * `https://web.archive.org/web/*/example.com*`
