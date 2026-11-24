@@ -167,6 +167,8 @@ And so I started building what became the:
 * [Quake Bot Archive](https://github.com/Jason2Brownlee/QuakeBotArchive)\
 	`https://github.com/Jason2Brownlee/QuakeBotArchive`
 
+![The Quake Bot Archive, documenting the history and releases of Quake 1 bots.](/QuakeBotArchive.png)
+
 At first, I thought it would be a relatively small project.
 
 Find the bots. Collect the releases. Write down what I knew. Put everything somewhere public.

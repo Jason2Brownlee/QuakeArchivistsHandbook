@@ -215,6 +215,8 @@ I was able to track down almost every known release and assemble a reasonably co
 
 The result is a focused archive of an important modification.
 
+![The ThreeWave CTF Archive, an example of a narrowly scoped modification archive.](/ThreeWaveCaptureTheFlagArchive.png)
+
 And, perhaps more importantly, it's an archive that feels achievable.
 
 There are still gaps to investigate and improvements to make, as there always are with historical research. But the boundaries are clear, and the amount of work is manageable.
