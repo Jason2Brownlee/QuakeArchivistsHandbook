@@ -37,6 +37,9 @@ Then another.
 
 Before long, I've forgotten what I was originally searching for and I'm simply reading the news from 1997 or 1998, one day at a time.
 
+![Snapshot of Redwood's 3D News archives on the Wayback Machine.](/SnapshotOfRedwoods3DNews.png)\
+_Figure: Snapshot of Redwood's 3D News archives on the Wayback Machine._
+
 I'm rediscovering all the excitement surrounding new releases, following the development of modifications I remember, and being reminded of projects I'd completely forgotten about.
 
 There's something wonderful about experiencing that history as it unfolded, rather than reading a modern summary of what happened.

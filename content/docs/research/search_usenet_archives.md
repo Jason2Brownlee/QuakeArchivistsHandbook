@@ -52,6 +52,9 @@ Not every message contains all of this information. Some authors used pseudonyms
 
 Nevertheless, even a short message can provide a useful lead.
 
+![An original Usenet announcement providing contemporary evidence of a Quake modification release.](/TeamFortressAnnouncementUsenet.png)\
+_Figure: An original Usenet announcement providing contemporary evidence of a Quake modification release._
+
 For example, a developer might post:
 
 ```

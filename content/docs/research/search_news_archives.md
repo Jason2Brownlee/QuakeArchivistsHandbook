@@ -259,6 +259,9 @@ Do not simply save a browser bookmark or add the article to a general list of re
 
 I recommend preserving a short quotation from the announcement, along with the article URL, archived URL and any links to the modification.
 
+![An original news announcement containing a version number, release date and links to downloads or mirrors.](/ModNewsAnnouncement.png)\
+_Figure: An original news announcement containing a version number, release date and links to downloads or mirrors._
+
 For example:
 
 ```

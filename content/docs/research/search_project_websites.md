@@ -80,6 +80,9 @@ http://www.example.invalid/
 
 The Wayback Machine will show a calendar or timeline indicating when captures are available.
 
+![The Wayback Machine capture history for the original CRBot website.](/WaybackMachineCaptureCRBot.png)\
+_Figure: The Wayback Machine capture history for the original CRBot website._
+
 The capture history gives you an overview of how much of the website was preserved and when snapshots were taken.
 
 Look for:
@@ -120,6 +123,9 @@ For example, a download link might point to `aq10.zip` in one capture and `aq11.
 ## Navigate archived versions of the website
 
 Once you find a useful capture, explore the rest of the archived website. Important information may be spread across separate pages for downloads, news, documentation and development updates.
+
+![An original Quake modification website preserved by the Wayback Machine.](/QuakeModificationHomepageWayback.png)\
+_Figure: An original Quake modification website preserved by the Wayback Machine._
 
 Look for navigation links such as:
 
