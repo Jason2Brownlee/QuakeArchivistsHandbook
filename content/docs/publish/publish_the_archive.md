@@ -44,6 +44,9 @@ Using Git locally is recommended if you expect to make regular updates, although
 
 Once published, your README will automatically appear on the repository's main page.
 
+![Example of a Published Quake Archive on GitHub showing a minimal directory structure and rendered README.](/PublishedQuakeArchive.png)\
+_Figure: Example of a Published Quake Archive on GitHub showing a minimal directory structure and rendered README._
+
 Your archive will have a permanent public URL that you can share with other Quake enthusiasts.
 
 If you are new to GitHub and git, the GitHub documentation is excellent and a good place to start:
