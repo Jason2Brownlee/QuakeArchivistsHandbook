@@ -138,6 +138,9 @@ Content of each file:
 
 Start with whatever evidence is available. Mark unknown details clearly and update the entry as you make discoveries.
 
+![An example of a reconstructed release record supported by historical evidence.](/ActionQuake2History.png)\
+_Figure: An example of a reconstructed release record supported by historical evidence._
+
 ### Record the release name and version
 
 Use the version number or release name as it appeared in the original material whenever possible.

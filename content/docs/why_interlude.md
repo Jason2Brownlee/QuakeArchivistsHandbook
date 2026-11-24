@@ -167,7 +167,8 @@ And so I started building what became the:
 * [Quake Bot Archive](https://github.com/Jason2Brownlee/QuakeBotArchive)\
 	`https://github.com/Jason2Brownlee/QuakeBotArchive`
 
-![The Quake Bot Archive, documenting the history and releases of Quake 1 bots.](/QuakeBotArchive.png)
+![The Quake Bot Archive, documenting the history and releases of Quake 1 bots.](/QuakeBotArchive.png)\
+_Figure: The Quake Bot Archive, documenting the history and releases of Quake 1 bots._
 
 At first, I thought it would be a relatively small project.
 

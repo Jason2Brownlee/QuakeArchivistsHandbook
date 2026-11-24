@@ -215,7 +215,8 @@ I was able to track down almost every known release and assemble a reasonably co
 
 The result is a focused archive of an important modification.
 
-![The ThreeWave CTF Archive, an example of a narrowly scoped modification archive.](/ThreeWaveCaptureTheFlagArchive.png)
+![The ThreeWave CTF Archive, an example of a narrowly scoped modification archive.](/ThreeWaveCaptureTheFlagArchive.png)\
+_Figure: The ThreeWave CTF Archive, an example of a narrowly scoped modification archive._
 
 And, perhaps more importantly, it's an archive that feels achievable.
 
