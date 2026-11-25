@@ -7,19 +7,18 @@ layout: landing
 
 Welcome! You have discovered:
 
-* **The Quake Archivist's Handbook:** _How to Find Lost Mods, Recover Forgotten Files, and Preserve Quake History_
+**The Quake Archivist's Handbook**: _How to Find Lost Mods, Recover Forgotten Files, and Preserve Quake History_.\
+Written by Jason Brownlee, November 2026.
 
-Written by Jason Brownlee in November 2026.
+[![The Quake Archivist's Handbook](/cover_small.png)](docs/)
 
-**NOTE:** I am actively working on this book. Consider all content in draft form, for now.
+## Read the Book
 
-## Read Online
+* Online: [Read Now](docs/)
+* Download: epub, pdf (_shortly_)
+* Purchase: Kindle, Paperback (_soon_)
 
-You can read the whole book online:
-
-* [Read Online Now](docs/)
-
-### Table of Contents
+## Table of Contents
 
 {{< chapter-toc >}}
 
