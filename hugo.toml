@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jasonbrownlee.me/QuakeArchivistsHandbook/'
 title = "Quake Archivist's Handbook"
 theme = 'hugo-book'
 
