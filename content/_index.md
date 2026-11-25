@@ -16,7 +16,7 @@ Written by Jason Brownlee, November 2026.
 
 * Online: [Read Now](docs/)
 * Download: [epub](quake_archivists_handbook.epub), [pdf](quake_archivists_handbook.pdf)
-* Purchase: [Kindle](https://link.amazon/B0e6xLBw0), Paperback (_soon_)
+* Purchase: [Kindle](https://link.amazon/B0e6xLBw0), [Paperback](https://link.amazon/B0gBtwCdq)
 
 ## Table of Contents
 
