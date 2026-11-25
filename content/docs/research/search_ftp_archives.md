@@ -46,12 +46,12 @@ Gamers.org hosts mirrors of several historical gaming FTP archives, such as:
 
 The Gamers.org `idgames2/` directory for Quake and related games was and is currently mirrored in many places, such as:
 
-- ftp://ftp.fu-berlin.de/pc/games/idgames2/
-- https://ftp.fu-berlin.de/pc/games/idgames2/
-- https://www.quaddicted.com/files/idgames2/
-- https://ftpmirror1.infania.net/pub/idgames2/
-- https://mirror.braindrainlan.nu/pub/idgames2/
-- https://files.xvertigox.com/idgames2/
+- `ftp://ftp.fu-berlin.de/pc/games/idgames2/`
+- `https://ftp.fu-berlin.de/pc/games/idgames2/`
+- `https://www.quaddicted.com/files/idgames2/`
+- `https://ftpmirror1.infania.net/pub/idgames2/`
+- `https://mirror.braindrainlan.nu/pub/idgames2/`
+- `https://files.xvertigox.com/idgames2/`
 
 Some of these mirrors are more or less reliable than others, and some may disappear by the time you read this.
 
@@ -69,9 +69,9 @@ Dukeworld preserves files from several historical gaming archives, including a P
 
 Specifically:
 
-- https://dukeworld.com/idgames2/
-- https://dukeworld.com/planetquake/
-- https://dukeworld.com/telefragged/
+- `https://dukeworld.com/idgames2/`
+- `https://dukeworld.com/planetquake/`
+- `https://dukeworld.com/telefragged/`
 
 **Quaddicted**
 
