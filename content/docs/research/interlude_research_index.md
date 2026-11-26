@@ -76,7 +76,7 @@ And it saves me from repeatedly searching the same collections.
 
 I've made the project publicly available on GitHub:
 
-* [Quake Archive Search](https://github.com/Jason2Brownlee/QuakeArchiveSearchs)\
+* [Quake Archive Search](https://github.com/Jason2Brownlee/QuakeArchiveSearch)\
 	`https://github.com/Jason2Brownlee/QuakeArchiveSearch`
 
 The repository contains the scripts and tools I've developed, although it doesn't include the database itself, which has grown to more than 20 GB.
